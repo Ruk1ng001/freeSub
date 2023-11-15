@@ -1,0 +1,260 @@
+port: 7890
+socks-port: 7891
+allow-lan: true
+
+mode: Rule
+log-level: info
+external-controller: :9090
+proxies:
+  - {"alterId":"0","cipher":"none","name":"1196175421","network":"ws","port":"443","server":"b23.ntbq.dynu.net","tls":true,"type":"vmess","uuid":"6152dab2-5a09-44fe-9c14-3ece9dbbc4b8","ws-opts":{"path":"/b23"}}
+  - {"alterId":0,"cipher":"auto","name":"2027502610","network":"ws","port":10100,"server":"v2node15.bipbupvpn.com","servername":"internet.life.com.by","skip-cert-verify":false,"tls":false,"type":"vmess","udp":true,"uuid":"75b28ee0-1c81-4130-8206-eb96e2305b03","ws-opts":{"headers":{"Host":"v2node15.bipbupvpn.com"},"path":"/"}}
+  - {"cipher":"chacha20-ietf-poly1305","name":"3110050498","password":"fa5eb6c0-1ebc-4132-bf5e-87f954a7ffd4","port":"31016","server":"5m4h0k01.6vczxw.xyz","type":"ss"}
+  - {"alterId":0,"cipher":"auto","name":"1439743814","network":"ws","port":80,"server":"freeyx.cloudflare88.eu.org","skip-cert-verify":true,"type":"vmess","uuid":"08b2ceb1-5917-42da-b02c-0f942754aac6","ws-opts":{"headers":{"Host":"buyvm.iiio.wiki"},"path":"/aries?ed=2048"}}
+  - {"cipher":"aes-256-cfb","name":"3890663845","password":"amazonskr05","port":"443","server":"52.194.205.164","type":"ss"}
+  - {"cipher":"aes-256-gcm","name":"411490118","password":"XKFKl2rULjIp74","port":"8009","server":"54.36.174.181","type":"ss"}
+  - {"alterId":"64","cipher":"none","name":"1313018537","port":"59137","server":"112.29.94.23","type":"vmess","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","ws-opts":{}}
+  - {"cipher":"aes-256-gcm","name":"1183713093","password":"XKFKl2rULjIp74","port":"8008","server":"54.36.174.181","type":"ss"}
+  - {"cipher":"aes-256-gcm","name":"3905439594","password":"Y6R9pAtvxxzmGC","port":"5600","server":"ak1751.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou","type":"ss"}
+  - {"cipher":"chacha20-ietf-poly1305","name":"1300708938","password":"b911401b-ef8a-40d0-8283-075acf256f62","port":"36018","server":"8h2k03.2weradf.xyz","type":"ss"}
+  - {"cipher":"aes-256-cfb","name":"1634319243","password":"amazonskr05","port":"443","server":"54.179.145.67","type":"ss"}
+  - {"cipher":"aes-256-gcm","name":"3858322191","password":"RexnBgU7EV5ADxG","port":"7002","server":"54.36.174.181","type":"ss"}
+  - {"cipher":"chacha20-ietf-poly1305","name":"1454253559","password":"fa5eb6c0-1ebc-4132-bf5e-87f954a7ffd4","port":"31022","server":"1c7s2g03.6vczxw.xyz","type":"ss"}
+  - {"cipher":"chacha20-ietf-poly1305","name":"1229695806","password":"fa5eb6c0-1ebc-4132-bf5e-87f954a7ffd4","port":"31010","server":"6w7j3p01.6vczxw.xyz","type":"ss"}
+  - {"cipher":"aes-256-gcm","name":"2603245362","password":"Y6R9pAtvxxzmGC","port":"5601","server":"54.36.174.181","type":"ss"}
+  - {"cipher":"aes-256-cfb","name":"3586815048","password":"amazonskr05","port":"443","server":"3.0.92.2","type":"ss"}
+  - {"cipher":"aes-256-gcm","name":"366364082","password":"5c8b210a-2f00-4292-964b-05281c7ad5d1","port":"33952","server":"bjcu.xzyunjiasu.icu","type":"ss"}
+  - {"cipher":"aes-256-gcm","name":"1346046590","password":"KixLvKzwjekG00rm","port":"5500","server":"54.36.174.181","type":"ss"}
+  - {"cipher":"chacha20-ietf-poly1305","name":"3919634460","password":"jFDpUoKUDZPEGTBJRiLZgo","port":"28896","server":"162.247.153.108","type":"ss"}
+  - {"alterId":0,"cipher":"auto","name":"2000790728","network":"ws","port":443,"server":"b23.ntbq.dynu.net","skip-cert-verify":false,"tls":true,"type":"vmess","uuid":"6152dab2-5a09-44fe-9c14-3ece9dbbc4b8","ws-opts":{"headers":{"Host":"b23.ntbq.dynu.net"},"path":"/b23"}}
+  - {"cipher":"chacha20-ietf-poly1305","name":"2465638602","password":"fa5eb6c0-1ebc-4132-bf5e-87f954a7ffd4","port":"31011","server":"6w7j3p02.6vczxw.xyz","type":"ss"}
+  - {"cipher":"aes-256-gcm","name":"1777844378","password":"faBAoD54k87UJG7","port":"2375","server":"54.36.174.181","type":"ss"}
+  - {"cipher":"chacha20-ietf-poly1305","name":"1169362427","password":"fa5eb6c0-1ebc-4132-bf5e-87f954a7ffd4","port":"31020","server":"1c7s2g01.6vczxw.xyz","type":"ss"}
+  - {"alterId":0,"cipher":"auto","name":"3112923989","network":"ws","port":443,"server":"nbq12.ntbq.dynu.net","tls":true,"type":"vmess","uuid":"42246552-d778-440f-bbb5-8f0f14139c50","ws-opts":{"path":"/b12"}}
+  - {"cipher":"chacha20-ietf-poly1305","name":"2845562046","password":"ec48c9e0-77e6-4a76-a519-4a51cbe52c59","port":"35783","server":"zjcm2.r1u.cn","type":"ss"}
+  - {"cipher":"chacha20-ietf-poly1305","name":"1622678031","password":"fa5eb6c0-1ebc-4132-bf5e-87f954a7ffd4","port":"31021","server":"1c7s2g02.6vczxw.xyz","type":"ss"}
+  - {"alterId":0,"cipher":"auto","name":"1155747246","network":"ws","port":443,"server":"v2node7.bipbupvpn.com","servername":"internet.life.com.by","skip-cert-verify":false,"tls":false,"type":"vmess","udp":true,"uuid":"75b28ee0-1c81-4130-8206-eb96e2305b03","ws-opts":{"headers":{"Host":"v2node7.bipbupvpn.com"},"path":"/"}}
+  - {"name":"4002868269","network":"ws","password":"d2698cf9-c47e-455c-8384-12e642cbba15","port":443,"server":"167.68.5.183","skip-cert-verify":false,"sni":"6us3.pqjc.buzz","type":"trojan","ws-opts":{"headers":{"Host":"6us3.pqjc.buzz"},"path":"/pq/us3"}}
+  - {"name":"1749981905","password":"6a96b7c2-c918-3bb6-94b5-9861d13f9a00","port":443,"server":"47.76.34.107","skip-cert-verify":true,"sni":"xg107.npv4.com","type":"trojan","udp":true}
+  - {"cipher":"aes-256-gcm","name":"4029257611","password":"e4FCWrgpkji3QY","port":"9102","server":"54.36.174.181","type":"ss"}
+  - {"alterId":"0","cipher":"none","name":"3211205085","port":"20171","server":"47.109.67.63","type":"vmess","uuid":"39d4e347-3f28-4718-a478-6ea23f618813","ws-opts":{}}
+  - {"cipher":"aes-256-gcm","name":"3883393832","password":"g5MeD6Ft3CWlJId","port":"5003","server":"54.36.174.181","type":"ss"}
+  - {"cipher":"aes-256-gcm","name":"784335540","password":"cdBIDV42DCwnfIN","port":"8119","server":"ak1732.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou","type":"ss"}
+  
+proxy-groups:
+  - name: 🔰 节点选择
+    type: select
+    proxies:
+      - ♻️ 自动选择
+      - 1196175421
+      - 2027502610
+      - 3110050498
+      - 1439743814
+      - 3890663845
+      - 411490118
+      - 1313018537
+      - 1183713093
+      - 3905439594
+      - 1300708938
+      - 1634319243
+      - 3858322191
+      - 1454253559
+      - 1229695806
+      - 2603245362
+      - 3586815048
+      - 366364082
+      - 1346046590
+      - 3919634460
+      - 2000790728
+      - 2465638602
+      - 1777844378
+      - 1169362427
+      - 3112923989
+      - 2845562046
+      - 1622678031
+      - 1155747246
+      - 4002868269
+      - 1749981905
+      - 4029257611
+      - 3211205085
+      - 3883393832
+      - 784335540
+      
+  - name: ♻️ 自动选择
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    proxies:
+      - 1196175421
+      - 2027502610
+      - 3110050498
+      - 1439743814
+      - 3890663845
+      - 411490118
+      - 1313018537
+      - 1183713093
+      - 3905439594
+      - 1300708938
+      - 1634319243
+      - 3858322191
+      - 1454253559
+      - 1229695806
+      - 2603245362
+      - 3586815048
+      - 366364082
+      - 1346046590
+      - 3919634460
+      - 2000790728
+      - 2465638602
+      - 1777844378
+      - 1169362427
+      - 3112923989
+      - 2845562046
+      - 1622678031
+      - 1155747246
+      - 4002868269
+      - 1749981905
+      - 4029257611
+      - 3211205085
+      - 3883393832
+      - 784335540
+      
+  - name: PROXY
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    proxies:
+      - 1196175421
+      - 2027502610
+      - 3110050498
+      - 1439743814
+      - 3890663845
+      - 411490118
+      - 1313018537
+      - 1183713093
+      - 3905439594
+      - 1300708938
+      - 1634319243
+      - 3858322191
+      - 1454253559
+      - 1229695806
+      - 2603245362
+      - 3586815048
+      - 366364082
+      - 1346046590
+      - 3919634460
+      - 2000790728
+      - 2465638602
+      - 1777844378
+      - 1169362427
+      - 3112923989
+      - 2845562046
+      - 1622678031
+      - 1155747246
+      - 4002868269
+      - 1749981905
+      - 4029257611
+      - 3211205085
+      - 3883393832
+      - 784335540
+      
+rule-providers:
+  reject:
+    type: http
+    behavior: domain
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/reject.txt"
+    path: ./ruleset/reject.yaml
+    interval: 86400
+
+  icloud:
+    type: http
+    behavior: domain
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/icloud.txt"
+    path: ./ruleset/icloud.yaml
+    interval: 86400
+
+  apple:
+    type: http
+    behavior: domain
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/apple.txt"
+    path: ./ruleset/apple.yaml
+    interval: 86400
+
+  google:
+    type: http
+    behavior: domain
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/google.txt"
+    path: ./ruleset/google.yaml
+    interval: 86400
+
+  proxy:
+    type: http
+    behavior: domain
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/proxy.txt"
+    path: ./ruleset/proxy.yaml
+    interval: 86400
+
+  direct:
+    type: http
+    behavior: domain
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/direct.txt"
+    path: ./ruleset/direct.yaml
+    interval: 86400
+
+  private:
+    type: http
+    behavior: domain
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/private.txt"
+    path: ./ruleset/private.yaml
+    interval: 86400
+
+  gfw:
+    type: http
+    behavior: domain
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/gfw.txt"
+    path: ./ruleset/gfw.yaml
+    interval: 86400
+
+  tld-not-cn:
+    type: http
+    behavior: domain
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/tld-not-cn.txt"
+    path: ./ruleset/tld-not-cn.yaml
+    interval: 86400
+
+  telegramcidr:
+    type: http
+    behavior: ipcidr
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/telegramcidr.txt"
+    path: ./ruleset/telegramcidr.yaml
+    interval: 86400
+
+  cncidr:
+    type: http
+    behavior: ipcidr
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/cncidr.txt"
+    path: ./ruleset/cncidr.yaml
+    interval: 86400
+
+  lancidr:
+    type: http
+    behavior: ipcidr
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/lancidr.txt"
+    path: ./ruleset/lancidr.yaml
+    interval: 86400
+
+  applications:
+    type: http
+    behavior: classical
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/applications.txt"
+    path: ./ruleset/applications.yaml
+    interval: 86400
+rules:
+  - RULE-SET,applications,DIRECT
+  - DOMAIN,clash.razord.top,DIRECT
+  - DOMAIN,yacd.haishan.me,DIRECT
+  - RULE-SET,private,DIRECT
+  - RULE-SET,reject,REJECT
+  - RULE-SET,tld-not-cn,PROXY
+  - RULE-SET,gfw,PROXY
+  - RULE-SET,telegramcidr,PROXY
+  - MATCH,DIRECT
