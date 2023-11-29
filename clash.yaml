@@ -6,153 +6,96 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {"cipher":"aes-256-gcm","name":"1521261612","password":"zDNVedRFPQexG9v","port":6379,"server":"54.36.174.181","type":"ss","udp":true}
-  - {"cipher":"chacha20-ietf-poly1305","name":"1544496677","password":"9d364a21-46f6-4242-8d91-7edaa1793dc9","port":"50001","server":"service.ouluyun9803.com","type":"ss"}
-  - {"alterId":0,"cipher":"auto","name":"1721159512","network":"ws","port":30000,"server":"v02.gutingting.com","skip-cert-verify":true,"tls":false,"type":"vmess","udp":true,"uuid":"2567bed8-e47a-4a8b-a336-244fdd203e9b","ws-opts":{"headers":{"Host":"gz.fastcloud.club"},"path":"/aceamedv"}}
-  - {"cipher":"chacha20-ietf-poly1305","name":"1768678995","password":"591844bb-6aff-4802-b21c-a43130e3990b","port":"31028","server":"2d1t5w03.6vczxw.xyz","type":"ss"}
-  - {"cipher":"chacha20-ietf-poly1305","name":"1536931350","password":"591844bb-6aff-4802-b21c-a43130e3990b","port":"31030","server":"4a2u0a01.6vczxw.xyz","type":"ss"}
-  - {"cipher":"aes-256-cfb","name":"1066194451","password":"asdKkaskJKfnsa","port":443,"server":"51.158.195.96","type":"ss"}
-  - {"cipher":"chacha20-ietf-poly1305","name":"2071084896","password":"591844bb-6aff-4802-b21c-a43130e3990b","port":"31010","server":"6w7j3p01.6vczxw.xyz","type":"ss"}
-  - {"alterId":"0","cipher":"none","name":"1028137933","network":"ws","port":"30060","server":"v02.gutingting.com","type":"vmess","uuid":"2567bed8-e47a-4a8b-a336-244fdd203e9b","ws-opts":{"path":"/aceamedv"}}
-  - {"cipher":"chacha20-ietf-poly1305","name":"775051955","password":"591844bb-6aff-4802-b21c-a43130e3990b","port":"31026","server":"2d1t5w01.6vczxw.xyz","type":"ss"}
-  - {"alterId":0,"cipher":"auto","name":"800194190","network":"ws","port":30024,"server":"v02.gutingting.com","skip-cert-verify":true,"tls":false,"type":"vmess","udp":true,"uuid":"2567bed8-e47a-4a8b-a336-244fdd203e9b","ws-opts":{"headers":{"Host":"gz.fastcloud.club"},"path":"/aceamedv"}}
-  - {"alterId":0,"cipher":"auto","name":"1223890336","network":"ws","port":30008,"server":"v02.gutingting.com","skip-cert-verify":true,"tls":false,"type":"vmess","udp":true,"uuid":"2567bed8-e47a-4a8b-a336-244fdd203e9b","ws-opts":{"headers":{"Host":"sh02.fastcloud.club"},"path":"/aceamedv"}}
-  - {"alterId":"0","cipher":"none","name":"1436849031","port":"50027","server":"27.kccic2pa.xyz","type":"vmess","uuid":"c17a31ce-d574-40c4-8d4e-07d8299c9fd7","ws-opts":{}}
-  - {"cipher":"chacha20-ietf-poly1305","name":"1542854868","password":"591844bb-6aff-4802-b21c-a43130e3990b","port":"31017","server":"5m4h0k02.6vczxw.xyz","type":"ss"}
-  - {"alterId":"0","cipher":"none","name":"1230627151","network":"ws","port":"30015","server":"ns01.gutingting.com","type":"vmess","uuid":"2567bed8-e47a-4a8b-a336-244fdd203e9b","ws-opts":{"path":"/aceamedv"}}
-  - {"cipher":"chacha20-ietf-poly1305","name":"1364704748","password":"8f5de9ad-e6d2-47bf-bbe7-ed480149e4ad","port":"36032","server":"3u1s03.2weradf.xyz","type":"ss"}
-  - {"alterId":0,"cipher":"auto","name":"2007218311","network":"ws","port":30007,"server":"183.232.159.153","skip-cert-verify":false,"tls":false,"type":"vmess","uuid":"2567bed8-e47a-4a8b-a336-244fdd203e9b","ws-opts":{"headers":{"Host":"v01.gutingting.com"},"path":"/aceamedv"}}
-  - {"alterId":0,"cipher":"auto","name":"397105220","network":"ws","port":30015,"server":"ns01.gutingting.com","skip-cert-verify":true,"tls":false,"type":"vmess","udp":true,"uuid":"2567bed8-e47a-4a8b-a336-244fdd203e9b","ws-opts":{"headers":{"Host":"gz.fastcloud.club"},"path":"/aceamedv"}}
-  - {"cipher":"chacha20-ietf-poly1305","name":"2109643863","password":"9d364a21-46f6-4242-8d91-7edaa1793dc9","port":"21001","server":"service.ouluyun9803.com","type":"ss"}
-  - {"alterId":"0","cipher":"none","name":"1689499602","network":"ws","port":"80","server":"77.75.230.125","type":"vmess","uuid":"ac6b7169-7367-4693-8b40-2b506e562dc9","ws-opts":{"path":"/vmess"}}
-  - {"cipher":"aes-256-cfb","name":"2051739290","password":"amazonskr05","port":"443","server":"13.124.16.187","type":"ss"}
-  - {"cipher":"chacha20-ietf-poly1305","name":"434954371","password":"591844bb-6aff-4802-b21c-a43130e3990b","port":"31021","server":"1c7s2g02.6vczxw.xyz","type":"ss"}
-  - {"cipher":"chacha20-ietf-poly1305","name":"556698799","password":"591844bb-6aff-4802-b21c-a43130e3990b","port":"31020","server":"1c7s2g01.6vczxw.xyz","type":"ss"}
-  - {"cipher":"chacha20-ietf-poly1305","name":"136592088","password":"591844bb-6aff-4802-b21c-a43130e3990b","port":"31012","server":"6w7j3p03.6vczxw.xyz","type":"ss"}
-  - {"alterId":"0","cipher":"none","name":"600066425","port":"50016","server":"16.kccic2pa.xyz","type":"vmess","uuid":"c17a31ce-d574-40c4-8d4e-07d8299c9fd7","ws-opts":{}}
-  - {"cipher":"aes-256-gcm","name":"1671794660","password":"KixLvKzwjekG00rm","port":"8000","server":"54.36.174.181","type":"ss"}
-  - {"alterId":0,"cipher":"auto","name":"1229563068","network":"http","port":8442,"server":"fr-v2ray.freevmess.com","skip-cert-verify":true,"tls":false,"type":"vmess","uuid":"6773a666-5593-4c9f-aacd-52300b6a02d4"}
-  - {"cipher":"chacha20-ietf-poly1305","name":"1103274854","password":"9d364a21-46f6-4242-8d91-7edaa1793dc9","port":"20009","server":"service.ouluyun9803.com","type":"ss"}
-  - {"alterId":0,"cipher":"auto","name":"673315705","network":"ws","port":20003,"server":"rb.yongdong.xyz","type":"vmess","uuid":"f7c614a0-1b3b-4ff4-af71-295bbd437c66","ws-opts":{"path":"/yongdong"}}
-  - {"alterId":0,"cipher":"auto","http-opts":{"method":"GET","path":["/"]},"name":"1191504989","network":"http","port":2082,"server":"193.203.203.88","tls":false,"type":"vmess","uuid":"5f2d026e-1dbd-4bb0-aa61-b1bcc544ab2c"}
-  - {"cipher":"chacha20-ietf-poly1305","name":"809374440","password":"591844bb-6aff-4802-b21c-a43130e3990b","port":"31018","server":"5m4h0k03.6vczxw.xyz","type":"ss"}
-  - {"alterId":0,"cipher":"auto","name":"919131375","network":"ws","port":30023,"server":"ns01.gutingting.com","skip-cert-verify":true,"tls":false,"type":"vmess","udp":true,"uuid":"2567bed8-e47a-4a8b-a336-244fdd203e9b","ws-opts":{"headers":{"Host":"gz.fastcloud.club"},"path":"/aceamedv"}}
-  - {"cipher":"aes-256-cfb","name":"308028144","password":"asdKkaskJKfnsa","port":110,"server":"51.158.195.96","type":"ss"}
-  - {"alterId":"0","cipher":"none","name":"437293621","network":"ws","port":"30008","server":"v02.gutingting.com","type":"vmess","uuid":"2567bed8-e47a-4a8b-a336-244fdd203e9b","ws-opts":{"path":"/aceamedv"}}
-  - {"cipher":"aes-256-gcm","name":"932173244","password":"KixLvKzwjekG00rm","port":8080,"server":"54.36.174.181","type":"ss"}
-  - {"cipher":"chacha20-ietf-poly1305","name":"418536830","password":"591844bb-6aff-4802-b21c-a43130e3990b","port":"31032","server":"4a2u0a03.6vczxw.xyz","type":"ss"}
-  - {"alterId":0,"cipher":"auto","name":"1554482335","network":"ws","port":30064,"server":"v01.gutingting.com","skip-cert-verify":true,"tls":false,"type":"vmess","udp":true,"uuid":"2567bed8-e47a-4a8b-a336-244fdd203e9b","ws-opts":{"headers":{"Host":"sh01.fastcloud.club"},"path":"/aceamedv"}}
-  - {"cipher":"aes-256-gcm","name":"890317621","password":"FoOiGlkAA9yPEGP","port":7306,"server":"38.75.136.49","type":"ss"}
-  - {"cipher":"chacha20-ietf-poly1305","name":"462542101","password":"591844bb-6aff-4802-b21c-a43130e3990b","port":"31022","server":"1c7s2g03.6vczxw.xyz","type":"ss"}
-  - {"cipher":"chacha20-ietf-poly1305","name":"2024379061","password":"591844bb-6aff-4802-b21c-a43130e3990b","port":"31027","server":"2d1t5w02.6vczxw.xyz","type":"ss"}
-  - {"cipher":"chacha20-ietf-poly1305","name":"144427750","password":"591844bb-6aff-4802-b21c-a43130e3990b","port":"31031","server":"4a2u0a02.6vczxw.xyz","type":"ss"}
-  - {"cipher":"chacha20-ietf-poly1305","name":"750210068","password":"9d364a21-46f6-4242-8d91-7edaa1793dc9","port":"20003","server":"service.ouluyun9803.com","type":"ss"}
-  - {"cipher":"chacha20-ietf-poly1305","name":"993285148","password":"591844bb-6aff-4802-b21c-a43130e3990b","port":"31016","server":"5m4h0k01.6vczxw.xyz","type":"ss"}
-  - {"cipher":"aes-256-cfb","name":"559156166","password":"amazonskr05","port":"443","server":"43.202.61.138","type":"ss"}
-  - {"cipher":"chacha20-ietf-poly1305","name":"189549484","password":"591844bb-6aff-4802-b21c-a43130e3990b","port":"31011","server":"6w7j3p02.6vczxw.xyz","type":"ss"}
+  - {"alterId":0,"cipher":"auto","name":"376624916","network":"ws","port":80,"server":"vn1.chiencloud.fun","skip-cert-verify":true,"type":"vmess","uuid":"ef69c32d-f28f-4188-aa46-71f8a853f355","ws-opts":{"headers":{"Host":"dl.kgvn.garenanow.com"},"path":"/chiencloud.fun"}}
+  - {"cipher":"chacha20-ietf-poly1305","name":"750210068","password":"9d364a21-46f6-4242-8d91-7edaa1793dc9","port":20003,"server":"service.ouluyun9803.com","type":"ss","udp":true}
+  - {"cipher":"chacha20-ietf-poly1305","name":"1103274854","password":"9d364a21-46f6-4242-8d91-7edaa1793dc9","port":20009,"server":"service.ouluyun9803.com","type":"ss","udp":true}
   - {"alterId":"0","cipher":"none","name":"150747332","network":"ws","port":"30007","server":"183.232.159.153","type":"vmess","uuid":"2567bed8-e47a-4a8b-a336-244fdd203e9b","ws-opts":{"path":"/aceamedv"}}
+  - {"cipher":"aes-256-cfb","name":"308028144","password":"asdKkaskJKfnsa","port":110,"server":"51.158.195.96","type":"ss"}
+  - {"alterId":0,"cipher":"auto","name":"1191504989","network":"http","port":2082,"server":"193.203.203.88","skip-cert-verify":true,"tls":false,"type":"vmess","uuid":"5f2d026e-1dbd-4bb0-aa61-b1bcc544ab2c","ws-headers":{"Host":"193.203.203.88"}}
+  - {"alterId":0,"cipher":"auto","name":"919131375","network":"ws","port":30023,"server":"ns01.gutingting.com","skip-cert-verify":true,"tls":false,"type":"vmess","udp":true,"uuid":"2567bed8-e47a-4a8b-a336-244fdd203e9b","ws-opts":{"headers":{"Host":"gz.fastcloud.club"},"path":"/aceamedv"}}
+  - {"alterId":0,"cipher":"auto","name":"2007218311","network":"ws","port":30007,"server":"183.232.159.153","skip-cert-verify":false,"tls":false,"type":"vmess","uuid":"2567bed8-e47a-4a8b-a336-244fdd203e9b","ws-opts":{"headers":{"Host":"v01.gutingting.com"},"path":"/aceamedv"}}
+  - {"cipher":"chacha20-ietf-poly1305","name":"1544496677","password":"9d364a21-46f6-4242-8d91-7edaa1793dc9","port":50001,"server":"service.ouluyun9803.com","type":"ss"}
+  - {"alterId":0,"cipher":"auto","name":"1229563068","network":"http","port":8442,"server":"fr-v2ray.freevmess.com","skip-cert-verify":true,"type":"vmess","uuid":"6773a666-5593-4c9f-aacd-52300b6a02d4"}
+  - {"alterId":0,"cipher":"auto","name":"818117946","network":"ws","port":80,"server":"y6.huamaoyun.live","skip-cert-verify":true,"type":"vmess","uuid":"6d05690a-6192-4eba-a0f1-10e6f7e20e29","ws-opts":{"headers":{"Host":"a1030.huamaoyun.live"},"path":"/?ed=2048"}}
+  - {"alterId":0,"cipher":"auto","name":"1874115179","network":"ws","port":80,"server":"y1.huamaoyun.live","skip-cert-verify":true,"type":"vmess","uuid":"6d05690a-6192-4eba-a0f1-10e6f7e20e29","ws-opts":{"headers":{"Host":"a1029.huamaoyun.live"},"path":"/?ed=2048"}}
+  - {"alterId":0,"cipher":"auto","name":"800194190","network":"ws","port":30024,"server":"v02.gutingting.com","skip-cert-verify":true,"tls":false,"type":"vmess","udp":true,"uuid":"2567bed8-e47a-4a8b-a336-244fdd203e9b","ws-opts":{"headers":{"Host":"gz.fastcloud.club"},"path":"/aceamedv"}}
+  - {"cipher":"aes-256-cfb","name":"559156166","password":"amazonskr05","port":"443","server":"43.202.61.138","type":"ss"}
+  - {"cipher":"chacha20-ietf-poly1305","name":"2109643863","password":"9d364a21-46f6-4242-8d91-7edaa1793dc9","port":21001,"server":"service.ouluyun9803.com","type":"ss"}
+  - {"alterId":0,"cipher":"auto","name":"1721159512","network":"ws","port":30000,"server":"v02.gutingting.com","skip-cert-verify":false,"tls":false,"type":"vmess","uuid":"2567bed8-e47a-4a8b-a336-244fdd203e9b","ws-opts":{"headers":{"Host":"gz.fastcloud.club"},"path":"/aceamedv"}}
+  - {"alterId":"0","cipher":"none","name":"1028137933","network":"ws","port":"30060","server":"v02.gutingting.com","type":"vmess","uuid":"2567bed8-e47a-4a8b-a336-244fdd203e9b","ws-opts":{"path":"/aceamedv"}}
+  - {"alterId":0,"cipher":"auto","name":"397105220","network":"ws","port":30015,"server":"ns01.gutingting.com","skip-cert-verify":true,"tls":false,"type":"vmess","udp":true,"uuid":"2567bed8-e47a-4a8b-a336-244fdd203e9b","ws-opts":{"headers":{"Host":"gz.fastcloud.club"},"path":"/aceamedv"}}
+  - {"alterId":"0","cipher":"none","name":"437293621","network":"ws","port":"30008","server":"v02.gutingting.com","type":"vmess","uuid":"2567bed8-e47a-4a8b-a336-244fdd203e9b","ws-opts":{"path":"/aceamedv"}}
+  - {"alterId":0,"cipher":"auto","name":"1554482335","network":"ws","port":30064,"server":"v01.gutingting.com","skip-cert-verify":true,"tls":false,"type":"vmess","udp":true,"uuid":"2567bed8-e47a-4a8b-a336-244fdd203e9b","ws-opts":{"headers":{"Host":"sh01.fastcloud.club"},"path":"/aceamedv"}}
+  - {"alterId":0,"cipher":"auto","name":"1693186526","network":"http","port":3389,"server":"5.161.127.110","skip-cert-verify":true,"type":"vmess","uuid":"9c050a86-d612-48f1-ec32-e573df08a1b7"}
+  - {"alterId":"0","cipher":"none","name":"600066425","port":"50016","server":"16.kccic2pa.xyz","type":"vmess","uuid":"c17a31ce-d574-40c4-8d4e-07d8299c9fd7","ws-opts":{}}
+  - {"alterId":0,"cipher":"auto","name":"1493965825","network":"ws","port":2082,"server":"us-02.jikuai.xyz","skip-cert-verify":true,"type":"vmess","uuid":"70666776-4e9f-4350-b3f0-afaff6a70db0","ws-opts":{"headers":{"Host":"us-02.jikuai.xyz"},"path":"/"}}
+  - {"alterId":"0","cipher":"none","name":"1230627151","network":"ws","port":"30015","server":"ns01.gutingting.com","type":"vmess","uuid":"2567bed8-e47a-4a8b-a336-244fdd203e9b","ws-opts":{"path":"/aceamedv"}}
+  - {"alterId":0,"cipher":"auto","name":"1223890336","network":"ws","port":30008,"server":"v02.gutingting.com","skip-cert-verify":true,"tls":false,"type":"vmess","udp":true,"uuid":"2567bed8-e47a-4a8b-a336-244fdd203e9b","ws-opts":{"headers":{"Host":"sh02.fastcloud.club"},"path":"/aceamedv"}}
+  - {"cipher":"aes-256-cfb","name":"1066194451","password":"asdKkaskJKfnsa","port":443,"server":"51.158.195.96","type":"ss"}
   
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
-      - 1521261612
-      - 1544496677
-      - 1721159512
-      - 1768678995
-      - 1536931350
-      - 1066194451
-      - 2071084896
-      - 1028137933
-      - 775051955
-      - 800194190
-      - 1223890336
-      - 1436849031
-      - 1542854868
-      - 1230627151
-      - 1364704748
-      - 2007218311
-      - 397105220
-      - 2109643863
-      - 1689499602
-      - 2051739290
-      - 434954371
-      - 556698799
-      - 136592088
-      - 600066425
-      - 1671794660
-      - 1229563068
-      - 1103274854
-      - 673315705
-      - 1191504989
-      - 809374440
-      - 919131375
-      - 308028144
-      - 437293621
-      - 932173244
-      - 418536830
-      - 1554482335
-      - 890317621
-      - 462542101
-      - 2024379061
-      - 144427750
+      - 376624916
       - 750210068
-      - 993285148
-      - 559156166
-      - 189549484
+      - 1103274854
       - 150747332
+      - 308028144
+      - 1191504989
+      - 919131375
+      - 2007218311
+      - 1544496677
+      - 1229563068
+      - 818117946
+      - 1874115179
+      - 800194190
+      - 559156166
+      - 2109643863
+      - 1721159512
+      - 1028137933
+      - 397105220
+      - 437293621
+      - 1554482335
+      - 1693186526
+      - 600066425
+      - 1493965825
+      - 1230627151
+      - 1223890336
+      - 1066194451
       
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.google.com/generate_204
     interval: 300
     proxies:
-      - 1521261612
-      - 1544496677
-      - 1721159512
-      - 1768678995
-      - 1536931350
-      - 1066194451
-      - 2071084896
-      - 1028137933
-      - 775051955
-      - 800194190
-      - 1223890336
-      - 1436849031
-      - 1542854868
-      - 1230627151
-      - 1364704748
-      - 2007218311
-      - 397105220
-      - 2109643863
-      - 1689499602
-      - 2051739290
-      - 434954371
-      - 556698799
-      - 136592088
-      - 600066425
-      - 1671794660
-      - 1229563068
-      - 1103274854
-      - 673315705
-      - 1191504989
-      - 809374440
-      - 919131375
-      - 308028144
-      - 437293621
-      - 932173244
-      - 418536830
-      - 1554482335
-      - 890317621
-      - 462542101
-      - 2024379061
-      - 144427750
+      - 376624916
       - 750210068
-      - 993285148
-      - 559156166
-      - 189549484
+      - 1103274854
       - 150747332
+      - 308028144
+      - 1191504989
+      - 919131375
+      - 2007218311
+      - 1544496677
+      - 1229563068
+      - 818117946
+      - 1874115179
+      - 800194190
+      - 559156166
+      - 2109643863
+      - 1721159512
+      - 1028137933
+      - 397105220
+      - 437293621
+      - 1554482335
+      - 1693186526
+      - 600066425
+      - 1493965825
+      - 1230627151
+      - 1223890336
+      - 1066194451
       
 rule-providers:
   reject:
