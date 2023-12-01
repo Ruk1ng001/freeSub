@@ -6,120 +6,156 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {"alterId":0,"cipher":"auto","name":"1752334037","network":"ws","port":20231,"server":"zfkr1.30803080.xyz","skip-cert-verify":true,"type":"vmess","uuid":"2f08cc2c-f652-4cc0-897b-bd8c3353783a","ws-opts":{"headers":{"Host":"yongdong.xyz"},"path":"/yongdong"}}
-  - {"alterId":0,"cipher":"auto","name":"956302884","network":"ws","port":80,"server":"167.82.86.194","skip-cert-verify":true,"type":"vmess","uuid":"33e11326-a83d-439a-8036-42a5bb3d664b","ws-opts":{"headers":{"Host":"nihaoyaus3.com"},"path":"/cctv13/hd.m3u8"}}
-  - {"cipher":"aes-256-cfb","name":"139805460","password":"amazonskr05","port":"443","server":"43.201.5.168","type":"ss"}
-  - {"cipher":"chacha20-ietf-poly1305","name":"414754312","password":"44e0be59-7777-49d7-8b2d-d4b0a287c2a8","port":20003,"server":"service.ouluyun9803.com","type":"ss","udp":true}
-  - {"alterId":0,"cipher":"auto","name":"1493965825","network":"ws","port":2082,"server":"us-02.jikuai.xyz","skip-cert-verify":true,"type":"vmess","uuid":"70666776-4e9f-4350-b3f0-afaff6a70db0","ws-opts":{"headers":{"Host":"us-02.jikuai.xyz"},"path":"/"}}
-  - {"alterId":0,"cipher":"auto","name":"1229563068","network":"http","port":8442,"server":"fr-v2ray.freevmess.com","skip-cert-verify":true,"type":"vmess","uuid":"6773a666-5593-4c9f-aacd-52300b6a02d4"}
   - {"alterId":0,"cipher":"auto","name":"1092968916","network":"ws","port":20241,"server":"zfkr1.30803080.xyz","skip-cert-verify":true,"type":"vmess","uuid":"2f08cc2c-f652-4cc0-897b-bd8c3353783a","ws-opts":{"headers":{"Host":"yongdong.xyz"},"path":"/yongdong"}}
-  - {"name":"887451867","password":"01596265-168b-46a7-bcb7-25662c7a9546","port":443,"server":"hdfy7d1.jahangirkh.eu.org","skip-cert-verify":false,"type":"trojan"}
-  - {"alterId":0,"cipher":"auto","name":"5176796","network":"ws","port":20028,"server":"ser.yongdong.xyz","skip-cert-verify":true,"type":"vmess","uuid":"2f08cc2c-f652-4cc0-897b-bd8c3353783a","ws-opts":{"headers":{"Host":"yongdong.xyz"},"path":"/yongdong"}}
-  - {"alterId":0,"cipher":"auto","name":"1486003329","network":"ws","port":20027,"server":"ser.yongdong.xyz","skip-cert-verify":true,"type":"vmess","uuid":"2f08cc2c-f652-4cc0-897b-bd8c3353783a","ws-opts":{"headers":{"Host":"yongdong.xyz"},"path":"/yongdong"}}
-  - {"cipher":"chacha20-ietf-poly1305","name":"2079896026","password":"44e0be59-7777-49d7-8b2d-d4b0a287c2a8","port":20001,"server":"service.ouluyun9803.com","type":"ss","udp":true}
-  - {"alterId":0,"cipher":"auto","name":"1333861982","network":"ws","port":20026,"server":"ser.yongdong.xyz","skip-cert-verify":true,"type":"vmess","uuid":"2f08cc2c-f652-4cc0-897b-bd8c3353783a","ws-opts":{"headers":{"Host":"yongdong.xyz"},"path":"/yongdong"}}
-  - {"alterId":"64","cipher":"none","name":"564364794","port":"41492","server":"120.234.147.175","type":"vmess","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","ws-opts":{}}
-  - {"alterId":0,"cipher":"auto","name":"95786335","network":"ws","port":20007,"server":"xjp.yongdong.xyz","skip-cert-verify":true,"type":"vmess","uuid":"2f08cc2c-f652-4cc0-897b-bd8c3353783a","ws-opts":{"headers":{"Host":"yongdong.xyz"},"path":"/yongdong"}}
-  - {"alterId":0,"cipher":"auto","name":"1416817574","network":"ws","port":20008,"server":"rb.yongdong.xyz","skip-cert-verify":true,"type":"vmess","uuid":"2f08cc2c-f652-4cc0-897b-bd8c3353783a","ws-opts":{"headers":{"Host":"yongdong.xyz"},"path":"/yongdong"}}
-  - {"cipher":"chacha20-ietf-poly1305","name":"1549699563","password":"44e0be59-7777-49d7-8b2d-d4b0a287c2a8","port":50001,"server":"service.ouluyun9803.com","type":"ss","udp":true}
-  - {"alterId":0,"cipher":"auto","name":"1937357578","network":"ws","port":20232,"server":"zfkr1.30803080.xyz","skip-cert-verify":true,"type":"vmess","uuid":"2f08cc2c-f652-4cc0-897b-bd8c3353783a","ws-opts":{"headers":{"Host":"yongdong.xyz"},"path":"/yongdong"}}
-  - {"alterId":0,"cipher":"auto","name":"659910663","network":"ws","port":2086,"server":"23.26.226.45","type":"vmess","uuid":"70408f5d-78f2-44d0-9747-ae68da8651a4","ws-opts":{"path":"70408f5d-78f2-44d0-9747-ae68da8651a4-vm"}}
+  - {"cipher":"chacha20-ietf-poly1305","name":"1549699563","password":"44e0be59-7777-49d7-8b2d-d4b0a287c2a8","port":"50001","server":"service.ouluyun9803.com","type":"ss"}
+  - {"alterId":0,"cipher":"auto","name":"1357346354","network":"ws","port":20012,"server":"hk.yongdong.xyz","skip-cert-verify":true,"type":"vmess","uuid":"ef577366-fc6c-4670-acee-284ac50c347b","ws-opts":{"headers":{"Host":"yongdong.xyz"},"path":"/yongdong"}}
+  - {"alterId":0,"cipher":"auto","name":"704702960","network":"ws","port":20014,"server":"hk.yongdong.xyz","skip-cert-verify":true,"type":"vmess","uuid":"ef577366-fc6c-4670-acee-284ac50c347b","ws-opts":{"headers":{"Host":"yongdong.xyz"},"path":"/yongdong"}}
+  - {"alterId":"0","cipher":"none","name":"594980916","network":"ws","port":"2082","server":"us-02.jikuai.xyz","type":"vmess","uuid":"70666776-4e9f-4350-b3f0-afaff6a70db0","ws-opts":{"path":"/"}}
+  - {"cipher":"chacha20-ietf-poly1305","name":"1641056544","password":"78945dd8-e678-41e1-a5fa-02382165a67c","port":"36026","server":"8t6w01.2weradf.xyz","type":"ss"}
+  - {"cipher":"chacha20-ietf-poly1305","name":"2079896026","password":"44e0be59-7777-49d7-8b2d-d4b0a287c2a8","port":"20001","server":"service.ouluyun9803.com","type":"ss"}
   - {"alterId":0,"cipher":"auto","name":"980574297","network":"ws","port":20233,"server":"zfkr1.30803080.xyz","skip-cert-verify":true,"type":"vmess","uuid":"2f08cc2c-f652-4cc0-897b-bd8c3353783a","ws-opts":{"headers":{"Host":"yongdong.xyz"},"path":"/yongdong"}}
-  - {"alterId":0,"cipher":"auto","name":"1001999095","network":"ws","port":20009,"server":"rb.yongdong.xyz","skip-cert-verify":true,"type":"vmess","uuid":"2f08cc2c-f652-4cc0-897b-bd8c3353783a","ws-opts":{"headers":{"Host":"yongdong.xyz"},"path":"/yongdong"}}
-  - {"alterId":0,"cipher":"auto","name":"401515339","network":"ws","port":56120,"server":"156.251.226.139","skip-cert-verify":true,"tls":true,"type":"vmess","uuid":"81c08762-4fdb-4b38-81ee-b85c3369b3fc","ws-opts":{"headers":{"Host":"dci-sg.changding.me"},"path":"/vm-tls0?ed=2048"}}
   - {"alterId":64,"cipher":"auto","name":"1433318837","port":41492,"server":"120.234.147.175","skip-cert-verify":true,"tls":false,"type":"vmess","udp":true,"uuid":"418048af-a293-4b99-9b0c-98ca3580dd24"}
-  - {"cipher":"chacha20-ietf-poly1305","name":"2053950478","password":"44e0be59-7777-49d7-8b2d-d4b0a287c2a8","port":20009,"server":"service.ouluyun9803.com","type":"ss","udp":true}
   - {"cipher":"aes-256-cfb","name":"1066194451","password":"asdKkaskJKfnsa","port":443,"server":"51.158.195.96","type":"ss"}
-  - {"alterId":0,"cipher":"auto","name":"2145840822","network":"ws","port":443,"server":"b21.ntbq.dynu.net","tls":true,"type":"vmess","uuid":"50dc3ad3-70ce-4f3a-b9f1-8494bcf97362","ws-opts":{"path":"/b21"}}
-  - {"alterId":0,"cipher":"auto","name":"1815182409","network":"ws","port":20007,"server":"rb.yongdong.xyz","skip-cert-verify":true,"type":"vmess","uuid":"2f08cc2c-f652-4cc0-897b-bd8c3353783a","ws-opts":{"headers":{"Host":"yongdong.xyz"},"path":"/yongdong"}}
-  - {"alterId":0,"cipher":"auto","name":"1104800863","network":"ws","port":20009,"server":"xjp.yongdong.xyz","skip-cert-verify":true,"type":"vmess","uuid":"2f08cc2c-f652-4cc0-897b-bd8c3353783a","ws-opts":{"headers":{"Host":"yongdong.xyz"},"path":"/yongdong"}}
-  - {"alterId":0,"cipher":"auto","name":"579166787","network":"ws","port":20242,"server":"zfkr1.30803080.xyz","skip-cert-verify":true,"type":"vmess","uuid":"2f08cc2c-f652-4cc0-897b-bd8c3353783a","ws-opts":{"headers":{"Host":"yongdong.xyz"},"path":"/yongdong"}}
+  - {"cipher":"chacha20-ietf-poly1305","name":"1466571573","password":"78945dd8-e678-41e1-a5fa-02382165a67c","port":"36022","server":"9s5g03.2weradf.xyz","type":"ss"}
   - {"alterId":"0","cipher":"none","name":"1654449564","network":"ws","port":"443","server":"n1700892179.izwhvan.cn","tls":true,"type":"vmess","uuid":"80c15b28-6e4f-4b32-a330-1cc19f287361","ws-opts":{"path":"/"}}
-  - {"cipher":"aes-256-cfb","name":"308028144","password":"asdKkaskJKfnsa","port":110,"server":"51.158.195.96","type":"ss"}
-  - {"alterId":0,"cipher":"auto","name":"518943746","network":"ws","port":20008,"server":"xjp.yongdong.xyz","skip-cert-verify":true,"type":"vmess","uuid":"2f08cc2c-f652-4cc0-897b-bd8c3353783a","ws-opts":{"headers":{"Host":"yongdong.xyz"},"path":"/yongdong"}}
-  - {"alterId":0,"cipher":"auto","name":"78446534","network":"ws","port":80,"server":"jp.takeshi.wiki","type":"vmess","uuid":"59517e0b-ae1c-41d3-9c44-c44cea6f7546","ws-opts":{"path":"/takeshi.wiki"}}
-  - {"alterId":0,"cipher":"auto","name":"913100582","network":"ws","port":20243,"server":"zfkr1.30803080.xyz","skip-cert-verify":true,"type":"vmess","uuid":"2f08cc2c-f652-4cc0-897b-bd8c3353783a","ws-opts":{"headers":{"Host":"yongdong.xyz"},"path":"/yongdong"}}
+  - {"alterId":0,"cipher":"auto","name":"1104800863","network":"ws","port":20009,"server":"xjp.yongdong.xyz","skip-cert-verify":true,"type":"vmess","uuid":"2f08cc2c-f652-4cc0-897b-bd8c3353783a","ws-opts":{"headers":{"Host":"yongdong.xyz"},"path":"/yongdong"}}
+  - {"cipher":"chacha20-ietf-poly1305","name":"1523640931","password":"78945dd8-e678-41e1-a5fa-02382165a67c","port":"36016","server":"8h2k01.2weradf.xyz","type":"ss"}
+  - {"alterId":0,"cipher":"auto","name":"1001999095","network":"ws","port":20009,"server":"rb.yongdong.xyz","skip-cert-verify":true,"type":"vmess","uuid":"2f08cc2c-f652-4cc0-897b-bd8c3353783a","ws-opts":{"headers":{"Host":"yongdong.xyz"},"path":"/yongdong"}}
+  - {"cipher":"chacha20-ietf-poly1305","name":"317196836","password":"78945dd8-e678-41e1-a5fa-02382165a67c","port":"36028","server":"8t6w03.2weradf.xyz","type":"ss"}
+  - {"alterId":0,"cipher":"auto","name":"1815182409","network":"ws","port":20007,"server":"rb.yongdong.xyz","skip-cert-verify":true,"type":"vmess","uuid":"2f08cc2c-f652-4cc0-897b-bd8c3353783a","ws-opts":{"headers":{"Host":"yongdong.xyz"},"path":"/yongdong"}}
   - {"alterId":0,"cipher":"auto","name":"496604553","network":"ws","port":80,"server":"146.75.24.176","skip-cert-verify":true,"type":"vmess","uuid":"33e11326-a83d-439a-8036-42a5bb3d664b","ws-opts":{"headers":{"Host":"nihaoyasg11.com"},"path":"/cctv13/hd.m3u8"}}
+  - {"alterId":0,"cipher":"auto","name":"1937357578","network":"ws","port":20232,"server":"zfkr1.30803080.xyz","skip-cert-verify":true,"type":"vmess","uuid":"2f08cc2c-f652-4cc0-897b-bd8c3353783a","ws-opts":{"headers":{"Host":"yongdong.xyz"},"path":"/yongdong"}}
+  - {"alterId":"64","cipher":"none","name":"564364794","port":"41492","server":"120.234.147.175","type":"vmess","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","ws-opts":{}}
+  - {"cipher":"chacha20-ietf-poly1305","name":"1240398940","password":"78945dd8-e678-41e1-a5fa-02382165a67c","port":"36030","server":"3u1s01.2weradf.xyz","type":"ss"}
+  - {"alterId":0,"cipher":"auto","name":"575326753","network":"ws","port":20211,"server":"zfkr1.30803080.xyz","skip-cert-verify":true,"type":"vmess","uuid":"ef577366-fc6c-4670-acee-284ac50c347b","ws-opts":{"headers":{"Host":"yongdong.xyz"},"path":"/yongdong"}}
+  - {"alterId":0,"cipher":"auto","name":"1229563068","network":"http","port":8442,"server":"fr-v2ray.freevmess.com","skip-cert-verify":true,"type":"vmess","uuid":"6773a666-5593-4c9f-aacd-52300b6a02d4"}
+  - {"alterId":0,"cipher":"auto","name":"399787100","network":"ws","port":20010,"server":"hk.yongdong.xyz","skip-cert-verify":true,"type":"vmess","uuid":"ef577366-fc6c-4670-acee-284ac50c347b","ws-opts":{"headers":{"Host":"yongdong.xyz"},"path":"/yongdong"}}
+  - {"cipher":"chacha20-ietf-poly1305","name":"495945386","password":"78945dd8-e678-41e1-a5fa-02382165a67c","port":"36031","server":"3u1s02.2weradf.xyz","type":"ss"}
+  - {"cipher":"chacha20-ietf-poly1305","name":"689488621","password":"78945dd8-e678-41e1-a5fa-02382165a67c","port":"36012","server":"1j8p03.2weradf.xyz","type":"ss"}
+  - {"alterId":0,"cipher":"auto","name":"1486003329","network":"ws","port":20027,"server":"ser.yongdong.xyz","skip-cert-verify":true,"type":"vmess","uuid":"2f08cc2c-f652-4cc0-897b-bd8c3353783a","ws-opts":{"headers":{"Host":"yongdong.xyz"},"path":"/yongdong"}}
+  - {"alterId":0,"cipher":"auto","name":"140148064","network":"ws","port":20212,"server":"zfkr1.30803080.xyz","skip-cert-verify":true,"type":"vmess","uuid":"ef577366-fc6c-4670-acee-284ac50c347b","ws-opts":{"headers":{"Host":"yongdong.xyz"},"path":"/yongdong"}}
+  - {"cipher":"aes-256-cfb","name":"308028144","password":"asdKkaskJKfnsa","port":110,"server":"51.158.195.96","type":"ss"}
+  - {"alterId":0,"cipher":"auto","name":"175595477","network":"ws","port":20013,"server":"hk.yongdong.xyz","skip-cert-verify":true,"type":"vmess","uuid":"ef577366-fc6c-4670-acee-284ac50c347b","ws-opts":{"headers":{"Host":"yongdong.xyz"},"path":"/yongdong"}}
+  - {"alterId":0,"cipher":"auto","name":"1333861982","network":"ws","port":20026,"server":"ser.yongdong.xyz","skip-cert-verify":true,"type":"vmess","uuid":"2f08cc2c-f652-4cc0-897b-bd8c3353783a","ws-opts":{"headers":{"Host":"yongdong.xyz"},"path":"/yongdong"}}
+  - {"alterId":0,"cipher":"auto","name":"1179869530","network":"ws","port":35353,"server":"146.190.104.50","skip-cert-verify":true,"type":"vmess","uuid":"40d08177-7358-4e46-b05a-7752d5d7619f","ws-opts":{"headers":{"Host":"m.linkedin.com"},"path":"/"}}
+  - {"alterId":0,"cipher":"auto","name":"913100582","network":"ws","port":20243,"server":"zfkr1.30803080.xyz","skip-cert-verify":true,"type":"vmess","uuid":"2f08cc2c-f652-4cc0-897b-bd8c3353783a","ws-opts":{"headers":{"Host":"yongdong.xyz"},"path":"/yongdong"}}
+  - {"alterId":0,"cipher":"auto","name":"1493965825","network":"ws","port":2082,"server":"us-02.jikuai.xyz","skip-cert-verify":true,"type":"vmess","uuid":"70666776-4e9f-4350-b3f0-afaff6a70db0","ws-opts":{"headers":{"Host":"us-02.jikuai.xyz"},"path":"/"}}
+  - {"alterId":0,"cipher":"auto","name":"956302884","network":"ws","port":80,"server":"167.82.86.194","skip-cert-verify":true,"type":"vmess","uuid":"33e11326-a83d-439a-8036-42a5bb3d664b","ws-opts":{"headers":{"Host":"nihaoyaus3.com"},"path":"/cctv13/hd.m3u8"}}
+  - {"alterId":0,"cipher":"auto","name":"1416817574","network":"ws","port":20008,"server":"rb.yongdong.xyz","skip-cert-verify":true,"type":"vmess","uuid":"2f08cc2c-f652-4cc0-897b-bd8c3353783a","ws-opts":{"headers":{"Host":"yongdong.xyz"},"path":"/yongdong"}}
+  - {"alterId":0,"cipher":"auto","name":"1752334037","network":"ws","port":20231,"server":"zfkr1.30803080.xyz","skip-cert-verify":true,"type":"vmess","uuid":"2f08cc2c-f652-4cc0-897b-bd8c3353783a","ws-opts":{"headers":{"Host":"yongdong.xyz"},"path":"/yongdong"}}
+  - {"cipher":"aes-256-cfb","name":"139805460","password":"amazonskr05","port":"443","server":"43.201.5.168","type":"ss"}
+  - {"cipher":"chacha20-ietf-poly1305","name":"2053950478","password":"44e0be59-7777-49d7-8b2d-d4b0a287c2a8","port":"20009","server":"service.ouluyun9803.com","type":"ss"}
+  - {"cipher":"chacha20-ietf-poly1305","name":"414754312","password":"44e0be59-7777-49d7-8b2d-d4b0a287c2a8","port":"20003","server":"service.ouluyun9803.com","type":"ss"}
+  - {"alterId":0,"cipher":"auto","name":"95786335","network":"ws","port":20007,"server":"xjp.yongdong.xyz","skip-cert-verify":true,"type":"vmess","uuid":"2f08cc2c-f652-4cc0-897b-bd8c3353783a","ws-opts":{"headers":{"Host":"yongdong.xyz"},"path":"/yongdong"}}
+  - {"cipher":"chacha20-ietf-poly1305","name":"1370775723","password":"78945dd8-e678-41e1-a5fa-02382165a67c","port":"36018","server":"8h2k03.2weradf.xyz","type":"ss"}
+  - {"alterId":0,"cipher":"auto","name":"953116381","network":"ws","port":20015,"server":"hk.yongdong.xyz","skip-cert-verify":true,"type":"vmess","uuid":"ef577366-fc6c-4670-acee-284ac50c347b","ws-opts":{"headers":{"Host":"yongdong.xyz"},"path":"/yongdong"}}
+  - {"alterId":0,"cipher":"auto","name":"579166787","network":"ws","port":20242,"server":"zfkr1.30803080.xyz","skip-cert-verify":true,"type":"vmess","uuid":"2f08cc2c-f652-4cc0-897b-bd8c3353783a","ws-opts":{"headers":{"Host":"yongdong.xyz"},"path":"/yongdong"}}
+  - {"alterId":0,"cipher":"auto","name":"5176796","network":"ws","port":20028,"server":"ser.yongdong.xyz","skip-cert-verify":true,"type":"vmess","uuid":"2f08cc2c-f652-4cc0-897b-bd8c3353783a","ws-opts":{"headers":{"Host":"yongdong.xyz"},"path":"/yongdong"}}
+  - {"cipher":"chacha20-ietf-poly1305","name":"1335316398","password":"78945dd8-e678-41e1-a5fa-02382165a67c","port":"36027","server":"8t6w02.2weradf.xyz","type":"ss"}
   
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
-      - 1752334037
-      - 956302884
-      - 139805460
-      - 414754312
-      - 1493965825
-      - 1229563068
       - 1092968916
-      - 887451867
-      - 5176796
-      - 1486003329
-      - 2079896026
-      - 1333861982
-      - 564364794
-      - 95786335
-      - 1416817574
       - 1549699563
-      - 1937357578
-      - 659910663
+      - 1357346354
+      - 704702960
+      - 594980916
+      - 1641056544
+      - 2079896026
       - 980574297
-      - 1001999095
-      - 401515339
       - 1433318837
-      - 2053950478
       - 1066194451
-      - 2145840822
-      - 1815182409
-      - 1104800863
-      - 579166787
+      - 1466571573
       - 1654449564
-      - 308028144
-      - 518943746
-      - 78446534
-      - 913100582
+      - 1104800863
+      - 1523640931
+      - 1001999095
+      - 317196836
+      - 1815182409
       - 496604553
+      - 1937357578
+      - 564364794
+      - 1240398940
+      - 575326753
+      - 1229563068
+      - 399787100
+      - 495945386
+      - 689488621
+      - 1486003329
+      - 140148064
+      - 308028144
+      - 175595477
+      - 1333861982
+      - 1179869530
+      - 913100582
+      - 1493965825
+      - 956302884
+      - 1416817574
+      - 1752334037
+      - 139805460
+      - 2053950478
+      - 414754312
+      - 95786335
+      - 1370775723
+      - 953116381
+      - 579166787
+      - 5176796
+      - 1335316398
       
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.google.com/generate_204
     interval: 300
     proxies:
-      - 1752334037
-      - 956302884
-      - 139805460
-      - 414754312
-      - 1493965825
-      - 1229563068
       - 1092968916
-      - 887451867
-      - 5176796
-      - 1486003329
-      - 2079896026
-      - 1333861982
-      - 564364794
-      - 95786335
-      - 1416817574
       - 1549699563
-      - 1937357578
-      - 659910663
+      - 1357346354
+      - 704702960
+      - 594980916
+      - 1641056544
+      - 2079896026
       - 980574297
-      - 1001999095
-      - 401515339
       - 1433318837
-      - 2053950478
       - 1066194451
-      - 2145840822
-      - 1815182409
-      - 1104800863
-      - 579166787
+      - 1466571573
       - 1654449564
-      - 308028144
-      - 518943746
-      - 78446534
-      - 913100582
+      - 1104800863
+      - 1523640931
+      - 1001999095
+      - 317196836
+      - 1815182409
       - 496604553
+      - 1937357578
+      - 564364794
+      - 1240398940
+      - 575326753
+      - 1229563068
+      - 399787100
+      - 495945386
+      - 689488621
+      - 1486003329
+      - 140148064
+      - 308028144
+      - 175595477
+      - 1333861982
+      - 1179869530
+      - 913100582
+      - 1493965825
+      - 956302884
+      - 1416817574
+      - 1752334037
+      - 139805460
+      - 2053950478
+      - 414754312
+      - 95786335
+      - 1370775723
+      - 953116381
+      - 579166787
+      - 5176796
+      - 1335316398
       
 rule-providers:
   reject:
