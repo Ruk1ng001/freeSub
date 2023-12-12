@@ -9,7 +9,7 @@
 ```
 https://raw.githubusercontent.com/Ruk1ng001/freeSub/main/clash.yaml
 ```
-[V2ray](https://raw.githubusercontent.com/Ruk1ng001/freeSub/main/v2ray.md)
+[V2ray](https://raw.githubusercontent.com/Ruk1ng001/freeSub/main/v2ray)
 ```
-https://raw.githubusercontent.com/Ruk1ng001/freeSub/main/v2ray.yaml
+https://raw.githubusercontent.com/Ruk1ng001/freeSub/main/v2ray
 ```
