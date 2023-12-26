@@ -6,120 +6,147 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {"alterId":-1,"cipher":"chacha20-ietf","name":"1194586726","obfs":"plain","obfs-param":"5d3ee46961.microsoft.com","password":"jFa4F1","port":6709,"protocol":"auth_aes128_sha1","protocol-param":"46961:1210-Tha","server":"cm03.newcome.xyz","type":"ssr"}
-  - {"alterId":-1,"cipher":"chacha20-ietf","name":"1043481097","obfs":"plain","obfs-param":"5d3ee46961.microsoft.com","password":"jFa4F1","port":2400,"protocol":"auth_aes128_sha1","protocol-param":"46961:1210-Tha","server":"zx01.endhigh.xyz","type":"ssr"}
-  - {"alterId":0,"cipher":"auto","name":"1741328472","port":6899,"server":"c11.twtc.dynu.net","skip-cert-verify":true,"tls":false,"type":"vmess","udp":true,"uuid":"abbc98b1-b53f-45e4-9d01-54a010ead719"}
-  - {"alterId":-1,"cipher":"chacha20-ietf-poly1305","name":"667078008","password":"d2ca0697-2677-4ca9-be3d-6e22876fbdc8","port":31017,"server":"5m4h0k02.6vczxw.xyz","type":"ss"}
-  - {"alterId":-1,"cipher":"aes-256-cfb","name":"799334605","password":"amazonskr05","port":443,"server":"18.181.171.223","type":"ss"}
-  - {"alterId":-1,"cipher":"chacha20-ietf","name":"725702862","obfs":"plain","obfs-param":"5d3ee46961.microsoft.com","password":"jFa4F1","port":3700,"protocol":"auth_aes128_sha1","protocol-param":"46961:1210-Tha","server":"cm01.newcome.xyz","type":"ssr"}
-  - {"alterId":0,"cipher":"none","name":"717728143","network":"ws","port":20254,"server":"muran-kr.qrfly.me","type":"vmess","uuid":"007be9ad-8db6-4164-fc49-49989bbcba96","ws-opts":{"path":"/"}}
-  - {"alterId":-1,"cipher":"chacha20-ietf","name":"1817049458","obfs":"plain","obfs-param":"5d3ee46961.microsoft.com","password":"jFa4F1","port":6705,"protocol":"auth_aes128_sha1","protocol-param":"46961:1210-Tha","server":"cm03.newcome.xyz","type":"ssr"}
-  - {"alterId":-1,"cipher":"aes-256-cfb","name":"1602189872","password":"amazonskr05","port":443,"server":"13.212.204.117","type":"ss"}
-  - {"alterId":-1,"cipher":"chacha20-ietf","name":"1031050274","obfs":"plain","password":"mblank1port","port":601,"protocol":"auth_aes128_md5","protocol-param":"15979:R0c]V7l-6JymJ3","server":"cmlayer2.labtechs.xyz","type":"ssr"}
-  - {"alterId":0,"cipher":"auto","name":"57532057","port":2024,"server":"b23.ntbq.dynu.net","skip-cert-verify":true,"tls":false,"type":"vmess","udp":true,"uuid":"abbc98b1-b53f-45e4-9d01-54a010ead719"}
-  - {"alterId":-1,"cipher":"chacha20-ietf","name":"1802778906","obfs":"plain","obfs-param":"5d3ee46961.microsoft.com","password":"jFa4F1","port":2408,"protocol":"auth_aes128_sha1","protocol-param":"46961:1210-Tha","server":"zx02.endhigh.xyz","type":"ssr"}
-  - {"alterId":-1,"cipher":"chacha20-ietf","name":"1139314551","obfs":"plain","obfs-param":"5d3ee46961.microsoft.com","password":"jFa4F1","port":3703,"protocol":"auth_aes128_sha1","protocol-param":"46961:1210-Tha","server":"cm01.newcome.xyz","type":"ssr"}
-  - {"alterId":-1,"cipher":"chacha20-ietf","name":"897585547","obfs":"plain","obfs-param":"5d3ee46961.microsoft.com","password":"jFa4F1","port":2404,"protocol":"auth_aes128_sha1","protocol-param":"46961:1210-Tha","server":"zx01.endhigh.xyz","type":"ssr"}
-  - {"alterId":0,"cipher":"auto","name":"1061446794","network":"ws","port":16626,"server":"yes.cnmjcn.net","skip-cert-verify":false,"tls":false,"type":"vmess","uuid":"c2c76420-257f-492a-b20f-6560f3bfa78d","ws-opts":{"headers":{"Host":"d4d028243c73047d9171bacb9b0439e8.mobgslb.tbcache.com"},"path":"/"}}
-  - {"alterId":0,"cipher":"auto","name":"455778133","port":4211,"server":"nb36.ntbq.dynu.net","skip-cert-verify":true,"tls":false,"type":"vmess","udp":true,"uuid":"abbc98b1-b53f-45e4-9d01-54a010ead719"}
-  - {"alterId":-1,"cipher":"chacha20-ietf-poly1305","name":"1710094028","password":"d2ca0697-2677-4ca9-be3d-6e22876fbdc8","port":31018,"server":"5m4h0k03.6vczxw.xyz","type":"ss"}
-  - {"alterId":-1,"cipher":"chacha20-ietf","name":"2021163913","obfs":"plain","obfs-param":"5d3ee46961.microsoft.com","password":"jFa4F1","port":6708,"protocol":"auth_aes128_sha1","protocol-param":"46961:1210-Tha","server":"cm03.newcome.xyz","type":"ssr"}
-  - {"alterId":-1,"cipher":"chacha20-ietf","name":"1314411867","obfs":"plain","obfs-param":"5d3ee46961.microsoft.com","password":"jFa4F1","port":6702,"protocol":"auth_aes128_sha1","protocol-param":"46961:1210-Tha","server":"cm03.newcome.xyz","type":"ssr"}
-  - {"alterId":-1,"cipher":"aes-256-cfb","name":"232353896","password":"amazonskr05","port":443,"server":"52.221.240.143","type":"ss"}
-  - {"alterId":0,"cipher":"auto","name":"1696086120","network":"tcp","port":59487,"server":"103.114.201.143","skip-cert-verify":true,"tls":false,"type":"vmess","uuid":"51fb562e-0a9b-4c27-e4d8-6f4883bb5165","ws-headers":{"Host":"103.114.201.143"}}
-  - {"alterId":0,"cipher":"auto","name":"1998866687","network":"ws","port":2095,"server":"cm-cdn.kfcvme50.life","skip-cert-verify":true,"type":"vmess","uuid":"7b529a8b-d306-4744-b4e5-c29aaa42ec0b","ws-opts":{"headers":{"Host":"hkbn.kfcvme50.life"},"path":"/"}}
-  - {"alterId":-1,"cipher":"chacha20-ietf-poly1305","name":"2080563021","password":"d2ca0697-2677-4ca9-be3d-6e22876fbdc8","port":31026,"server":"2d1t5w01.6vczxw.xyz","type":"ss"}
-  - {"alterId":-1,"cipher":"chacha20-ietf-poly1305","name":"215624016","password":"d2ca0697-2677-4ca9-be3d-6e22876fbdc8","port":31016,"server":"5m4h0k01.6vczxw.xyz","type":"ss"}
-  - {"alterId":-1,"cipher":"chacha20-ietf-poly1305","name":"1839555872","password":"dcbc1c7f-c323-4365-bd48-cf767f9081ce","port":19511,"server":"nc.cm.go002.xyz","type":"ss"}
-  - {"alterId":-1,"cipher":"aes-256-cfb","name":"1658993235","password":"amazonskr05","port":443,"server":"52.194.252.137","type":"ss"}
-  - {"alterId":-1,"cipher":"chacha20-ietf-poly1305","name":"1020303094","password":"d2ca0697-2677-4ca9-be3d-6e22876fbdc8","port":31010,"server":"7z7j3p01.6vczxw.xyz","type":"ss"}
-  - {"alterId":-1,"cipher":"chacha20-ietf","name":"1095693011","obfs":"plain","obfs-param":"5d3ee46961.microsoft.com","password":"jFa4F1","port":6704,"protocol":"auth_aes128_sha1","protocol-param":"46961:1210-Tha","server":"cm03.newcome.xyz","type":"ssr"}
-  - {"alterId":-1,"cipher":"chacha20-ietf","name":"1376537397","obfs":"plain","obfs-param":"5d3ee46961.microsoft.com","password":"jFa4F1","port":3709,"protocol":"auth_aes128_sha1","protocol-param":"46961:1210-Tha","server":"cm01.newcome.xyz","type":"ssr"}
-  - {"alterId":-1,"cipher":"chacha20-ietf-poly1305","name":"404060069","password":"d2ca0697-2677-4ca9-be3d-6e22876fbdc8","port":31027,"server":"2d1t5w02.6vczxw.xyz","type":"ss"}
   - {"alterId":0,"cipher":"none","name":"933477283","port":59487,"server":"103.114.201.143","type":"vmess","uuid":"51fb562e-0a9b-4c27-e4d8-6f4883bb5165","ws-opts":{}}
-  - {"alterId":0,"cipher":"auto","name":"590493187","port":47885,"server":"47.236.22.3","skip-cert-verify":false,"tls":false,"type":"vmess","uuid":"2fb7aa37-e195-44f1-f000-5727610d22e3"}
   - {"alterId":-1,"cipher":"chacha20-ietf","name":"481654331","obfs":"plain","obfs-param":"5d3ee46961.microsoft.com","password":"jFa4F1","port":2409,"protocol":"auth_aes128_sha1","protocol-param":"46961:1210-Tha","server":"zx02.endhigh.xyz","type":"ssr"}
-  - {"alterId":-1,"cipher":"chacha20-ietf-poly1305","name":"1179958341","password":"d2ca0697-2677-4ca9-be3d-6e22876fbdc8","port":31022,"server":"1c7s2g03.6vczxw.xyz","type":"ss"}
+  - {"alterId":-1,"cipher":"chacha20-ietf","name":"2021163913","obfs":"plain","obfs-param":"5d3ee46961.microsoft.com","password":"jFa4F1","port":6708,"protocol":"auth_aes128_sha1","protocol-param":"46961:1210-Tha","server":"cm03.newcome.xyz","type":"ssr"}
+  - {"alterId":-1,"cipher":"chacha20-ietf","name":"1095693011","obfs":"plain","obfs-param":"5d3ee46961.microsoft.com","password":"jFa4F1","port":6704,"protocol":"auth_aes128_sha1","protocol-param":"46961:1210-Tha","server":"cm03.newcome.xyz","type":"ssr"}
+  - {"alterId":-1,"cipher":"chacha20-ietf","name":"1139314551","obfs":"plain","obfs-param":"5d3ee46961.microsoft.com","password":"jFa4F1","port":3703,"protocol":"auth_aes128_sha1","protocol-param":"46961:1210-Tha","server":"cm01.newcome.xyz","type":"ssr"}
+  - {"alterId":-1,"cipher":"chacha20-ietf","name":"1376537397","obfs":"plain","obfs-param":"5d3ee46961.microsoft.com","password":"jFa4F1","port":3709,"protocol":"auth_aes128_sha1","protocol-param":"46961:1210-Tha","server":"cm01.newcome.xyz","type":"ssr"}
+  - {"alterId":-1,"cipher":"chacha20-ietf","name":"1802778906","obfs":"plain","obfs-param":"5d3ee46961.microsoft.com","password":"jFa4F1","port":2408,"protocol":"auth_aes128_sha1","protocol-param":"46961:1210-Tha","server":"zx02.endhigh.xyz","type":"ssr"}
+  - {"alterId":-1,"cipher":"aes-256-cfb","name":"1909797634","password":"amazonskr05","port":443,"server":"13.230.132.209","type":"ss"}
+  - {"alterId":0,"cipher":"auto","name":"1708187801","port":30839,"server":"158.178.227.16","skip-cert-verify":false,"tls":false,"type":"vmess","uuid":"19bf4866-54ce-4fc9-8903-db7e160c5b81"}
+  - {"alterId":0,"cipher":"auto","name":"2003144558","port":47555,"server":"46.29.166.237","skip-cert-verify":false,"tls":false,"type":"vmess","uuid":"0c49cd19-2758-4d38-e6a8-11f2d6635860"}
+  - {"alterId":-1,"cipher":"aes-128-gcm","name":"493169196","password":"b264e44a-578c-4ce6-bb8d-cd31ae33201f","port":20702,"server":"sg.qrfly.link","type":"ss"}
+  - {"alterId":0,"cipher":"auto","name":"313488882","network":"tcp","port":3350,"server":"91.107.172.128","skip-cert-verify":true,"tls":false,"type":"vmess","uuid":"2bf900ac-909a-4610-dc18-86a3a136b286","ws-headers":{"Host":"91.107.172.128"}}
+  - {"alterId":-1,"cipher":"chacha20-ietf","name":"1314411867","obfs":"plain","obfs-param":"5d3ee46961.microsoft.com","password":"jFa4F1","port":6702,"protocol":"auth_aes128_sha1","protocol-param":"46961:1210-Tha","server":"cm03.newcome.xyz","type":"ssr"}
+  - {"alterId":-1,"cipher":"chacha20-ietf","name":"725702862","obfs":"plain","obfs-param":"5d3ee46961.microsoft.com","password":"jFa4F1","port":3700,"protocol":"auth_aes128_sha1","protocol-param":"46961:1210-Tha","server":"cm01.newcome.xyz","type":"ssr"}
+  - {"alterId":-1,"cipher":"chacha20-ietf-poly1305","name":"1839555872","password":"dcbc1c7f-c323-4365-bd48-cf767f9081ce","port":19511,"server":"nc.cm.go002.xyz","type":"ss"}
+  - {"alterId":-1,"cipher":"aes-256-cfb","name":"1329009221","password":"amazonskr05","port":443,"server":"13.115.27.76","type":"ss"}
+  - {"alterId":0,"cipher":"auto","name":"1741328472","port":6899,"server":"c11.twtc.dynu.net","skip-cert-verify":false,"tls":false,"type":"vmess","uuid":"abbc98b1-b53f-45e4-9d01-54a010ead719"}
+  - {"alterId":0,"cipher":"none","name":"1158432179","port":6899,"server":"c11.twtc.dynu.net","type":"vmess","uuid":"abbc98b1-b53f-45e4-9d01-54a010ead719","ws-opts":{}}
+  - {"alterId":0,"cipher":"none","name":"1370166728","port":4443,"server":"nb24.ntbq.dynu.net","type":"vmess","uuid":"abbc98b1-b53f-45e4-9d01-54a010ead719","ws-opts":{}}
+  - {"alterId":0,"cipher":"auto","name":"1696086120","port":59487,"server":"103.114.201.143","skip-cert-verify":false,"tls":false,"type":"vmess","uuid":"51fb562e-0a9b-4c27-e4d8-6f4883bb5165"}
+  - {"alterId":0,"cipher":"none","name":"1627006317","port":50104,"server":"38.180.33.136","type":"vmess","uuid":"790f6802-7535-4109-de6d-15f676d5e3f7","ws-opts":{}}
+  - {"alterId":-1,"cipher":"chacha20-ietf","name":"1817049458","obfs":"plain","obfs-param":"5d3ee46961.microsoft.com","password":"jFa4F1","port":6705,"protocol":"auth_aes128_sha1","protocol-param":"46961:1210-Tha","server":"cm03.newcome.xyz","type":"ssr"}
+  - {"alterId":-1,"cipher":"aes-256-cfb","name":"799334605","password":"amazonskr05","port":443,"server":"18.181.171.223","type":"ss"}
+  - {"alterId":0,"cipher":"auto","name":"57532057","port":2024,"server":"b23.ntbq.dynu.net","skip-cert-verify":true,"tls":false,"type":"vmess","udp":true,"uuid":"abbc98b1-b53f-45e4-9d01-54a010ead719"}
+  - {"alterId":0,"cipher":"auto","name":"337286469","port":36173,"server":"172.105.226.166","skip-cert-verify":false,"tls":false,"type":"vmess","uuid":"5de808d1-b707-462c-83f3-68739504ad70"}
+  - {"alterId":0,"cipher":"auto","name":"2077182859","port":56262,"server":"64.176.39.31","skip-cert-verify":false,"tls":false,"type":"vmess","uuid":"590f2744-e9d1-4f2c-a384-d35b736bca41"}
+  - {"alterId":-1,"cipher":"chacha20-ietf-poly1305","name":"1810927298","password":"057bf3ac-fda1-44c3-aa8e-07eed7ddc5b6","port":20009,"server":"service.ouluyun9803.com","type":"ss","udp":true}
+  - {"alterId":0,"cipher":"auto","name":"1061446794","network":"ws","port":16626,"server":"yes.cnmjcn.net","skip-cert-verify":false,"tls":false,"type":"vmess","uuid":"c2c76420-257f-492a-b20f-6560f3bfa78d","ws-opts":{"headers":{"Host":"d4d028243c73047d9171bacb9b0439e8.mobgslb.tbcache.com"},"path":"/"}}
+  - {"alterId":-1,"cipher":"chacha20-ietf-poly1305","name":"1334955266","password":"dcbc1c7f-c323-4365-bd48-cf767f9081ce","port":19551,"server":"nc.ct1.go002.xyz","type":"ss"}
+  - {"alterId":-1,"cipher":"chacha20-ietf-poly1305","name":"1738074071","password":"yZdRgske85Hou96z2dRdtH","port":28490,"server":"45.144.30.202","type":"ss"}
+  - {"alterId":0,"cipher":"auto","name":"168894338","port":50706,"server":"104.238.182.29","skip-cert-verify":true,"tls":false,"type":"vmess","udp":true,"uuid":"74cc82ff-e398-4a0e-df94-e5e9d66abbb3"}
+  - {"alterId":-1,"cipher":"aes-256-gcm","name":"484750435","password":"FoOiGlkAA9yPEGP","port":7306,"server":"38.75.136.49","type":"ss"}
+  - {"alterId":-1,"cipher":"chacha20-ietf","name":"1043481097","obfs":"plain","obfs-param":"5d3ee46961.microsoft.com","password":"jFa4F1","port":2400,"protocol":"auth_aes128_sha1","protocol-param":"46961:1210-Tha","server":"zx01.endhigh.xyz","type":"ssr"}
+  - {"alterId":-1,"cipher":"aes-256-cfb","name":"1658993235","password":"amazonskr05","port":443,"server":"52.194.252.137","type":"ss"}
+  - {"alterId":-1,"cipher":"chacha20-ietf-poly1305","name":"1741263940","password":"057bf3ac-fda1-44c3-aa8e-07eed7ddc5b6","port":20007,"server":"service.ouluyun9803.com","type":"ss","udp":true}
+  - {"alterId":0,"cipher":"auto","name":"2006327958","network":"ws","port":47551,"server":"159.75.178.50","skip-cert-verify":true,"tls":false,"type":"vmess","uuid":"2500a228-8c00-4934-81e0-22281c015a33","ws-opts":{"path":"/"}}
+  - {"alterId":-1,"cipher":"chacha20-ietf-poly1305","name":"1283031235","password":"057bf3ac-fda1-44c3-aa8e-07eed7ddc5b6","port":21003,"server":"service.ouluyun9803.com","type":"ss","udp":true}
+  - {"alterId":-1,"cipher":"chacha20-ietf","name":"1194586726","obfs":"plain","obfs-param":"5d3ee46961.microsoft.com","password":"jFa4F1","port":6709,"protocol":"auth_aes128_sha1","protocol-param":"46961:1210-Tha","server":"cm03.newcome.xyz","type":"ssr"}
+  - {"alterId":-1,"cipher":"aes-256-cfb","name":"1602189872","password":"amazonskr05","port":443,"server":"13.212.204.117","type":"ss"}
+  - {"alterId":0,"cipher":"none","name":"717728143","network":"ws","port":20254,"server":"muran-kr.qrfly.me","type":"vmess","uuid":"007be9ad-8db6-4164-fc49-49989bbcba96","ws-opts":{"path":"/"}}
+  - {"alterId":-1,"cipher":"aes-128-gcm","name":"1884831324","password":"KAffy7oieVJYGKFjHvUE3g","port":1080,"server":"141.95.106.33","type":"ss","udp":true}
+  - {"alterId":-1,"cipher":"chacha20-ietf","name":"897585547","obfs":"plain","obfs-param":"5d3ee46961.microsoft.com","password":"jFa4F1","port":2404,"protocol":"auth_aes128_sha1","protocol-param":"46961:1210-Tha","server":"zx01.endhigh.xyz","type":"ssr"}
+  - {"alterId":0,"cipher":"auto","name":"1675689736","port":50104,"server":"38.180.33.136","skip-cert-verify":false,"tls":false,"type":"vmess","uuid":"790f6802-7535-4109-de6d-15f676d5e3f7"}
   
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
-      - 1194586726
-      - 1043481097
-      - 1741328472
-      - 667078008
-      - 799334605
-      - 725702862
-      - 717728143
-      - 1817049458
-      - 1602189872
-      - 1031050274
-      - 57532057
-      - 1802778906
-      - 1139314551
-      - 897585547
-      - 1061446794
-      - 455778133
-      - 1710094028
-      - 2021163913
-      - 1314411867
-      - 232353896
-      - 1696086120
-      - 1998866687
-      - 2080563021
-      - 215624016
-      - 1839555872
-      - 1658993235
-      - 1020303094
-      - 1095693011
-      - 1376537397
-      - 404060069
       - 933477283
-      - 590493187
       - 481654331
-      - 1179958341
+      - 2021163913
+      - 1095693011
+      - 1139314551
+      - 1376537397
+      - 1802778906
+      - 1909797634
+      - 1708187801
+      - 2003144558
+      - 493169196
+      - 313488882
+      - 1314411867
+      - 725702862
+      - 1839555872
+      - 1329009221
+      - 1741328472
+      - 1158432179
+      - 1370166728
+      - 1696086120
+      - 1627006317
+      - 1817049458
+      - 799334605
+      - 57532057
+      - 337286469
+      - 2077182859
+      - 1810927298
+      - 1061446794
+      - 1334955266
+      - 1738074071
+      - 168894338
+      - 484750435
+      - 1043481097
+      - 1658993235
+      - 1741263940
+      - 2006327958
+      - 1283031235
+      - 1194586726
+      - 1602189872
+      - 717728143
+      - 1884831324
+      - 897585547
+      - 1675689736
       
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.google.com/generate_204
     interval: 300
     proxies:
-      - 1194586726
-      - 1043481097
-      - 1741328472
-      - 667078008
-      - 799334605
-      - 725702862
-      - 717728143
-      - 1817049458
-      - 1602189872
-      - 1031050274
-      - 57532057
-      - 1802778906
-      - 1139314551
-      - 897585547
-      - 1061446794
-      - 455778133
-      - 1710094028
-      - 2021163913
-      - 1314411867
-      - 232353896
-      - 1696086120
-      - 1998866687
-      - 2080563021
-      - 215624016
-      - 1839555872
-      - 1658993235
-      - 1020303094
-      - 1095693011
-      - 1376537397
-      - 404060069
       - 933477283
-      - 590493187
       - 481654331
-      - 1179958341
+      - 2021163913
+      - 1095693011
+      - 1139314551
+      - 1376537397
+      - 1802778906
+      - 1909797634
+      - 1708187801
+      - 2003144558
+      - 493169196
+      - 313488882
+      - 1314411867
+      - 725702862
+      - 1839555872
+      - 1329009221
+      - 1741328472
+      - 1158432179
+      - 1370166728
+      - 1696086120
+      - 1627006317
+      - 1817049458
+      - 799334605
+      - 57532057
+      - 337286469
+      - 2077182859
+      - 1810927298
+      - 1061446794
+      - 1334955266
+      - 1738074071
+      - 168894338
+      - 484750435
+      - 1043481097
+      - 1658993235
+      - 1741263940
+      - 2006327958
+      - 1283031235
+      - 1194586726
+      - 1602189872
+      - 717728143
+      - 1884831324
+      - 897585547
+      - 1675689736
       
 rule-providers:
   reject:
