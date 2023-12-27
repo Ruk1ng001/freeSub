@@ -17,75 +17,65 @@ https://raw.githubusercontent.com/Ruk1ng001/freeSub/main/v2ray
 
 ## 节点列表
 
-最近一次于`2023-12-27 08:41:26`更新，共计获取`65`个可用节点。
+最近一次于`2023-12-27 12:45:05`更新，共计获取`55`个可用节点。
 
 |  | 节点 | 带宽 | 延迟 |
 |:-:|:--:|:--:|:--:|
- | 1 | 1043481097 | 1.63MB/s | 371.00ms |
- | 2 | -2053643768 | 1.62MB/s | 444.00ms |
- | 3 | 1314411867 | 1.51MB/s | 423.00ms |
- | 4 | -1095693011 | 1.49MB/s | 445.00ms |
- | 5 | -1194586726 | 1.48MB/s | 425.00ms |
- | 6 | -1817049458 | 1.46MB/s | 446.00ms |
- | 7 | 1139314551 | 1.32MB/s | 519.00ms |
- | 8 | 1376537397 | 1.31MB/s | 541.00ms |
- | 9 | 1370166728 | 1.28MB/s | 546.00ms |
- | 10 | -481654331 | 1.28MB/s | 373.00ms |
- | 11 | 1607493501 | 1.26MB/s | 439.00ms |
- | 12 | -1316638744 | 1.22MB/s | 409.00ms |
- | 13 | -1158432179 | 1.20MB/s | 470.00ms |
- | 14 | -1120126066 | 1.16MB/s | 654.00ms |
- | 15 | -1802778906 | 1.10MB/s | 598.00ms |
- | 16 | -57532057 | 1.08MB/s | 471.00ms |
- | 17 | -897585547 | 1.08MB/s | 471.00ms |
- | 18 | 1741328472 | 1.04MB/s | 637.00ms |
- | 19 | -1839555872 | 1.04MB/s | 550.00ms |
- | 20 | -1334955266 | 1.00MB/s | 649.00ms |
- | 21 | <font color=red>-717728143</font> | <font color=red>980.88KB/s</font> | <font color=red>617.00ms</font> |
- | 22 | <font color=red>2021163913</font> | <font color=red>979.48KB/s</font> | <font color=red>510.00ms</font> |
- | 23 | <font color=red>1707153412</font> | <font color=red>949.37KB/s</font> | <font color=red>646.00ms</font> |
- | 24 | <font color=red>-184511049</font> | <font color=red>902.93KB/s</font> | <font color=red>384.00ms</font> |
- | 25 | <font color=red>1400488553</font> | <font color=red>902.36KB/s</font> | <font color=red>547.00ms</font> |
- | 26 | <font color=red>-10355685</font> | <font color=red>898.22KB/s</font> | <font color=red>591.00ms</font> |
- | 27 | <font color=red>-850604836</font> | <font color=red>898.06KB/s</font> | <font color=red>700.00ms</font> |
- | 28 | <font color=red>-889179014</font> | <font color=red>896.18KB/s</font> | <font color=red>599.00ms</font> |
- | 29 | <font color=red>456927424</font> | <font color=red>894.99KB/s</font> | <font color=red>342.00ms</font> |
- | 30 | <font color=red>1602189872</font> | <font color=red>893.82KB/s</font> | <font color=red>375.00ms</font> |
- | 31 | <font color=red>-1565455938</font> | <font color=red>893.41KB/s</font> | <font color=red>485.00ms</font> |
- | 32 | <font color=red>-956261377</font> | <font color=red>892.55KB/s</font> | <font color=red>342.00ms</font> |
- | 33 | <font color=red>1329009221</font> | <font color=red>864.64KB/s</font> | <font color=red>418.00ms</font> |
- | 34 | <font color=red>725702862</font> | <font color=red>847.57KB/s</font> | <font color=red>507.00ms</font> |
- | 35 | <font color=red>691066597</font> | <font color=red>790.93KB/s</font> | <font color=red>472.00ms</font> |
- | 36 | <font color=red>-1253759096</font> | <font color=red>785.98KB/s</font> | <font color=red>392.00ms</font> |
- | 37 | <font color=red>-630164333</font> | <font color=red>782.62KB/s</font> | <font color=red>299.00ms</font> |
- | 38 | <font color=red>-1945282217</font> | <font color=red>776.39KB/s</font> | <font color=red>338.00ms</font> |
- | 39 | <font color=red>669107782</font> | <font color=red>773.53KB/s</font> | <font color=red>360.00ms</font> |
- | 40 | <font color=red>555889889</font> | <font color=red>771.41KB/s</font> | <font color=red>449.00ms</font> |
- | 41 | <font color=red>-1934569034</font> | <font color=red>769.74KB/s</font> | <font color=red>552.00ms</font> |
- | 42 | <font color=red>-1658993235</font> | <font color=red>766.97KB/s</font> | <font color=red>317.00ms</font> |
- | 43 | <font color=red>96472707</font> | <font color=red>765.42KB/s</font> | <font color=red>274.00ms</font> |
- | 44 | <font color=red>1043140312</font> | <font color=red>659.97KB/s</font> | <font color=red>682.00ms</font> |
- | 45 | <font color=red>1872421345</font> | <font color=red>659.73KB/s</font> | <font color=red>523.00ms</font> |
- | 46 | <font color=red>-933477283</font> | <font color=red>652.28KB/s</font> | <font color=red>602.00ms</font> |
- | 47 | <font color=red>1515054824</font> | <font color=red>651.16KB/s</font> | <font color=red>297.00ms</font> |
- | 48 | <font color=red>1651560585</font> | <font color=red>651.12KB/s</font> | <font color=red>571.00ms</font> |
- | 49 | <font color=red>1838540828</font> | <font color=red>650.58KB/s</font> | <font color=red>514.00ms</font> |
- | 50 | <font color=red>1766858272</font> | <font color=red>643.45KB/s</font> | <font color=red>417.00ms</font> |
- | 51 | <font color=red>-555504408</font> | <font color=red>638.61KB/s</font> | <font color=red>235.00ms</font> |
- | 52 | <font color=red>1696086120</font> | <font color=red>578.01KB/s</font> | <font color=red>570.00ms</font> |
- | 53 | <font color=red>362149408</font> | <font color=red>528.86KB/s</font> | <font color=red>317.00ms</font> |
- | 54 | <font color=red>-590493187</font> | <font color=red>402.41KB/s</font> | <font color=red>352.00ms</font> |
- | 55 | <font color=red>-1708187801</font> | <font color=red>302.70KB/s</font> | <font color=red>722.00ms</font> |
- | 56 | <font color=red>1884831324</font> | <font color=red>223.52KB/s</font> | <font color=red>631.00ms</font> |
- | 57 | <font color=red>-1517278794</font> | <font color=red>215.38KB/s</font> | <font color=red>764.00ms</font> |
- | 58 | <font color=red>-196170019</font> | <font color=red>180.80KB/s</font> | <font color=red>437.00ms</font> |
- | 59 | <font color=red>395352795</font> | <font color=red>180.36KB/s</font> | <font color=red>686.00ms</font> |
- | 60 | <font color=red>1646041981</font> | <font color=red>164.94KB/s</font> | <font color=red>882.00ms</font> |
- | 61 | <font color=red>1780849041</font> | <font color=red>119.26KB/s</font> | <font color=red>794.00ms</font> |
- | 62 | <font color=red>1738074071</font> | <font color=red>116.31KB/s</font> | <font color=red>605.00ms</font> |
- | 63 | <font color=red>-1061446794</font> | <font color=red>115.20KB/s</font> | <font color=red>320.00ms</font> |
- | 64 | <font color=red>-675022415</font> | <font color=red>109.59KB/s</font> | <font color=red>916.00ms</font> |
- | 65 | <font color=red>-1283031235</font> | <font color=red>109.09KB/s</font> | <font color=red>875.00ms</font> |
+ | 1 | -1102966069 | 1.76MB/s | 418.00ms |
+ | 2 | 1031050274 | 1.73MB/s | 401.00ms |
+ | 3 | -1497319002 | 1.70MB/s | 442.00ms |
+ | 4 | -232534906 | 1.44MB/s | 433.00ms |
+ | 5 | -1194586726 | 1.39MB/s | 466.00ms |
+ | 6 | 1684592841 | 1.27MB/s | 636.00ms |
+ | 7 | -799334605 | 1.27MB/s | 374.00ms |
+ | 8 | -1045319250 | 1.18MB/s | 423.00ms |
+ | 9 | -481654331 | 1.13MB/s | 431.00ms |
+ | 10 | 2021163913 | 1.09MB/s | 448.00ms |
+ | 11 | -1802778906 | 1.06MB/s | 624.00ms |
+ | 12 | 44776123 | 1.04MB/s | 638.00ms |
+ | 13 | -210188454 | 1.02MB/s | 656.00ms |
+ | 14 | 1828944324 | 1.01MB/s | 482.00ms |
+ | 15 | <font color=red>1043481097</font> | <font color=red>1017.28KB/s</font> | <font color=red>352.00ms</font> |
+ | 16 | <font color=red>1329009221</font> | <font color=red>1010.15KB/s</font> | <font color=red>542.00ms</font> |
+ | 17 | <font color=red>-1690769583</font> | <font color=red>986.04KB/s</font> | <font color=red>556.00ms</font> |
+ | 18 | <font color=red>1314411867</font> | <font color=red>964.88KB/s</font> | <font color=red>457.00ms</font> |
+ | 19 | <font color=red>-57532057</font> | <font color=red>961.05KB/s</font> | <font color=red>630.00ms</font> |
+ | 20 | <font color=red>1602189872</font> | <font color=red>957.22KB/s</font> | <font color=red>532.00ms</font> |
+ | 21 | <font color=red>-1158432179</font> | <font color=red>957.02KB/s</font> | <font color=red>686.00ms</font> |
+ | 22 | <font color=red>-897585547</font> | <font color=red>927.70KB/s</font> | <font color=red>527.00ms</font> |
+ | 23 | <font color=red>-2044937264</font> | <font color=red>900.94KB/s</font> | <font color=red>605.00ms</font> |
+ | 24 | <font color=red>-1860844198</font> | <font color=red>900.69KB/s</font> | <font color=red>431.00ms</font> |
+ | 25 | <font color=red>725702862</font> | <font color=red>898.60KB/s</font> | <font color=red>592.00ms</font> |
+ | 26 | <font color=red>667115999</font> | <font color=red>895.81KB/s</font> | <font color=red>733.00ms</font> |
+ | 27 | <font color=red>-1800256299</font> | <font color=red>894.58KB/s</font> | <font color=red>409.00ms</font> |
+ | 28 | <font color=red>1151974494</font> | <font color=red>892.33KB/s</font> | <font color=red>327.00ms</font> |
+ | 29 | <font color=red>1376537397</font> | <font color=red>866.83KB/s</font> | <font color=red>577.00ms</font> |
+ | 30 | <font color=red>-728405808</font> | <font color=red>865.12KB/s</font> | <font color=red>508.00ms</font> |
+ | 31 | <font color=red>216777560</font> | <font color=red>843.42KB/s</font> | <font color=red>804.00ms</font> |
+ | 32 | <font color=red>1139314551</font> | <font color=red>778.65KB/s</font> | <font color=red>683.00ms</font> |
+ | 33 | <font color=red>-1839555872</font> | <font color=red>777.87KB/s</font> | <font color=red>455.00ms</font> |
+ | 34 | <font color=red>-1159154505</font> | <font color=red>766.68KB/s</font> | <font color=red>396.00ms</font> |
+ | 35 | <font color=red>-1095693011</font> | <font color=red>707.03KB/s</font> | <font color=red>451.00ms</font> |
+ | 36 | <font color=red>-25687883</font> | <font color=red>643.57KB/s</font> | <font color=red>378.00ms</font> |
+ | 37 | <font color=red>-1916888899</font> | <font color=red>639.32KB/s</font> | <font color=red>383.00ms</font> |
+ | 38 | <font color=red>-298450654</font> | <font color=red>618.22KB/s</font> | <font color=red>566.00ms</font> |
+ | 39 | <font color=red>-221842616</font> | <font color=red>614.35KB/s</font> | <font color=red>436.00ms</font> |
+ | 40 | <font color=red>1330517597</font> | <font color=red>539.88KB/s</font> | <font color=red>327.00ms</font> |
+ | 41 | <font color=red>-1817049458</font> | <font color=red>511.48KB/s</font> | <font color=red>234.00ms</font> |
+ | 42 | <font color=red>-1708187801</font> | <font color=red>430.59KB/s</font> | <font color=red>551.00ms</font> |
+ | 43 | <font color=red>1952085299</font> | <font color=red>418.41KB/s</font> | <font color=red>808.00ms</font> |
+ | 44 | <font color=red>105065495</font> | <font color=red>352.52KB/s</font> | <font color=red>404.00ms</font> |
+ | 45 | <font color=red>-1334955266</font> | <font color=red>351.61KB/s</font> | <font color=red>742.00ms</font> |
+ | 46 | <font color=red>-1061446794</font> | <font color=red>321.21KB/s</font> | <font color=red>368.00ms</font> |
+ | 47 | <font color=red>-1909797634</font> | <font color=red>275.23KB/s</font> | <font color=red>720.00ms</font> |
+ | 48 | <font color=red>1741263940</font> | <font color=red>275.05KB/s</font> | <font color=red>835.00ms</font> |
+ | 49 | <font color=red>-1517278794</font> | <font color=red>220.92KB/s</font> | <font color=red>756.00ms</font> |
+ | 50 | <font color=red>1884831324</font> | <font color=red>194.63KB/s</font> | <font color=red>363.00ms</font> |
+ | 51 | <font color=red>168894338</font> | <font color=red>171.48KB/s</font> | <font color=red>789.00ms</font> |
+ | 52 | <font color=red>1738074071</font> | <font color=red>143.34KB/s</font> | <font color=red>695.00ms</font> |
+ | 53 | <font color=red>903450693</font> | <font color=red>120.03KB/s</font> | <font color=red>873.00ms</font> |
+ | 54 | <font color=red>-935605792</font> | <font color=red>115.76KB/s</font> | <font color=red>901.00ms</font> |
+ | 55 | <font color=red>-1174129857</font> | <font color=red>105.98KB/s</font> | <font color=red>601.00ms</font> |
 
 
 ## 统计
