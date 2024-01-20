@@ -6,45 +6,36 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {"alterId":0,"cipher":"auto","name":"github.com/Ruk1ng001_-2143677915","network":"http","port":30515,"server":"103.30.76.173","skip-cert-verify":true,"type":"vmess","uuid":"d027cd70-ed8b-4cb6-98f3-fc6b974d086c"}
-  - {"alterId":-1,"cipher":"aes-256-cfb","name":"github.com/Ruk1ng001_1585476115","password":"amazonskr05","port":443,"server":"43.207.197.15","type":"ss"}
-  - {"alterId":-1,"cipher":"aes-256-cfb","name":"github.com/Ruk1ng001_-1471313020","password":"amazonskr05","port":443,"server":"43.201.100.232","type":"ss"}
-  - {"alterId":-1,"cipher":"chacha20-ietf-poly1305","name":"github.com/Ruk1ng001_-1027721313","password":"6bfc9cf4-16cc-47fb-948c-a1f8cb601217","port":36022,"server":"9s5g03.2weradf.xyz","type":"ss"}
-  - {"alterId":-1,"cipher":"chacha20-ietf-poly1305","name":"github.com/Ruk1ng001_-164212051","password":"Bog0ELmMM9DSxDdQ","port":443,"server":"Fast_2ray_Telchannelll.fast2rayy.eu.org","type":"ss"}
-  - {"alterId":-1,"cipher":"chacha20-ietf-poly1305","name":"github.com/Ruk1ng001_-1105732262","password":"6bfc9cf4-16cc-47fb-948c-a1f8cb601217","port":36026,"server":"8t6w01.2weradf.xyz","type":"ss"}
-  - {"alterId":-1,"cipher":"aes-256-cfb","name":"github.com/Ruk1ng001_-252472109","password":"amazonskr05","port":443,"server":"43.201.116.29","type":"ss"}
+  - {"alterId":0,"cipher":"auto","name":"github.com/Ruk1ng001_394612617","port":2024,"server":"61.228.149.88","skip-cert-verify":true,"tls":false,"type":"vmess","udp":true,"uuid":"df2add0d-5f99-4a3f-a135-0259541b87e1"}
+  - {"alterId":0,"cipher":"auto","name":"github.com/Ruk1ng001_-1178269942","port":12002,"server":"118.167.71.177","skip-cert-verify":true,"tls":false,"type":"vmess","udp":true,"uuid":"df2add0d-5f99-4a3f-a135-0259541b87e1"}
+  - {"alterId":-1,"cipher":"chacha20-ietf-poly1305","name":"github.com/Ruk1ng001_-784279586","password":"u17T3BvpYaaiuW2c","port":443,"server":"35.178.252.159","type":"ss"}
+  - {"alterId":-1,"cipher":"aes-256-cfb","name":"github.com/Ruk1ng001_1605367232","password":"qwerREWQ@@","port":4398,"server":"p232.panda004.net","type":"ss"}
   - {"alterId":-1,"cipher":"chacha20-ietf-poly1305","name":"github.com/Ruk1ng001_2132656991","password":"u17T3BvpYaaiuW2c","port":443,"server":"series-a2-mec.samanehha.co","type":"ss"}
-  - {"alterId":-1,"cipher":"chacha20-ietf-poly1305","name":"github.com/Ruk1ng001_1098952640","password":"Bog0ELmMM9DSxDdQ","port":443,"server":"series-a2-me.samanehha.co","type":"ss"}
+  - {"alterId":0,"cipher":"auto","name":"github.com/Ruk1ng001_-2143677915","network":"http","port":30515,"server":"103.30.76.173","skip-cert-verify":true,"type":"vmess","uuid":"d027cd70-ed8b-4cb6-98f3-fc6b974d086c"}
   
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
-      - github.com/Ruk1ng001_-2143677915
-      - github.com/Ruk1ng001_1585476115
-      - github.com/Ruk1ng001_-1471313020
-      - github.com/Ruk1ng001_-1027721313
-      - github.com/Ruk1ng001_-164212051
-      - github.com/Ruk1ng001_-1105732262
-      - github.com/Ruk1ng001_-252472109
+      - github.com/Ruk1ng001_394612617
+      - github.com/Ruk1ng001_-1178269942
+      - github.com/Ruk1ng001_-784279586
+      - github.com/Ruk1ng001_1605367232
       - github.com/Ruk1ng001_2132656991
-      - github.com/Ruk1ng001_1098952640
+      - github.com/Ruk1ng001_-2143677915
       
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.google.com/generate_204
     interval: 300
     proxies:
-      - github.com/Ruk1ng001_-2143677915
-      - github.com/Ruk1ng001_1585476115
-      - github.com/Ruk1ng001_-1471313020
-      - github.com/Ruk1ng001_-1027721313
-      - github.com/Ruk1ng001_-164212051
-      - github.com/Ruk1ng001_-1105732262
-      - github.com/Ruk1ng001_-252472109
+      - github.com/Ruk1ng001_394612617
+      - github.com/Ruk1ng001_-1178269942
+      - github.com/Ruk1ng001_-784279586
+      - github.com/Ruk1ng001_1605367232
       - github.com/Ruk1ng001_2132656991
-      - github.com/Ruk1ng001_1098952640
+      - github.com/Ruk1ng001_-2143677915
       
 rule-providers:
   reject:
