@@ -6,48 +6,39 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {"alterId":0,"cipher":"auto","http-opts":{"headers":{"Host":["speedtest.net"]},"method":"GET","path":["/"]},"name":"github.com/Ruk1ng001_-951388477","network":"http","port":13489,"server":"35.87.209.22","skip-cert-verify":false,"tls":false,"type":"vmess","uuid":"61761e55-dff5-4f94-f75f-b0a4718bba98"}
-  - {"alterId":-1,"cipher":"chacha20-ietf-poly1305","name":"github.com/Ruk1ng001_-1504540115","password":"Bog0ELmMM9DSxDdQ","port":443,"server":"fast_2ray_telchannelll.fast2rayy.eu.org","type":"ss"}
-  - {"alterId":-1,"cipher":"chacha20-ietf-poly1305","name":"github.com/Ruk1ng001_-1272592557","password":"abd666fa-e6b3-44de-9361-316e4a12a0c8","port":31012,"server":"7z7j3p03.m7k6s.xyz","type":"ss"}
-  - {"alterId":-1,"cipher":"chacha20-ietf-poly1305","name":"github.com/Ruk1ng001_-1811691618","password":"abd666fa-e6b3-44de-9361-316e4a12a0c8","port":31026,"server":"2d1t5w01.m7k6s.xyz","type":"ss"}
-  - {"alterId":-1,"cipher":"chacha20-ietf-poly1305","name":"github.com/Ruk1ng001_-1838013603","password":"59baee76-bc7e-4a65-8752-0fc6c172bb09","port":36028,"server":"8t6w03.2weradf.xyz","type":"ss"}
-  - {"alterId":0,"cipher":"auto","name":"github.com/Ruk1ng001_-1967663896","network":"ws","port":80,"server":"hk2.c8898496-adb6-4073-9ee4-ff4e4984415b.polycdn.com","skip-cert-verify":false,"tls":false,"type":"vmess","uuid":"1e27df2b-5900-4f31-8d42-d404c3b8dd0a","ws-opts":{"headers":{"Host":"hk2.c8898496-adb6-4073-9ee4-ff4e4984415b.polycdn.com"},"path":"/"}}
-  - {"alterId":-1,"cipher":"aes-256-cfb","name":"github.com/Ruk1ng001_-1272500415","password":"amazonskr05","port":443,"server":"18.179.13.191","type":"ss"}
-  - {"alterId":-1,"cipher":"chacha20-ietf-poly1305","name":"github.com/Ruk1ng001_-911977863","password":"ef3841cf-2556-4d9c-ac8d-c0e5e978ab86","port":7773,"server":"b13.ntbq.dynu.net","type":"ss","udp":true}
-  - {"alterId":-1,"cipher":"aes-256-cfb","name":"github.com/Ruk1ng001_-479580607","password":"qwerREWQ@@","port":54345,"server":"p110.panda001.net","type":"ss"}
-  - {"alterId":-1,"cipher":"aes-256-cfb","name":"github.com/Ruk1ng001_710508183","password":"amazonskr05","port":443,"server":"13.231.78.35","type":"ss"}
+  - {"alterId":-1,"cipher":"aes-256-cfb","name":"github.com/Ruk1ng001_-1478678767","password":"qwerREWQ@@","port":54345,"server":"p222.panda001.net","type":"ss"}
+  - {"alterId":-1,"cipher":"aes-256-cfb","name":"github.com/Ruk1ng001_51482348","password":"amazonskr05","port":443,"server":"34.221.71.169","type":"ss"}
+  - {"alterId":-1,"cipher":"aes-256-cfb","name":"github.com/Ruk1ng001_-45642900","password":"amazonskr05","port":443,"server":"54.64.183.76","type":"ss"}
+  - {"alterId":-1,"cipher":"chacha20-ietf-poly1305","name":"github.com/Ruk1ng001_-1278289544","password":"131253c0-0a77-422c-8425-74548db1a67a","port":31028,"server":"2d1t5w03.m7k6s.xyz","type":"ss"}
+  - {"alterId":-1,"cipher":"chacha20-ietf-poly1305","name":"github.com/Ruk1ng001_-1298538104","password":"131253c0-0a77-422c-8425-74548db1a67a","port":31026,"server":"2d1t5w01.m7k6s.xyz","type":"ss"}
+  - {"alterId":-1,"cipher":"chacha20-ietf-poly1305","name":"github.com/Ruk1ng001_-546478093","password":"131253c0-0a77-422c-8425-74548db1a67a","port":31018,"server":"5m4h0k03.m7k6s.xyz","type":"ss"}
+  - {"alterId":0,"cipher":"none","name":"github.com/Ruk1ng001_1370166728","port":4443,"server":"nb24.ntbq.dynu.net","type":"vmess","uuid":"1cc969d3-1df8-4794-a5cc-9231fe0e4710","ws-opts":{}}
   
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
-      - github.com/Ruk1ng001_-951388477
-      - github.com/Ruk1ng001_-1504540115
-      - github.com/Ruk1ng001_-1272592557
-      - github.com/Ruk1ng001_-1811691618
-      - github.com/Ruk1ng001_-1838013603
-      - github.com/Ruk1ng001_-1967663896
-      - github.com/Ruk1ng001_-1272500415
-      - github.com/Ruk1ng001_-911977863
-      - github.com/Ruk1ng001_-479580607
-      - github.com/Ruk1ng001_710508183
+      - github.com/Ruk1ng001_-1478678767
+      - github.com/Ruk1ng001_51482348
+      - github.com/Ruk1ng001_-45642900
+      - github.com/Ruk1ng001_-1278289544
+      - github.com/Ruk1ng001_-1298538104
+      - github.com/Ruk1ng001_-546478093
+      - github.com/Ruk1ng001_1370166728
       
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.google.com/generate_204
     interval: 300
     proxies:
-      - github.com/Ruk1ng001_-951388477
-      - github.com/Ruk1ng001_-1504540115
-      - github.com/Ruk1ng001_-1272592557
-      - github.com/Ruk1ng001_-1811691618
-      - github.com/Ruk1ng001_-1838013603
-      - github.com/Ruk1ng001_-1967663896
-      - github.com/Ruk1ng001_-1272500415
-      - github.com/Ruk1ng001_-911977863
-      - github.com/Ruk1ng001_-479580607
-      - github.com/Ruk1ng001_710508183
+      - github.com/Ruk1ng001_-1478678767
+      - github.com/Ruk1ng001_51482348
+      - github.com/Ruk1ng001_-45642900
+      - github.com/Ruk1ng001_-1278289544
+      - github.com/Ruk1ng001_-1298538104
+      - github.com/Ruk1ng001_-546478093
+      - github.com/Ruk1ng001_1370166728
       
 rule-providers:
   reject:
