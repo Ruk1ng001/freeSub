@@ -21,34 +21,24 @@ https://raw.githubusercontent.com/Ruk1ng001/freeSub/main/v2ray
 
 ## 节点列表
 
-最近一次于`2024-01-27 12:53:43`更新，共计获取`24`个可用节点。（以下测速仅供参考）
+最近一次于`2024-01-27 16:52:03`更新，共计获取`14`个可用节点。（以下测速仅供参考）
 
 |  | 节点 | 带宽 | 延迟 |
 |:-:|:--:|:--:|:--:|
- | 1 | github.com/Ruk1ng001_1461822000 | 1.84MB/s | 362.00ms |
- | 2 | github.com/Ruk1ng001_966475833 | 1.81MB/s | 373.00ms |
- | 3 | github.com/Ruk1ng001_904392860 | 1.62MB/s | 443.00ms |
- | 4 | github.com/Ruk1ng001_14534100 | 1.60MB/s | 435.00ms |
- | 5 | github.com/Ruk1ng001_-496646594 | 1.54MB/s | 440.00ms |
- | 6 | github.com/Ruk1ng001_-354122261 | 1.41MB/s | 361.00ms |
- | 7 | github.com/Ruk1ng001_1033861333 | 1.38MB/s | 350.00ms |
- | 8 | github.com/Ruk1ng001_-1724383025 | 1.31MB/s | 560.00ms |
- | 9 | github.com/Ruk1ng001_1975033862 | 1.25MB/s | 605.00ms |
- | 10 | github.com/Ruk1ng001_-1204810520 | 1.23MB/s | 483.00ms |
- | 11 | github.com/Ruk1ng001_1531152778 | 1.19MB/s | 397.00ms |
- | 12 | github.com/Ruk1ng001_-632185435 | 1.09MB/s | 448.00ms |
- | 13 | github.com/Ruk1ng001_594108606 | 1.07MB/s | 587.00ms |
- | 14 | github.com/Ruk1ng001_-772801973 | 1.01MB/s | 445.00ms |
- | 15 | <font color=red>github.com/Ruk1ng001_902929531</font> | <font color=red>985.57KB/s</font> | <font color=red>489.00ms</font> |
- | 16 | <font color=red>github.com/Ruk1ng001_-716910794</font> | <font color=red>899.94KB/s</font> | <font color=red>522.00ms</font> |
- | 17 | <font color=red>github.com/Ruk1ng001_1520435947</font> | <font color=red>894.00KB/s</font> | <font color=red>495.00ms</font> |
- | 18 | <font color=red>github.com/Ruk1ng001_682567354</font> | <font color=red>875.69KB/s</font> | <font color=red>597.00ms</font> |
- | 19 | <font color=red>github.com/Ruk1ng001_-558307508</font> | <font color=red>798.30KB/s</font> | <font color=red>530.00ms</font> |
- | 20 | <font color=red>github.com/Ruk1ng001_-118955152</font> | <font color=red>769.78KB/s</font> | <font color=red>562.00ms</font> |
- | 21 | <font color=red>github.com/Ruk1ng001_934051193</font> | <font color=red>767.09KB/s</font> | <font color=red>352.00ms</font> |
- | 22 | <font color=red>github.com/Ruk1ng001_1975745932</font> | <font color=red>395.95KB/s</font> | <font color=red>298.00ms</font> |
- | 23 | <font color=red>github.com/Ruk1ng001_194184434</font> | <font color=red>145.56KB/s</font> | <font color=red>444.00ms</font> |
- | 24 | <font color=red>github.com/Ruk1ng001_-1839117254</font> | <font color=red>144.59KB/s</font> | <font color=red>795.00ms</font> |
+ | 1 | github.com/Ruk1ng001_-430821756 | 1.44MB/s | 445.00ms |
+ | 2 | github.com/Ruk1ng001_-558307508 | 1.40MB/s | 363.00ms |
+ | 3 | <font color=red>github.com/Ruk1ng001_-578598308</font> | <font color=red>931.73KB/s</font> | <font color=red>538.00ms</font> |
+ | 4 | <font color=red>github.com/Ruk1ng001_-1989116937</font> | <font color=red>910.02KB/s</font> | <font color=red>490.00ms</font> |
+ | 5 | <font color=red>github.com/Ruk1ng001_1033861333</font> | <font color=red>876.00KB/s</font> | <font color=red>408.00ms</font> |
+ | 6 | <font color=red>github.com/Ruk1ng001_-1271644533</font> | <font color=red>785.93KB/s</font> | <font color=red>691.00ms</font> |
+ | 7 | <font color=red>github.com/Ruk1ng001_-335525138</font> | <font color=red>766.74KB/s</font> | <font color=red>461.00ms</font> |
+ | 8 | <font color=red>github.com/Ruk1ng001_710508183</font> | <font color=red>593.92KB/s</font> | <font color=red>536.00ms</font> |
+ | 9 | <font color=red>github.com/Ruk1ng001_-1201432971</font> | <font color=red>241.98KB/s</font> | <font color=red>538.00ms</font> |
+ | 10 | <font color=red>github.com/Ruk1ng001_-809817806</font> | <font color=red>219.29KB/s</font> | <font color=red>757.00ms</font> |
+ | 11 | <font color=red>github.com/Ruk1ng001_2112254635</font> | <font color=red>208.97KB/s</font> | <font color=red>799.00ms</font> |
+ | 12 | <font color=red>github.com/Ruk1ng001_194184434</font> | <font color=red>207.37KB/s</font> | <font color=red>688.00ms</font> |
+ | 13 | <font color=red>github.com/Ruk1ng001_-33597937</font> | <font color=red>197.48KB/s</font> | <font color=red>770.00ms</font> |
+ | 14 | <font color=red>github.com/Ruk1ng001_-479580607</font> | <font color=red>183.25KB/s</font> | <font color=red>52.00ms</font> |
 
 
 ## 统计
