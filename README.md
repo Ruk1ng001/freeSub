@@ -21,27 +21,26 @@ https://raw.githubusercontent.com/Ruk1ng001/freeSub/main/v2ray
 
 ## 节点列表
 
-最近一次于`2024-03-15 20:46:05`更新，共计获取`17`个可用节点。（以下测速仅供参考）
+最近一次于`2024-03-16 00:44:28`更新，共计获取`16`个可用节点。（以下测速仅供参考）
 
 |  | 节点 | 带宽 | 延迟 |
 |:-:|:--:|:--:|:--:|
- | 1 | github.com/Ruk1ng001_-946774105 | 1.73MB/s | 409.00ms |
- | 2 | github.com/Ruk1ng001_2089291167 | 1.66MB/s | 444.00ms |
- | 3 | github.com/Ruk1ng001_-2035092733 | 1.57MB/s | 373.00ms |
- | 4 | github.com/Ruk1ng001_-1134251805 | 1.56MB/s | 420.00ms |
- | 5 | github.com/Ruk1ng001_-1617285065 | 1.30MB/s | 584.00ms |
- | 6 | github.com/Ruk1ng001_-952808472 | 1.21MB/s | 358.00ms |
- | 7 | github.com/Ruk1ng001_1153418874 | 1.07MB/s | 695.00ms |
- | 8 | <font color=red>github.com/Ruk1ng001_-1365275436</font> | <font color=red>893.93KB/s</font> | <font color=red>326.00ms</font> |
- | 9 | <font color=red>github.com/Ruk1ng001_-435581683</font> | <font color=red>765.81KB/s</font> | <font color=red>436.00ms</font> |
- | 10 | <font color=red>github.com/Ruk1ng001_-1058252523</font> | <font color=red>706.13KB/s</font> | <font color=red>519.00ms</font> |
- | 11 | <font color=red>github.com/Ruk1ng001_1369102047</font> | <font color=red>638.12KB/s</font> | <font color=red>360.00ms</font> |
- | 12 | <font color=red>github.com/Ruk1ng001_-323505080</font> | <font color=red>623.84KB/s</font> | <font color=red>370.00ms</font> |
- | 13 | <font color=red>github.com/Ruk1ng001_1753973737</font> | <font color=red>547.27KB/s</font> | <font color=red>583.00ms</font> |
- | 14 | <font color=red>github.com/Ruk1ng001_1901913244</font> | <font color=red>368.08KB/s</font> | <font color=red>430.00ms</font> |
- | 15 | <font color=red>github.com/Ruk1ng001_1718366352</font> | <font color=red>311.92KB/s</font> | <font color=red>361.00ms</font> |
- | 16 | <font color=red>github.com/Ruk1ng001_-1341334162</font> | <font color=red>255.58KB/s</font> | <font color=red>686.00ms</font> |
- | 17 | <font color=red>github.com/Ruk1ng001_1660544664</font> | <font color=red>208.17KB/s</font> | <font color=red>736.00ms</font> |
+ | 1 | github.com/Ruk1ng001_-1369811861 | 1.81MB/s | 384.00ms |
+ | 2 | github.com/Ruk1ng001_-1843138086 | 1.03MB/s | 769.00ms |
+ | 3 | <font color=red>github.com/Ruk1ng001_-1923287590</font> | <font color=red>997.41KB/s</font> | <font color=red>615.00ms</font> |
+ | 4 | <font color=red>github.com/Ruk1ng001_-1938129473</font> | <font color=red>941.42KB/s</font> | <font color=red>631.00ms</font> |
+ | 5 | <font color=red>github.com/Ruk1ng001_-424508401</font> | <font color=red>894.41KB/s</font> | <font color=red>496.00ms</font> |
+ | 6 | <font color=red>github.com/Ruk1ng001_-1313741430</font> | <font color=red>877.82KB/s</font> | <font color=red>484.00ms</font> |
+ | 7 | <font color=red>github.com/Ruk1ng001_-1667237973</font> | <font color=red>841.71KB/s</font> | <font color=red>574.00ms</font> |
+ | 8 | <font color=red>github.com/Ruk1ng001_1056894617</font> | <font color=red>713.27KB/s</font> | <font color=red>401.00ms</font> |
+ | 9 | <font color=red>github.com/Ruk1ng001_1746141606</font> | <font color=red>609.95KB/s</font> | <font color=red>343.00ms</font> |
+ | 10 | <font color=red>github.com/Ruk1ng001_-2035092733</font> | <font color=red>567.76KB/s</font> | <font color=red>303.00ms</font> |
+ | 11 | <font color=red>github.com/Ruk1ng001_1128540015</font> | <font color=red>537.32KB/s</font> | <font color=red>474.00ms</font> |
+ | 12 | <font color=red>github.com/Ruk1ng001_1753973737</font> | <font color=red>486.09KB/s</font> | <font color=red>651.00ms</font> |
+ | 13 | <font color=red>github.com/Ruk1ng001_-1427816725</font> | <font color=red>471.71KB/s</font> | <font color=red>285.00ms</font> |
+ | 14 | <font color=red>github.com/Ruk1ng001_-1341334162</font> | <font color=red>413.16KB/s</font> | <font color=red>505.00ms</font> |
+ | 15 | <font color=red>github.com/Ruk1ng001_1660544664</font> | <font color=red>246.81KB/s</font> | <font color=red>723.00ms</font> |
+ | 16 | <font color=red>github.com/Ruk1ng001_1160754028</font> | <font color=red>131.17KB/s</font> | <font color=red>82.00ms</font> |
 
 
 ## 统计
