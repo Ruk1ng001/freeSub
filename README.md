@@ -9,6 +9,9 @@
 
 如有好的免费节点网站或者建议，欢迎Issue，将仓库做大做强。
 
+## 欢迎加入tg交流群：[https://t.me/Ruk1ng001](https://t.me/Ruk1ng001)
+
+
 ## 订阅地址
 [Clash](https://raw.githubusercontent.com/Ruk1ng001/freeSub/main/clash.yaml)
 ```
