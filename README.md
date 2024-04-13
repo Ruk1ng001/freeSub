@@ -23,57 +23,55 @@ https://raw.githubusercontent.com/Ruk1ng001/freeSub/main/v2ray
 
 ## 节点列表
 
-最近一次于`2024-04-13 08:41:01`更新，共计获取`47`个可用节点。（以下测速仅供参考）
+最近一次于`2024-04-13 12:40:46`更新，共计获取`45`个可用节点。（以下测速仅供参考）
 
 |  | 节点 | 带宽 | 延迟 |
 |:-:|:--:|:--:|:--:|
- | 1 | github.com/Ruk1ng001_2883347788 | 1.77MB/s | 326.00ms |
- | 2 | github.com/Ruk1ng001_958102811 | 1.62MB/s | 402.00ms |
- | 3 | github.com/Ruk1ng001_928463559 | 1.59MB/s | 420.00ms |
- | 4 | github.com/Ruk1ng001_1125158249 | 1.46MB/s | 502.00ms |
- | 5 | github.com/Ruk1ng001_3799770152 | 1.40MB/s | 523.00ms |
- | 6 | github.com/Ruk1ng001_1702182608 | 1.40MB/s | 456.00ms |
- | 7 | github.com/Ruk1ng001_4063003232 | 1.34MB/s | 484.00ms |
- | 8 | github.com/Ruk1ng001_99733656 | 1.29MB/s | 599.00ms |
- | 9 | github.com/Ruk1ng001_2853774096 | 1.24MB/s | 357.00ms |
- | 10 | github.com/Ruk1ng001_61862108 | 1.22MB/s | 415.00ms |
- | 11 | github.com/Ruk1ng001_3996895997 | 1.16MB/s | 683.00ms |
- | 12 | github.com/Ruk1ng001_722569073 | 1.16MB/s | 438.00ms |
- | 13 | github.com/Ruk1ng001_672420405 | 1.16MB/s | 457.00ms |
- | 14 | github.com/Ruk1ng001_1584523613 | 1.15MB/s | 437.00ms |
- | 15 | github.com/Ruk1ng001_3660950720 | 1.13MB/s | 667.00ms |
- | 16 | github.com/Ruk1ng001_3132733594 | 1.11MB/s | 666.00ms |
- | 17 | github.com/Ruk1ng001_2331494311 | 1.06MB/s | 474.00ms |
- | 18 | github.com/Ruk1ng001_3789899981 | 1.06MB/s | 469.00ms |
- | 19 | github.com/Ruk1ng001_145458593 | 1.03MB/s | 673.00ms |
- | 20 | github.com/Ruk1ng001_3369409587 | 1.03MB/s | 665.00ms |
- | 21 | github.com/Ruk1ng001_2162261072 | 1.01MB/s | 491.00ms |
- | 22 | github.com/Ruk1ng001_2901257654 | 1017.47KB/s | 259.00ms |
- | 23 | github.com/Ruk1ng001_2293081617 | 942.73KB/s | 505.00ms |
- | 24 | github.com/Ruk1ng001_2322284242 | 894.89KB/s | 423.00ms |
- | 25 | github.com/Ruk1ng001_2895764974 | 894.76KB/s | 426.00ms |
- | 26 | github.com/Ruk1ng001_3815850798 | 881.41KB/s | 433.00ms |
- | 27 | github.com/Ruk1ng001_500535776 | 869.20KB/s | 396.00ms |
- | 28 | github.com/Ruk1ng001_2810447942 | 851.05KB/s | 730.00ms |
- | 29 | github.com/Ruk1ng001_2340418722 | 804.57KB/s | 497.00ms |
- | 30 | github.com/Ruk1ng001_814810286 | 803.95KB/s | 544.00ms |
- | 31 | github.com/Ruk1ng001_2205699908 | 797.92KB/s | 223.00ms |
- | 32 | github.com/Ruk1ng001_1855538875 | 771.07KB/s | 488.00ms |
- | 33 | github.com/Ruk1ng001_3139594779 | 766.34KB/s | 475.00ms |
- | 34 | github.com/Ruk1ng001_1085042440 | 750.35KB/s | 427.00ms |
- | 35 | github.com/Ruk1ng001_3272389610 | 628.88KB/s | 512.00ms |
- | 36 | github.com/Ruk1ng001_990474739 | 577.68KB/s | 582.00ms |
- | 37 | github.com/Ruk1ng001_2278959274 | 510.28KB/s | 303.00ms |
- | 38 | github.com/Ruk1ng001_424650719 | 494.72KB/s | 721.00ms |
- | 39 | github.com/Ruk1ng001_469154745 | 485.31KB/s | 620.00ms |
- | 40 | github.com/Ruk1ng001_1964030541 | 430.50KB/s | 699.00ms |
- | 41 | github.com/Ruk1ng001_2236533593 | 345.77KB/s | 132.00ms |
- | 42 | github.com/Ruk1ng001_2921286917 | 284.08KB/s | 149.00ms |
- | 43 | github.com/Ruk1ng001_3844933833 | 241.23KB/s | 720.00ms |
- | 44 | github.com/Ruk1ng001_1942062392 | 240.85KB/s | 514.00ms |
- | 45 | github.com/Ruk1ng001_2185965439 | 168.40KB/s | 70.00ms |
- | 46 | github.com/Ruk1ng001_1317557680 | 138.59KB/s | 203.00ms |
- | 47 | github.com/Ruk1ng001_2843246978 | 125.98KB/s | 928.00ms |
+ | 1 | github.com/Ruk1ng001_3344248208 | 1.49MB/s | 474.00ms |
+ | 2 | github.com/Ruk1ng001_1287983278 | 1.45MB/s | 530.00ms |
+ | 3 | github.com/Ruk1ng001_4026472111 | 1.39MB/s | 526.00ms |
+ | 4 | github.com/Ruk1ng001_3469597601 | 1.39MB/s | 373.00ms |
+ | 5 | github.com/Ruk1ng001_1953275647 | 1.30MB/s | 610.00ms |
+ | 6 | github.com/Ruk1ng001_1254599299 | 1.25MB/s | 372.00ms |
+ | 7 | github.com/Ruk1ng001_2322284242 | 1.23MB/s | 369.00ms |
+ | 8 | github.com/Ruk1ng001_500535776 | 1.13MB/s | 464.00ms |
+ | 9 | github.com/Ruk1ng001_1007412179 | 1.12MB/s | 655.00ms |
+ | 10 | github.com/Ruk1ng001_517756759 | 1.11MB/s | 667.00ms |
+ | 11 | github.com/Ruk1ng001_1702182608 | 1.06MB/s | 533.00ms |
+ | 12 | github.com/Ruk1ng001_990474739 | 1.05MB/s | 484.00ms |
+ | 13 | github.com/Ruk1ng001_289310422 | 1.01MB/s | 705.00ms |
+ | 14 | github.com/Ruk1ng001_700611738 | 1.01MB/s | 661.00ms |
+ | 15 | github.com/Ruk1ng001_620597624 | 980.58KB/s | 598.00ms |
+ | 16 | github.com/Ruk1ng001_61862108 | 920.53KB/s | 481.00ms |
+ | 17 | github.com/Ruk1ng001_2853774096 | 900.11KB/s | 467.00ms |
+ | 18 | github.com/Ruk1ng001_1855538875 | 899.34KB/s | 564.00ms |
+ | 19 | github.com/Ruk1ng001_1862911538 | 895.14KB/s | 441.00ms |
+ | 20 | github.com/Ruk1ng001_126692480 | 895.00KB/s | 580.00ms |
+ | 21 | github.com/Ruk1ng001_24059709 | 894.83KB/s | 589.00ms |
+ | 22 | github.com/Ruk1ng001_1279245440 | 894.53KB/s | 599.00ms |
+ | 23 | github.com/Ruk1ng001_3815850798 | 893.79KB/s | 410.00ms |
+ | 24 | github.com/Ruk1ng001_1085042440 | 869.28KB/s | 465.00ms |
+ | 25 | github.com/Ruk1ng001_2205699908 | 850.74KB/s | 633.00ms |
+ | 26 | github.com/Ruk1ng001_2331494311 | 841.17KB/s | 447.00ms |
+ | 27 | github.com/Ruk1ng001_928463559 | 817.75KB/s | 383.00ms |
+ | 28 | github.com/Ruk1ng001_2181468262 | 782.55KB/s | 387.00ms |
+ | 29 | github.com/Ruk1ng001_2883347788 | 771.03KB/s | 550.00ms |
+ | 30 | github.com/Ruk1ng001_3048376449 | 766.82KB/s | 376.00ms |
+ | 31 | github.com/Ruk1ng001_722569073 | 691.23KB/s | 513.00ms |
+ | 32 | github.com/Ruk1ng001_271942505 | 620.00KB/s | 810.00ms |
+ | 33 | github.com/Ruk1ng001_2185965439 | 566.40KB/s | 506.00ms |
+ | 34 | github.com/Ruk1ng001_4098913176 | 510.38KB/s | 339.00ms |
+ | 35 | github.com/Ruk1ng001_3272389610 | 485.75KB/s | 690.00ms |
+ | 36 | github.com/Ruk1ng001_2901257654 | 469.80KB/s | 327.00ms |
+ | 37 | github.com/Ruk1ng001_2293081617 | 467.79KB/s | 517.00ms |
+ | 38 | github.com/Ruk1ng001_402196054 | 413.19KB/s | 387.00ms |
+ | 39 | github.com/Ruk1ng001_2278959274 | 409.62KB/s | 224.00ms |
+ | 40 | github.com/Ruk1ng001_3844933833 | 380.86KB/s | 725.00ms |
+ | 41 | github.com/Ruk1ng001_2236533593 | 342.67KB/s | 247.00ms |
+ | 42 | github.com/Ruk1ng001_469154745 | 315.99KB/s | 638.00ms |
+ | 43 | github.com/Ruk1ng001_3789899981 | 310.59KB/s | 717.00ms |
+ | 44 | github.com/Ruk1ng001_2921286917 | 286.98KB/s | 489.00ms |
+ | 45 | github.com/Ruk1ng001_3569159893 | 127.02KB/s | 590.00ms |
 
 
 ## 统计
