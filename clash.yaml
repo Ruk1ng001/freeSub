@@ -6,42 +6,42 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {"alterId":-1,"cipher":"aes-256-cfb","name":"github.com/Ruk1ng001_928463559","password":"qwerREWQ@@","port":49032,"server":"p221.panda001.net","type":"ss"}
-  - {"alterId":-1,"cipher":"aes-256-cfb","name":"github.com/Ruk1ng001_3789899981","password":"amazonskr05","port":443,"server":"43.201.69.200","type":"ss"}
   - {"alterId":-1,"cipher":"aes-256-cfb","name":"github.com/Ruk1ng001_1254599299","password":"amazonskr05","port":443,"server":"18.183.77.187","type":"ss"}
-  - {"alterId":-1,"cipher":"aes-256-cfb","name":"github.com/Ruk1ng001_2322284242","password":"amazonskr05","port":443,"server":"52.195.237.101","type":"ss"}
-  - {"alterId":-1,"cipher":"aes-256-cfb","name":"github.com/Ruk1ng001_3272389610","password":"amazonskr05","port":443,"server":"43.203.220.68","type":"ss"}
-  - {"alterId":-1,"cipher":"aes-256-cfb","name":"github.com/Ruk1ng001_814810286","password":"amazonskr05","port":443,"server":"13.125.25.193","type":"ss"}
-  - {"alterId":-1,"cipher":"aes-256-cfb","name":"github.com/Ruk1ng001_4127544442","password":"amazonskr05","port":443,"server":"47.128.77.190","type":"ss"}
   - {"alterId":-1,"cipher":"aes-256-cfb","name":"github.com/Ruk1ng001_402196054","password":"amazonskr05","port":443,"server":"43.201.47.36","type":"ss"}
+  - {"alterId":-1,"cipher":"aes-256-cfb","name":"github.com/Ruk1ng001_3272389610","password":"amazonskr05","port":443,"server":"43.203.220.68","type":"ss"}
+  - {"alterId":-1,"cipher":"aes-256-cfb","name":"github.com/Ruk1ng001_928463559","password":"qwerREWQ@@","port":49032,"server":"p221.panda001.net","type":"ss"}
+  - {"alterId":-1,"cipher":"aes-256-cfb","name":"github.com/Ruk1ng001_814810286","password":"amazonskr05","port":443,"server":"13.125.25.193","type":"ss"}
+  - {"alterId":-1,"cipher":"aes-256-cfb","name":"github.com/Ruk1ng001_3789899981","password":"amazonskr05","port":443,"server":"43.201.69.200","type":"ss"}
+  - {"alterId":-1,"cipher":"aes-256-cfb","name":"github.com/Ruk1ng001_4127544442","password":"amazonskr05","port":443,"server":"47.128.77.190","type":"ss"}
+  - {"alterId":-1,"cipher":"aes-256-cfb","name":"github.com/Ruk1ng001_2322284242","password":"amazonskr05","port":443,"server":"52.195.237.101","type":"ss"}
   
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
-      - github.com/Ruk1ng001_928463559
-      - github.com/Ruk1ng001_3789899981
       - github.com/Ruk1ng001_1254599299
-      - github.com/Ruk1ng001_2322284242
-      - github.com/Ruk1ng001_3272389610
-      - github.com/Ruk1ng001_814810286
-      - github.com/Ruk1ng001_4127544442
       - github.com/Ruk1ng001_402196054
+      - github.com/Ruk1ng001_3272389610
+      - github.com/Ruk1ng001_928463559
+      - github.com/Ruk1ng001_814810286
+      - github.com/Ruk1ng001_3789899981
+      - github.com/Ruk1ng001_4127544442
+      - github.com/Ruk1ng001_2322284242
       
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.google.com/generate_204
     interval: 300
     proxies:
-      - github.com/Ruk1ng001_928463559
-      - github.com/Ruk1ng001_3789899981
       - github.com/Ruk1ng001_1254599299
-      - github.com/Ruk1ng001_2322284242
-      - github.com/Ruk1ng001_3272389610
-      - github.com/Ruk1ng001_814810286
-      - github.com/Ruk1ng001_4127544442
       - github.com/Ruk1ng001_402196054
+      - github.com/Ruk1ng001_3272389610
+      - github.com/Ruk1ng001_928463559
+      - github.com/Ruk1ng001_814810286
+      - github.com/Ruk1ng001_3789899981
+      - github.com/Ruk1ng001_4127544442
+      - github.com/Ruk1ng001_2322284242
       
 rule-providers:
   reject:
