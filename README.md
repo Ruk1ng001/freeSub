@@ -24,16 +24,15 @@ https://raw.githubusercontent.com/Ruk1ng001/freeSub/main/v2ray
 
 ## 节点列表
 
-最近一次于`2024-04-15 05:57:32`更新，共计获取`6`个可用节点。（以下测速仅供参考）
+最近一次于`2024-04-15 14:07:28`更新，共计获取`5`个可用节点。（以下测速仅供参考）
 
 |  | 节点 | 带宽 | 延迟 |
 |:-:|:--:|:--:|:--:|
- | 1 | github.com/Ruk1ng001_2322284242 | 959.49KB/s | 532.00ms |
- | 2 | github.com/Ruk1ng001_3272389610 | 829.34KB/s | 622.00ms |
- | 3 | github.com/Ruk1ng001_402196054 | 738.18KB/s | 650.00ms |
- | 4 | github.com/Ruk1ng001_3789899981 | 623.86KB/s | 571.00ms |
- | 5 | github.com/Ruk1ng001_814810286 | 176.46KB/s | 180.00ms |
- | 6 | github.com/Ruk1ng001_928463559 | 77.54KB/s | 92.00ms |
+ | 1 | github.com/Ruk1ng001_3272389610 | 904.59KB/s | 655.00ms |
+ | 2 | github.com/Ruk1ng001_814810286 | 818.58KB/s | 633.00ms |
+ | 3 | github.com/Ruk1ng001_3789899981 | 647.84KB/s | 571.00ms |
+ | 4 | github.com/Ruk1ng001_402196054 | 642.92KB/s | 441.00ms |
+ | 5 | github.com/Ruk1ng001_2322284242 | 530.57KB/s | 321.00ms |
 
 
 ## 统计
