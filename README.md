@@ -1,5 +1,9 @@
 # freeSub
+[![Stars](https://img.shields.io/github/stars/Ruk1ng001/freeSub)](https://github.com/Ruk1ng001/freeSub/stargazers)
+[![TG](https://img.shields.io/badge/Telegram-gray?logo=Telegram)](https://t.me/Ruk1ng001)
 ### free clash、v2ray sub. Update at anytime.
+
+---
 
 订阅节点仅作学习交流用，用于查找资料，学习知识，不要做任何违法行为。
 
@@ -9,8 +13,9 @@
 
 如有好的免费节点网站或者建议，欢迎Issue，做大做强。
 
-## 欢迎加入[tg交流群](https://t.me/+-e-b04EE5Cw2NmU1)
-## 欢迎加入[tg频道](https://t.me/Ruk1ng001)
+---
+
+### 欢迎加入[tg频道](https://t.me/Ruk1ng001)、[tg交流群](https://t.me/+-e-b04EE5Cw2NmU1)
 
 ## 订阅地址
 [Clash](https://raw.githubusercontent.com/Ruk1ng001/freeSub/main/clash.yaml)
