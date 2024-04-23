@@ -17,6 +17,8 @@
 
 ### 欢迎加入[tg频道](https://t.me/Ruk1ng001)、[tg交流群](https://t.me/+-e-b04EE5Cw2NmU1)
 
+---
+
 ## 订阅地址
 [Clash](https://raw.githubusercontent.com/Ruk1ng001/freeSub/main/clash.yaml)
 ```
