@@ -6,945 +6,756 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {"alterId":0,"cipher":"auto","customName":"Relay_-🇺🇸US_210","h2-opts":{},"http-opts":{},"name":"github.com/Ruk1ng001_3566373851","network":"tcp","port":40723,"server":"jiasu.fanmengdas.top","skip-cert-verify":true,"tls":true,"type":"vmess","uuid":"9dbdebfe-a557-4c3f-8445-aa3a170ff0af"}
-  - {"alterId":0,"cipher":"auto","customName":" |10.54Mb","h2-opts":{},"http-opts":{},"name":"github.com/Ruk1ng001_1708733874","network":"ws","port":443,"server":"23.134.91.22","skip-cert-verify":true,"tls":true,"type":"vmess","udp":true,"uuid":"03fcc618-b93d-6796-6aed-8a38c975d581","ws-opts":{"path":"/linkvws"}}
-  - {"alterId":-1,"customName":"🔒 TR-TCP-TLS 🇩🇪 DE-18.153.200.58:22222 📡 PING-093.29-MS","name":"github.com/Ruk1ng001_1866673786","password":"telegram-id-privatevpns","port":22222,"server":"18.153.200.58","sni":"trojan.burgerip.co.uk","type":"trojan"}
-  - {"alterId":-1,"cipher":"aes-256-cfb","customName":"4FreeIran-967","name":"github.com/Ruk1ng001_1125465398","password":"amazonskr05","port":443,"server":"52.195.189.211","type":"ss"}
-  - {"alterId":-1,"cipher":"aes-256-cfb","customName":"🇺🇾UY-179.27.200.28-2193","name":"github.com/Ruk1ng001_3343261929","password":"f8f7aCzcPKbsF8p3","port":989,"server":"179.27.200.28","type":"ss"}
-  - {"alterId":0,"cipher":"auto","country":"🏁ZZ","customName":"美国 009","delay":1321,"h2-opts":{},"http-opts":{},"name":"github.com/Ruk1ng001_2679557322","network":"ws","port":8080,"server":"104.19.172.163","servername":"oiictw.yydsii.com","skip-cert-verify":true,"type":"vmess","uuid":"b551aa22-22af-11ee-b8d8-f23c932eb68d","ws-opts":{"headers":{"HOST":"oiictw.yydsii.com"},"path":"/"}}
-  - {"alterId":0,"cipher":"auto","country":"🇺🇸US","customName":"disney_netflix_US","h2-opts":{},"http-opts":{},"name":"github.com/Ruk1ng001_3669704105","network":"ws","port":443,"server":"38.75.136.73","servername":"38.75.136.73","skip-cert-verify":true,"tls":true,"type":"vmess","uuid":"03fcc618-b93d-6796-6aed-8a38c975d581","ws-opts":{"headers":{"HOST":"38.75.136.73"},"path":"/linkvws"}}
-  - {"alterId":-1,"cipher":"aes-256-cfb","customName":"0|-https://t.me/MrXbin-84","name":"github.com/Ruk1ng001_2851247785","obfs":"plain","password":"wjTugX3ZtHMB9c3Z","port":9057,"protocol":"origin","server":"103.172.116.79","type":"ssr","udp":true}
-  - {"alterId":-1,"cipher":"aes-256-cfb","customName":"🇸🇬SG-103.172.116.79-3414","name":"github.com/Ruk1ng001_1630644596","password":"ZpNDDKRu9MagNvaf","port":9015,"server":"103.172.116.79","type":"ss"}
-  - {"alterId":0,"cipher":"auto","customName":"CN_speednode_0020","name":"github.com/Ruk1ng001_385037384","network":"ws","port":25289,"server":"cm.awslcn.info","type":"vmess","udp":true,"uuid":"1640b579-cff8-46bc-a657-3860b5455712"}
-  - {"alterId":0,"cipher":"auto","country":"🏁ZZ","customName":"加拿大 100","delay":1183,"h2-opts":{},"http-opts":{},"name":"github.com/Ruk1ng001_2210519284","network":"ws","port":443,"server":"104.21.30.254","servername":"be2-vmess.sshmax.xyz","skip-cert-verify":true,"tls":true,"type":"vmess","uuid":"6d9911b0-4e14-44fb-8883-52d14f550cca","ws-opts":{"headers":{"HOST":"be2-vmess.sshmax.xyz"},"path":"/vmess"}}
-  - {"alterId":-1,"cipher":"aes-256-cfb","customName":"🇸🇬SG-103.172.116.79-3397","name":"github.com/Ruk1ng001_2839365091","password":"FAdUvMJUq5vDgKEq","port":9006,"server":"103.172.116.79","type":"ss"}
-  - {"alterId":64,"cipher":"auto","customName":"11|广东省广州市 移动","name":"github.com/Ruk1ng001_536822818","network":"tcp","port":54437,"server":"183.236.51.59","servername":"","tls":false,"type":"vmess","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24"}
-  - {"alterId":-1,"customName":"🇫🇷 FR 40 → tg@nicevpn123","name":"github.com/Ruk1ng001_2836989322","password":"278fff60-fc3a-11ee-a4a6-1239d0255272","port":443,"server":"51.210.182.170","skip-cert-verify":true,"type":"trojan","udp":true}
-  - {"alterId":-1,"cipher":"aes-128-cfb","customName":"🇺🇸_US_美国_5","name":"github.com/Ruk1ng001_34491053","password":"shadowsocks","port":443,"server":"212.102.47.198","type":"ss"}
-  - {"alterId":-1,"customName":"🔒 TR-TCP-TLS 🇮🇪 IE-52.212.162.64:22222 📡 PING-070.64-MS","name":"github.com/Ruk1ng001_458337430","password":"telegram-id-privatevpns","port":22222,"server":"52.212.162.64","sni":"trojan.burgerip.co.uk","type":"trojan"}
-  - {"alterId":-1,"cipher":"aes-256-cfb","customName":"🇩🇪DE_9064 @WangCai_1","name":"github.com/Ruk1ng001_16216811","password":"cp8pRSUAyLhTfVWH","port":9064,"server":"80.92.204.106","type":"ss"}
-  - {"alterId":-1,"cipher":"aes-256-cfb","customName":"0|-https://t.me/MrXbin-63","name":"github.com/Ruk1ng001_3261594282","obfs":"plain","obfs-param":"None","password":"BwcAUZk8hUFAkDGN","port":9031,"protocol":"origin","protocol-param":"None","server":"103.172.116.79","type":"ssr","udp":true}
-  - {"alterId":-1,"cipher":"aes-256-gcm","customName":"RW 18 → tg@nicevpn123","name":"github.com/Ruk1ng001_3807711853","password":"kDWvXYZoTBcGkC4","port":8882,"server":"23.162.200.225","type":"ss","udp":true}
-  - {"alterId":-1,"customName":"🇨🇳CN-36.138.99.56-130","name":"github.com/Ruk1ng001_2264581289","password":"MyYoZhfX","port":40316,"server":"36.138.99.56","skip-cert-verify":true,"type":"trojan"}
-  - {"alterId":0,"cipher":"auto","customName":"CN_speednode_0005","name":"github.com/Ruk1ng001_418744153","network":"ws","port":25245,"server":"sg1.awslcn.info","type":"vmess","udp":true,"uuid":"1640b579-cff8-46bc-a657-3860b5455712"}
-  - {"alterId":-1,"customName":"🇭🇰HK-40.83.117.250-3420","name":"github.com/Ruk1ng001_2065932882","password":"1640b579-cff8-46bc-a657-3860b5455712","port":443,"server":"us01.trojanyyds.xyz","skip-cert-verify":false,"sni":"us01.trojanyyds.xyz","type":"trojan"}
-  - {"alterId":64,"cipher":"auto","customName":"11|广东省广州市 移动 #1","name":"github.com/Ruk1ng001_3577859919","network":"tcp","port":41492,"server":"120.232.242.117","servername":"","tls":false,"type":"vmess","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24"}
-  - {"alterId":-1,"customName":"🔒 TR-TCP-TLS 🇺🇸 US-44.237.144.152:22222 📡 PING-081.39-MS","name":"github.com/Ruk1ng001_1730562311","password":"telegram-id-directvpn","port":22222,"server":"44.237.144.152","sni":"trojan.burgerip.co.uk","type":"trojan"}
-  - {"alterId":-1,"cipher":"aes-256-gcm","customName":"4FreeIran-2006","name":"github.com/Ruk1ng001_588313937","password":"Y6R9pAtvxxzmGC","port":3306,"server":"15.204.87.217","type":"ss"}
-  - {"alterId":-1,"cipher":"aes-256-cfb","customName":"0|-https://t.me/MrXbin-51","name":"github.com/Ruk1ng001_4212271000","obfs":"plain","obfs-param":"None","password":"BejrQvtu9sqUeNuZ","port":9024,"protocol":"origin","protocol-param":"None","server":"103.172.116.79","type":"ssr","udp":true}
-  - {"alterId":0,"cipher":"auto","country":"🇺🇸US","customName":"Relay_🇺🇸US-🇹🇼TW_428","h2-opts":{},"http-opts":{},"name":"github.com/Ruk1ng001_3023632956","network":"ws","port":8080,"server":"172.67.172.141","servername":"oiictw.yydsii.com","skip-cert-verify":true,"type":"vmess","uuid":"b551aa22-22af-11ee-b8d8-f23c932eb68d","ws-opts":{"headers":{"HOST":"oiictw.yydsii.com"},"path":"/"}}
-  - {"alterId":0,"cipher":"auto","customName":"🇰🇷KR-130.162.129.101-3432","name":"github.com/Ruk1ng001_2522275543","network":"ws","port":28852,"server":"kr-seoul-oracle-4fccf5.ip1.shop","servername":"kr-seoul-oracle-4fccf5.ip1.shop","skip-cert-verify":false,"tls":false,"type":"vmess","uuid":"4268a1d7-171c-40ae-9684-e580c67b7354","ws-opts":{"headers":{"Host":"kr-seoul-oracle-4fccf5.ip1.shop"},"path":"/namebgdfxhnsh"}}
-  - {"alterId":-1,"cipher":"aes-256-gcm","customName":"4FreeIran-2277","name":"github.com/Ruk1ng001_3545561562","password":"cdBIDV42DCwnfIN","port":8118,"server":"15.204.87.217","type":"ss"}
-  - {"alterId":0,"cipher":"auto","customName":"加拿大 132","name":"github.com/Ruk1ng001_312756856","network":"ws","port":8080,"server":"104.16.104.34","servername":"dual-nothing-prep-exit.trycloudflare.com","skip-cert-verify":true,"tls":false,"type":"vmess","uuid":"ef8c954e-014f-4b36-8273-9b5086afab34","ws-opts":{"headers":{"host":"dual-nothing-prep-exit.trycloudflare.com"},"path":"ef8c954e-014f-4b36-8273-9b5086afab34-vm"}}
-  - {"alterId":0,"cipher":"auto","country":"🇺🇸US","customName":"Relay_🇺🇸US-🇹🇼TW_413","h2-opts":{},"http-opts":{},"name":"github.com/Ruk1ng001_1090519050","network":"ws","port":8080,"server":"172.67.185.22","servername":"oiictw.yydsii.com","skip-cert-verify":true,"type":"vmess","uuid":"b551aa22-22af-11ee-b8d8-f23c932eb68d","ws-opts":{"headers":{"HOST":"oiictw.yydsii.com"},"path":"/"}}
-  - {"alterId":-1,"cipher":"aes-128-cfb","customName":"🇺🇸_US_美国_2","name":"github.com/Ruk1ng001_1108544810","password":"shadowsocks","port":443,"server":"156.146.38.163","type":"ss"}
-  - {"alterId":-1,"cipher":"chacha20-ietf-poly1305","country":"🇨🇳CN","customName":"disney_GB","name":"github.com/Ruk1ng001_1360201207","password":"2bfaafe5-d825-424e-bb6b-471c8f4daef3","port":19593,"server":"nc.cm.xiaomi-api.xyz","type":"ss"}
-  - {"alterId":0,"cipher":"auto","country":"🇺🇸US","customName":"Relay_🇺🇸US-🇭🇰HK_440","h2-opts":{},"http-opts":{},"name":"github.com/Ruk1ng001_3789031490","network":"ws","port":2052,"server":"172.67.164.78","servername":"hk07.hy-2.one","skip-cert-verify":true,"type":"vmess","uuid":"5edafe88-b558-4129-a86d-58fd84be79f0","ws-opts":{"headers":{"HOST":"hk07.hy-2.one"},"path":"/"}}
-  - {"alterId":-1,"cipher":"aes-256-cfb","customName":"🔒 SS-TCP-NA 🇩🇪 DE-80.92.204.106:9011 📡 PING-090.53-MS","name":"github.com/Ruk1ng001_458165570","password":"M3t2ZEQcMGRWBjRa","port":9011,"server":"80.92.204.106","type":"ss"}
-  - {"alterId":-1,"customName":"🇯🇵JP-74.226.161.232-0113","name":"github.com/Ruk1ng001_2140937009","password":"1640b579-cff8-46bc-a657-3860b5455712","port":443,"server":"in01.trojanyyds.xyz","skip-cert-verify":false,"sni":"in01.trojanyyds.xyz","type":"trojan"}
-  - {"alterId":0,"cipher":"auto","customName":"CN_speednode_0029","name":"github.com/Ruk1ng001_3423829753","network":"ws","port":25258,"server":"cm1.awslcn.info","type":"vmess","udp":true,"uuid":"1640b579-cff8-46bc-a657-3860b5455712"}
-  - {"alterId":-1,"cipher":"aes-256-gcm","customName":"RW 17 → tg@nicevpn123","name":"github.com/Ruk1ng001_2289978129","password":"Y6R9pAtvxxzmGC","port":9090,"server":"23.162.200.225","type":"ss","udp":true}
-  - {"alterId":-1,"cipher":"aes-256-cfb","customName":"🇸🇬SG-103.172.116.79-3402","name":"github.com/Ruk1ng001_1384167582","password":"ZET59LF6DvCC8KVt","port":9005,"server":"103.172.116.79","type":"ss"}
-  - {"alterId":-1,"customName":"🇯🇵JP-74.226.161.232-0157","name":"github.com/Ruk1ng001_3171504776","password":"1640b579-cff8-46bc-a657-3860b5455712","port":443,"server":"hk04.trojanyyds.xyz","skip-cert-verify":false,"sni":"hk04.trojanyyds.xyz","type":"trojan"}
-  - {"alterId":0,"cipher":"auto","country":"🏁ZZ","customName":"Relay_🏁ZZ-🇺🇸US_513","h2-opts":{},"http-opts":{},"name":"github.com/Ruk1ng001_453848929","network":"ws","port":80,"server":"speed.cloudflare.com","servername":"www.fuguoqiang.top","skip-cert-verify":true,"type":"vmess","uuid":"f9cfbfa6-b3e8-4217-b568-fe3f3aa439ce","ws-opts":{"headers":{"HOST":"www.fuguoqiang.top"},"path":"/"}}
-  - {"alterId":-1,"cipher":"aes-256-cfb","customName":"_189","name":"github.com/Ruk1ng001_2029743534","password":"ueLXVkvh4hckhErQ","port":9060,"server":"103.172.116.79","type":"ss"}
-  - {"alterId":-1,"cipher":"aes-256-cfb","customName":"🇸🇬SG-103.172.116.79-3400","name":"github.com/Ruk1ng001_3139979132","password":"BwcAUZk8hUFAkDGN","port":9031,"server":"103.172.116.79","type":"ss"}
-  - {"alterId":-1,"cipher":"aes-256-gcm","customName":"🇺🇸US-15.204.87.217-1779","name":"github.com/Ruk1ng001_2209222970","password":"Y6R9pAtvxxzmGC","port":3389,"server":"15.204.87.217","type":"ss"}
-  - {"alterId":0,"cipher":"auto","customName":"CN_speednode_0016","name":"github.com/Ruk1ng001_3076931349","network":"ws","port":25218,"server":"cm1.awslcn.info","type":"vmess","udp":true,"uuid":"1640b579-cff8-46bc-a657-3860b5455712"}
-  - {"alterId":0,"cipher":"auto","country":"🏁ZZ","customName":"Relay_🏁ZZ-🇺🇸US_544","h2-opts":{},"http-opts":{},"name":"github.com/Ruk1ng001_1855943804","network":"ws","port":443,"server":"cdn.twitter.now.cc","servername":"us2.kunkunbuku.me","skip-cert-verify":true,"tls":true,"type":"vmess","uuid":"b5f423ab-8e67-450a-8cd8-d2380be038a5","ws-opts":{"headers":{"HOST":"us2.kunkunbuku.me"},"path":"/ikun"}}
-  - {"alterId":-1,"cipher":"aes-256-cfb","customName":"🇩🇪DE_9020 @WangCai_1","name":"github.com/Ruk1ng001_2289611070","password":"BNmAXXxAHYpTRdzu","port":9020,"server":"80.92.204.106","type":"ss"}
-  - {"alterId":-1,"cipher":"aes-256-cfb","customName":"4FreeIran-643","name":"github.com/Ruk1ng001_3608246380","password":"BNmAXXxAHYpTRdzu","port":9020,"server":"103.172.116.79","type":"ss"}
-  - {"alterId":-1,"cipher":"aes-256-cfb","customName":"🇸🇬SG-103.172.116.79-3393","name":"github.com/Ruk1ng001_1388105328","password":"UWZQeLRWnkqgkseq","port":9032,"server":"103.172.116.79","type":"ss"}
-  - {"alterId":0,"cipher":"auto","customName":"加拿大 050","name":"github.com/Ruk1ng001_2012305681","network":"ws","port":2095,"server":"104.19.45.106","skip-cert-verify":true,"type":"vmess","uuid":"7a737f41-b792-4260-94ff-3d864da67b80","ws-opts":{"headers":{"Host":"onea.flha.ru"},"path":"/"}}
-  - {"alterId":0,"cipher":"auto","customName":"Relay_-🇹🇼TW_228","h2-opts":{},"http-opts":{},"name":"github.com/Ruk1ng001_3549260583","network":"ws","port":8080,"server":"172.67.199.59","servername":"oiictw.yydsii.com","skip-cert-verify":true,"type":"vmess","uuid":"b551aa22-22af-11ee-b8d8-f23c932eb68d","ws-opts":{"headers":{"HOST":"oiictw.yydsii.com"},"path":"/"}}
-  - {"alterId":-1,"cipher":"aes-256-cfb","customName":"4FreeIran-648","name":"github.com/Ruk1ng001_1278859682","password":"BejrQvtu9sqUeNuZ","port":9024,"server":"103.172.116.79","type":"ss"}
-  - {"alterId":-1,"cipher":"aes-256-cfb","country":"🏁 ZZ","customName":"ChatGPT 🏁 ZZ_986","name":"github.com/Ruk1ng001_3911308321","obfs":"plain","password":"KnJGad3FqTvjqbaX","port":9014,"protocol":"origin","server":"103.172.116.79","type":"ssr"}
-  - {"alterId":-1,"cipher":"aes-256-gcm","customName":"RW 9 → tg@nicevpn123","name":"github.com/Ruk1ng001_1336643521","password":"cdBIDV42DCwnfIN","port":8119,"server":"23.162.200.225","type":"ss","udp":true}
-  - {"alterId":0,"cipher":"auto","country":"🏁ZZ","customName":"disney_netflix_US","h2-opts":{},"http-opts":{},"name":"github.com/Ruk1ng001_2302681605","network":"ws","port":8880,"server":"104.16.61.8","servername":"yaghoob55freenodes.repaco69437403.workers.dev","skip-cert-verify":true,"type":"vmess","uuid":"950db6aa-4926-4616-816e-ec0312dcb87b","ws-opts":{"headers":{"HOST":"yaghoob55freenodes.repaco69437403.workers.dev"},"path":"/jahfkjha.cfd/linkws"}}
-  - {"alterId":0,"cipher":"auto","customName":"Relay_-🇹🇼TW_290","h2-opts":{},"http-opts":{},"name":"github.com/Ruk1ng001_102931221","network":"ws","port":8080,"server":"172.67.199.165","servername":"oiictw.yydsii.com","skip-cert-verify":true,"type":"vmess","uuid":"b551aa22-22af-11ee-b8d8-f23c932eb68d","ws-opts":{"headers":{"HOST":"oiictw.yydsii.com"},"path":"/"}}
-  - {"alterId":-1,"cipher":"aes-256-cfb","customName":"4FreeIran-1141","name":"github.com/Ruk1ng001_3750721354","password":"c3NtHJ5ujV2tGDfj","port":9084,"server":"103.172.116.79","type":"ss"}
-  - {"alterId":0,"cipher":"auto","country":"🇸🇪SE","customName":"disney_netflix_US","h2-opts":{},"http-opts":{},"name":"github.com/Ruk1ng001_681125409","network":"ws","port":17542,"server":"148.135.94.70","servername":"zzz.nikili1236vip.top","skip-cert-verify":true,"tls":true,"type":"vmess","uuid":"51ea7cdf-2278-4a13-b2e4-632cda111110","ws-opts":{"headers":{"HOST":"zzz.nikili1236vip.top"},"path":"/50ab5b"}}
-  - {"alterId":-1,"cipher":"aes-256-cfb","customName":"0|-https://t.me/MrXbin-61","name":"github.com/Ruk1ng001_631225714","obfs":"plain","obfs-param":"None","password":"GeregetR8cvQHzYr","port":9030,"protocol":"origin","protocol-param":"None","server":"103.172.116.79","type":"ssr","udp":true}
-  - {"alterId":0,"cipher":"auto","customName":"美国 016_2@25","name":"github.com/Ruk1ng001_1252535775","network":"ws","port":443,"server":"104.21.21.21","skip-cert-verify":true,"tls":true,"type":"vmess","uuid":"73dfe5b1-9ced-4be7-949b-e731d54ba801","ws-opts":{"headers":{"host":"laxfree.starsea.vip"},"path":"/?ed=2048"}}
-  - {"alterId":0,"cipher":"auto","country":"🇨🇦CA","customName":"disney_netflix_US","h2-opts":{},"http-opts":{},"name":"github.com/Ruk1ng001_1132634313","network":"ws","port":8080,"server":"23.227.39.11","servername":"dongtaiwang15.dtku47.xyz","skip-cert-verify":true,"type":"vmess","uuid":"969f1909-c0d3-4c30-813d-3aec5c838b7d","ws-opts":{"headers":{"HOST":"dongtaiwang15.dtku47.xyz"},"path":"/1IKYjV0r/"}}
-  - {"alterId":-1,"cipher":"aes-256-cfb","customName":"🇩🇪DE_9098 @WangCai_1","name":"github.com/Ruk1ng001_2154087120","password":"aLpQtfEZe445QyHk","port":9098,"server":"80.92.204.106","type":"ss"}
-  - {"alterId":-1,"cipher":"aes-256-gcm","customName":"🇺🇸US-38.121.43.71-5873","name":"github.com/Ruk1ng001_4035044382","password":"Y6R9pAtvxxzmGC","port":8888,"server":"38.121.43.71","type":"ss"}
-  - {"alterId":0,"cipher":"auto","country":"🇺🇸US","customName":"Relay_🇺🇸US-🇺🇸US_438","h2-opts":{},"http-opts":{},"name":"github.com/Ruk1ng001_100610302","network":"ws","port":8880,"server":"cdn.internetcdn.ggff.net","servername":"losangeles.sanjose.xhzshop.link","skip-cert-verify":true,"type":"vmess","uuid":"43354844-c3d6-4624-93d2-04ed7d18c03d","ws-opts":{"headers":{"HOST":"losangeles.sanjose.xhzshop.link"},"path":"/microsoft?ed=2048"}}
-  - {"alterId":0,"cipher":"auto","customName":"🇨🇳 中国【付费推荐：https://jdyvip.link/】39","name":"github.com/Ruk1ng001_3308827420","network":"ws","port":20301,"server":"data-jp-v1.usabooks.com.cn","tls":false,"type":"vmess","uuid":"b1478e24-4916-3abe-8f17-15931012ecbe","ws-opts":{"headers":{"Host":"data-jp-v1.usabooks.com.cn"},"path":"/debian"}}
-  - {"alterId":-1,"cipher":"aes-256-cfb","customName":"🇩🇪DE_9037 @WangCai_1","name":"github.com/Ruk1ng001_3862002053","password":"TN2YqghxeFDKZfLU","port":9037,"server":"80.92.204.106","type":"ss"}
-  - {"alterId":0,"cipher":"auto","country":"🏁 ZZ","customName":"ChatGPT 🏁 ZZ_1051","h2-opts":{},"http-opts":{},"name":"github.com/Ruk1ng001_2027234600","network":"ws","port":8080,"server":"87.120.204.6","skip-cert-verify":true,"tls":true,"type":"vmess","uuid":"bdd22841-c4d2-4aa8-acf2-95aa9125f159","ws-path":"/"}
-  - {"alterId":-1,"cipher":"aes-256-gcm","customName":"🇺🇸US-129.146.102.22-3437","name":"github.com/Ruk1ng001_2003673791","password":"N0k6tSWblI","port":34017,"server":"129.146.102.22","type":"ss"}
-  - {"alterId":-1,"cipher":"aes-128-gcm","customName":"_200","name":"github.com/Ruk1ng001_620704647","password":"Yc2CtrIz8L","port":16899,"server":"192.3.81.194","type":"ss"}
-  - {"alterId":0,"cipher":"auto","customName":"CN_speednode_0022","name":"github.com/Ruk1ng001_3503438115","network":"ws","port":25228,"server":"cm.awslcn.info","type":"vmess","udp":true,"uuid":"1640b579-cff8-46bc-a657-3860b5455712"}
-  - {"alterId":0,"cipher":"auto","customName":"🇨🇳 中国【付费推荐：https://jdyvip.link/】77","name":"github.com/Ruk1ng001_287266376","port":15600,"server":"183.232.199.28","tls":false,"type":"vmess","uuid":"aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaad"}
-  - {"alterId":0,"cipher":"auto","customName":"CN_speednode_0006","name":"github.com/Ruk1ng001_3916650059","network":"ws","port":25283,"server":"sg1.awslcn.info","type":"vmess","udp":true,"uuid":"1640b579-cff8-46bc-a657-3860b5455712"}
-  - {"alterId":64,"cipher":"auto","customName":"disney_netflix_US","h2-opts":{},"http-opts":{},"name":"github.com/Ruk1ng001_1788757087","port":35601,"server":"120.238.122.243","type":"vmess","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24"}
-  - {"alterId":-1,"cipher":"chacha20-ietf-poly1305","customName":"🇬🇧 GB 7 → tg@nicevpn123","name":"github.com/Ruk1ng001_409156250","password":"IJl7gbeZxeXZzZGcKFMaHA","port":33910,"server":"51.103.183.241","type":"ss","udp":true}
-  - {"alterId":0,"cipher":"auto","country":"🇺🇸US","customName":"Relay_🇺🇸US-🇹🇼TW_427","h2-opts":{},"http-opts":{},"name":"github.com/Ruk1ng001_961392496","network":"ws","port":8080,"server":"172.67.185.187","servername":"oiictw.yydsii.com","skip-cert-verify":true,"type":"vmess","uuid":"b551aa22-22af-11ee-b8d8-f23c932eb68d","ws-opts":{"headers":{"HOST":"oiictw.yydsii.com"},"path":"/"}}
-  - {"alterId":-1,"cipher":"chacha20-ietf-poly1305","customName":"🇨🇳 CN 241 → tg@nicevpn123","name":"github.com/Ruk1ng001_1430802564","password":"99301d55-a41f-4919-986b-1435996533aa","port":20001,"server":"120.238.122.208","type":"ss","udp":true}
-  - {"alterId":-1,"cipher":"aes-256-cfb","customName":"4FreeIran-880","name":"github.com/Ruk1ng001_816734664","password":"amazonskr05","port":443,"server":"13.229.115.125","type":"ss"}
-  - {"alterId":-1,"cipher":"aes-256-cfb","customName":"🇸🇬SG-103.172.116.79-3373","name":"github.com/Ruk1ng001_1656816604","password":"M3t2ZEQcMGRWBjRa","port":9011,"server":"103.172.116.79","type":"ss"}
-  - {"alterId":-1,"cipher":"aes-256-cfb","customName":"🇸🇬SG-18.142.225.182-3377","name":"github.com/Ruk1ng001_1477765778","password":"amazonskr05","port":443,"server":"18.142.225.182","type":"ss"}
-  - {"alterId":-1,"country":"🇸🇬SG","customName":" |18.29Mb","name":"github.com/Ruk1ng001_2738419366","password":"cf13832b-4ca0-4fee-8e85-2b2411104e75","port":20230,"server":"sg07.421421.xyz","skip-cert-verify":true,"sni":"421421.xyz","type":"trojan","udp":true}
-  - {"alterId":-1,"cipher":"aes-256-cfb","customName":"🇩🇪DE_9024 @WangCai_1","name":"github.com/Ruk1ng001_1853798928","password":"BejrQvtu9sqUeNuZ","port":9024,"server":"80.92.204.106","type":"ss"}
-  - {"alterId":-1,"cipher":"aes-256-cfb","customName":"🇸🇬SG-103.172.116.79-3407","name":"github.com/Ruk1ng001_4039792076","password":"UTJA57ypk2XKQpnm","port":9033,"server":"103.172.116.79","type":"ss"}
-  - {"alterId":0,"cipher":"auto","country":"🇺🇸US","customName":"Relay_🇺🇸US-🇩🇪DE_418","h2-opts":{},"http-opts":{},"name":"github.com/Ruk1ng001_2686546267","network":"ws","port":2052,"server":"de-cdn.internetcdn.ggff.net","servername":"de05-v6.us.pisces.eu.org","skip-cert-verify":true,"type":"vmess","uuid":"43354844-c3d6-4624-93d2-04ed7d18c03d","ws-opts":{"headers":{"HOST":"de05-v6.us.pisces.eu.org"},"path":"/microsoftvideo/HEAC?ed=2048"}}
-  - {"alterId":-1,"cipher":"aes-256-cfb","customName":"🔒 SS-TCP-NA 🇸🇬 SG-13.215.162.189:443 📡 PING-227.81-MS","name":"github.com/Ruk1ng001_1265275815","password":"amazonskr05","port":443,"server":"13.215.162.189","type":"ss"}
-  - {"alterId":-1,"cipher":"aes-256-cfb","customName":"🇸🇬SG-103.172.116.79-3391","name":"github.com/Ruk1ng001_1207854352","password":"wfLC2y7rzZyCmuyt","port":9093,"server":"103.172.116.79","type":"ss"}
-  - {"alterId":0,"cipher":"none","customName":"4FreeIran-11647","name":"github.com/Ruk1ng001_1629869478","network":"ws","port":22333,"server":"38.89.72.193","type":"vmess","uuid":"4984806b-f0f9-4749-bdd5-ea38bd690270","ws-opts":{"path":"/223360xyz"}}
-  - {"alterId":-1,"cipher":"chacha20-ietf-poly1305","customName":"🇭🇰香港|【流媒体2x】","name":"github.com/Ruk1ng001_626559234","password":"71485d23-91d7-46b1-ac2e-73135325f94d","port":12601,"server":"db.quanstring.top","type":"ss"}
-  - {"alterId":-1,"cipher":"aes-256-cfb","customName":"日本特殊|@ripaojiedian","name":"github.com/Ruk1ng001_839126155","password":"amazonskr05","port":443,"server":"43.207.72.91","type":"ss"}
-  - {"alterId":0,"cipher":"auto","country":"🏁ZZ","customName":"disney_netflix_US","h2-opts":{},"http-opts":{},"name":"github.com/Ruk1ng001_690558285","network":"ws","port":2086,"server":"cewcastlecdn2111.internetcdn.ggff.net","servername":"us01-v6.pisces.eu.org","skip-cert-verify":true,"type":"vmess","uuid":"43354844-c3d6-4624-93d2-04ed7d18c03d","ws-opts":{"headers":{"HOST":"us01-v6.pisces.eu.org"},"path":"/update.microsoft.com?ed=2048"}}
-  - {"alterId":-1,"cipher":"chacha20-ietf-poly1305","customName":"🇭🇰香港|【沪港VIP】","name":"github.com/Ruk1ng001_1182001113","password":"71485d23-91d7-46b1-ac2e-73135325f94d","port":44746,"server":"db.quanstring.top","type":"ss"}
-  - {"alterId":0,"cipher":"auto","country":"🇨🇦CA","customName":"netflix_CA","h2-opts":{},"http-opts":{},"name":"github.com/Ruk1ng001_1844541097","network":"ws","port":443,"server":"48.sking.app","servername":"48.sking.app","skip-cert-verify":true,"tls":true,"type":"vmess","uuid":"3e4a1dd7-ec06-4a83-b227-211a3f238bee","ws-opts":{"headers":{"HOST":"48.sking.app"},"path":"/"}}
-  - {"alterId":0,"cipher":"auto","country":"🏁ZZ","customName":"Relay_🏁ZZ-🇩🇪DE_546","h2-opts":{},"http-opts":{},"name":"github.com/Ruk1ng001_3308912696","network":"ws","port":80,"server":"speed.cloudflare.com","servername":"freevpn878.hamidimorteza680.workers.dev","skip-cert-verify":true,"type":"vmess","uuid":"1052f24e-7b09-45eb-b0c5-d858eb124192","ws-opts":{"headers":{"HOST":"freevpn878.hamidimorteza680.workers.dev"},"path":"/glweidf.cfd/linkws"}}
-  - {"alterId":0,"cipher":"auto","customName":"CN_speednode_0032","name":"github.com/Ruk1ng001_2376029201","network":"ws","port":25284,"server":"cu.awslcn.info","type":"vmess","udp":true,"uuid":"1640b579-cff8-46bc-a657-3860b5455712"}
-  - {"alterId":-1,"cipher":"aes-256-cfb","customName":"🇩🇪DE_9084 @WangCai_1","name":"github.com/Ruk1ng001_1010364568","password":"c3NtHJ5ujV2tGDfj","port":9084,"server":"80.92.204.106","type":"ss"}
-  - {"alterId":0,"cipher":"auto","customName":"CN_speednode_0025","name":"github.com/Ruk1ng001_1527883593","network":"ws","port":25240,"server":"cm.awslcn.info","type":"vmess","udp":true,"uuid":"1640b579-cff8-46bc-a657-3860b5455712"}
-  - {"alterId":-1,"cipher":"aes-256-gcm","customName":"4FreeIran-2787","name":"github.com/Ruk1ng001_3789867205","password":"lGqs95QkFHo2NV","port":5498,"server":"15.204.87.217","type":"ss"}
-  - {"alterId":0,"cipher":"auto","country":"🇺🇸US","customName":"disney_netflix_US","h2-opts":{},"http-opts":{},"name":"github.com/Ruk1ng001_180441397","network":"ws","port":443,"server":"23.134.91.22","servername":"23.134.91.22","skip-cert-verify":true,"tls":true,"type":"vmess","uuid":"03fcc618-b93d-6796-6aed-8a38c975d581","ws-opts":{"headers":{"HOST":"23.134.91.22"},"path":"/linkvws"}}
-  - {"alterId":0,"cipher":"auto","customName":"13|🇭🇰HK_140","name":"github.com/Ruk1ng001_1651257384","network":"ws","port":443,"server":"99.84.50.140","servername":"d1nal26v8jyfe2.cloudfront.net","tls":true,"type":"vmess","uuid":"9b57caed-da32-45cd-9b61-34b22a663ef5","ws-opts":{"headers":{"Host":"d1nal26v8jyfe2.cloudfront.net"},"path":"/stream"}}
-  - {"alterId":-1,"customName":"🇯🇵JP-74.226.161.232-0127","name":"github.com/Ruk1ng001_111822554","password":"1640b579-cff8-46bc-a657-3860b5455712","port":443,"server":"hk02.trojanyyds.xyz","skip-cert-verify":false,"sni":"hk02.trojanyyds.xyz","type":"trojan"}
-  - {"alterId":-1,"cipher":"aes-256-cfb","country":"SG","customName":"0|-https://t.me/MrXbin-200","name":"github.com/Ruk1ng001_3892546547","obfs":"plain","password":"XPtzA9sCug3SPR4c","port":9025,"protocol":"origin","server":"103.172.116.79","type":"ssr"}
-  - {"alterId":0,"cipher":"auto","country":"🏁ZZ","customName":"Relay_🏁ZZ-🇺🇸US_597","h2-opts":{},"http-opts":{},"name":"github.com/Ruk1ng001_2408252289","network":"ws","port":8880,"server":"cdn3.internetcdn.ggff.net","servername":"losangeles.sanjose.xhzshop.link","skip-cert-verify":true,"type":"vmess","uuid":"43354844-c3d6-4624-93d2-04ed7d18c03d","ws-opts":{"headers":{"HOST":"losangeles.sanjose.xhzshop.link"},"path":"/microsoft?ed=2048"}}
-  - {"alterId":0,"cipher":"auto","country":"🏁ZZ","customName":"Relay_🏁ZZ-🇭🇰HK_599","h2-opts":{},"http-opts":{},"name":"github.com/Ruk1ng001_1475188205","network":"ws","port":2095,"server":"104.19.45.112","servername":"onea.flha.ru","skip-cert-verify":true,"type":"vmess","uuid":"7a737f41-b792-4260-94ff-3d864da67b80","ws-opts":{"headers":{"HOST":"onea.flha.ru"},"path":"/"}}
-  - {"alterId":-1,"cipher":"aes-256-cfb","country":"🇸🇬SG","customName":"netflix_SG","name":"github.com/Ruk1ng001_777700868","password":"amazonskr05","port":443,"server":"54.254.225.115","type":"ss"}
-  - {"alterId":-1,"cipher":"chacha20-ietf-poly1305","customName":"🇨🇳 CN 129 → tg@nicevpn123","name":"github.com/Ruk1ng001_138874037","password":"99301d55-a41f-4919-986b-1435996533aa","port":50002,"server":"120.238.122.207","type":"ss","udp":true}
-  - {"alterId":0,"cipher":"auto","customName":"IT 19 → tg@nicevpn123","name":"github.com/Ruk1ng001_1895037706","network":"ws","port":443,"server":"188.114.97.2","skip-cert-verify":true,"tls":true,"type":"vmess","udp":true,"uuid":"6d9911b0-4e14-44fb-8883-52d14f550cca","ws-opts":{"headers":{"Host":"be2-vmess.sshmax.xyz"},"path":"/vmess"}}
-  - {"alterId":0,"cipher":"auto","country":"🇰🇷KR","customName":"disney_netflix_KR","h2-opts":{},"http-opts":{},"name":"github.com/Ruk1ng001_3427363528","network":"ws","port":28852,"server":"kr-seoul-oracle-4fccf5.ip1.shop","skip-cert-verify":true,"type":"vmess","uuid":"4268a1d7-171c-40ae-9684-e580c67b7354","ws-opts":{"path":"/namebgdfxhnsh"}}
-  - {"alterId":0,"cipher":"auto","customName":"13|🆕1@oneclickvpnkeys","name":"github.com/Ruk1ng001_574168731","network":"ws","port":80,"server":"54.38.212.91","servername":"","tls":false,"type":"vmess","uuid":"9e660680-e7bb-4725-f1c9-84d1fdbbf5c6","ws-opts":{"headers":{"Host":"www.gov.uk"},"path":"/?ed=2048"}}
-  - {"alterId":-1,"cipher":"chacha20-ietf-poly1305","customName":"🇭🇰香港|【5G】","name":"github.com/Ruk1ng001_71355846","password":"71485d23-91d7-46b1-ac2e-73135325f94d","port":16214,"server":"5g.quanstring.top","type":"ss"}
-  - {"alterId":-1,"cipher":"chacha20-ietf-poly1305","customName":"🇯🇵日本|【沪港】","name":"github.com/Ruk1ng001_3350958842","password":"71485d23-91d7-46b1-ac2e-73135325f94d","port":23238,"server":"db.quanstring.top","type":"ss"}
-  - {"alterId":-1,"cipher":"chacha20-ietf-poly1305","customName":"🇨🇳台湾2号|【沪港】","name":"github.com/Ruk1ng001_3823499304","password":"71485d23-91d7-46b1-ac2e-73135325f94d","port":10173,"server":"db.quanstring.top","type":"ss"}
-  - {"alterId":-1,"cipher":"chacha20-ietf-poly1305","customName":"德国-03 2","name":"github.com/Ruk1ng001_703600976","password":"9da21772-de82-42f3-9d3e-115985b52e6f","port":16617,"server":"video.tikonline.live","type":"ss","udp":true}
-  - {"alterId":-1,"customName":"🇸🇬SG-206.189.153.51-0607","name":"github.com/Ruk1ng001_1055573967","password":"15f804fa-27be-4b0f-85d4-cead43a483ef","port":30018,"server":"sg04.freeflyingcloud.xyz","skip-cert-verify":false,"sni":"sg04.freeflyingcloud.xyz","type":"trojan"}
-  - {"alterId":0,"cipher":"auto","customName":"CN_speednode_0010","name":"github.com/Ruk1ng001_1081423745","network":"ws","port":25279,"server":"cu.awslcn.info","type":"vmess","udp":true,"uuid":"1640b579-cff8-46bc-a657-3860b5455712"}
-  - {"alterId":-1,"cipher":"chacha20-ietf-poly1305","customName":"剩余流量：601.08 GB","name":"github.com/Ruk1ng001_102376345","password":"71485d23-91d7-46b1-ac2e-73135325f94d","port":11850,"server":"db.quanstring.top","type":"ss"}
-  - {"alterId":0,"cipher":"auto","country":"🇺🇸US","customName":"Relay_ |10.45Mb","h2-opts":{},"http-opts":{},"name":"github.com/Ruk1ng001_2429320888","network":"ws","port":443,"server":"zula.ir","servername":"de1-vmess.sshmax.xyz","skip-cert-verify":true,"tls":true,"type":"vmess","uuid":"1efed92c-bdfb-4940-a56e-541ef9cca09a","ws-opts":{"headers":{"HOST":"de1-vmess.sshmax.xyz"},"path":"/vmess"}}
-  - {"alterId":0,"cipher":"auto","customName":"英国 001","name":"github.com/Ruk1ng001_1899337013","network":"ws","port":80,"server":"54.38.212.91","skip-cert-verify":true,"type":"vmess","uuid":"9e660680-e7bb-4725-f1c9-84d1fdbbf5c6","ws-opts":{"headers":{"Host":"www.gov.uk"},"path":"/?ed=2048"}}
-  - {"alterId":0,"cipher":"auto","customName":"CN_speednode_0014","name":"github.com/Ruk1ng001_263773284","network":"ws","port":25233,"server":"cm1.awslcn.info","type":"vmess","udp":true,"uuid":"1640b579-cff8-46bc-a657-3860b5455712"}
-  - {"alterId":-1,"cipher":"chacha20-ietf-poly1305","customName":"🇯🇵日本|【沪港VIP】","name":"github.com/Ruk1ng001_2585037498","password":"71485d23-91d7-46b1-ac2e-73135325f94d","port":38609,"server":"db.quanstring.top","type":"ss"}
-  - {"alterId":-1,"cipher":"aes-128-cfb","customName":"SSR-美国-自制NF-ChatGPT-TikTok-YouTubePrem-184.170.241.194:443","name":"github.com/Ruk1ng001_1650935518","obfs":"plain","password":"shadowsocks","port":443,"protocol":"origin","server":"184.170.241.194","type":"ssr"}
-  - {"alterId":-1,"cipher":"aes-256-cfb","customName":"🇯🇵JP-3.112.218.182-3384","name":"github.com/Ruk1ng001_1938509145","password":"amazonskr05","port":443,"server":"3.112.218.182","type":"ss"}
-  - {"alterId":-1,"cipher":"aes-256-cfb","customName":"4FreeIran-783","name":"github.com/Ruk1ng001_2152169481","password":"TPqX8edgbAURcAMb","port":9079,"server":"103.172.116.79","type":"ss"}
-  - {"alterId":-1,"cipher":"aes-256-cfb","customName":"🇸🇬SG-103.172.116.79-3412","name":"github.com/Ruk1ng001_541554949","password":"a3GFYt36Sm82Vys9","port":9000,"server":"103.172.116.79","type":"ss"}
-  - {"alterId":-1,"cipher":"aes-128-gcm","client-fingerprint":"chrome","customName":"15|🇭🇰 香港KT|@ripaojiedian","name":"github.com/Ruk1ng001_1344038030","password":"a-wym4ovY4Yw","plugin":"v2ray-plugin","plugin-opts":{"host":"h2.dspp.store","mode":"websocket","mux":true,"path":"","skip-cert-verify":false,"tls":true},"port":443,"server":"172.67.198.153","tfo":false,"type":"ss"}
-  - {"alterId":-1,"country":"🇸🇬SG","customName":" |28.47Mb","name":"github.com/Ruk1ng001_3760230858","password":"4aa9ee7a-ffee-4ca4-a588-f5fa9e979c38","port":20230,"server":"sg07.421421.xyz","skip-cert-verify":true,"sni":"421421.xyz","type":"trojan","udp":true}
-  - {"alterId":-1,"customName":"🇮🇪IE-52.30.51.125-0151","name":"github.com/Ruk1ng001_2074681023","password":"telegram-id-privatevpns","port":22222,"server":"52.30.51.125","skip-cert-verify":false,"sni":"trojan.burgerip.co.uk","type":"trojan"}
-  - {"alterId":-1,"country":"🇸🇬SG","customName":"🇸🇬SG_386","name":"github.com/Ruk1ng001_754856512","password":"0bfa2050-b165-4156-859c-70f36d300dce","port":20230,"server":"sg07.421421.xyz","skip-cert-verify":true,"sni":"421421.xyz","type":"trojan","udp":true}
-  - {"alterId":-1,"cipher":"aes-128-gcm","customName":"澳大利亚-04","name":"github.com/Ruk1ng001_2394693661","password":"9da21772-de82-42f3-9d3e-115985b52e6f","port":12188,"server":"video.tikonline.live","type":"ss","udp":true}
-  - {"alterId":0,"cipher":"auto","country":"🏁ZZ","customName":"Relay_🏁ZZ-🇭🇰HK_579","h2-opts":{},"http-opts":{},"name":"github.com/Ruk1ng001_3026543523","network":"ws","port":2052,"server":"cf.hy2.one","servername":"hk07.hy-2.one","skip-cert-verify":true,"type":"vmess","uuid":"5edafe88-b558-4129-a86d-58fd84be79f0","ws-opts":{"headers":{"HOST":"hk07.hy-2.one"},"path":"/"}}
-  - {"alterId":-1,"cipher":"aes-256-cfb","customName":"🇸🇬SG-103.172.116.79-3405","name":"github.com/Ruk1ng001_290234292","password":"GeregetR8cvQHzYr","port":9030,"server":"103.172.116.79","type":"ss"}
-  - {"alterId":64,"cipher":"none","customName":"4FreeIran-11199","name":"github.com/Ruk1ng001_1964030541","port":54437,"server":"183.236.51.59","type":"vmess","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","ws-opts":{}}
-  - {"alterId":0,"cipher":"auto","country":"🏁ZZ","customName":"disney_netflix_US","h2-opts":{},"http-opts":{},"name":"github.com/Ruk1ng001_3676143946","network":"ws","port":80,"server":"whatismyipaddress.com","servername":"usvmqlsgf1ljbtzjun8.lovemianfei.store","skip-cert-verify":true,"type":"vmess","uuid":"17720720-37e2-4ecf-a6f8-71c329ca7669","ws-opts":{"headers":{"HOST":"usvmqlsgf1ljbtzjun8.lovemianfei.store"},"path":"/"}}
-  - {"alterId":0,"cipher":"auto","country":"🏁ZZ","customName":"Relay_🏁ZZ-🇫🇷FR_553","h2-opts":{},"http-opts":{},"name":"github.com/Ruk1ng001_2129178164","network":"ws","port":2052,"server":"104.16.61.8","servername":"square-snowflake-486a.beshir-beisel.workers.dev","skip-cert-verify":true,"type":"vmess","uuid":"5f726fe3-d82e-4da5-a711-8af0cbb2b682","ws-opts":{"headers":{"HOST":"square-snowflake-486a.beshir-beisel.workers.dev"},"path":"/1a2d514b-37cf-499f-8d08-d017a92ab5bb.asoul-ava.top/azumase.ren"}}
-  - {"alterId":-1,"customName":"4FreeIran-4436","name":"github.com/Ruk1ng001_2245971848","password":"telegram-id-privatevpns","port":22222,"server":"13.42.131.86","sni":"trojan.burgerip.co.uk","type":"trojan"}
-  - {"alterId":0,"cipher":"auto","country":"🇺🇸US","customName":"Relay_🇺🇸US-🇺🇸US_419","h2-opts":{},"http-opts":{},"name":"github.com/Ruk1ng001_2889246928","network":"ws","port":8880,"server":"exclusively-foriran.internetcdn.ggff.net","servername":"losangeles.us.pisces.eu.org","skip-cert-verify":true,"type":"vmess","uuid":"43354844-c3d6-4624-93d2-04ed7d18c03d","ws-opts":{"headers":{"HOST":"losangeles.us.pisces.eu.org"},"path":"/microsoft?ed=2048"}}
-  - {"alterId":0,"cipher":"auto","country":"🇺🇸US","customName":"Relay_🇺🇸US-🇹🇼TW_424","h2-opts":{},"http-opts":{},"name":"github.com/Ruk1ng001_3543698725","network":"ws","port":8080,"server":"172.67.185.96","servername":"oiictw.yydsii.com","skip-cert-verify":true,"type":"vmess","uuid":"b551aa22-22af-11ee-b8d8-f23c932eb68d","ws-opts":{"headers":{"HOST":"oiictw.yydsii.com"},"path":"/"}}
-  - {"alterId":-1,"cipher":"aes-256-cfb","country":"SG","customName":"0|-https://t.me/MrXbin-199","name":"github.com/Ruk1ng001_47739984","obfs":"plain","password":"c3NtHJ5ujV2tGDfj","port":9084,"protocol":"origin","server":"103.172.116.79","type":"ssr"}
-  - {"alterId":-1,"cipher":"chacha20-ietf-poly1305","customName":"🇸🇬新加坡|【沪港】","name":"github.com/Ruk1ng001_2462725052","password":"71485d23-91d7-46b1-ac2e-73135325f94d","port":37268,"server":"db.quanstring.top","type":"ss"}
-  - {"alterId":0,"cipher":"auto","customName":"🇺🇸US美国14","name":"github.com/Ruk1ng001_3383320086","password":"1640b579-cff8-46bc-a657-3860b5455712","port":443,"server":"hk03.trojanyyds.xyz","skip-cert-verify":true,"sni":"hk03.trojanyyds.xyz","tls":true,"type":"trojan","udp":true}
-  - {"alterId":-1,"cipher":"aes-256-cfb","customName":"🇸🇬SG-47.128.230.112-3385","name":"github.com/Ruk1ng001_2690750277","password":"amazonskr05","port":443,"server":"47.128.230.112","type":"ss"}
-  - {"alterId":-1,"cipher":"chacha20-ietf-poly1305","customName":"🇭🇰香港|【沪港】","name":"github.com/Ruk1ng001_2985772439","password":"71485d23-91d7-46b1-ac2e-73135325f94d","port":25873,"server":"db.quanstring.top","type":"ss"}
-  - {"alterId":-1,"cipher":"aes-256-cfb","country":"SG","customName":"0|-https://t.me/MrXbin-205","name":"github.com/Ruk1ng001_1674449148","obfs":"plain","password":"ueLXVkvh4hckhErQ","port":9060,"protocol":"origin","server":"103.172.116.79","type":"ssr"}
-  - {"alterId":-1,"cipher":"aes-256-cfb","country":"🇺🇸US","customName":" |146.42Mb","name":"github.com/Ruk1ng001_729393078","password":"amazonskr05","port":443,"server":"43.207.104.148","type":"ss"}
-  - {"alterId":0,"cipher":"auto","customName":"disney_netflix_US","h2-opts":{},"http-opts":{},"name":"github.com/Ruk1ng001_3921799055","network":"ws","port":8080,"server":"yh4.dtku41.xyz","servername":"dual-nothing-prep-exit.trycloudflare.com","skip-cert-verify":true,"type":"vmess","uuid":"ef8c954e-014f-4b36-8273-9b5086afab34","ws-opts":{"headers":{"host":"dual-nothing-prep-exit.trycloudflare.com"},"path":"ef8c954e-014f-4b36-8273-9b5086afab34-vm"}}
-  - {"alterId":-1,"cipher":"aes-256-cfb","customName":"4FreeIran-766","name":"github.com/Ruk1ng001_2908148325","password":"S7KwUu7yBy58S3Ga","port":9042,"server":"103.172.116.79","type":"ss"}
-  - {"alterId":0,"cipher":"auto","customName":"CN_speednode_0003","name":"github.com/Ruk1ng001_777226850","network":"ws","port":25276,"server":"cu.awslcn.info","type":"vmess","udp":true,"uuid":"1640b579-cff8-46bc-a657-3860b5455712"}
-  - {"alterId":-1,"cipher":"aes-256-cfb","customName":"4FreeIran-812","name":"github.com/Ruk1ng001_2650303127","password":"UkXRsXvR6buDMG2Y","port":9001,"server":"103.172.116.79","type":"ss"}
-  - {"alterId":0,"cipher":"auto","country":"🏁ZZ","customName":"netflix_DE","h2-opts":{},"http-opts":{},"name":"github.com/Ruk1ng001_1356209761","network":"ws","port":8080,"server":"104.18.202.250","servername":"erfannewfreenodes.vdmmswyzmzigonvnjk443.workers.dev","skip-cert-verify":true,"type":"vmess","uuid":"950db6aa-4926-4616-816e-ec0312dcb87b","ws-opts":{"headers":{"HOST":"erfannewfreenodes.vdmmswyzmzigonvnjk443.workers.dev"},"path":"/jahfkjha.cfd/linkws"}}
-  - {"alterId":-1,"cipher":"aes-256-cfb","customName":"0|-https://t.me/MrXbin-53","name":"github.com/Ruk1ng001_1839802396","obfs":"plain","obfs-param":"None","password":"rpgbNnU9rDDU4aWZ","port":9094,"protocol":"origin","protocol-param":"None","server":"103.172.116.79","type":"ssr","udp":true}
-  - {"alterId":-1,"customName":"🔒 TR-TCP-TLS 🇬🇧 GB-13.42.250.10:22222 📡 PING-079.76-MS","name":"github.com/Ruk1ng001_476083743","password":"telegram-id-privatevpns","port":22222,"server":"13.42.250.10","sni":"trojan.burgerip.co.uk","type":"trojan"}
-  - {"alterId":-1,"country":"🇸🇬SG","customName":"🇸🇬SG_388","name":"github.com/Ruk1ng001_3394984814","password":"tXRjrTHttx","port":443,"server":"167.71.220.39","skip-cert-verify":true,"sni":"aka.ms","type":"trojan","udp":true}
-  - {"alterId":0,"cipher":"auto","country":"🏁 ZZ","customName":"ChatGPT 🏁 ZZ_1069","h2-opts":{},"http-opts":{},"name":"github.com/Ruk1ng001_2643312922","network":"ws","port":80,"server":"54.38.212.91","servername":"www.gov.uk","skip-cert-verify":true,"type":"vmess","uuid":"9e660680-e7bb-4725-f1c9-84d1fdbbf5c6","ws-headers":{"HOST":"www.gov.uk"},"ws-path":"/?ed=2048"}
-  - {"alterId":0,"cipher":"auto","customName":"美国8880","name":"github.com/Ruk1ng001_1472351678","network":"ws","port":8880,"server":"freeyx.cloudflare88.eu.org","type":"vmess","uuid":"c66a6fd2-28f0-4f8e-c03a-538aab77e89b","ws-opts":{"headers":{"host":"linuxdo-name_liubang-1.cf88.cloudns.org"},"path":"/cloud"}}
-  - {"alterId":-1,"cipher":"aes-128-gcm","customName":"法国-04","name":"github.com/Ruk1ng001_3265229179","password":"9da21772-de82-42f3-9d3e-115985b52e6f","port":12739,"server":"video.tikonline.live","type":"ss","udp":true}
-  - {"alterId":-1,"cipher":"aes-256-cfb","country":"SG","customName":"0|-https://t.me/MrXbin-201","name":"github.com/Ruk1ng001_1997544007","obfs":"plain","password":"UkXRsXvR6buDMG2Y","port":9001,"protocol":"origin","server":"103.172.116.79","type":"ssr"}
-  - {"alterId":-1,"cipher":"aes-256-cfb","customName":"4FreeIran-1254","name":"github.com/Ruk1ng001_3768335150","password":"kSPmvwdFzGMMW5pY","port":9007,"server":"103.172.116.79","type":"ss"}
-  - {"alterId":0,"cipher":"none","customName":"4FreeIran-9881","name":"github.com/Ruk1ng001_3115135129","network":"ws","port":80,"server":"103.252.94.224","type":"vmess","uuid":"5278f5d3-f001-4459-94b6-7e0915238998","ws-opts":{"path":"/bs"}}
-  - {"alterId":-1,"country":"🇭🇰HK","customName":" |12.78Mb","name":"github.com/Ruk1ng001_218855626","password":"1640b579-cff8-46bc-a657-3860b5455712","port":443,"server":"uk01.trojanyyds.xyz","skip-cert-verify":true,"sni":"uk01.trojanyyds.xyz","type":"trojan","udp":true}
-  - {"alterId":-1,"cipher":"chacha20-ietf-poly1305","customName":"🇭🇰香港|【流媒体2x-5G】","name":"github.com/Ruk1ng001_2178163495","password":"71485d23-91d7-46b1-ac2e-73135325f94d","port":20858,"server":"5g.quanstring.top","type":"ss"}
-  - {"alterId":-1,"cipher":"aes-256-cfb","customName":"0|-https://t.me/MrXbin-64","name":"github.com/Ruk1ng001_3704435507","obfs":"plain","obfs-param":"None","password":"GA9KzeEgvfxNrgmM","port":9019,"protocol":"origin","protocol-param":"None","server":"103.172.116.79","type":"ssr","udp":true}
-  - {"alterId":-1,"cipher":"aes-128-gcm","customName":"印度-05","name":"github.com/Ruk1ng001_3539510486","password":"9da21772-de82-42f3-9d3e-115985b52e6f","port":24379,"server":"video.tikonline.live","type":"ss","udp":true}
-  - {"alterId":0,"cipher":"auto","customName":"🇺🇸US美国9","name":"github.com/Ruk1ng001_559286446","password":"1640b579-cff8-46bc-a657-3860b5455712","port":443,"server":"my02.trojanyyds.xyz","skip-cert-verify":true,"sni":"my02.trojanyyds.xyz","tls":true,"type":"trojan","udp":true}
-  - {"alterId":0,"cipher":"none","customName":"🇭🇰 香港 1 LV0-HK-1A","name":"github.com/Ruk1ng001_1191838121","port":21322,"server":"223.113.130.60","type":"vmess","uuid":"6876a8d8-e8fb-4891-a103-c33833f29530","ws-opts":{}}
-  - {"alterId":0,"cipher":"auto","customName":"CN_speednode_0013","name":"github.com/Ruk1ng001_3939175935","network":"ws","port":25233,"server":"cm.awslcn.info","type":"vmess","udp":true,"uuid":"1640b579-cff8-46bc-a657-3860b5455712"}
-  - {"alterId":-1,"customName":"🔒 TR-TCP-TLS 🇺🇸 US-3.15.82.169:22222 📡 PING-015.33-MS","name":"github.com/Ruk1ng001_3838278857","password":"telegram-id-directvpn","port":22222,"server":"3.15.82.169","sni":"trojan.burgerip.co.uk","type":"trojan"}
-  - {"alterId":0,"cipher":"auto","customName":"Relay_ |54.17Mb","h2-opts":{},"http-opts":{},"name":"github.com/Ruk1ng001_924727498","network":"ws","port":443,"server":"sgcft01.xqc.best","servername":"d1nal26v8jyfe2.cloudfront.net","skip-cert-verify":true,"tls":true,"type":"vmess","udp":true,"uuid":"0667f736-7728-4325-ab96-2ff7e8e7929c","ws-opts":{"headers":{"Host":"d1nal26v8jyfe2.cloudfront.net"},"path":"/stream"}}
-  - {"alterId":-1,"customName":"🔒 TR-TCP-TLS 🇩🇪 DE-52.59.40.83:22222 📡 PING-091.96-MS","name":"github.com/Ruk1ng001_2457371901","password":"telegram-id-privatevpns","port":22222,"server":"52.59.40.83","sni":"trojan.burgerip.co.uk","type":"trojan"}
-  - {"alterId":-1,"customName":"🔒 TR-TCP-TLS 🇨🇦 CA-3.98.48.230:22222 📡 PING-023.15-MS","name":"github.com/Ruk1ng001_368458161","password":"telegram-id-directvpn","port":22222,"server":"3.98.48.230","sni":"trojan.burgerip.co.uk","type":"trojan"}
-  - {"alterId":-1,"customName":"🇯🇵JP-74.226.161.232-0165","name":"github.com/Ruk1ng001_2247880156","password":"1640b579-cff8-46bc-a657-3860b5455712","port":443,"server":"my01.trojanyyds.xyz","skip-cert-verify":false,"sni":"my01.trojanyyds.xyz","type":"trojan"}
-  - {"alterId":-1,"customName":"🇭🇰HK-40.83.117.250-0198","name":"github.com/Ruk1ng001_1767355922","password":"1640b579-cff8-46bc-a657-3860b5455712","port":443,"server":"tw02.trojanyyds.xyz","skip-cert-verify":false,"sni":"tw02.trojanyyds.xyz","type":"trojan"}
-  - {"alterId":0,"cipher":"auto","customName":"CN_speednode_0018","name":"github.com/Ruk1ng001_702135082","network":"ws","port":25239,"server":"us1.awslcn.info","type":"vmess","udp":true,"uuid":"1640b579-cff8-46bc-a657-3860b5455712"}
-  - {"alterId":0,"cipher":"auto","customName":"CN_speednode_0007","name":"github.com/Ruk1ng001_2350758002","network":"ws","port":25242,"server":"hk2.awslcn.info","type":"vmess","udp":true,"uuid":"1640b579-cff8-46bc-a657-3860b5455712"}
-  - {"alterId":0,"cipher":"none","customName":"🇺🇸 G美国-免费","name":"github.com/Ruk1ng001_2635259572","network":"ws","port":80,"server":"139.28.232.223","type":"vmess","uuid":"24f357a7-6eb5-4e88-b0cc-c3b3da00c6b0","ws-opts":{"path":"/"}}
-  - {"alterId":-1,"cipher":"chacha20-ietf-poly1305","customName":"🇯🇵日本|【油管免广告】","name":"github.com/Ruk1ng001_856261957","password":"71485d23-91d7-46b1-ac2e-73135325f94d","port":22553,"server":"db.quanstring.top","type":"ss"}
-  - {"alterId":-1,"cipher":"aes-256-gcm","customName":"🇯🇵 JP 海外用户","name":"github.com/Ruk1ng001_451951698","password":"591ff1ae-37fc-47c2-8349-e0e12b569125","port":33881,"server":"jp.cooc.icu","type":"ss"}
-  - {"alterId":-1,"cipher":"aes-256-cfb","customName":"🇩🇪DE_9019 @WangCai_1","name":"github.com/Ruk1ng001_820586957","password":"GA9KzeEgvfxNrgmM","port":9019,"server":"80.92.204.106","type":"ss"}
-  - {"alterId":-1,"cipher":"chacha20-ietf-poly1305","customName":"🇺🇸美国|【广德-0.5倍】","name":"github.com/Ruk1ng001_1435278059","password":"71485d23-91d7-46b1-ac2e-73135325f94d","port":27158,"server":"5g.quanstring.top","type":"ss"}
-  - {"alterId":-1,"customName":"🔒 TR-TCP-TLS 🇸🇪 SE-16.16.84.240:22222 📡 PING-108.46-MS","name":"github.com/Ruk1ng001_4016324661","password":"telegram-id-privatevpns","port":22222,"server":"16.16.84.240","sni":"trojan.burgerip.co.uk","type":"trojan"}
-  - {"alterId":0,"cipher":"auto","country":"🇰🇷KR","customName":"韩国 001","delay":576,"h2-opts":{},"http-opts":{},"name":"github.com/Ruk1ng001_308458359","network":"ws","port":46515,"server":"kr-seoul-oracle-b0566e.ip1.shop","servername":"kr-seoul-oracle-b0566e.ip1.shop","skip-cert-verify":true,"type":"vmess","uuid":"f0f067fe-8e6d-4d95-816b-601038fd5876","ws-opts":{"headers":{"HOST":"kr-seoul-oracle-b0566e.ip1.shop"},"path":"/rongseven?ed=2048"}}
-  - {"alterId":0,"cipher":"auto","customName":"CN_speednode_0023","name":"github.com/Ruk1ng001_230891734","network":"ws","port":25240,"server":"cm1.awslcn.info","type":"vmess","udp":true,"uuid":"1640b579-cff8-46bc-a657-3860b5455712"}
-  - {"alterId":0,"cipher":"auto","customName":"美国2086","name":"github.com/Ruk1ng001_2054894954","network":"ws","port":2086,"server":"freeyx.cloudflare88.eu.org","type":"vmess","uuid":"c66a6fd2-28f0-4f8e-c03a-538aab77e89b","ws-opts":{"headers":{"host":"linuxdo-name_liubang-1.cf88.cloudns.org"},"path":"/cloud"}}
-  - {"alterId":0,"cipher":"none","customName":"剩余流量：256.45 GB","name":"github.com/Ruk1ng001_691210972","network":"ws","port":8080,"server":"us111.5our.top","type":"vmess","uuid":"bc608245-628c-4711-8786-07deac552ff4","ws-opts":{"path":"/cctv13/hd.m3u8"}}
-  - {"alterId":-1,"customName":"🇭🇰HK-20.2.161.113-0199","name":"github.com/Ruk1ng001_2966139673","password":"1640b579-cff8-46bc-a657-3860b5455712","port":443,"server":"my02.trojanyyds.xyz","skip-cert-verify":false,"sni":"my02.trojanyyds.xyz","type":"trojan"}
-  - {"alterId":-1,"cipher":"aes-128-gcm","customName":"泰国-04","name":"github.com/Ruk1ng001_1419532988","password":"9da21772-de82-42f3-9d3e-115985b52e6f","port":14709,"server":"video.tikonline.live","type":"ss","udp":true}
-  - {"alterId":0,"cipher":"auto","customName":"哈萨克斯坦 001","name":"github.com/Ruk1ng001_3470745775","network":"http","port":3389,"server":"45.82.31.164","skip-cert-verify":true,"tls":false,"type":"vmess","uuid":"9c050a86-d612-48f1-ec32-e573df08a1b7"}
-  - {"alterId":-1,"cipher":"aes-128-gcm","customName":"美国-07","name":"github.com/Ruk1ng001_3022878362","password":"9da21772-de82-42f3-9d3e-115985b52e6f","port":12073,"server":"video.tikonline.live","type":"ss","udp":true}
-  - {"alterId":-1,"customName":"🇺🇸 US 1027 → tg@nicevpn123","name":"github.com/Ruk1ng001_2209507385","network":"ws","password":"7f2782e1-1f1a-4c5b-b4ae-cead54b8c381","port":443,"server":"172.67.191.234","skip-cert-verify":true,"sni":"nl1.tRojANVpN.xYZ","type":"trojan","udp":true,"ws-opts":{"headers":{"Host":"nl1.tRojANVpN.xYZ"},"path":"/"}}
-  - {"alterId":64,"cipher":"auto","customName":"🇨🇳CN-183.236.51.59-158","name":"github.com/Ruk1ng001_1616468470","network":"tcp","port":54437,"server":"183.236.51.59","skip-cert-verify":true,"tls":false,"type":"vmess","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","ws-headers":{"Host":"183.236.51.59"},"ws-path":"/"}
-  - {"alterId":-1,"cipher":"chacha20-ietf-poly1305","customName":"🇸🇬新加坡|【5G】","name":"github.com/Ruk1ng001_3223187559","password":"71485d23-91d7-46b1-ac2e-73135325f94d","port":22113,"server":"5G.quanstring.top","type":"ss"}
-  - {"alterId":-1,"customName":"🇭🇰HK-40.83.117.250-0175","name":"github.com/Ruk1ng001_2900979723","password":"1640b579-cff8-46bc-a657-3860b5455712","port":443,"server":"tw01.trojanyyds.xyz","skip-cert-verify":false,"sni":"tw01.trojanyyds.xyz","type":"trojan"}
-  - {"alterId":0,"cipher":"auto","customName":"美国2095","name":"github.com/Ruk1ng001_1034331182","network":"ws","port":2095,"server":"freeyx.cloudflare88.eu.org","type":"vmess","uuid":"c66a6fd2-28f0-4f8e-c03a-538aab77e89b","ws-opts":{"headers":{"host":"linuxdo-name_liubang-1.cf88.cloudns.org"},"path":"/cloud"}}
-  - {"alterId":-1,"cipher":"aes-256-gcm","customName":"RW 10 → tg@nicevpn123","name":"github.com/Ruk1ng001_3718325696","password":"PCnnH6SQSnfoS27","port":8091,"server":"23.162.200.225","type":"ss","udp":true}
-  - {"alterId":-1,"cipher":"aes-256-gcm","customName":"🇺🇸US-15.204.87.225-146","name":"github.com/Ruk1ng001_306812778","password":"FoOiGlkAA9yPEGP","port":7307,"server":"15.204.87.225","type":"ss"}
-  - {"alterId":-1,"customName":"🔒 TR-TCP-TLS 🇫🇷 FR-35.181.241.222:22222 📡 PING-085.92-MS","name":"github.com/Ruk1ng001_3710430810","password":"telegram-id-privatevpns","port":22222,"server":"35.181.241.222","sni":"trojan.burgerip.co.uk","type":"trojan"}
-  - {"alterId":0,"cipher":"auto","customName":"美国 018","name":"github.com/Ruk1ng001_1338243871","network":"ws","port":17542,"server":"zzz.nikili1236vip.top","skip-cert-verify":true,"tls":true,"type":"vmess","uuid":"51ea7cdf-2278-4a13-b2e4-632cda111110","ws-opts":{"headers":{"Host":"zzz.nikili1236vip.top"},"path":"/50ab5b"}}
-  - {"alterId":0,"cipher":"auto","country":"🏁ZZ","customName":"netflix_GB","h2-opts":{},"http-opts":{},"name":"github.com/Ruk1ng001_2503489883","network":"ws","port":443,"server":"tel.hopev2ray.link","servername":"uk1-vmess.sshmax.xyz","skip-cert-verify":true,"tls":true,"type":"vmess","uuid":"4648aa26-1100-4a52-8a23-04ab7e2439f8","ws-opts":{"headers":{"HOST":"uk1-vmess.sshmax.xyz"},"path":"/vmess"}}
-  - {"alterId":0,"cipher":"auto","customName":"美国 023","name":"github.com/Ruk1ng001_347036239","network":"ws","port":17542,"server":"148.135.94.70","skip-cert-verify":true,"tls":true,"type":"vmess","uuid":"51ea7cdf-2278-4a13-b2e4-632cda111110","ws-opts":{"headers":{"Host":"zzz.nikili1236vip.top"},"path":"/50ab5b"}}
-  - {"alterId":0,"cipher":"auto","customName":"🇺🇲 美国【付费推荐：https://jdyvip.link/】42","name":"github.com/Ruk1ng001_307022608","network":"ws","port":8080,"server":"172.67.172.67","tls":false,"type":"vmess","uuid":"b551aa22-22af-11ee-b8d8-f23c932eb68d","ws-opts":{"headers":{"Host":"oiictw.yydsii.com"},"path":"/"}}
-  - {"alterId":-1,"cipher":"aes-256-cfb","customName":"🇸🇬SG-103.172.116.79-3401","name":"github.com/Ruk1ng001_1716491296","password":"y9VURyNzJWNRYEGQ","port":9008,"server":"103.172.116.79","type":"ss"}
-  - {"alterId":0,"cipher":"auto","customName":"🇨🇳甘肃","name":"github.com/Ruk1ng001_2420060564","password":"MyYoZhfX","port":40316,"server":"36.138.99.56","skip-cert-verify":true,"tls":true,"type":"trojan","udp":true}
-  - {"alterId":0,"cipher":"auto","customName":"CN_speednode_0026","name":"github.com/Ruk1ng001_1976028172","network":"ws","port":25241,"server":"cm.awslcn.info","type":"vmess","udp":true,"uuid":"1640b579-cff8-46bc-a657-3860b5455712"}
-  - {"alterId":-1,"cipher":"aes-256-cfb","customName":"🔒 SS-TCP-NA 🇩🇪 DE-80.92.204.106:9005 📡 PING-089.49-MS","name":"github.com/Ruk1ng001_4247945564","password":"ZET59LF6DvCC8KVt","port":9005,"server":"80.92.204.106","type":"ss"}
-  - {"alterId":0,"cipher":"auto","customName":"Relay_-🇫🇷FR_293","h2-opts":{},"http-opts":{},"name":"github.com/Ruk1ng001_1388672434","network":"ws","port":80,"server":"speed.cloudflare.com","servername":"7ehhjdelicate-unit-e634.bowik41429.workers.dev","skip-cert-verify":true,"type":"vmess","uuid":"76221bfb-e92f-4e80-81c5-6fe48f50ac0b","ws-opts":{"headers":{"HOST":"7ehhjdelicate-unit-e634.bowik41429.workers.dev"},"path":"/glweidf.sbs/linkws"}}
-  - {"alterId":0,"cipher":"none","customName":"🇧🇷 巴西","name":"github.com/Ruk1ng001_376258459","network":"ws","port":43402,"server":"br-saopaolo-oracle-aa9b76.ip1.shop","type":"vmess","uuid":"24f357a7-6eb5-4e88-b0cc-c3b3da00c6b0","ws-opts":{"path":"/"}}
-  - {"alterId":-1,"cipher":"aes-128-gcm","customName":"韩国-05","name":"github.com/Ruk1ng001_3811467450","password":"9da21772-de82-42f3-9d3e-115985b52e6f","port":17391,"server":"video.tikonline.live","type":"ss","udp":true}
-  - {"alterId":-1,"cipher":"aes-256-cfb","customName":"🇩🇪DE_9000 @WangCai_1","name":"github.com/Ruk1ng001_2381704039","password":"a3GFYt36Sm82Vys9","port":9000,"server":"80.92.204.106","type":"ss"}
-  - {"alterId":0,"cipher":"none","customName":"具体查看官网使用教程","name":"github.com/Ruk1ng001_508957716","network":"ws","port":80,"server":"us111.5our.top","type":"vmess","uuid":"bc608245-628c-4711-8786-07deac552ff4","ws-opts":{"path":"/cctv13/hd.m3u8"}}
-  - {"alterId":-1,"cipher":"chacha20-ietf-poly1305","customName":"🇺🇸美国|【广美-0.5倍】","name":"github.com/Ruk1ng001_832263432","password":"71485d23-91d7-46b1-ac2e-73135325f94d","port":27191,"server":"5g.quanstring.top","type":"ss"}
-  - {"alterId":-1,"cipher":"aes-128-cfb","customName":"SSR-美国-自制NF-ChatGPT-TikTok-YouTubePrem-156.146.38.163:443","name":"github.com/Ruk1ng001_2013146544","obfs":"plain","password":"shadowsocks","port":443,"protocol":"origin","server":"156.146.38.163","type":"ssr"}
-  - {"alterId":-1,"customName":"🔒 TR-TCP-TLS 🇮🇪 IE-34.246.103.248:22222 📡 PING-070.73-MS","name":"github.com/Ruk1ng001_3364884070","password":"telegram-id-privatevpns","port":22222,"server":"34.246.103.248","sni":"trojan.burgerip.co.uk","type":"trojan"}
-  - {"alterId":0,"cipher":"auto","customName":"CN_speednode_0008","name":"github.com/Ruk1ng001_2981248319","network":"ws","port":25277,"server":"cu.awslcn.info","type":"vmess","udp":true,"uuid":"1640b579-cff8-46bc-a657-3860b5455712"}
-  - {"alterId":-1,"cipher":"aes-256-cfb","customName":"4FreeIran-1288","name":"github.com/Ruk1ng001_185289708","password":"rpgbNnU9rDDU4aWZ","port":9094,"server":"80.92.204.106","type":"ss"}
-  - {"alterId":-1,"cipher":"chacha20-ietf-poly1305","customName":"🇪🇸 ES 14 → tg@nicevpn123","name":"github.com/Ruk1ng001_2241610555","password":"95597817-57ba-43e9-b853-c9dab67c59ce","port":61001,"server":"4.forlive.live","type":"ss","udp":true}
-  - {"alterId":-1,"customName":"🔒 TR-TCP-TLS 🇨🇦 CA-35.182.131.200:22222 📡 PING-022.73-MS","name":"github.com/Ruk1ng001_897735436","password":"telegram-id-directvpn","port":22222,"server":"35.182.131.200","sni":"trojan.burgerip.co.uk","type":"trojan"}
-  - {"alterId":-1,"cipher":"aes-256-cfb","customName":"0|-https://t.me/MrXbin-56","name":"github.com/Ruk1ng001_2693051642","obfs":"plain","obfs-param":"None","password":"UTJA57ypk2XKQpnm","port":9033,"protocol":"origin","protocol-param":"None","server":"103.172.116.79","type":"ssr","udp":true}
-  - {"alterId":0,"cipher":"auto","customName":"5,6|美国|@ripaojiedian","name":"github.com/Ruk1ng001_3722424023","network":"ws","port":2095,"server":"cfcdn1.sanfencdn9.com","servername":"","skip-cert-verify":false,"tfo":false,"tls":false,"type":"vmess","uuid":"7c42a3f8-cb73-4338-91e6-eef9e7346b12","ws-opts":{"headers":{"Host":"us82pRzxDMb.fzbqfrse.xyz"},"path":"/video/qYZue4zaWS"}}
-  - {"alterId":-1,"cipher":"aes-256-gcm","customName":"RW 11 → tg@nicevpn123","name":"github.com/Ruk1ng001_1022491906","password":"TEzjfAYq2IjtuoS","port":6679,"server":"23.162.200.149","type":"ss","udp":true}
-  - {"alterId":-1,"customName":"🇭🇰HK-52.229.189.6-161","name":"github.com/Ruk1ng001_1869152945","password":"1640b579-cff8-46bc-a657-3860b5455712","port":443,"server":"hk03.trojanyyds.xyz","skip-cert-verify":true,"sni":"hk03.trojanyyds.xyz","type":"trojan"}
-  - {"alterId":-1,"cipher":"aes-256-cfb","customName":"🇸🇬SG-103.172.116.79-3389","name":"github.com/Ruk1ng001_511116049","password":"cp8pRSUAyLhTfVWH","port":9064,"server":"103.172.116.79","type":"ss"}
-  - {"alterId":-1,"cipher":"chacha20-ietf-poly1305","country":"🇷🇺RU","customName":"🇷🇺RU_369","name":"github.com/Ruk1ng001_2429767849","password":"IKDBUJ8RH6qI10QR1MSTqR","port":16006,"server":"46.226.164.2","type":"ss"}
-  - {"alterId":-1,"cipher":"chacha20-ietf-poly1305","customName":"🇨🇳台湾省|【沪日】","name":"github.com/Ruk1ng001_1453958981","password":"71485d23-91d7-46b1-ac2e-73135325f94d","port":10743,"server":"db.quanstring.top","type":"ss"}
-  - {"alterId":-1,"customName":"🇯🇵JP-74.226.161.232-0129","name":"github.com/Ruk1ng001_645238661","password":"1640b579-cff8-46bc-a657-3860b5455712","port":443,"server":"74.226.161.232","skip-cert-verify":false,"sni":"in01.trojanyyds.xyz","type":"trojan"}
-  - {"alterId":0,"cipher":"auto","customName":"CN_speednode_0027","name":"github.com/Ruk1ng001_3323405748","network":"ws","port":25285,"server":"cu.awslcn.info","type":"vmess","udp":true,"uuid":"1640b579-cff8-46bc-a657-3860b5455712"}
-  - {"alterId":0,"cipher":"auto","customName":"CN_speednode_0015","name":"github.com/Ruk1ng001_3848753611","network":"ws","port":25216,"server":"cm1.awslcn.info","type":"vmess","udp":true,"uuid":"1640b579-cff8-46bc-a657-3860b5455712"}
-  - {"alterId":0,"cipher":"auto","customName":"CN_speednode_0031","name":"github.com/Ruk1ng001_3817276371","network":"ws","port":25285,"server":"cm1.awslcn.info","type":"vmess","udp":true,"uuid":"1640b579-cff8-46bc-a657-3860b5455712"}
-  - {"alterId":-1,"cipher":"aes-256-cfb","customName":"🇩🇪DE_9046 @WangCai_1","name":"github.com/Ruk1ng001_2972017875","password":"NvS8N4Vf8qAGPSCL","port":9046,"server":"80.92.204.106","type":"ss"}
-  - {"alterId":-1,"cipher":"chacha20-ietf-poly1305","customName":"Singapore SS - B Group","name":"github.com/Ruk1ng001_3286246519","password":"2155145a-b1b5-443a-8977-670f6bd10f02","port":50001,"server":"bgroup.node3.s.nodelist-gfwairport2.top","type":"ss"}
-  - {"alterId":-1,"customName":"🔒 TR-TCP-TLS 🇩🇪 DE-35.159.48.48:22222 📡 PING-093.69-MS","name":"github.com/Ruk1ng001_1336738841","password":"telegram-id-directvpn","port":22222,"server":"35.159.48.48","sni":"trojan.burgerip.co.uk","type":"trojan"}
-  - {"alterId":-1,"cipher":"aes-256-cfb","customName":"🇩🇪DE_9025 @WangCai_1","name":"github.com/Ruk1ng001_3137877877","password":"XPtzA9sCug3SPR4c","port":9025,"server":"80.92.204.106","type":"ss"}
-  - {"alterId":-1,"cipher":"aes-256-gcm","customName":"4FreeIran-2122","name":"github.com/Ruk1ng001_2786507262","password":"Y6R9pAtvxxzmGC","port":9090,"server":"23.162.200.215","type":"ss"}
-  - {"alterId":0,"cipher":"auto","country":"🏁ZZ","customName":"disney_netflix_US","h2-opts":{},"http-opts":{},"name":"github.com/Ruk1ng001_913949734","network":"ws","port":80,"server":"www.digitalocean.com","servername":"usvmqlsgf1ljbtzjun8.lovemianfei.store","skip-cert-verify":true,"type":"vmess","uuid":"17720720-37e2-4ecf-a6f8-71c329ca7669","ws-opts":{"headers":{"HOST":"usvmqlsgf1ljbtzjun8.lovemianfei.store"},"path":"/"}}
-  - {"alterId":-1,"cipher":"aes-256-gcm","customName":"RW 12 → tg@nicevpn123","name":"github.com/Ruk1ng001_1734840782","password":"cdBIDV42DCwnfIN","port":8118,"server":"23.162.200.225","type":"ss","udp":true}
-  - {"alterId":-1,"customName":"🔒 TR-TCP-TLS 🇺🇸 US-18.218.52.200:22222 📡 PING-014.91-MS","name":"github.com/Ruk1ng001_2762966185","password":"telegram-id-directvpn","port":22222,"server":"18.218.52.200","sni":"trojan.burgerip.co.uk","type":"trojan"}
-  - {"alterId":-1,"country":"🇯🇵JP","customName":"🇯🇵JP_359","name":"github.com/Ruk1ng001_2078650675","password":"0bfa2050-b165-4156-859c-70f36d300dce","port":20230,"server":"jp06.421421.xyz","skip-cert-verify":true,"sni":"421421.xyz","type":"trojan","udp":true}
-  - {"alterId":0,"cipher":"auto","country":"🏁ZZ","customName":"disney_netflix_US","h2-opts":{},"http-opts":{},"name":"github.com/Ruk1ng001_1303543440","network":"ws","port":80,"server":"www.pcmag.com","servername":"usvmqlsgf1ljbtzjun8.lovemianfei.store","skip-cert-verify":true,"type":"vmess","uuid":"17720720-37e2-4ecf-a6f8-71c329ca7669","ws-opts":{"headers":{"HOST":"usvmqlsgf1ljbtzjun8.lovemianfei.store"},"path":"/"}}
-  - {"alterId":-1,"customName":"🇯🇵JP-172.207.247.120-0203","name":"github.com/Ruk1ng001_512866803","password":"1640b579-cff8-46bc-a657-3860b5455712","port":443,"server":"hk01.trojanyyds.xyz","skip-cert-verify":false,"sni":"hk01.trojanyyds.xyz","type":"trojan"}
-  - {"alterId":-1,"cipher":"chacha20-ietf-poly1305","customName":"Incheon SS - B Group","name":"github.com/Ruk1ng001_986862858","password":"2155145a-b1b5-443a-8977-670f6bd10f02","port":50001,"server":"bgroup.node2.s.nodelist-gfwairport2.top","type":"ss"}
-  - {"alterId":0,"cipher":"auto","country":"🇺🇸US","customName":"Relay_🇺🇸US-🇹🇼TW_422","h2-opts":{},"http-opts":{},"name":"github.com/Ruk1ng001_3557028703","network":"ws","port":8080,"server":"172.67.199.127","servername":"oiictw.yydsii.com","skip-cert-verify":true,"type":"vmess","uuid":"b551aa22-22af-11ee-b8d8-f23c932eb68d","ws-opts":{"headers":{"HOST":"oiictw.yydsii.com"},"path":"/"}}
-  - {"alterId":-1,"cipher":"aes-256-cfb","customName":"🇸🇬SG-103.172.116.79-3404","name":"github.com/Ruk1ng001_3283496859","password":"GA9KzeEgvfxNrgmM","port":9019,"server":"103.172.116.79","type":"ss"}
-  - {"alterId":-1,"cipher":"aes-256-cfb","customName":"🇩🇪DE_9042 @WangCai_1","name":"github.com/Ruk1ng001_2594769059","password":"S7KwUu7yBy58S3Ga","port":9042,"server":"80.92.204.106","type":"ss"}
-  - {"alterId":-1,"cipher":"aes-128-cfb","country":"🏁 ZZ","customName":"ChatGPT 🏁 ZZ_716","name":"github.com/Ruk1ng001_1490566360","password":"shadowsocks","port":443,"server":"184.170.241.194","type":"ss","udp":true}
-  - {"alterId":-1,"customName":"🇫🇷FR-13.36.96.46-0210","name":"github.com/Ruk1ng001_2678921149","password":"telegram-id-privatevpns","port":22222,"server":"13.36.96.46","skip-cert-verify":false,"sni":"trojan.burgerip.co.uk","type":"trojan"}
-  - {"alterId":0,"cipher":"auto","customName":"CN_speednode_0012","name":"github.com/Ruk1ng001_670247492","network":"ws","port":25216,"server":"cm.awslcn.info","type":"vmess","udp":true,"uuid":"1640b579-cff8-46bc-a657-3860b5455712"}
-  - {"alterId":0,"cipher":"auto","country":"🏁ZZ","customName":"Relay_🏁ZZ-🇫🇷FR_515","h2-opts":{},"http-opts":{},"name":"github.com/Ruk1ng001_3523461818","network":"ws","port":2052,"server":"104.18.202.250","servername":"erfannewfreenodes.vdmmswyzmzigonvnjk443.workers.dev","skip-cert-verify":true,"type":"vmess","uuid":"6c168fcc-2231-4f3b-8c1e-f6391692df4a","ws-opts":{"headers":{"HOST":"erfannewfreenodes.vdmmswyzmzigonvnjk443.workers.dev"},"path":"/hms02.fxiaomi.sbs/link"}}
-  - {"alterId":0,"cipher":"auto","customName":"🇨🇳 CN 417 → tg@nicevpn123","name":"github.com/Ruk1ng001_2074855811","port":52033,"server":"39.103.165.178","skip-cert-verify":true,"tls":false,"type":"vmess","udp":true,"uuid":"418048af-a293-4b99-9b0c-98ca3580dd24"}
-  - {"alterId":-1,"cipher":"chacha20-ietf-poly1305","customName":"巴西 主力隧道 1X","name":"github.com/Ruk1ng001_4197064378","password":"9653e0e1-f3f7-4eb8-9e14-f22bd280c74c","port":31316,"server":"sz.zj.my.1.76po.com","type":"ss","udp":true}
-  - {"alterId":0,"cipher":"auto","country":"🇨🇳CN","customName":"Relay_🇨🇳CN-🇭🇰HK_310","h2-opts":{},"http-opts":{},"name":"github.com/Ruk1ng001_2223018783","network":"ws","port":16632,"server":"yes.cnmjcn.net","servername":"dcef278233434a15c3587ef998dd119d.mobgslb.tbcache.com","skip-cert-verify":true,"type":"vmess","uuid":"2b8cfb7b-d3e7-4525-8418-e13a9b8fd73b","ws-opts":{"headers":{"HOST":"dcef278233434a15c3587ef998dd119d.mobgslb.tbcache.com"},"path":"/"}}
-  - {"alterId":-1,"cipher":"aes-256-cfb","customName":"🇸🇬SG-103.172.116.79-3386","name":"github.com/Ruk1ng001_1177855480","password":"EXN3S3eQpjE7EJu8","port":9027,"server":"103.172.116.79","type":"ss"}
-  - {"alterId":-1,"cipher":"chacha20-ietf-poly1305","customName":"🇭🇰香港|【沪新】","name":"github.com/Ruk1ng001_2071703730","password":"71485d23-91d7-46b1-ac2e-73135325f94d","port":38667,"server":"db.quanstring.top","type":"ss"}
-  - {"alterId":-1,"cipher":"aes-256-cfb","customName":"🇰🇷KR-43.201.47.36-3383","name":"github.com/Ruk1ng001_402196054","password":"amazonskr05","port":443,"server":"43.201.47.36","type":"ss"}
-  - {"alterId":0,"cipher":"auto","country":"🇸🇪SE","customName":"disney_netflix_US","h2-opts":{},"http-opts":{},"name":"github.com/Ruk1ng001_4180342801","network":"ws","port":17542,"server":"zzz.nikili1236vip.top","servername":"zzz.nikili1236vip.top","skip-cert-verify":true,"tls":true,"type":"vmess","uuid":"51ea7cdf-2278-4a13-b2e4-632cda111110","ws-opts":{"headers":{"HOST":"zzz.nikili1236vip.top"},"path":"/50ab5b"}}
-  - {"alterId":0,"cipher":"auto","client-fingerprint":"chrome","customName":"11,15,16|香港|@ripaojiedian","name":"github.com/Ruk1ng001_2686558329","network":"ws","port":16632,"server":"m.cnmjin.net","servername":"","skip-cert-verify":false,"tfo":false,"tls":false,"type":"vmess","uuid":"2b8cfb7b-d3e7-4525-8418-e13a9b8fd73b","ws-opts":{"headers":{"Host":"dcef278233434a15c3587ef998dd119d.mobgslb.tbcache.com"},"path":"/"}}
-  - {"alterId":-1,"cipher":"chacha20-ietf-poly1305","customName":"🔒 SS-TCP-NA 🇬🇧 GB-104.248.169.207:1080 📡 PING-078.74-MS","name":"github.com/Ruk1ng001_3083510873","password":"8z9R4FiU9Ttgpl6it_pJPw","port":1080,"server":"104.248.169.207","type":"ss"}
-  - {"alterId":-1,"cipher":"aes-128-cfb","customName":"SSR-美国-自制NF-ChatGPT-TikTok-YouTubePrem-212.102.47.198:443","name":"github.com/Ruk1ng001_796916901","obfs":"plain","password":"shadowsocks","port":443,"protocol":"origin","server":"212.102.47.198","type":"ssr"}
-  - {"alterId":0,"cipher":"none","customName":"4FreeIran-12970","name":"github.com/Ruk1ng001_3675711602","network":"ws","port":17542,"server":"zzz.nikili1236vip.top","tls":true,"type":"vmess","uuid":"51ea7cdf-2278-4a13-b2e4-632cda111110","ws-opts":{"path":"/50ab5b"}}
-  - {"alterId":-1,"customName":"🔒 TR-TCP-TLS 🇩🇪 DE-3.75.39.139:22222 📡 PING-092.43-MS","name":"github.com/Ruk1ng001_2303866192","password":"telegram-id-directvpn","port":22222,"server":"3.75.39.139","sni":"trojan.burgerip.co.uk","type":"trojan"}
-  - {"alterId":-1,"cipher":"aes-256-cfb","client-fingerprint":"chrome","customName":"15|🇸🇬 狮城特殊|@ripaojiedian","name":"github.com/Ruk1ng001_4123379038","password":"amazonskr05","port":443,"server":"54.65.132.51","tfo":false,"type":"ss"}
-  - {"alterId":0,"cipher":"none","customName":"🇭🇰 香港3-1B","name":"github.com/Ruk1ng001_431870641","port":10010,"server":"xg3.tcity8.buzz","type":"vmess","uuid":"64635a04-a62d-46e2-be81-ecdf336fb3ee","ws-opts":{}}
-  - {"alterId":-1,"cipher":"aes-256-gcm","customName":"🇰🇷 韩国-A","name":"github.com/Ruk1ng001_1164237975","password":"24f357a7-6eb5-4e88-b0cc-c3b3da00c6b0","port":45502,"server":"kr-seoul-oracle-f0b622.ip1.shop","type":"ss"}
+  - {"alterId":64,"cipher":"auto","customName":"disney_netflix_HK","h2-opts":{},"http-opts":{},"name":"github.com/Ruk1ng001_1708283347","port":54100,"server":"183.236.51.59","type":"vmess","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24"}
+  - {"alterId":-1,"customName":"🔒 TR-TCP-TLS 🇭🇰 HK-91.229.132.176:443 📡 PING-207.65-MS","name":"github.com/Ruk1ng001_1780867753","password":"eb7e85c8-d699-4d84-9a69-d44a1b5e2de9","port":443,"server":"91.229.132.176","sni":"hk-a.speedyweb.xyz","type":"trojan"}
+  - {"alterId":0,"cipher":"auto","customName":"_609 |10.98Mb","h2-opts":{},"http-opts":{},"name":"github.com/Ruk1ng001_1708733874","network":"ws","port":443,"server":"23.134.91.22","skip-cert-verify":true,"tls":true,"type":"vmess","udp":true,"uuid":"03fcc618-b93d-6796-6aed-8a38c975d581","ws-opts":{"path":"/linkvws"}}
+  - {"alterId":-1,"customName":"🔒 TR-TCP-TLS 🇩🇪 DE-157.230.106.87:443 📡 PING-085.73-MS","name":"github.com/Ruk1ng001_404815326","password":"eb7e85c8-d699-4d84-9a69-d44a1b5e2de9","port":443,"server":"157.230.106.87","sni":"ger-a.speedyweb.xyz","type":"trojan"}
+  - {"alterId":-1,"cipher":"aes-256-cfb","customName":"4Kian-792","name":"github.com/Ruk1ng001_2152169481","password":"TPqX8edgbAURcAMb","port":9079,"server":"103.172.116.79","type":"ss"}
   - {"alterId":0,"cipher":"auto","country":"🇺🇸US","customName":"加拿大 069","delay":2831,"h2-opts":{},"http-opts":{},"name":"github.com/Ruk1ng001_1295306959","network":"ws","port":8080,"server":"172.67.199.0","servername":"oiictw.yydsii.com","skip-cert-verify":true,"type":"vmess","uuid":"b551aa22-22af-11ee-b8d8-f23c932eb68d","ws-opts":{"headers":{"HOST":"oiictw.yydsii.com"},"path":"/"}}
-  - {"alterId":0,"cipher":"auto","country":"🏁ZZ","customName":"disney_netflix_US","h2-opts":{},"http-opts":{},"name":"github.com/Ruk1ng001_3255661347","network":"ws","port":80,"server":"fbi.gov","servername":"usvmqlsgf1ljbtzjun8.lovemianfei.store","skip-cert-verify":true,"type":"vmess","uuid":"17720720-37e2-4ecf-a6f8-71c329ca7669","ws-opts":{"headers":{"HOST":"usvmqlsgf1ljbtzjun8.lovemianfei.store"},"path":"/"}}
-  - {"alterId":0,"cipher":"auto","country":"🇺🇸US","customName":"Relay_🇺🇸US-🇹🇼TW_431","h2-opts":{},"http-opts":{},"name":"github.com/Ruk1ng001_3756619769","network":"ws","port":8080,"server":"172.67.199.136","servername":"oiictw.yydsii.com","skip-cert-verify":true,"type":"vmess","uuid":"b551aa22-22af-11ee-b8d8-f23c932eb68d","ws-opts":{"headers":{"HOST":"oiictw.yydsii.com"},"path":"/"}}
-  - {"alterId":-1,"cipher":"chacha20-ietf-poly1305","customName":"🇯🇵日本|【沪日VIP】","name":"github.com/Ruk1ng001_2369171920","password":"71485d23-91d7-46b1-ac2e-73135325f94d","port":50317,"server":"db.quanstring.top","type":"ss"}
-  - {"alterId":-1,"cipher":"chacha20-ietf-poly1305","customName":"🇨🇳台湾省|【沪港】","name":"github.com/Ruk1ng001_3296524446","password":"71485d23-91d7-46b1-ac2e-73135325f94d","port":19055,"server":"db.quanstring.top","type":"ss"}
-  - {"alterId":0,"cipher":"auto","customName":"CN_speednode_0024","name":"github.com/Ruk1ng001_3388020787","network":"ws","port":25241,"server":"cm1.awslcn.info","type":"vmess","udp":true,"uuid":"1640b579-cff8-46bc-a657-3860b5455712"}
-  - {"alterId":-1,"cipher":"aes-256-gcm","customName":"RW 6 → tg@nicevpn123","name":"github.com/Ruk1ng001_2335093990","password":"e4FCWrgpkji3QY","port":9102,"server":"23.162.200.225","type":"ss","udp":true}
-  - {"alterId":0,"cipher":"auto","customName":"CN_speednode_0009","name":"github.com/Ruk1ng001_1430471093","network":"ws","port":25280,"server":"cu.awslcn.info","type":"vmess","udp":true,"uuid":"1640b579-cff8-46bc-a657-3860b5455712"}
-  - {"alterId":-1,"cipher":"aes-256-cfb","country":"SG","customName":"0|-https://t.me/MrXbin-203","name":"github.com/Ruk1ng001_1200556249","obfs":"plain","password":"TPqX8edgbAURcAMb","port":9079,"protocol":"origin","server":"103.172.116.79","type":"ssr"}
-  - {"alterId":-1,"cipher":"aes-256-cfb","customName":"🇰🇷KR-13.124.178.1-3410","name":"github.com/Ruk1ng001_2538090666","password":"amazonskr05","port":443,"server":"13.124.178.1","type":"ss"}
-  - {"alterId":0,"cipher":"auto","customName":"加拿大 179","name":"github.com/Ruk1ng001_291768839","network":"ws","port":2052,"server":"cf.hy2.one","skip-cert-verify":true,"tls":false,"type":"vmess","uuid":"5edafe88-b558-4129-a86d-58fd84be79f0","ws-opts":{"headers":{"host":"hk07.hy-2.one"},"path":"/"}}
-  - {"alterId":0,"cipher":"none","customName":"广东省佛山市 移动","name":"github.com/Ruk1ng001_3777618365","port":15600,"server":"183.232.199.28","type":"vmess","uuid":"aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaad","ws-opts":{}}
-  - {"alterId":-1,"cipher":"chacha20-ietf-poly1305","customName":"🇨🇳台湾2号|【沪日】","name":"github.com/Ruk1ng001_2406887369","password":"71485d23-91d7-46b1-ac2e-73135325f94d","port":30042,"server":"db.quanstring.top","type":"ss"}
-  - {"alterId":0,"cipher":"none","customName":"防失联 2 | 邀请返利50％","name":"github.com/Ruk1ng001_1261727584","network":"ws","port":2082,"server":"us111.5our.top","type":"vmess","uuid":"bc608245-628c-4711-8786-07deac552ff4","ws-opts":{"path":"/cctv13/hd.m3u8"}}
-  - {"alterId":1,"cipher":"auto","customName":"🇯🇵 JP 63 → tg@nicevpn123","name":"github.com/Ruk1ng001_3510229133","port":28786,"server":"7oi23-g04.jp06-7c5a-vm0.entry.fr0307a.art","skip-cert-verify":true,"tls":true,"type":"vmess","udp":true,"uuid":"e147ce52-2598-31b0-950d-6b12c306b360"}
-  - {"alterId":0,"cipher":"auto","customName":"CN_speednode_0004","name":"github.com/Ruk1ng001_1245590397","network":"ws","port":25242,"server":"hk1.awslcn.info","type":"vmess","udp":true,"uuid":"1640b579-cff8-46bc-a657-3860b5455712"}
-  - {"alterId":0,"cipher":"auto","customName":"16|新加坡|@ripaojiedian","name":"github.com/Ruk1ng001_1032828922","network":"ws","port":46016,"server":"mmsg16.micloud.buzz","servername":"","tls":false,"type":"vmess","uuid":"e4e6bc46-a03f-47e3-94ba-fb535f3ab83d","ws-opts":{"headers":{"Host":""},"path":"/zh-cn"}}
-  - {"alterId":-1,"cipher":"aes-128-gcm","customName":"英国-04","name":"github.com/Ruk1ng001_636687194","password":"9da21772-de82-42f3-9d3e-115985b52e6f","port":16749,"server":"video.tikonline.live","type":"ss","udp":true}
-  - {"alterId":0,"cipher":"auto","customName":"CN_speednode_0019","name":"github.com/Ruk1ng001_4238347257","network":"ws","port":25257,"server":"us2.awslcn.info","type":"vmess","udp":true,"uuid":"1640b579-cff8-46bc-a657-3860b5455712"}
-  - {"alterId":0,"cipher":"auto","customName":"CN_speednode_0017","name":"github.com/Ruk1ng001_1577293506","network":"ws","port":25218,"server":"cm.awslcn.info","type":"vmess","udp":true,"uuid":"1640b579-cff8-46bc-a657-3860b5455712"}
-  - {"alterId":0,"cipher":"auto","country":"🏁ZZ","customName":"Relay_🏁ZZ-🇭🇰HK_525","h2-opts":{},"http-opts":{},"name":"github.com/Ruk1ng001_2189026822","network":"ws","port":2052,"server":"104.21.73.173","servername":"hk07.hy-2.one","skip-cert-verify":true,"type":"vmess","uuid":"5edafe88-b558-4129-a86d-58fd84be79f0","ws-opts":{"headers":{"HOST":"hk07.hy-2.one"},"path":"/"}}
-  - {"alterId":0,"cipher":"auto","customName":"CN_speednode_0028","name":"github.com/Ruk1ng001_939289251","network":"ws","port":25286,"server":"cu.awslcn.info","type":"vmess","udp":true,"uuid":"1640b579-cff8-46bc-a657-3860b5455712"}
-  - {"alterId":-1,"cipher":"aes-128-gcm","customName":"日本-02","name":"github.com/Ruk1ng001_125156137","password":"9da21772-de82-42f3-9d3e-115985b52e6f","port":16654,"server":"video.tikonline.live","type":"ss","udp":true}
-  - {"alterId":-1,"cipher":"aes-128-gcm","customName":"新加坡-06","name":"github.com/Ruk1ng001_4217507469","password":"9da21772-de82-42f3-9d3e-115985b52e6f","port":13947,"server":"video.tikonline.live","type":"ss","udp":true}
-  - {"alterId":0,"cipher":"none","customName":"🇭🇰 香港 1 LV0-HK-1B","name":"github.com/Ruk1ng001_3866585498","port":22300,"server":"223.113.130.62","type":"vmess","uuid":"59636286-dcb1-4a3c-9d40-3ab139ac43fe","ws-opts":{}}
-  - {"alterId":0,"cipher":"auto","country":"🏁ZZ","customName":"Relay_🏁ZZ-🇺🇸US_552","h2-opts":{},"http-opts":{},"name":"github.com/Ruk1ng001_625743164","network":"ws","port":80,"server":"104.16.61.8","servername":"freevpn878.hamidimorteza680.workers.dev","skip-cert-verify":true,"type":"vmess","uuid":"1052f24e-7b09-45eb-b0c5-d858eb124192","ws-opts":{"headers":{"HOST":"freevpn878.hamidimorteza680.workers.dev"},"path":"/glweidf.cfd/linkws"}}
-  - {"alterId":0,"cipher":"auto","country":"🏁ZZ","customName":"disney_netflix_US","h2-opts":{},"http-opts":{},"name":"github.com/Ruk1ng001_3942436740","network":"ws","port":80,"server":"104.19.173.68","servername":"usvmqlsgf1ljbtzjun8.lovemianfei.store","skip-cert-verify":true,"type":"vmess","uuid":"17720720-37e2-4ecf-a6f8-71c329ca7669","ws-opts":{"headers":{"HOST":"usvmqlsgf1ljbtzjun8.lovemianfei.store"},"path":"/"}}
-  - {"alterId":64,"cipher":"auto","customName":"🇨🇳 CN 77 → tg@nicevpn123","name":"github.com/Ruk1ng001_24015290","port":40259,"server":"120.238.122.243","skip-cert-verify":true,"tls":false,"type":"vmess","udp":true,"uuid":"418048af-a293-4b99-9b0c-98ca3580dd24"}
-  - {"alterId":-1,"cipher":"aes-256-cfb","country":"🏁 ZZ","customName":"ChatGPT 🏁 ZZ_997","name":"github.com/Ruk1ng001_1832424006","obfs":"plain","password":"UWZQeLRWnkqgkseq","port":9032,"protocol":"origin","server":"103.172.116.79","type":"ssr"}
-  - {"alterId":-1,"customName":"🇮🇪IE-18.200.57.202-0161","name":"github.com/Ruk1ng001_113170466","password":"telegram-id-privatevpns","port":22222,"server":"18.200.57.202","skip-cert-verify":false,"sni":"trojan.burgerip.co.uk","type":"trojan"}
-  - {"alterId":-1,"cipher":"aes-256-cfb","customName":"🇩🇪DE_9097 @WangCai_1","name":"github.com/Ruk1ng001_60235898","password":"Sn5B7jTqr76aCJT8","port":9097,"server":"80.92.204.106","type":"ss"}
-  - {"alterId":-1,"cipher":"aes-256-cfb","customName":"🔒 SS-TCP-NA 🇩🇪 DE-80.92.204.106:9006 📡 PING-090.10-MS","name":"github.com/Ruk1ng001_2410055517","password":"FAdUvMJUq5vDgKEq","port":9006,"server":"80.92.204.106","type":"ss"}
-  - {"alterId":-1,"cipher":"aes-128-cfb","country":"🏁 ZZ","customName":"ChatGPT 🏁 ZZ_989","name":"github.com/Ruk1ng001_3564040109","obfs":"plain","password":"shadowsocks","port":443,"protocol":"origin","server":"109.201.152.181","type":"ssr"}
-  - {"alterId":-1,"customName":"🔒 TR-TCP-TLS 🇬🇧 GB-3.8.42.44:22222 📡 PING-079.70-MS","name":"github.com/Ruk1ng001_1561149140","password":"telegram-id-privatevpns","port":22222,"server":"3.8.42.44","sni":"trojan.burgerip.co.uk","type":"trojan"}
-  - {"alterId":-1,"cipher":"aes-256-cfb","customName":"🇸🇬SG-103.172.116.79-3392","name":"github.com/Ruk1ng001_1631711533","password":"Lp27rqyJq72bZsqX","port":9045,"server":"103.172.116.79","type":"ss"}
-  - {"alterId":0,"cipher":"auto","customName":"Relay_-🇹🇼TW_258","h2-opts":{},"http-opts":{},"name":"github.com/Ruk1ng001_2885853846","network":"ws","port":8080,"server":"172.67.172.125","servername":"oiictw.yydsii.com","skip-cert-verify":true,"type":"vmess","uuid":"b551aa22-22af-11ee-b8d8-f23c932eb68d","ws-opts":{"headers":{"HOST":"oiictw.yydsii.com"},"path":"/"}}
-  - {"alterId":0,"cipher":"auto","customName":"CN_speednode_0011","name":"github.com/Ruk1ng001_2148845678","network":"ws","port":25282,"server":"sg1.awslcn.info","type":"vmess","udp":true,"uuid":"1640b579-cff8-46bc-a657-3860b5455712"}
-  - {"alterId":-1,"cipher":"aes-256-cfb","customName":"🇩🇪DE_9057 @WangCai_1","name":"github.com/Ruk1ng001_743354087","password":"wjTugX3ZtHMB9c3Z","port":9057,"server":"80.92.204.106","type":"ss"}
-  - {"alterId":-1,"cipher":"aes-256-cfb","customName":"🇸🇬SG-13.214.212.171-3379","name":"github.com/Ruk1ng001_2533587589","password":"amazonskr05","port":443,"server":"13.214.212.171","type":"ss"}
-  - {"alterId":-1,"cipher":"aes-256-cfb","customName":"🇩🇪DE_9027 @WangCai_1","name":"github.com/Ruk1ng001_2070134522","password":"EXN3S3eQpjE7EJu8","port":9027,"server":"80.92.204.106","type":"ss"}
-  - {"alterId":0,"cipher":"auto","customName":"CN_speednode_0030","name":"github.com/Ruk1ng001_3015962468","network":"ws","port":25286,"server":"cm1.awslcn.info","type":"vmess","udp":true,"uuid":"1640b579-cff8-46bc-a657-3860b5455712"}
-  - {"alterId":-1,"cipher":"chacha20-ietf-poly1305","customName":"🇯🇵日本|【5G】","name":"github.com/Ruk1ng001_2421155418","password":"71485d23-91d7-46b1-ac2e-73135325f94d","port":17864,"server":"5g.quanstring.top","type":"ss"}
-  - {"alterId":-1,"cipher":"aes-256-cfb","customName":"4FreeIran-1170","name":"github.com/Ruk1ng001_278173029","password":"f63gg8EruDnUrmz4","port":9010,"server":"103.172.116.79","type":"ss"}
-  - {"alterId":0,"cipher":"auto","customName":"CN_speednode_0002","name":"github.com/Ruk1ng001_2733597327","network":"ws","port":25243,"server":"sg1.awslcn.info","type":"vmess","udp":true,"uuid":"1640b579-cff8-46bc-a657-3860b5455712"}
+  - {"alterId":-1,"cipher":"aes-256-gcm","customName":"RW 11 → tg@nicevpn123","name":"github.com/Ruk1ng001_3718325696","password":"PCnnH6SQSnfoS27","port":8091,"server":"23.162.200.225","type":"ss","udp":true}
+  - {"alterId":64,"cipher":"auto","customName":"🇨🇳CN-183.236.51.59-158","name":"github.com/Ruk1ng001_1616468470","network":"tcp","port":54437,"server":"183.236.51.59","skip-cert-verify":true,"tls":false,"type":"vmess","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","ws-headers":{"Host":"183.236.51.59"},"ws-path":"/"}
+  - {"alterId":0,"cipher":"none","customName":"Singapore V2 - B Group","name":"github.com/Ruk1ng001_1591658842","port":41001,"server":"bgroup.node3.v.nodelist-gfwairport2.top","type":"vmess","uuid":"2155145a-b1b5-443a-8977-670f6bd10f02","ws-opts":{}}
+  - {"alterId":-1,"cipher":"aes-256-gcm","customName":"RW 6 → tg@nicevpn123","name":"github.com/Ruk1ng001_3807711853","password":"kDWvXYZoTBcGkC4","port":8882,"server":"23.162.200.225","type":"ss","udp":true}
+  - {"alterId":0,"cipher":"none","customName":"Hongkong V2 - B Group","name":"github.com/Ruk1ng001_630106339","port":41001,"server":"bgroup.node4.v.nodelist-gfwairport2.top","type":"vmess","uuid":"2155145a-b1b5-443a-8977-670f6bd10f02","ws-opts":{}}
+  - {"alterId":64,"cipher":"auto","client-fingerprint":"chrome","customName":"🇨🇳 广东省江门市 移动","name":"github.com/Ruk1ng001_24015290","port":40259,"server":"120.238.122.243","skip-cert-verify":false,"tfo":false,"tls":false,"type":"vmess","udp":true,"uuid":"418048af-a293-4b99-9b0c-98ca3580dd24"}
+  - {"alterId":-1,"cipher":"aes-128-cfb","customName":"🇳🇱NL-109.201.152.181-0591","name":"github.com/Ruk1ng001_3194308421","password":"shadowsocks","port":443,"server":"109.201.152.181","type":"ss"}
+  - {"alterId":0,"cipher":"auto","country":"🇻🇳VN","customName":"越南 001","delay":1448,"h2-opts":{},"http-opts":{},"name":"github.com/Ruk1ng001_2528650115","network":"ws","port":80,"server":"103.252.94.224","servername":"bs2.loadingip.com","skip-cert-verify":true,"type":"vmess","uuid":"5278f5d3-f001-4459-94b6-7e0915238998","ws-opts":{"headers":{"HOST":"bs2.loadingip.com"},"path":"/bs"}}
+  - {"alterId":-1,"cipher":"aes-128-gcm","customName":"印度-05","name":"github.com/Ruk1ng001_3539510486","password":"9da21772-de82-42f3-9d3e-115985b52e6f","port":24379,"server":"video.tikonline.live","type":"ss","udp":true}
+  - {"alterId":-1,"customName":"🔒 TR-TCP-TLS 🇩🇪 DE-52.59.40.83:22222 📡 PING-090.88-MS","name":"github.com/Ruk1ng001_2457371901","password":"telegram-id-privatevpns","port":22222,"server":"52.59.40.83","sni":"trojan.burgerip.co.uk","type":"trojan"}
+  - {"alterId":-1,"cipher":"aes-128-cfb","customName":"SSR-美国-自制NF-ChatGPT-TikTok-YouTubePrem-184.170.241.194:443","name":"github.com/Ruk1ng001_1650935518","obfs":"plain","password":"shadowsocks","port":443,"protocol":"origin","server":"184.170.241.194","type":"ssr"}
+  - {"alterId":0,"cipher":"auto","country":"🇺🇸US","customName":"Relay_🇺🇸US-🇺🇸US_520","h2-opts":{},"http-opts":{},"name":"github.com/Ruk1ng001_2889246928","network":"ws","port":8880,"server":"exclusively-foriran.internetcdn.ggff.net","servername":"losangeles.us.pisces.eu.org","skip-cert-verify":true,"type":"vmess","uuid":"43354844-c3d6-4624-93d2-04ed7d18c03d","ws-opts":{"headers":{"HOST":"losangeles.us.pisces.eu.org"},"path":"/microsoft?ed=2048"}}
+  - {"alterId":-1,"cipher":"aes-256-cfb","customName":"🔒 SS-TCP-NA 🇩🇪 DE-80.92.204.106:9011 📡 PING-087.66-MS","name":"github.com/Ruk1ng001_458165570","password":"M3t2ZEQcMGRWBjRa","port":9011,"server":"80.92.204.106","type":"ss"}
+  - {"alterId":-1,"customName":"🔒 TR-TCP-TLS 🇬🇧 GB-3.8.42.44:22222 📡 PING-076.87-MS","name":"github.com/Ruk1ng001_1561149140","password":"telegram-id-privatevpns","port":22222,"server":"3.8.42.44","sni":"trojan.burgerip.co.uk","type":"trojan"}
+  - {"alterId":0,"cipher":"none","customName":"4Kian-9884","name":"github.com/Ruk1ng001_3115135129","network":"ws","port":80,"server":"103.252.94.224","type":"vmess","uuid":"5278f5d3-f001-4459-94b6-7e0915238998","ws-opts":{"path":"/bs"}}
+  - {"alterId":-1,"cipher":"aes-256-gcm","customName":"4Kian-2139","name":"github.com/Ruk1ng001_1613804777","password":"Y6R9pAtvxxzmGC","port":3389,"server":"23.162.200.28","type":"ss"}
+  - {"alterId":-1,"customName":"🔒 TR-TCP-TLS 🇨🇦 CA-3.98.48.230:22222 📡 PING-019.49-MS","name":"github.com/Ruk1ng001_368458161","password":"telegram-id-directvpn","port":22222,"server":"3.98.48.230","sni":"trojan.burgerip.co.uk","type":"trojan"}
+  - {"alterId":0,"cipher":"none","customName":"剩余流量：253.43 GB","name":"github.com/Ruk1ng001_691210972","network":"ws","port":8080,"server":"us111.5our.top","type":"vmess","uuid":"bc608245-628c-4711-8786-07deac552ff4","ws-opts":{"path":"/cctv13/hd.m3u8"}}
   - {"alterId":0,"cipher":"auto","customName":"🏁RELAY-162.159.58.249-3455","name":"github.com/Ruk1ng001_1008795021","network":"ws","port":2052,"server":"cfcdn2.sanfencdn9.com","skip-cert-verify":false,"tls":false,"type":"vmess","uuid":"7c42a3f8-cb73-4338-91e6-eef9e7346b12","ws-opts":{"headers":{"Host":"jpafzyhfsg3.yofnhkfc.xyz"},"path":"/video/u4eCZTxW"}}
-  - {"alterId":-1,"cipher":"aes-256-cfb","client-fingerprint":"chrome","customName":"15|🇯🇵 日本特殊|@ripaojiedian","name":"github.com/Ruk1ng001_2356634354","password":"amazonskr05","port":443,"server":"18.143.159.105","tfo":false,"type":"ss"}
-  - {"alterId":0,"cipher":"auto","country":"🏁ZZ","customName":"disney_netflix_US","h2-opts":{},"http-opts":{},"name":"github.com/Ruk1ng001_4063309201","network":"ws","port":2053,"server":"104.19.32.0","servername":"qin12.rong1104.uk","skip-cert-verify":true,"tls":true,"type":"vmess","uuid":"e317a3a9-4e15-4792-d11d-b4b08df85803","ws-opts":{"headers":{"HOST":"qin12.rong1104.uk"},"path":"/qin12"}}
-  - {"alterId":0,"cipher":"auto","country":"🏁 ZZ","customName":"ChatGPT 🏁 ZZ_1058","h2-opts":{},"http-opts":{},"name":"github.com/Ruk1ng001_4272975566","network":"tcp","port":40723,"server":"jiasu.fanmengdas.top","servername":"jiasu.fanmengdas.top","skip-cert-verify":true,"tls":true,"type":"vmess","uuid":"9dbdebfe-a557-4c3f-8445-aa3a170ff0af","ws-path":"/9b475e2a-"}
-  - {"alterId":-1,"cipher":"aes-256-cfb","customName":"🔒 SS-TCP-NA 🇩🇪 DE-80.92.204.106:9031 📡 PING-117.29-MS","name":"github.com/Ruk1ng001_743245154","password":"BwcAUZk8hUFAkDGN","port":9031,"server":"80.92.204.106","type":"ss"}
-  - {"alterId":-1,"cipher":"aes-256-gcm","customName":"4FreeIran-1620","name":"github.com/Ruk1ng001_3041443292","password":"PCnnH6SQSnfoS27","port":8090,"server":"15.204.87.225","type":"ss"}
-  - {"alterId":-1,"cipher":"aes-256-gcm","customName":"4FreeIran-1468","name":"github.com/Ruk1ng001_3087356775","password":"KixLvKzwjekG00rm","port":8000,"server":"15.204.87.217","type":"ss"}
+  - {"alterId":-1,"cipher":"chacha20-ietf-poly1305","country":"🇨🇳CN","customName":"netflix_GB","name":"github.com/Ruk1ng001_1360201207","password":"2bfaafe5-d825-424e-bb6b-471c8f4daef3","port":19593,"server":"nc.cm.xiaomi-api.xyz","type":"ss"}
+  - {"alterId":0,"cipher":"auto","country":"🏁ZZ","customName":"Relay_🏁ZZ-🇺🇸US_693","h2-opts":{},"http-opts":{},"name":"github.com/Ruk1ng001_1303578646","network":"ws","port":80,"server":"www.udemy.com","servername":"usvmqlsgf1ljbtzjun8.lovemianfei.store","skip-cert-verify":true,"type":"vmess","uuid":"bfc8003a-2cd5-45b1-b24b-7a514cb2c6e4","ws-opts":{"headers":{"HOST":"usvmqlsgf1ljbtzjun8.lovemianfei.store"},"path":"/"}}
+  - {"alterId":-1,"cipher":"aes-128-cfb","customName":"SSR-美国-自制NF-ChatGPT-TikTok-YouTubePrem-212.102.47.198:443","name":"github.com/Ruk1ng001_796916901","obfs":"plain","password":"shadowsocks","port":443,"protocol":"origin","server":"212.102.47.198","type":"ssr"}
+  - {"alterId":-1,"cipher":"aes-256-cfb","customName":"🇩🇪DE_9098 @WangCai_1","name":"github.com/Ruk1ng001_2154087120","password":"aLpQtfEZe445QyHk","port":9098,"server":"80.92.204.106","type":"ss"}
+  - {"alterId":-1,"cipher":"aes-256-gcm","customName":"4Kian-1769","name":"github.com/Ruk1ng001_312307036","password":"RexnBgU7EV5ADxG","port":7001,"server":"23.162.200.77","type":"ss"}
+  - {"alterId":-1,"cipher":"aes-256-cfb","customName":"🇸🇬SG-103.172.116.79-3405","name":"github.com/Ruk1ng001_290234292","password":"GeregetR8cvQHzYr","port":9030,"server":"103.172.116.79","type":"ss"}
+  - {"alterId":-1,"cipher":"aes-256-gcm","customName":"4Kian-2807","name":"github.com/Ruk1ng001_1672226511","password":"lGqs95QkFHo2NV","port":5499,"server":"23.162.200.77","type":"ss"}
+  - {"alterId":0,"cipher":"auto","customName":"英国 001","name":"github.com/Ruk1ng001_1899337013","network":"ws","port":80,"server":"54.38.212.91","skip-cert-verify":true,"type":"vmess","uuid":"9e660680-e7bb-4725-f1c9-84d1fdbbf5c6","ws-opts":{"headers":{"Host":"www.gov.uk"},"path":"/?ed=2048"}}
+  - {"alterId":0,"cipher":"none","customName":"4Kian-11636","name":"github.com/Ruk1ng001_1629869478","network":"ws","port":22333,"server":"38.89.72.193","type":"vmess","uuid":"4984806b-f0f9-4749-bdd5-ea38bd690270","ws-opts":{"path":"/223360xyz"}}
+  - {"alterId":0,"cipher":"auto","country":"🏁ZZ","customName":"Relay_🏁ZZ-🇺🇸US_589","h2-opts":{},"http-opts":{},"name":"github.com/Ruk1ng001_453848929","network":"ws","port":80,"server":"speed.cloudflare.com","servername":"www.fuguoqiang.top","skip-cert-verify":true,"type":"vmess","uuid":"f9cfbfa6-b3e8-4217-b568-fe3f3aa439ce","ws-opts":{"headers":{"HOST":"www.fuguoqiang.top"},"path":"/"}}
+  - {"alterId":-1,"country":"🇩🇪DE","customName":"🇩🇪DE_1097","name":"github.com/Ruk1ng001_1212913479","password":"eb7e85c8-d699-4d84-9a69-d44a1b5e2de9","port":443,"server":"ger-a.speedyweb.xyz","skip-cert-verify":true,"sni":"ger-a.speedyweb.xyz","type":"trojan","udp":true}
+  - {"alterId":-1,"cipher":"aes-256-cfb","customName":"狮城特殊|@ripaojiedian","name":"github.com/Ruk1ng001_3269662008","password":"amazonskr05","port":443,"server":"52.38.200.248","type":"ss"}
+  - {"alterId":0,"cipher":"auto","client-fingerprint":"chrome","customName":"15,16|美国|@ripaojiedian","name":"github.com/Ruk1ng001_3722424023","network":"ws","port":2095,"server":"cfcdn1.sanfencdn9.com","servername":"","skip-cert-verify":false,"tfo":false,"tls":false,"type":"vmess","uuid":"7c42a3f8-cb73-4338-91e6-eef9e7346b12","ws-opts":{"headers":{"Host":"us82pRzxDMb.fzbqfrse.xyz"},"path":"/video/qYZue4zaWS"}}
+  - {"alterId":0,"cipher":"auto","customName":"🏁RELAY-104.17.229.133-3456","name":"github.com/Ruk1ng001_314498641","network":"ws","port":2095,"server":"cfcdn1.sanfencdn9.com","skip-cert-verify":false,"tls":false,"type":"vmess","uuid":"7c42a3f8-cb73-4338-91e6-eef9e7346b12","ws-opts":{"headers":{"Host":"us82pRzxDMb.fzbqfrse.xyz"},"path":"/video/qYZue4zaWS"}}
+  - {"alterId":-1,"cipher":"aes-256-cfb","customName":"🇸🇬SG-103.172.116.79-3373","name":"github.com/Ruk1ng001_1656816604","password":"M3t2ZEQcMGRWBjRa","port":9011,"server":"103.172.116.79","type":"ss"}
+  - {"alterId":0,"cipher":"auto","customName":"美国8080","name":"github.com/Ruk1ng001_2308501734","network":"ws","port":8080,"server":"freeyx.cloudflare88.eu.org","type":"vmess","uuid":"c66a6fd2-28f0-4f8e-c03a-538aab77e89b","ws-opts":{"headers":{"host":"linuxdo-name_liubang-1.cf88.cloudns.org"},"path":"/cloud"}}
+  - {"alterId":-1,"country":"🇬🇧GB","customName":"disney_netflix_US","name":"github.com/Ruk1ng001_2840232843","password":"eec45c9e-67da-4acd-bab9-a4a343189807","port":443,"server":"us01.service.nahidacloud.top","skip-cert-verify":true,"sni":"us01.service.nahidacloud.top","type":"trojan","udp":true}
+  - {"alterId":0,"cipher":"none","customName":"湖北省武汉市 联通","name":"github.com/Ruk1ng001_2997387401","network":"ws","port":20301,"server":"data-jp-v1.usabooks.com.cn","type":"vmess","uuid":"b1478e24-4916-3abe-8f17-15931012ecbe","ws-opts":{"path":"/debian"}}
+  - {"alterId":-1,"cipher":"aes-256-cfb","customName":"🇸🇬SG-103.172.116.79-3400","name":"github.com/Ruk1ng001_3139979132","password":"BwcAUZk8hUFAkDGN","port":9031,"server":"103.172.116.79","type":"ss"}
+  - {"alterId":0,"cipher":"auto","country":"🏁ZZ","customName":"Relay_🏁ZZ-🇺🇸US_680","h2-opts":{},"http-opts":{},"name":"github.com/Ruk1ng001_1043516510","network":"ws","port":80,"server":"cf1.ftclashcloud.site","servername":"mhyusa01.ftclashcloud.online","skip-cert-verify":true,"type":"vmess","uuid":"348d6595-93e9-4bd6-b9d4-88ab54b37d5e","ws-opts":{"headers":{"HOST":"mhyusa01.ftclashcloud.online"},"path":"/ws?ed=2560"}}
+  - {"alterId":-1,"country":"🇸🇬SG","customName":"🇸🇬SG_1387 |32.24Mb","name":"github.com/Ruk1ng001_419031952","password":"ebbf7922-f9c6-4e99-b588-edd68108f269","port":20230,"server":"sg07.421421.xyz","skip-cert-verify":true,"sni":"421421.xyz","type":"trojan","udp":true}
+  - {"alterId":-1,"cipher":"aes-256-cfb","customName":"4Kian-1185","name":"github.com/Ruk1ng001_278173029","password":"f63gg8EruDnUrmz4","port":9010,"server":"103.172.116.79","type":"ss"}
+  - {"alterId":-1,"cipher":"aes-256-cfb","customName":"🔒 SS-TCP-NA 🇸🇬 SG-13.215.162.189:443 📡 PING-220.67-MS","name":"github.com/Ruk1ng001_1265275815","password":"amazonskr05","port":443,"server":"13.215.162.189","type":"ss"}
+  - {"alterId":-1,"customName":"🔒 TR-TCP-TLS 🇸🇪 SE-16.16.84.240:22222 📡 PING-105.22-MS","name":"github.com/Ruk1ng001_4016324661","password":"telegram-id-privatevpns","port":22222,"server":"16.16.84.240","sni":"trojan.burgerip.co.uk","type":"trojan"}
+  - {"alterId":-1,"cipher":"aes-256-cfb","customName":"🇩🇪DE_9027 @WangCai_1","name":"github.com/Ruk1ng001_2070134522","password":"EXN3S3eQpjE7EJu8","port":9027,"server":"80.92.204.106","type":"ss"}
+  - {"alterId":0,"cipher":"auto","customName":"13|英国 001","name":"github.com/Ruk1ng001_574168731","network":"ws","port":80,"server":"54.38.212.91","servername":"","tls":false,"type":"vmess","uuid":"9e660680-e7bb-4725-f1c9-84d1fdbbf5c6","ws-opts":{"headers":{"Host":"www.gov.uk"},"path":"/?ed=2048"}}
+  - {"alterId":0,"cipher":"none","customName":"🇬🇧 UK-SIV","name":"github.com/Ruk1ng001_482184185","network":"ws","port":443,"server":"48.sking.app","tls":true,"type":"vmess","uuid":"8912c574-7913-49c6-bc18-dab3d3f59f55","ws-opts":{"path":"/"}}
+  - {"alterId":-1,"cipher":"aes-256-cfb","customName":"0|-https://t.me/MrXbin-31","name":"github.com/Ruk1ng001_2693051642","obfs":"plain","obfs-param":"None","password":"UTJA57ypk2XKQpnm","port":9033,"protocol":"origin","protocol-param":"None","server":"103.172.116.79","type":"ssr","udp":true}
+  - {"alterId":-1,"cipher":"chacha20-ietf-poly1305","customName":"🇸🇬新加坡|【沪新】","name":"github.com/Ruk1ng001_138898346","password":"71485d23-91d7-46b1-ac2e-73135325f94d","port":30076,"server":"db.quanstring.top","type":"ss"}
+  - {"alterId":-1,"cipher":"chacha20-ietf-poly1305","customName":"🇬🇧 GB 5 → tg@nicevpn123","name":"github.com/Ruk1ng001_409156250","password":"IJl7gbeZxeXZzZGcKFMaHA","port":33910,"server":"51.103.183.241","type":"ss","udp":true}
+  - {"alterId":-1,"customName":"🔒 TR-TCP-TLS 🇮🇪 IE-52.212.162.64:22222 📡 PING-067.43-MS","name":"github.com/Ruk1ng001_458337430","password":"telegram-id-privatevpns","port":22222,"server":"52.212.162.64","sni":"trojan.burgerip.co.uk","type":"trojan"}
+  - {"alterId":0,"cipher":"auto","country":"🇺🇸US","customName":"disney_netflix_US","h2-opts":{},"http-opts":{},"name":"github.com/Ruk1ng001_3756159250","network":"ws","port":80,"server":"139.28.232.223","servername":"usfree.1234585.xyz","skip-cert-verify":true,"type":"vmess","uuid":"24f357a7-6eb5-4e88-b0cc-c3b3da00c6b0","ws-opts":{"headers":{"HOST":"usfree.1234585.xyz"},"path":"/"}}
+  - {"alterId":-1,"cipher":"aes-256-cfb","country":"🇸🇬SG","customName":"🇸🇬SG_460","name":"github.com/Ruk1ng001_2548594393","password":"wjTugX3ZtHMB9c3Z","port":9057,"server":"103.172.116.79","type":"ss"}
+  - {"alterId":0,"cipher":"auto","country":"🇺🇸US","customName":"Relay_🇺🇸US-🇺🇸US_200","h2-opts":{},"http-opts":{},"name":"github.com/Ruk1ng001_3384465325","network":"ws","port":8880,"server":"fr-a.yuji2022.eu.org","skip-cert-verify":true,"type":"vmess","uuid":"4b5e4565-322f-4223-a891-78a84f189726","ws-opts":{"path":"/9sTFt5L554kPVWmuJ2k8baS4bEY83PZ66xb4twoBBtsiMPK2b"}}
+  - {"alterId":-1,"cipher":"aes-256-cfb","customName":"🇸🇬SG-103.172.116.79-3398","name":"github.com/Ruk1ng001_2407376549","password":"JdmRK9gMEqFgs8nP","port":9003,"server":"103.172.116.79","type":"ss"}
+  - {"alterId":-1,"customName":"🇨🇳CN-36.138.99.56-130","name":"github.com/Ruk1ng001_2264581289","password":"MyYoZhfX","port":40316,"server":"36.138.99.56","skip-cert-verify":true,"type":"trojan"}
+  - {"alterId":0,"cipher":"auto","country":"🏁 ZZ","customName":"ChatGPT 🏁 ZZ_1043","h2-opts":{},"http-opts":{},"name":"github.com/Ruk1ng001_4272975566","network":"tcp","port":40723,"server":"jiasu.fanmengdas.top","servername":"jiasu.fanmengdas.top","skip-cert-verify":true,"tls":true,"type":"vmess","uuid":"9dbdebfe-a557-4c3f-8445-aa3a170ff0af","ws-path":"/9b475e2a-"}
+  - {"alterId":-1,"cipher":"aes-256-cfb","customName":"🇸🇬SG-103.172.116.79-3393","name":"github.com/Ruk1ng001_1388105328","password":"UWZQeLRWnkqgkseq","port":9032,"server":"103.172.116.79","type":"ss"}
+  - {"alterId":-1,"cipher":"aes-128-gcm","customName":"澳大利亚-04","name":"github.com/Ruk1ng001_2394693661","password":"9da21772-de82-42f3-9d3e-115985b52e6f","port":12188,"server":"video.tikonline.live","type":"ss","udp":true}
+  - {"alterId":-1,"cipher":"aes-256-cfb","country":"🏁 ZZ","customName":"ChatGPT 🏁 ZZ_973","name":"github.com/Ruk1ng001_4226562581","obfs":"plain","password":"NvS8N4Vf8qAGPSCL","port":9046,"protocol":"origin","server":"103.172.116.79","type":"ssr"}
+  - {"alterId":-1,"cipher":"chacha20-ietf-poly1305","customName":"剩余流量：558.22 GB","name":"github.com/Ruk1ng001_102376345","password":"71485d23-91d7-46b1-ac2e-73135325f94d","port":11850,"server":"db.quanstring.top","type":"ss"}
+  - {"alterId":-1,"cipher":"aes-128-gcm","customName":"美国-07","name":"github.com/Ruk1ng001_3022878362","password":"9da21772-de82-42f3-9d3e-115985b52e6f","port":12073,"server":"video.tikonline.live","type":"ss","udp":true}
+  - {"alterId":-1,"cipher":"aes-128-cfb","country":"🏁 ZZ","customName":"ChatGPT 🏁 ZZ_724","name":"github.com/Ruk1ng001_1490566360","password":"shadowsocks","port":443,"server":"184.170.241.194","type":"ss","udp":true}
+  - {"alterId":-1,"cipher":"aes-256-cfb","country":"🏁 ZZ","customName":"ChatGPT 🏁 ZZ_999","name":"github.com/Ruk1ng001_3911308321","obfs":"plain","password":"KnJGad3FqTvjqbaX","port":9014,"protocol":"origin","server":"103.172.116.79","type":"ssr"}
+  - {"alterId":-1,"cipher":"aes-256-cfb","customName":"_190","name":"github.com/Ruk1ng001_2029743534","password":"ueLXVkvh4hckhErQ","port":9060,"server":"103.172.116.79","type":"ss"}
+  - {"alterId":-1,"customName":"🔒 TR-TCP-TLS 🇬🇧 GB-13.42.250.10:22222 📡 PING-077.95-MS","name":"github.com/Ruk1ng001_476083743","password":"telegram-id-privatevpns","port":22222,"server":"13.42.250.10","sni":"trojan.burgerip.co.uk","type":"trojan"}
+  - {"alterId":-1,"customName":"🇮🇪IE-52.30.51.125-0151","name":"github.com/Ruk1ng001_2074681023","password":"telegram-id-privatevpns","port":22222,"server":"52.30.51.125","skip-cert-verify":false,"sni":"trojan.burgerip.co.uk","type":"trojan"}
+  - {"alterId":-1,"cipher":"aes-256-cfb","customName":"🇺🇸US-34.220.201.161-0564","name":"github.com/Ruk1ng001_2156494072","password":"amazonskr05","port":443,"server":"34.220.201.161","type":"ss"}
+  - {"alterId":-1,"customName":"🔒 TR-TCP-TLS 🇺🇸 US-3.15.82.169:22222 📡 PING-011.33-MS","name":"github.com/Ruk1ng001_3838278857","password":"telegram-id-directvpn","port":22222,"server":"3.15.82.169","sni":"trojan.burgerip.co.uk","type":"trojan"}
+  - {"alterId":-1,"cipher":"aes-256-cfb","country":"🇩🇪DE","customName":"🇩🇪DE_1090","name":"github.com/Ruk1ng001_2472677522","password":"ZpNDDKRu9MagNvaf","port":9015,"server":"80.92.204.106","type":"ss"}
+  - {"alterId":-1,"cipher":"aes-256-cfb","customName":"🇸🇬SG-103.172.116.79-3386","name":"github.com/Ruk1ng001_1177855480","password":"EXN3S3eQpjE7EJu8","port":9027,"server":"103.172.116.79","type":"ss"}
+  - {"alterId":-1,"cipher":"aes-256-cfb","customName":"🇸🇬SG-103.172.116.79-3391","name":"github.com/Ruk1ng001_1207854352","password":"wfLC2y7rzZyCmuyt","port":9093,"server":"103.172.116.79","type":"ss"}
+  - {"alterId":-1,"cipher":"aes-256-cfb","customName":"4Kian-644","name":"github.com/Ruk1ng001_2079142366","password":"9XwYyZsK8SNzQDtY","port":9059,"server":"103.172.116.79","type":"ss"}
+  - {"alterId":0,"cipher":"none","customName":"防失联 2 | 邀请返利50％","name":"github.com/Ruk1ng001_1261727584","network":"ws","port":2082,"server":"us111.5our.top","type":"vmess","uuid":"bc608245-628c-4711-8786-07deac552ff4","ws-opts":{"path":"/cctv13/hd.m3u8"}}
+  - {"alterId":0,"cipher":"auto","customName":"🇨🇳 中国【付费推荐：https://jdyvip.link/】5","name":"github.com/Ruk1ng001_1238702783","network":"ws","port":16632,"server":"m.cnmjin.net","tls":false,"type":"vmess","uuid":"2b8cfb7b-d3e7-4525-8418-e13a9b8fd73b","ws-opts":{"headers":{"Host":"dcef278233434a15c3587ef998dd119d.mobgslb.tbcache.com"},"path":"/"}}
+  - {"alterId":0,"cipher":"auto","customName":"美国2095","name":"github.com/Ruk1ng001_1034331182","network":"ws","port":2095,"server":"freeyx.cloudflare88.eu.org","type":"vmess","uuid":"c66a6fd2-28f0-4f8e-c03a-538aab77e89b","ws-opts":{"headers":{"host":"linuxdo-name_liubang-1.cf88.cloudns.org"},"path":"/cloud"}}
+  - {"alterId":-1,"customName":"🔒 TR-TCP-TLS 🇨🇦 CA-35.182.131.200:22222 📡 PING-019.11-MS","name":"github.com/Ruk1ng001_897735436","password":"telegram-id-directvpn","port":22222,"server":"35.182.131.200","sni":"trojan.burgerip.co.uk","type":"trojan"}
+  - {"alterId":-1,"cipher":"aes-256-cfb","customName":"🇩🇪DE_9064 @WangCai_1","name":"github.com/Ruk1ng001_16216811","password":"cp8pRSUAyLhTfVWH","port":9064,"server":"80.92.204.106","type":"ss"}
+  - {"alterId":0,"cipher":"auto","country":"🏁ZZ","customName":"Relay_🏁ZZ-🇺🇸US_1994 |70.73Mb","h2-opts":{},"http-opts":{},"name":"github.com/Ruk1ng001_1107675649","network":"ws","port":2052,"server":"cfcdn2.sanfencdn9.com","servername":"jpafzyhfsg3.yofnhkfc.xyz","skip-cert-verify":true,"type":"vmess","uuid":"7c42a3f8-cb73-4338-91e6-eef9e7346b12","ws-opts":{"headers":{"HOST":"jpafzyhfsg3.yofnhkfc.xyz"},"path":"/video/u4eCZTxW"}}
+  - {"alterId":-1,"cipher":"aes-256-cfb","customName":"4Kian-834","name":"github.com/Ruk1ng001_677993307","password":"VP8ZPxQpJtZRCjfZ","port":9080,"server":"80.92.204.106","type":"ss"}
+  - {"alterId":-1,"cipher":"chacha20-ietf-poly1305","customName":"🇯🇵日本|【沪港】","name":"github.com/Ruk1ng001_3350958842","password":"71485d23-91d7-46b1-ac2e-73135325f94d","port":23238,"server":"db.quanstring.top","type":"ss"}
+  - {"alterId":-1,"cipher":"chacha20-ietf-poly1305","customName":"California SS - B Group","name":"github.com/Ruk1ng001_3837465009","password":"2155145a-b1b5-443a-8977-670f6bd10f02","port":50001,"server":"bgroup.node5.s.nodelist-gfwairport2.top","type":"ss"}
+  - {"alterId":-1,"cipher":"aes-256-cfb","customName":"4Kian-822","name":"github.com/Ruk1ng001_2650303127","password":"UkXRsXvR6buDMG2Y","port":9001,"server":"103.172.116.79","type":"ss"}
+  - {"alterId":-1,"cipher":"aes-256-cfb","customName":"🇩🇪DE_9061 @WangCai_1","name":"github.com/Ruk1ng001_2235880954","password":"4R3hUfZ2FHhDmNcP","port":9061,"server":"80.92.204.106","type":"ss"}
+  - {"alterId":-1,"cipher":"aes-256-cfb","country":"SG","customName":"0|-https://t.me/MrXbin-133","name":"github.com/Ruk1ng001_1200556249","obfs":"plain","password":"TPqX8edgbAURcAMb","port":9079,"protocol":"origin","server":"103.172.116.79","type":"ssr"}
+  - {"alterId":0,"cipher":"auto","customName":"🇺🇸_US_美国-\u003e🇩🇪_DE_德国_3","name":"github.com/Ruk1ng001_1036870570","network":"ws","port":2052,"server":"104.18.19.191","skip-cert-verify":true,"tls":false,"type":"vmess","uuid":"aec82fa6-ab70-4d0a-e7fb-422ef729d961","ws-opts":{"headers":{"host":"helanv6cf.inekokkk.top"},"path":"/"}}
+  - {"alterId":0,"cipher":"auto","country":"🏁ZZ","customName":"Relay_🏁ZZ-🇺🇸US_692","h2-opts":{},"http-opts":{},"name":"github.com/Ruk1ng001_3741033956","network":"ws","port":80,"server":"www.glassdoor.com","servername":"usvmqlsgf1ljbtzjun8.lovemianfei.store","skip-cert-verify":true,"type":"vmess","uuid":"53e7d5a8-4958-4785-8d0f-02e911053be1","ws-opts":{"headers":{"HOST":"usvmqlsgf1ljbtzjun8.lovemianfei.store"},"path":"/"}}
+  - {"alterId":-1,"customName":"🔒 TR-TCP-TLS 🇫🇷 FR-35.181.241.222:22222 📡 PING-082.08-MS","name":"github.com/Ruk1ng001_3710430810","password":"telegram-id-privatevpns","port":22222,"server":"35.181.241.222","sni":"trojan.burgerip.co.uk","type":"trojan"}
+  - {"alterId":0,"cipher":"auto","customName":"Relay_-🇨🇦CA_881 |35.37Mb","h2-opts":{},"http-opts":{},"name":"github.com/Ruk1ng001_3921799055","network":"ws","port":8080,"server":"yh4.dtku41.xyz","servername":"dual-nothing-prep-exit.trycloudflare.com","skip-cert-verify":true,"type":"vmess","uuid":"ef8c954e-014f-4b36-8273-9b5086afab34","ws-opts":{"headers":{"host":"dual-nothing-prep-exit.trycloudflare.com"},"path":"ef8c954e-014f-4b36-8273-9b5086afab34-vm"}}
+  - {"alterId":0,"cipher":"auto","customName":"美国2082","name":"github.com/Ruk1ng001_459534470","network":"ws","port":2082,"server":"freeyx.cloudflare88.eu.org","type":"vmess","uuid":"c66a6fd2-28f0-4f8e-c03a-538aab77e89b","ws-opts":{"headers":{"host":"linuxdo-name_liubang-1.cf88.cloudns.org"},"path":"/cloud"}}
+  - {"alterId":0,"cipher":"auto","customName":"加拿大 132","name":"github.com/Ruk1ng001_312756856","network":"ws","port":8080,"server":"104.16.104.34","servername":"dual-nothing-prep-exit.trycloudflare.com","skip-cert-verify":true,"tls":false,"type":"vmess","uuid":"ef8c954e-014f-4b36-8273-9b5086afab34","ws-opts":{"headers":{"host":"dual-nothing-prep-exit.trycloudflare.com"},"path":"ef8c954e-014f-4b36-8273-9b5086afab34-vm"}}
+  - {"alterId":-1,"cipher":"aes-256-cfb","customName":"0|-https://t.me/MrXbin-35","name":"github.com/Ruk1ng001_3261594282","obfs":"plain","obfs-param":"None","password":"BwcAUZk8hUFAkDGN","port":9031,"protocol":"origin","protocol-param":"None","server":"103.172.116.79","type":"ssr","udp":true}
+  - {"alterId":-1,"cipher":"chacha20-ietf-poly1305","customName":"🇭🇰香港|【5G】","name":"github.com/Ruk1ng001_71355846","password":"71485d23-91d7-46b1-ac2e-73135325f94d","port":16214,"server":"5g.quanstring.top","type":"ss"}
+  - {"alterId":-1,"cipher":"aes-256-cfb","customName":"🇸🇬SG-103.172.116.79-3390","name":"github.com/Ruk1ng001_2402968797","password":"NvS8N4Vf8qAGPSCL","port":9046,"server":"103.172.116.79","type":"ss"}
+  - {"alterId":0,"cipher":"auto","country":"🏁ZZ","customName":"美国 011","delay":1976,"h2-opts":{},"http-opts":{},"name":"github.com/Ruk1ng001_2999369665","network":"ws","port":80,"server":"cf2.ftclashcloud.site","servername":"mhyusa01.ftclashcloud.online","skip-cert-verify":true,"type":"vmess","uuid":"348d6595-93e9-4bd6-b9d4-88ab54b37d5e","ws-opts":{"headers":{"HOST":"mhyusa01.ftclashcloud.online"},"path":"/ws?ed=2560"}}
+  - {"alterId":0,"cipher":"auto","customName":"🇨🇳安徽","name":"github.com/Ruk1ng001_524000952","password":"MyYoZhfX","port":51003,"server":"112.29.94.23","skip-cert-verify":true,"tls":true,"type":"trojan","udp":true}
+  - {"alterId":-1,"cipher":"aes-256-cfb","customName":"🇸🇬SG-103.172.116.79-3394","name":"github.com/Ruk1ng001_3152560726","password":"QWDDvVE9npNurQfA","port":9026,"server":"103.172.116.79","type":"ss"}
+  - {"alterId":0,"cipher":"auto","customName":"哈萨克斯坦 001","name":"github.com/Ruk1ng001_3470745775","network":"http","port":3389,"server":"45.82.31.164","skip-cert-verify":true,"tls":false,"type":"vmess","uuid":"9c050a86-d612-48f1-ec32-e573df08a1b7"}
+  - {"alterId":-1,"customName":"🇮🇪IE-18.200.57.202-0161","name":"github.com/Ruk1ng001_113170466","password":"telegram-id-privatevpns","port":22222,"server":"18.200.57.202","skip-cert-verify":false,"sni":"trojan.burgerip.co.uk","type":"trojan"}
+  - {"alterId":-1,"cipher":"chacha20-ietf-poly1305","customName":"🇭🇰香港|【沪港】","name":"github.com/Ruk1ng001_2985772439","password":"71485d23-91d7-46b1-ac2e-73135325f94d","port":25873,"server":"db.quanstring.top","type":"ss"}
+  - {"alterId":-1,"cipher":"chacha20-ietf-poly1305","customName":"4Kian-489","name":"github.com/Ruk1ng001_2112254635","password":"mps3FwmDjLrWaOVg","port":443,"server":"series-a2.samanehha.co","type":"ss"}
+  - {"alterId":-1,"cipher":"chacha20-ietf-poly1305","customName":"🇭🇰香港|【沪港VIP】","name":"github.com/Ruk1ng001_1182001113","password":"71485d23-91d7-46b1-ac2e-73135325f94d","port":44746,"server":"db.quanstring.top","type":"ss"}
+  - {"alterId":-1,"cipher":"aes-256-cfb","customName":"🇰🇷KR-43.201.47.36-3383","name":"github.com/Ruk1ng001_402196054","password":"amazonskr05","port":443,"server":"43.201.47.36","type":"ss"}
+  - {"alterId":0,"cipher":"auto","country":"🇺🇸US","customName":"Relay_🇺🇸US-🇺🇸US_500","h2-opts":{},"http-opts":{},"name":"github.com/Ruk1ng001_2256819001","network":"ws","port":8880,"server":"cdnikuancdnikuan.internetcdn.ggff.net","servername":"losangeles.sanjose.xhzshop.link","skip-cert-verify":true,"type":"vmess","uuid":"43354844-c3d6-4624-93d2-04ed7d18c03d","ws-opts":{"headers":{"HOST":"losangeles.sanjose.xhzshop.link"},"path":"/microsoft?ed=2048"}}
+  - {"alterId":-1,"cipher":"chacha20-ietf-poly1305","customName":"🇭🇰香港|【流媒体2x-5G】","name":"github.com/Ruk1ng001_2178163495","password":"71485d23-91d7-46b1-ac2e-73135325f94d","port":20858,"server":"5g.quanstring.top","type":"ss"}
+  - {"alterId":-1,"cipher":"chacha20-ietf-poly1305","customName":"🇭🇰香港|【沪新】","name":"github.com/Ruk1ng001_2071703730","password":"71485d23-91d7-46b1-ac2e-73135325f94d","port":38667,"server":"db.quanstring.top","type":"ss"}
+  - {"alterId":-1,"cipher":"chacha20-ietf-poly1305","customName":"Hongkong SS - B Group","name":"github.com/Ruk1ng001_1105575492","password":"2155145a-b1b5-443a-8977-670f6bd10f02","port":50001,"server":"bgroup.node4.s.nodelist-gfwairport2.top","type":"ss"}
+  - {"alterId":0,"cipher":"auto","country":"🏁ZZ","customName":"加拿大 100","delay":1183,"h2-opts":{},"http-opts":{},"name":"github.com/Ruk1ng001_2210519284","network":"ws","port":443,"server":"104.21.30.254","servername":"be2-vmess.sshmax.xyz","skip-cert-verify":true,"tls":true,"type":"vmess","uuid":"6d9911b0-4e14-44fb-8883-52d14f550cca","ws-opts":{"headers":{"HOST":"be2-vmess.sshmax.xyz"},"path":"/vmess"}}
+  - {"alterId":0,"cipher":"auto","country":"🏁ZZ","customName":"Relay_🏁ZZ-🇺🇸US_690","h2-opts":{},"http-opts":{},"name":"github.com/Ruk1ng001_1356209761","network":"ws","port":8080,"server":"104.18.202.250","servername":"erfannewfreenodes.vdmmswyzmzigonvnjk443.workers.dev","skip-cert-verify":true,"type":"vmess","uuid":"950db6aa-4926-4616-816e-ec0312dcb87b","ws-opts":{"headers":{"HOST":"erfannewfreenodes.vdmmswyzmzigonvnjk443.workers.dev"},"path":"/jahfkjha.cfd/linkws"}}
+  - {"alterId":-1,"cipher":"aes-128-cfb","customName":"SSR-美国-自制NF-ChatGPT-TikTok-YouTubePrem-156.146.38.163:443","name":"github.com/Ruk1ng001_2013146544","obfs":"plain","password":"shadowsocks","port":443,"protocol":"origin","server":"156.146.38.163","type":"ssr"}
+  - {"alterId":0,"cipher":"auto","customName":"美国8880","name":"github.com/Ruk1ng001_1472351678","network":"ws","port":8880,"server":"freeyx.cloudflare88.eu.org","type":"vmess","uuid":"c66a6fd2-28f0-4f8e-c03a-538aab77e89b","ws-opts":{"headers":{"host":"linuxdo-name_liubang-1.cf88.cloudns.org"},"path":"/cloud"}}
+  - {"alterId":-1,"cipher":"aes-256-cfb","customName":"🇩🇪DE_9057 @WangCai_1","name":"github.com/Ruk1ng001_743354087","password":"wjTugX3ZtHMB9c3Z","port":9057,"server":"80.92.204.106","type":"ss"}
+  - {"alterId":-1,"cipher":"aes-256-cfb","customName":"🇩🇪DE_9020 @WangCai_1","name":"github.com/Ruk1ng001_2289611070","password":"BNmAXXxAHYpTRdzu","port":9020,"server":"80.92.204.106","type":"ss"}
+  - {"alterId":-1,"cipher":"aes-128-gcm","customName":"泰国-04","name":"github.com/Ruk1ng001_1419532988","password":"9da21772-de82-42f3-9d3e-115985b52e6f","port":14709,"server":"video.tikonline.live","type":"ss","udp":true}
+  - {"alterId":-1,"customName":"🇨🇳CN-111.47.212.119-0470","name":"github.com/Ruk1ng001_3876684763","password":"bd1f1b56-631b-308e-9f48-ec4a1d97aeaf","port":20295,"server":"gg.xn--gmqa02ag57d.com","skip-cert-verify":false,"sni":"z295.hongkongnode.top","type":"trojan"}
+  - {"alterId":0,"cipher":"auto","customName":"🇰🇷KR-45.93.28.103-3479","name":"github.com/Ruk1ng001_1511573237","network":"ws","port":443,"server":"45.93.28.103","servername":"48.sking.app","skip-cert-verify":false,"tls":true,"type":"vmess","uuid":"7b3196ed-f2ad-4527-a668-a6da1bc16a8b","ws-opts":{"path":"/"}}
+  - {"alterId":-1,"cipher":"aes-128-cfb","customName":"🇨🇳CN-14.29.124.168-3744","name":"github.com/Ruk1ng001_1859233575","password":"QazEdcTgb159@$*","port":25251,"server":"14.29.124.168","type":"ss"}
+  - {"alterId":-1,"cipher":"chacha20-ietf-poly1305","customName":"🇬🇧 GB 57 → tg@nicevpn123","name":"github.com/Ruk1ng001_3083510873","password":"8z9R4FiU9Ttgpl6it_pJPw","port":1080,"server":"104.248.169.207","type":"ss","udp":true}
+  - {"alterId":-1,"cipher":"aes-256-cfb","customName":"🇿🇦ZA-41.203.4.34-0627","name":"github.com/Ruk1ng001_1064217086","password":"f8f7aCzcPKbsF8p3","port":989,"server":"41.203.4.34","type":"ss"}
+  - {"alterId":-1,"customName":"🇫🇷FR-146.70.158.111-8663","grpc-opts":{"grpc-service-name":"6vuNVgOFnqUEvj0rcXIcStL"},"name":"github.com/Ruk1ng001_3881894318","network":"grpc","password":"db19fc68-c027-4641-a8eb-eed3e1065c8a","port":443,"server":"amin.karkas1.ir","skip-cert-verify":false,"sni":"amin.karkas1.ir","type":"trojan"}
+  - {"alterId":-1,"customName":"🇺🇸US-51.81.82.15-8752","name":"github.com/Ruk1ng001_2847336924","password":"de798060-31d0-11ee-b282-1239d0255272","port":443,"server":"51.81.82.15","skip-cert-verify":false,"sni":"zula.ir","type":"trojan"}
+  - {"alterId":0,"cipher":"auto","customName":"4Kian-9289","name":"github.com/Ruk1ng001_2205718307","network":"ws","port":443,"server":"104.24.185.137","tls":true,"type":"vmess","uuid":"c8abf66a-1903-4638-a448-9c86733e4254","ws-opts":{"path":"/wss13480"}}
+  - {"alterId":-1,"cipher":"chacha20-ietf-poly1305","customName":"🇨🇳 CN 298 → tg@nicevpn123","name":"github.com/Ruk1ng001_2572013499","password":"3ae13eaa-7e79-4079-9821-6178d35029ff","port":48808,"server":"hkp8.network-cdn-gw.cc","type":"ss","udp":true}
+  - {"alterId":-1,"cipher":"chacha20-ietf-poly1305","customName":"德国-03","name":"github.com/Ruk1ng001_2926601325","password":"9da21772-de82-42f3-9d3e-115985b52e6f","port":28615,"server":"nbct02.qingqiu.buzz","type":"ss","udp":true}
+  - {"alterId":-1,"cipher":"chacha20-ietf-poly1305","customName":"新加坡03-1A","name":"github.com/Ruk1ng001_2998960801","password":"265528d2-f907-4a65-ac3c-b3df60ede239","port":15627,"server":"sz.zj.my.1.76po.com","type":"ss","udp":true}
+  - {"alterId":-1,"customName":"🇹🇼TW-118.167.17.174-3145","name":"github.com/Ruk1ng001_2131077619","password":"265f092f-418b-30c9-a479-4800fd44dd19mielink","port":443,"server":"kaizen-tw-4.mielink-dns2.com","skip-cert-verify":false,"sni":"paydiu.com","type":"trojan"}
+  - {"alterId":-1,"cipher":"aes-128-cfb","customName":"🇺🇸_US_美国_5","name":"github.com/Ruk1ng001_34491053","password":"shadowsocks","port":443,"server":"212.102.47.198","type":"ss"}
+  - {"alterId":-1,"cipher":"aes-256-gcm","customName":"RW 5 → tg@nicevpn123","name":"github.com/Ruk1ng001_2289978129","password":"Y6R9pAtvxxzmGC","port":9090,"server":"23.162.200.225","type":"ss","udp":true}
+  - {"alterId":0,"cipher":"auto","customName":"🇺🇦UA乌克兰2","name":"github.com/Ruk1ng001_1038189334","network":"ws","password":"0b1371aa-649d-41dc-9126-338c87936500","port":443,"server":"95.164.33.62","skip-cert-verify":true,"sni":"sourceforge.net","tls":true,"type":"trojan","udp":true}
+  - {"alterId":-1,"cipher":"aes-128-gcm","customName":"_203","name":"github.com/Ruk1ng001_620704647","password":"Yc2CtrIz8L","port":16899,"server":"192.3.81.194","type":"ss"}
+  - {"alterId":0,"cipher":"auto","country":"🇨🇦CA","customName":"netflix_CA","h2-opts":{},"http-opts":{},"name":"github.com/Ruk1ng001_1844541097","network":"ws","port":443,"server":"48.sking.app","servername":"48.sking.app","skip-cert-verify":true,"tls":true,"type":"vmess","uuid":"8912c574-7913-49c6-bc18-dab3d3f59f55","ws-opts":{"headers":{"HOST":"48.sking.app"},"path":"/"}}
+  - {"alterId":-1,"cipher":"aes-256-cfb","customName":"0|-https://t.me/MrXbin-79","name":"github.com/Ruk1ng001_4212271000","obfs":"plain","obfs-param":"None","password":"BejrQvtu9sqUeNuZ","port":9024,"protocol":"origin","protocol-param":"None","server":"103.172.116.79","type":"ssr","udp":true}
+  - {"alterId":0,"cipher":"auto","country":"🇦🇺AU","customName":"Relay_🇦🇺AU-🇦🇺AU_916 |39.04Mb","h2-opts":{},"http-opts":{},"name":"github.com/Ruk1ng001_763092007","network":"ws","port":443,"server":"36amd.1365365.xyz","servername":"36amd.1365365.xyz","skip-cert-verify":true,"tls":true,"type":"vmess","uuid":"b853e57f-588d-45cd-a81d-624a98ca5e2b","ws-opts":{"headers":{"HOST":"36amd.1365365.xyz"},"path":"/"}}
+  - {"alterId":-1,"cipher":"aes-256-cfb","customName":"0|-https://t.me/MrXbin-55","name":"github.com/Ruk1ng001_2851247785","obfs":"plain","password":"wjTugX3ZtHMB9c3Z","port":9057,"protocol":"origin","server":"103.172.116.79","type":"ssr","udp":true}
+  - {"alterId":-1,"cipher":"aes-256-gcm","customName":"RW 12 → tg@nicevpn123","name":"github.com/Ruk1ng001_1022491906","password":"TEzjfAYq2IjtuoS","port":6679,"server":"23.162.200.149","type":"ss","udp":true}
+  - {"alterId":-1,"cipher":"aes-256-cfb","customName":"🇩🇪DE_9025 @WangCai_1","name":"github.com/Ruk1ng001_3137877877","password":"XPtzA9sCug3SPR4c","port":9025,"server":"80.92.204.106","type":"ss"}
+  - {"alterId":64,"cipher":"auto","customName":"11,16|香港2|@ripaojiedian","name":"github.com/Ruk1ng001_2963130294","network":"tcp","port":40259,"server":"120.238.122.243","servername":"","tls":false,"type":"vmess","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24"}
+  - {"alterId":-1,"cipher":"aes-256-cfb","customName":"0|-https://t.me/MrXbin-37","name":"github.com/Ruk1ng001_3704435507","obfs":"plain","obfs-param":"None","password":"GA9KzeEgvfxNrgmM","port":9019,"protocol":"origin","protocol-param":"None","server":"103.172.116.79","type":"ssr","udp":true}
+  - {"alterId":-1,"cipher":"aes-256-cfb","customName":"🇸🇬SG-103.172.116.79-3411","name":"github.com/Ruk1ng001_514394592","password":"Sn5B7jTqr76aCJT8","port":9097,"server":"103.172.116.79","type":"ss"}
+  - {"alterId":-1,"country":"🇯🇵JP","customName":"Relay_🇯🇵JP-🇯🇵JP_428","name":"github.com/Ruk1ng001_155466454","password":"b853e57f-588d-45cd-a81d-624a98ca5e2b","port":443,"server":"04amd.1365365.xyz","skip-cert-verify":true,"sni":"04amd.1365365.xyz","type":"trojan","udp":true}
+  - {"alterId":-1,"cipher":"aes-256-gcm","customName":"4Kian-2137","name":"github.com/Ruk1ng001_2786507262","password":"Y6R9pAtvxxzmGC","port":9090,"server":"23.162.200.215","type":"ss"}
+  - {"alterId":0,"cipher":"auto","customName":"Relay_-🇺🇸US_229","h2-opts":{},"http-opts":{},"name":"github.com/Ruk1ng001_3566373851","network":"tcp","port":40723,"server":"jiasu.fanmengdas.top","skip-cert-verify":true,"tls":true,"type":"vmess","uuid":"9dbdebfe-a557-4c3f-8445-aa3a170ff0af"}
+  - {"alterId":64,"cipher":"auto","customName":"disney_netflix_US","h2-opts":{},"http-opts":{},"name":"github.com/Ruk1ng001_1788757087","port":35601,"server":"120.238.122.243","type":"vmess","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24"}
+  - {"alterId":-1,"customName":"🔒 TR-TCP-TLS 🇺🇸 US-44.237.144.152:22222 📡 PING-083.27-MS","name":"github.com/Ruk1ng001_1730562311","password":"telegram-id-directvpn","port":22222,"server":"44.237.144.152","sni":"trojan.burgerip.co.uk","type":"trojan"}
+  - {"alterId":0,"cipher":"auto","country":"🏁 ZZ","customName":"ChatGPT 🏁 ZZ_1019","h2-opts":{},"http-opts":{},"name":"github.com/Ruk1ng001_2643312922","network":"ws","port":80,"server":"54.38.212.91","servername":"www.gov.uk","skip-cert-verify":true,"type":"vmess","uuid":"9e660680-e7bb-4725-f1c9-84d1fdbbf5c6","ws-headers":{"HOST":"www.gov.uk"},"ws-path":"/?ed=2048"}
+  - {"alterId":-1,"cipher":"chacha20-ietf-poly1305","customName":"🇯🇵日本|【沪港VIP】","name":"github.com/Ruk1ng001_2585037498","password":"71485d23-91d7-46b1-ac2e-73135325f94d","port":38609,"server":"db.quanstring.top","type":"ss"}
+  - {"alterId":-1,"country":"🇺🇸US","customName":"Relay_🇺🇸US-🇺🇸US_540","name":"github.com/Ruk1ng001_3289716767","password":"b853e57f-588d-45cd-a81d-624a98ca5e2b","port":443,"server":"01amd2.1365365.xyz","skip-cert-verify":true,"sni":"01amd2.1365365.xyz","type":"trojan","udp":true}
+  - {"alterId":-1,"country":"🇭🇰HK","customName":"Pool_🇭🇰HK_1186 | 6.75Mb","name":"github.com/Ruk1ng001_902856159","password":"eec45c9e-67da-4acd-bab9-a4a343189807","port":42030,"server":"hkg01.service.nahidacloud.top","skip-cert-verify":true,"sni":"hkg01.service.nahidacloud.top","type":"trojan","udp":true}
+  - {"alterId":-1,"cipher":"chacha20-ietf-poly1305","customName":"🇪🇸 ES 10 → tg@nicevpn123","name":"github.com/Ruk1ng001_1792664036","password":"be134ab3-1760-3e70-8b87-f197a365ffc3","port":61008,"server":"1.forlive.live","type":"ss","udp":true}
+  - {"alterId":-1,"customName":"🔒 TR-TCP-TLS 🇮🇪 IE-34.246.103.248:22222 📡 PING-068.36-MS","name":"github.com/Ruk1ng001_3364884070","password":"telegram-id-privatevpns","port":22222,"server":"34.246.103.248","sni":"trojan.burgerip.co.uk","type":"trojan"}
+  - {"alterId":-1,"cipher":"chacha20-ietf-poly1305","customName":"🇯🇵日本|【油管免广告】","name":"github.com/Ruk1ng001_856261957","password":"71485d23-91d7-46b1-ac2e-73135325f94d","port":22553,"server":"db.quanstring.top","type":"ss"}
+  - {"alterId":-1,"cipher":"chacha20-ietf-poly1305","customName":"🇬🇧 GB 26 → tg@nicevpn123","name":"github.com/Ruk1ng001_863153199","password":"u17T3BvpYaaiuW2c","port":443,"server":"series-a2-mec.varzesh360.co","type":"ss","udp":true}
+  - {"alterId":-1,"cipher":"chacha20-ietf-poly1305","customName":"🇺🇸美国|【广德-0.5倍】","name":"github.com/Ruk1ng001_1435278059","password":"71485d23-91d7-46b1-ac2e-73135325f94d","port":27158,"server":"5g.quanstring.top","type":"ss"}
+  - {"alterId":0,"cipher":"auto","customName":"🇨🇳 CN 411 → tg@nicevpn123","name":"github.com/Ruk1ng001_838451797","network":"ws","port":20207,"server":"120.233.42.83","skip-cert-verify":true,"tls":false,"type":"vmess","udp":true,"uuid":"b1478e24-4916-3abe-8f17-15931012ecbe","ws-opts":{"path":"/debian"}}
+  - {"alterId":-1,"customName":"4Kian-4440","name":"github.com/Ruk1ng001_2245971848","password":"telegram-id-privatevpns","port":22222,"server":"13.42.131.86","sni":"trojan.burgerip.co.uk","type":"trojan"}
+  - {"alterId":-1,"cipher":"aes-256-cfb","customName":"🇸🇬SG-103.172.116.79-3392","name":"github.com/Ruk1ng001_1631711533","password":"Lp27rqyJq72bZsqX","port":9045,"server":"103.172.116.79","type":"ss"}
+  - {"alterId":-1,"cipher":"aes-128-gcm","customName":"香港-08","name":"github.com/Ruk1ng001_782415132","password":"9da21772-de82-42f3-9d3e-115985b52e6f","port":14781,"server":"video.tikonline.live","type":"ss","udp":true}
+  - {"alterId":0,"cipher":"auto","country":"🇺🇸US","customName":"Relay_🇺🇸US-🇺🇸US_1802 |10.17Mb","h2-opts":{},"http-opts":{},"name":"github.com/Ruk1ng001_1001189169","network":"ws","port":43402,"server":"br-saopaolo-oracle-aa9b76.ip1.shop","servername":"gi.1234585.xyz","skip-cert-verify":true,"type":"vmess","uuid":"24f357a7-6eb5-4e88-b0cc-c3b3da00c6b0","ws-opts":{"headers":{"HOST":"gi.1234585.xyz"},"path":"/"}}
+  - {"alterId":-1,"customName":"🔒 TR-TCP-TLS 🇩🇪 DE-18.153.200.58:22222 📡 PING-090.59-MS","name":"github.com/Ruk1ng001_1866673786","password":"telegram-id-privatevpns","port":22222,"server":"18.153.200.58","sni":"trojan.burgerip.co.uk","type":"trojan"}
+  - {"alterId":-1,"cipher":"chacha20-ietf-poly1305","customName":"🇺🇸美国|【广美-0.5倍】","name":"github.com/Ruk1ng001_832263432","password":"71485d23-91d7-46b1-ac2e-73135325f94d","port":27191,"server":"5g.quanstring.top","type":"ss"}
+  - {"alterId":-1,"cipher":"aes-128-gcm","customName":"韩国-05","name":"github.com/Ruk1ng001_3811467450","password":"9da21772-de82-42f3-9d3e-115985b52e6f","port":17391,"server":"video.tikonline.live","type":"ss","udp":true}
+  - {"alterId":0,"cipher":"auto","customName":"🇨🇳 中国【付费推荐：https://jdyvip.link/】4","name":"github.com/Ruk1ng001_3293006801","network":"ws","port":16632,"server":"yes.cnmjcn.net","tls":false,"type":"vmess","uuid":"2b8cfb7b-d3e7-4525-8418-e13a9b8fd73b","ws-opts":{"headers":{"Host":"dcef278233434a15c3587ef998dd119d.mobgslb.tbcache.com"},"path":"/"}}
+  - {"alterId":0,"cipher":"auto","customName":"美国 023","name":"github.com/Ruk1ng001_347036239","network":"ws","port":17542,"server":"148.135.94.70","skip-cert-verify":true,"tls":true,"type":"vmess","uuid":"51ea7cdf-2278-4a13-b2e4-632cda111110","ws-opts":{"headers":{"Host":"zzz.nikili1236vip.top"},"path":"/50ab5b"}}
+  - {"alterId":0,"cipher":"none","customName":"4Kian-11856","name":"github.com/Ruk1ng001_4160295800","network":"ws","port":80,"server":"54.38.212.91","type":"vmess","uuid":"9e660680-e7bb-4725-f1c9-84d1fdbbf5c6","ws-opts":{"path":"/?ed=2048"}}
+  - {"alterId":-1,"cipher":"aes-256-cfb","country":"SG","customName":"0|-https://t.me/MrXbin-139","name":"github.com/Ruk1ng001_1674449148","obfs":"plain","password":"ueLXVkvh4hckhErQ","port":9060,"protocol":"origin","server":"103.172.116.79","type":"ssr"}
+  - {"alterId":0,"cipher":"auto","customName":"美国 018","name":"github.com/Ruk1ng001_1338243871","network":"ws","port":17542,"server":"zzz.nikili1236vip.top","skip-cert-verify":true,"tls":true,"type":"vmess","uuid":"51ea7cdf-2278-4a13-b2e4-632cda111110","ws-opts":{"headers":{"Host":"zzz.nikili1236vip.top"},"path":"/50ab5b"}}
+  - {"alterId":0,"cipher":"auto","country":"🇺🇸US","customName":"Relay_🇺🇸US-🇭🇰HK_1803 |82.09Mb","h2-opts":{},"http-opts":{},"name":"github.com/Ruk1ng001_3789031490","network":"ws","port":2052,"server":"172.67.164.78","servername":"hk07.hy-2.one","skip-cert-verify":true,"type":"vmess","uuid":"5edafe88-b558-4129-a86d-58fd84be79f0","ws-opts":{"headers":{"HOST":"hk07.hy-2.one"},"path":"/"}}
+  - {"alterId":-1,"cipher":"aes-256-cfb","country":"SG","customName":"0|-https://t.me/MrXbin-135","name":"github.com/Ruk1ng001_47739984","obfs":"plain","password":"c3NtHJ5ujV2tGDfj","port":9084,"protocol":"origin","server":"103.172.116.79","type":"ssr"}
+  - {"alterId":0,"cipher":"auto","country":"🇸🇪SE","customName":"disney_netflix_US","h2-opts":{},"http-opts":{},"name":"github.com/Ruk1ng001_4180342801","network":"ws","port":17542,"server":"zzz.nikili1236vip.top","servername":"zzz.nikili1236vip.top","skip-cert-verify":true,"tls":true,"type":"vmess","uuid":"51ea7cdf-2278-4a13-b2e4-632cda111110","ws-opts":{"headers":{"HOST":"zzz.nikili1236vip.top"},"path":"/50ab5b"}}
+  - {"alterId":0,"cipher":"auto","country":"🇺🇸US","customName":"🇺🇸US_521","h2-opts":{},"http-opts":{},"name":"github.com/Ruk1ng001_180441397","network":"ws","port":443,"server":"23.134.91.22","servername":"23.134.91.22","skip-cert-verify":true,"tls":true,"type":"vmess","uuid":"03fcc618-b93d-6796-6aed-8a38c975d581","ws-opts":{"headers":{"HOST":"23.134.91.22"},"path":"/linkvws"}}
+  - {"alterId":64,"cipher":"none","customName":"广东省江门市 移动","name":"github.com/Ruk1ng001_2386156489","port":40259,"server":"120.238.122.243","type":"vmess","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","ws-opts":{}}
+  - {"alterId":0,"cipher":"auto","country":"🇺🇸US","customName":"Relay_🇺🇸US-🇹🇼TW_495","h2-opts":{},"http-opts":{},"name":"github.com/Ruk1ng001_184998897","network":"ws","port":8080,"server":"172.67.172.50","servername":"oiictw.yydsii.com","skip-cert-verify":true,"type":"vmess","uuid":"b551aa22-22af-11ee-b8d8-f23c932eb68d","ws-opts":{"headers":{"HOST":"oiictw.yydsii.com"},"path":"/"}}
+  - {"alterId":0,"cipher":"auto","country":"🇺🇸US","customName":"Relay_🇺🇸US-🇩🇪DE_509","h2-opts":{},"http-opts":{},"name":"github.com/Ruk1ng001_2686546267","network":"ws","port":2052,"server":"de-cdn.internetcdn.ggff.net","servername":"de05-v6.us.pisces.eu.org","skip-cert-verify":true,"type":"vmess","uuid":"a6c8abe4-0005-472a-85a2-ba815634c26a","ws-opts":{"headers":{"HOST":"de05-v6.us.pisces.eu.org"},"path":"/microsoftvideo/HEAC?ed=2048"}}
+  - {"alterId":-1,"cipher":"aes-256-cfb","customName":"🇸🇬SG-103.172.116.79-3407","name":"github.com/Ruk1ng001_4039792076","password":"UTJA57ypk2XKQpnm","port":9033,"server":"103.172.116.79","type":"ss"}
+  - {"alterId":-1,"cipher":"aes-256-cfb","customName":"4Kian-836","name":"github.com/Ruk1ng001_3526421595","password":"XPtzA9sCug3SPR4c","port":9025,"server":"103.172.116.79","type":"ss"}
+  - {"alterId":-1,"customName":"🔒 TR-TCP-TLS 🇺🇸 US-18.218.52.200:22222 📡 PING-011.81-MS","name":"github.com/Ruk1ng001_2762966185","password":"telegram-id-directvpn","port":22222,"server":"18.218.52.200","sni":"trojan.burgerip.co.uk","type":"trojan"}
+  - {"alterId":0,"cipher":"none","customName":"🇺🇸 G美国-免费","name":"github.com/Ruk1ng001_2635259572","network":"ws","port":80,"server":"139.28.232.223","type":"vmess","uuid":"24f357a7-6eb5-4e88-b0cc-c3b3da00c6b0","ws-opts":{"path":"/"}}
+  - {"alterId":0,"cipher":"auto","country":"🇨🇳CN","customName":"disney_netflix_US","h2-opts":{},"http-opts":{},"name":"github.com/Ruk1ng001_2528855050","network":"tcp","port":30874,"server":"free.6vczxw.xyz","servername":"vn01.tomoony.xyz","skip-cert-verify":true,"tls":true,"type":"vmess","uuid":"6f5e7047-13a6-3ef0-b749-6abb41280331"}
+  - {"alterId":-1,"cipher":"aes-256-cfb","customName":"4Kian-1008","name":"github.com/Ruk1ng001_4123379038","password":"amazonskr05","port":443,"server":"54.65.132.51","type":"ss"}
+  - {"alterId":-1,"cipher":"chacha20-ietf-poly1305","customName":"🇨🇳台湾省|【沪港】","name":"github.com/Ruk1ng001_3296524446","password":"71485d23-91d7-46b1-ac2e-73135325f94d","port":19055,"server":"db.quanstring.top","type":"ss"}
+  - {"alterId":-1,"cipher":"aes-256-cfb","customName":"🇸🇬SG-103.172.116.79-3401","name":"github.com/Ruk1ng001_1716491296","password":"y9VURyNzJWNRYEGQ","port":9008,"server":"103.172.116.79","type":"ss"}
+  - {"alterId":-1,"cipher":"aes-256-cfb","customName":"🔒 SS-TCP-NA 🇩🇪 DE-80.92.204.106:9010 📡 PING-085.86-MS","name":"github.com/Ruk1ng001_1867123431","password":"f63gg8EruDnUrmz4","port":9010,"server":"80.92.204.106","type":"ss"}
+  - {"alterId":-1,"cipher":"chacha20-ietf-poly1305","customName":"🇨🇳台湾省|【沪日】","name":"github.com/Ruk1ng001_1453958981","password":"71485d23-91d7-46b1-ac2e-73135325f94d","port":10743,"server":"db.quanstring.top","type":"ss"}
+  - {"alterId":-1,"cipher":"chacha20-ietf-poly1305","customName":"🇸🇬新加坡|【5G】","name":"github.com/Ruk1ng001_3223187559","password":"71485d23-91d7-46b1-ac2e-73135325f94d","port":22113,"server":"5G.quanstring.top","type":"ss"}
+  - {"alterId":-1,"cipher":"aes-256-cfb","customName":"🇩🇪DE_9019 @WangCai_1","name":"github.com/Ruk1ng001_820586957","password":"GA9KzeEgvfxNrgmM","port":9019,"server":"80.92.204.106","type":"ss"}
+  - {"alterId":-1,"cipher":"aes-256-cfb","customName":"🔒 SS-TCP-NA 🇩🇪 DE-80.92.204.106:9031 📡 PING-086.84-MS","name":"github.com/Ruk1ng001_743245154","password":"BwcAUZk8hUFAkDGN","port":9031,"server":"80.92.204.106","type":"ss"}
+  - {"alterId":-1,"cipher":"aes-256-cfb","customName":"🔒 SS-TCP-NA 🇩🇪 DE-80.92.204.106:9005 📡 PING-085.93-MS","name":"github.com/Ruk1ng001_4247945564","password":"ZET59LF6DvCC8KVt","port":9005,"server":"80.92.204.106","type":"ss"}
+  - {"alterId":-1,"cipher":"aes-256-cfb","customName":"🇰🇷KR-13.124.178.1-3410","name":"github.com/Ruk1ng001_2538090666","password":"amazonskr05","port":443,"server":"13.124.178.1","type":"ss"}
+  - {"alterId":-1,"cipher":"aes-256-cfb","country":"SG","customName":"0|-https://t.me/MrXbin-140","name":"github.com/Ruk1ng001_1997544007","obfs":"plain","password":"UkXRsXvR6buDMG2Y","port":9001,"protocol":"origin","server":"103.172.116.79","type":"ssr"}
+  - {"alterId":-1,"cipher":"aes-256-cfb","customName":"🇸🇬SG-103.172.116.79-3416","name":"github.com/Ruk1ng001_913580737","password":"VP8ZPxQpJtZRCjfZ","port":9080,"server":"103.172.116.79","type":"ss"}
+  - {"alterId":-1,"cipher":"chacha20-ietf-poly1305","customName":"🇨🇳台湾2号|【沪日】","name":"github.com/Ruk1ng001_2406887369","password":"71485d23-91d7-46b1-ac2e-73135325f94d","port":30042,"server":"db.quanstring.top","type":"ss"}
+  - {"alterId":0,"cipher":"auto","country":"🏁ZZ","customName":"Relay_🏁ZZ-🇺🇸US_703","h2-opts":{},"http-opts":{},"name":"github.com/Ruk1ng001_690558285","network":"ws","port":2086,"server":"cewcastlecdn2111.internetcdn.ggff.net","servername":"us01-v6.pisces.eu.org","skip-cert-verify":true,"type":"vmess","uuid":"43354844-c3d6-4624-93d2-04ed7d18c03d","ws-opts":{"headers":{"HOST":"us01-v6.pisces.eu.org"},"path":"/update.microsoft.com?ed=2048"}}
+  - {"alterId":-1,"cipher":"aes-256-cfb","country":"🇺🇸US","customName":"disney_netflix_JP","name":"github.com/Ruk1ng001_729393078","password":"amazonskr05","port":443,"server":"43.207.104.148","type":"ss"}
+  - {"alterId":0,"cipher":"auto","customName":"🇺🇸_US_美国-\u003e🇩🇪_DE_德国_1","name":"github.com/Ruk1ng001_2193625575","network":"ws","port":2052,"server":"104.19.250.15","skip-cert-verify":true,"tls":false,"type":"vmess","uuid":"aec82fa6-ab70-4d0a-e7fb-422ef729d961","ws-opts":{"headers":{"host":"helanv6cf.inekokkk.top"},"path":"/"}}
+  - {"alterId":-1,"cipher":"aes-256-gcm","customName":"RW 13 → tg@nicevpn123","name":"github.com/Ruk1ng001_1734840782","password":"cdBIDV42DCwnfIN","port":8118,"server":"23.162.200.225","type":"ss","udp":true}
+  - {"alterId":-1,"country":"🇸🇬SG","customName":"🇸🇬SG_465","name":"github.com/Ruk1ng001_3394984814","password":"tXRjrTHttx","port":443,"server":"167.71.220.39","skip-cert-verify":true,"sni":"aka.ms","type":"trojan","udp":true}
+  - {"alterId":-1,"customName":"🇫🇷FR-13.36.96.46-0210","name":"github.com/Ruk1ng001_2678921149","password":"telegram-id-privatevpns","port":22222,"server":"13.36.96.46","skip-cert-verify":false,"sni":"trojan.burgerip.co.uk","type":"trojan"}
+  - {"alterId":0,"cipher":"auto","country":"🏁ZZ","customName":"Relay_🏁ZZ-🇺🇸US_1992 |53.88Mb","h2-opts":{},"http-opts":{},"name":"github.com/Ruk1ng001_876316394","network":"ws","port":2095,"server":"cfcdn1.sanfencdn9.com","servername":"us82pRzxDMb.fzbqfrse.xyz","skip-cert-verify":true,"type":"vmess","uuid":"7c42a3f8-cb73-4338-91e6-eef9e7346b12","ws-opts":{"headers":{"HOST":"us82pRzxDMb.fzbqfrse.xyz"},"path":"/video/qYZue4zaWS"}}
+  - {"alterId":0,"cipher":"auto","country":"🇨🇦CA","customName":"Relay_🇨🇦CA-🇺🇸US_328","h2-opts":{},"http-opts":{},"name":"github.com/Ruk1ng001_1132634313","network":"ws","port":8080,"server":"23.227.39.11","servername":"dongtaiwang15.dtku47.xyz","skip-cert-verify":true,"type":"vmess","uuid":"969f1909-c0d3-4c30-813d-3aec5c838b7d","ws-opts":{"headers":{"HOST":"dongtaiwang15.dtku47.xyz"},"path":"/1IKYjV0r/"}}
+  - {"alterId":-1,"cipher":"aes-256-cfb","customName":"0|-https://t.me/MrXbin-34","name":"github.com/Ruk1ng001_631225714","obfs":"plain","obfs-param":"None","password":"GeregetR8cvQHzYr","port":9030,"protocol":"origin","protocol-param":"None","server":"103.172.116.79","type":"ssr","udp":true}
+  - {"alterId":-1,"customName":"🇸🇬SG-206.189.153.51-0607","name":"github.com/Ruk1ng001_1055573967","password":"15f804fa-27be-4b0f-85d4-cead43a483ef","port":30018,"server":"sg04.freeflyingcloud.xyz","skip-cert-verify":false,"sni":"sg04.freeflyingcloud.xyz","type":"trojan"}
+  - {"alterId":-1,"customName":"🔒 TR-TCP-TLS 🇩🇪 DE-3.75.39.139:22222 📡 PING-089.23-MS","name":"github.com/Ruk1ng001_2303866192","password":"telegram-id-directvpn","port":22222,"server":"3.75.39.139","sni":"trojan.burgerip.co.uk","type":"trojan"}
+  - {"alterId":-1,"cipher":"aes-256-cfb","customName":"🇸🇬SG-103.172.116.79-3388","name":"github.com/Ruk1ng001_213571457","password":"KnJGad3FqTvjqbaX","port":9014,"server":"103.172.116.79","type":"ss"}
+  - {"alterId":-1,"customName":"🇫🇷 FR 20 → tg@nicevpn123","name":"github.com/Ruk1ng001_2836989322","password":"278fff60-fc3a-11ee-a4a6-1239d0255272","port":443,"server":"51.210.182.170","skip-cert-verify":true,"type":"trojan","udp":true}
+  - {"alterId":0,"cipher":"none","customName":"广东省 移动","name":"github.com/Ruk1ng001_1733174884","network":"ws","port":20206,"server":"data-hk-v1.usabooks.com.cn","type":"vmess","uuid":"b1478e24-4916-3abe-8f17-15931012ecbe","ws-opts":{"path":"/debian"}}
+  - {"alterId":0,"cipher":"auto","country":"🇯🇵JP","customName":"Relay_🇯🇵JP-🇯🇵JP_421","h2-opts":{},"http-opts":{},"name":"github.com/Ruk1ng001_549349443","network":"ws","port":57557,"server":"jp-tokyo-oracle-5a26da.ip1.shop","servername":"jp-tokyo-oracle-5a26da.ip1.shop","skip-cert-verify":true,"type":"vmess","uuid":"f0f067fe-8e6d-4d95-816b-601038fd5876","ws-opts":{"headers":{"HOST":"jp-tokyo-oracle-5a26da.ip1.shop"},"path":"/rongseven?ed=2048"}}
+  - {"alterId":-1,"cipher":"aes-256-cfb","customName":"🇸🇬SG-103.172.116.79-3399","name":"github.com/Ruk1ng001_3003491166","password":"rNBfNuuANFCAk7KB","port":9056,"server":"103.172.116.79","type":"ss"}
+  - {"alterId":-1,"cipher":"aes-256-gcm","customName":"🇺🇸US-129.146.102.22-3437","name":"github.com/Ruk1ng001_2003673791","password":"N0k6tSWblI","port":34017,"server":"129.146.102.22","type":"ss"}
+  - {"alterId":-1,"cipher":"aes-128-gcm","customName":"日本-02","name":"github.com/Ruk1ng001_125156137","password":"9da21772-de82-42f3-9d3e-115985b52e6f","port":16654,"server":"video.tikonline.live","type":"ss","udp":true}
+  - {"alterId":-1,"cipher":"chacha20-ietf-poly1305","customName":"🇸🇬新加坡|【沪港】","name":"github.com/Ruk1ng001_2462725052","password":"71485d23-91d7-46b1-ac2e-73135325f94d","port":37268,"server":"db.quanstring.top","type":"ss"}
+  - {"alterId":0,"cipher":"auto","customName":"美国2052","name":"github.com/Ruk1ng001_2194615537","network":"ws","port":2052,"server":"freeyx.cloudflare88.eu.org","type":"vmess","uuid":"c66a6fd2-28f0-4f8e-c03a-538aab77e89b","ws-opts":{"headers":{"host":"linuxdo-name_liubang-1.cf88.cloudns.org"},"path":"/cloud"}}
+  - {"alterId":-1,"customName":"🇺🇸_US_美国_3","name":"github.com/Ruk1ng001_1108862479","network":"ws","password":"0b1371aa-649d-41dc-9126-338c87936500","port":443,"server":"95.164.33.62","skip-cert-verify":true,"sni":"sourceforge.net","type":"trojan","udp":true,"ws-opts":{"headers":{"host":"se1.trojanvpn.de"},"path":"/websocket"}}
+  - {"alterId":-1,"cipher":"chacha20-ietf-poly1305","customName":"🇭🇰香港|【沪新VIP】","name":"github.com/Ruk1ng001_1222340813","password":"71485d23-91d7-46b1-ac2e-73135325f94d","port":38864,"server":"db.quanstring.top","type":"ss"}
+  - {"alterId":-1,"cipher":"chacha20-ietf-poly1305","customName":"🇯🇵日本|【5G】","name":"github.com/Ruk1ng001_2421155418","password":"71485d23-91d7-46b1-ac2e-73135325f94d","port":17864,"server":"5g.quanstring.top","type":"ss"}
+  - {"alterId":-1,"cipher":"aes-256-cfb","customName":"🇸🇬SG-47.128.230.112-3385","name":"github.com/Ruk1ng001_2690750277","password":"amazonskr05","port":443,"server":"47.128.230.112","type":"ss"}
+  - {"alterId":-1,"cipher":"aes-256-cfb","customName":"🇩🇪DE_9042 @WangCai_1","name":"github.com/Ruk1ng001_2594769059","password":"S7KwUu7yBy58S3Ga","port":9042,"server":"80.92.204.106","type":"ss"}
+  - {"alterId":-1,"country":"🇸🇬SG","customName":"Relay_🇸🇬SG-🇸🇬SG_463","name":"github.com/Ruk1ng001_2738419366","password":"cf13832b-4ca0-4fee-8e85-2b2411104e75","port":20230,"server":"sg07.421421.xyz","skip-cert-verify":true,"sni":"421421.xyz","type":"trojan","udp":true}
+  - {"alterId":-1,"cipher":"aes-256-gcm","customName":"RW 10 → tg@nicevpn123","name":"github.com/Ruk1ng001_1336643521","password":"cdBIDV42DCwnfIN","port":8119,"server":"23.162.200.225","type":"ss","udp":true}
+  - {"alterId":0,"cipher":"auto","customName":"Relay_-🇺🇸US_720 |51.62Mb","h2-opts":{},"http-opts":{},"name":"github.com/Ruk1ng001_924727498","network":"ws","port":443,"server":"sgcft01.xqc.best","servername":"d1nal26v8jyfe2.cloudfront.net","skip-cert-verify":true,"tls":true,"type":"vmess","udp":true,"uuid":"0667f736-7728-4325-ab96-2ff7e8e7929c","ws-opts":{"headers":{"Host":"d1nal26v8jyfe2.cloudfront.net"},"path":"/stream"}}
+  - {"alterId":-1,"cipher":"chacha20-ietf-poly1305","customName":"🇭🇰香港|【流媒体2x】","name":"github.com/Ruk1ng001_626559234","password":"71485d23-91d7-46b1-ac2e-73135325f94d","port":12601,"server":"db.quanstring.top","type":"ss"}
+  - {"alterId":-1,"cipher":"chacha20-ietf-poly1305","customName":"Incheon SS - B Group","name":"github.com/Ruk1ng001_986862858","password":"2155145a-b1b5-443a-8977-670f6bd10f02","port":50001,"server":"bgroup.node2.s.nodelist-gfwairport2.top","type":"ss"}
+  - {"alterId":0,"cipher":"auto","country":"🏁ZZ","customName":"Relay_🏁ZZ-🇫🇷FR_658","h2-opts":{},"http-opts":{},"name":"github.com/Ruk1ng001_3523461818","network":"ws","port":2052,"server":"104.18.202.250","servername":"erfannewfreenodes.vdmmswyzmzigonvnjk443.workers.dev","skip-cert-verify":true,"type":"vmess","uuid":"6c168fcc-2231-4f3b-8c1e-f6391692df4a","ws-opts":{"headers":{"HOST":"erfannewfreenodes.vdmmswyzmzigonvnjk443.workers.dev"},"path":"/hms02.fxiaomi.sbs/link"}}
+  - {"alterId":-1,"cipher":"aes-256-cfb","customName":"🇩🇪DE_9046 @WangCai_1","name":"github.com/Ruk1ng001_2972017875","password":"NvS8N4Vf8qAGPSCL","port":9046,"server":"80.92.204.106","type":"ss"}
+  - {"alterId":-1,"customName":"🔒 TR-TCP-TLS 🇷🇺 RU-195.133.53.7:443 📡 PING-167.04-MS","name":"github.com/Ruk1ng001_1948204665","password":"eb7e85c8-d699-4d84-9a69-d44a1b5e2de9","port":443,"server":"195.133.53.7","sni":"ru-a.speedyweb.xyz","type":"trojan"}
+  - {"alterId":-1,"cipher":"aes-256-cfb","customName":"🇸🇬SG-103.172.116.79-3414","name":"github.com/Ruk1ng001_1630644596","password":"ZpNDDKRu9MagNvaf","port":9015,"server":"103.172.116.79","type":"ss"}
+  - {"alterId":0,"cipher":"auto","country":"🇨🇾CY","customName":"Relay_🇨🇾CY-🇬🇧GB_366","h2-opts":{},"http-opts":{},"name":"github.com/Ruk1ng001_1073258103","network":"ws","port":443,"server":"cdn7.internetcdn.ggff.net","servername":"londonengland-unitedkingdom.pisces.eu.org","skip-cert-verify":true,"tls":true,"type":"vmess","uuid":"43354844-c3d6-4624-93d2-04ed7d18c03d","ws-opts":{"headers":{"HOST":"londonengland-unitedkingdom.pisces.eu.org"},"path":"/update.microsoft.com?ed=2560"}}
+  - {"alterId":-1,"customName":"🔒 TR-TCP-TLS 🇩🇪 DE-35.159.48.48:22222 📡 PING-088.20-MS","name":"github.com/Ruk1ng001_1336738841","password":"telegram-id-directvpn","port":22222,"server":"35.159.48.48","sni":"trojan.burgerip.co.uk","type":"trojan"}
+  - {"alterId":-1,"cipher":"aes-256-cfb","country":"🏁 ZZ","customName":"ChatGPT 🏁 ZZ_1005","name":"github.com/Ruk1ng001_1832424006","obfs":"plain","password":"UWZQeLRWnkqgkseq","port":9032,"protocol":"origin","server":"103.172.116.79","type":"ssr"}
+  - {"alterId":-1,"cipher":"aes-256-cfb","customName":"🇩🇪DE_9097 @WangCai_1","name":"github.com/Ruk1ng001_60235898","password":"Sn5B7jTqr76aCJT8","port":9097,"server":"80.92.204.106","type":"ss"}
+  - {"alterId":-1,"cipher":"aes-256-cfb","customName":"🇸🇬SG-103.172.116.79-3389","name":"github.com/Ruk1ng001_511116049","password":"cp8pRSUAyLhTfVWH","port":9064,"server":"103.172.116.79","type":"ss"}
+  - {"alterId":-1,"cipher":"chacha20-ietf-poly1305","customName":"🇯🇵日本|【沪日VIP】","name":"github.com/Ruk1ng001_2369171920","password":"71485d23-91d7-46b1-ac2e-73135325f94d","port":50317,"server":"db.quanstring.top","type":"ss"}
+  - {"alterId":0,"cipher":"auto","country":"🏁ZZ","customName":"Relay_🏁ZZ-🇺🇸US_588","h2-opts":{},"http-opts":{},"name":"github.com/Ruk1ng001_1855943804","network":"ws","port":443,"server":"cdn.twitter.now.cc","servername":"us2.kunkunbuku.me","skip-cert-verify":true,"tls":true,"type":"vmess","uuid":"b5f423ab-8e67-450a-8cd8-d2380be038a5","ws-opts":{"headers":{"HOST":"us2.kunkunbuku.me"},"path":"/ikun"}}
+  - {"alterId":0,"cipher":"none","customName":"具体查看官网使用教程","name":"github.com/Ruk1ng001_508957716","network":"ws","port":80,"server":"us111.5our.top","type":"vmess","uuid":"bc608245-628c-4711-8786-07deac552ff4","ws-opts":{"path":"/cctv13/hd.m3u8"}}
+  - {"alterId":64,"cipher":"auto","customName":"🇨🇳CN-120.232.242.117-171","name":"github.com/Ruk1ng001_3844933833","network":"tcp","port":41492,"server":"120.232.242.117","skip-cert-verify":true,"tls":false,"type":"vmess","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","ws-headers":{"Host":"120.232.242.117"},"ws-path":"/"}
+  - {"alterId":0,"cipher":"auto","country":"🏁ZZ","customName":"Relay_🏁ZZ-🇺🇸US_670","h2-opts":{},"http-opts":{},"name":"github.com/Ruk1ng001_4192775978","network":"ws","port":8080,"server":"cdnikuancdnikuan.internetcdn.ggff.net","servername":"26022940dc1234123455cf1.us.pisces.eu.org","skip-cert-verify":true,"type":"vmess","uuid":"43354844-c3d6-4624-93d2-04ed7d18c03d","ws-opts":{"headers":{"HOST":"26022940dc1234123455cf1.us.pisces.eu.org"},"path":"/Microsoftupdate?ed=2048"}}
+  - {"alterId":-1,"cipher":"aes-256-cfb","country":"🏁 ZZ","customName":"ChatGPT 🏁 ZZ_974","name":"github.com/Ruk1ng001_3270069971","obfs":"plain","password":"daFYagqDdBdA6VTX","port":9073,"protocol":"origin","server":"103.172.116.79","type":"ssr"}
+  - {"alterId":0,"cipher":"none","customName":"Tokyo V2 - B Group","name":"github.com/Ruk1ng001_4267661144","port":41001,"server":"bgroup.node1.v.nodelist-gfwairport2.top","type":"vmess","uuid":"2155145a-b1b5-443a-8977-670f6bd10f02","ws-opts":{}}
+  - {"alterId":-1,"cipher":"aes-256-cfb","customName":"0|-https://t.me/MrXbin-27","name":"github.com/Ruk1ng001_3697537718","obfs":"plain","obfs-param":"None","password":"p9z5BVADH2YFs3MN","port":9040,"protocol":"origin","protocol-param":"None","server":"103.172.116.79","type":"ssr","udp":true}
+  - {"alterId":-1,"cipher":"aes-256-cfb","customName":"4Kian-1303","name":"github.com/Ruk1ng001_185289708","password":"rpgbNnU9rDDU4aWZ","port":9094,"server":"80.92.204.106","type":"ss"}
+  - {"alterId":-1,"cipher":"aes-256-cfb","customName":"🇩🇪DE_9084 @WangCai_1","name":"github.com/Ruk1ng001_1010364568","password":"c3NtHJ5ujV2tGDfj","port":9084,"server":"80.92.204.106","type":"ss"}
+  - {"alterId":-1,"cipher":"aes-256-cfb","customName":"4Kian-1156","name":"github.com/Ruk1ng001_3750721354","password":"c3NtHJ5ujV2tGDfj","port":9084,"server":"103.172.116.79","type":"ss"}
   
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
-      - github.com/Ruk1ng001_3566373851
+      - github.com/Ruk1ng001_1708283347
+      - github.com/Ruk1ng001_1780867753
       - github.com/Ruk1ng001_1708733874
-      - github.com/Ruk1ng001_1866673786
-      - github.com/Ruk1ng001_1125465398
-      - github.com/Ruk1ng001_3343261929
-      - github.com/Ruk1ng001_2679557322
-      - github.com/Ruk1ng001_3669704105
-      - github.com/Ruk1ng001_2851247785
-      - github.com/Ruk1ng001_1630644596
-      - github.com/Ruk1ng001_385037384
-      - github.com/Ruk1ng001_2210519284
-      - github.com/Ruk1ng001_2839365091
-      - github.com/Ruk1ng001_536822818
-      - github.com/Ruk1ng001_2836989322
-      - github.com/Ruk1ng001_34491053
-      - github.com/Ruk1ng001_458337430
-      - github.com/Ruk1ng001_16216811
-      - github.com/Ruk1ng001_3261594282
-      - github.com/Ruk1ng001_3807711853
-      - github.com/Ruk1ng001_2264581289
-      - github.com/Ruk1ng001_418744153
-      - github.com/Ruk1ng001_2065932882
-      - github.com/Ruk1ng001_3577859919
-      - github.com/Ruk1ng001_1730562311
-      - github.com/Ruk1ng001_588313937
-      - github.com/Ruk1ng001_4212271000
-      - github.com/Ruk1ng001_3023632956
-      - github.com/Ruk1ng001_2522275543
-      - github.com/Ruk1ng001_3545561562
-      - github.com/Ruk1ng001_312756856
-      - github.com/Ruk1ng001_1090519050
-      - github.com/Ruk1ng001_1108544810
-      - github.com/Ruk1ng001_1360201207
-      - github.com/Ruk1ng001_3789031490
-      - github.com/Ruk1ng001_458165570
-      - github.com/Ruk1ng001_2140937009
-      - github.com/Ruk1ng001_3423829753
-      - github.com/Ruk1ng001_2289978129
-      - github.com/Ruk1ng001_1384167582
-      - github.com/Ruk1ng001_3171504776
-      - github.com/Ruk1ng001_453848929
-      - github.com/Ruk1ng001_2029743534
-      - github.com/Ruk1ng001_3139979132
-      - github.com/Ruk1ng001_2209222970
-      - github.com/Ruk1ng001_3076931349
-      - github.com/Ruk1ng001_1855943804
-      - github.com/Ruk1ng001_2289611070
-      - github.com/Ruk1ng001_3608246380
-      - github.com/Ruk1ng001_1388105328
-      - github.com/Ruk1ng001_2012305681
-      - github.com/Ruk1ng001_3549260583
-      - github.com/Ruk1ng001_1278859682
-      - github.com/Ruk1ng001_3911308321
-      - github.com/Ruk1ng001_1336643521
-      - github.com/Ruk1ng001_2302681605
-      - github.com/Ruk1ng001_102931221
-      - github.com/Ruk1ng001_3750721354
-      - github.com/Ruk1ng001_681125409
-      - github.com/Ruk1ng001_631225714
-      - github.com/Ruk1ng001_1252535775
-      - github.com/Ruk1ng001_1132634313
-      - github.com/Ruk1ng001_2154087120
-      - github.com/Ruk1ng001_4035044382
-      - github.com/Ruk1ng001_100610302
-      - github.com/Ruk1ng001_3308827420
-      - github.com/Ruk1ng001_3862002053
-      - github.com/Ruk1ng001_2027234600
-      - github.com/Ruk1ng001_2003673791
-      - github.com/Ruk1ng001_620704647
-      - github.com/Ruk1ng001_3503438115
-      - github.com/Ruk1ng001_287266376
-      - github.com/Ruk1ng001_3916650059
-      - github.com/Ruk1ng001_1788757087
-      - github.com/Ruk1ng001_409156250
-      - github.com/Ruk1ng001_961392496
-      - github.com/Ruk1ng001_1430802564
-      - github.com/Ruk1ng001_816734664
-      - github.com/Ruk1ng001_1656816604
-      - github.com/Ruk1ng001_1477765778
-      - github.com/Ruk1ng001_2738419366
-      - github.com/Ruk1ng001_1853798928
-      - github.com/Ruk1ng001_4039792076
-      - github.com/Ruk1ng001_2686546267
-      - github.com/Ruk1ng001_1265275815
-      - github.com/Ruk1ng001_1207854352
-      - github.com/Ruk1ng001_1629869478
-      - github.com/Ruk1ng001_626559234
-      - github.com/Ruk1ng001_839126155
-      - github.com/Ruk1ng001_690558285
-      - github.com/Ruk1ng001_1182001113
-      - github.com/Ruk1ng001_1844541097
-      - github.com/Ruk1ng001_3308912696
-      - github.com/Ruk1ng001_2376029201
-      - github.com/Ruk1ng001_1010364568
-      - github.com/Ruk1ng001_1527883593
-      - github.com/Ruk1ng001_3789867205
-      - github.com/Ruk1ng001_180441397
-      - github.com/Ruk1ng001_1651257384
-      - github.com/Ruk1ng001_111822554
-      - github.com/Ruk1ng001_3892546547
-      - github.com/Ruk1ng001_2408252289
-      - github.com/Ruk1ng001_1475188205
-      - github.com/Ruk1ng001_777700868
-      - github.com/Ruk1ng001_138874037
-      - github.com/Ruk1ng001_1895037706
-      - github.com/Ruk1ng001_3427363528
-      - github.com/Ruk1ng001_574168731
-      - github.com/Ruk1ng001_71355846
-      - github.com/Ruk1ng001_3350958842
-      - github.com/Ruk1ng001_3823499304
-      - github.com/Ruk1ng001_703600976
-      - github.com/Ruk1ng001_1055573967
-      - github.com/Ruk1ng001_1081423745
-      - github.com/Ruk1ng001_102376345
-      - github.com/Ruk1ng001_2429320888
-      - github.com/Ruk1ng001_1899337013
-      - github.com/Ruk1ng001_263773284
-      - github.com/Ruk1ng001_2585037498
-      - github.com/Ruk1ng001_1650935518
-      - github.com/Ruk1ng001_1938509145
+      - github.com/Ruk1ng001_404815326
       - github.com/Ruk1ng001_2152169481
-      - github.com/Ruk1ng001_541554949
-      - github.com/Ruk1ng001_1344038030
-      - github.com/Ruk1ng001_3760230858
-      - github.com/Ruk1ng001_2074681023
-      - github.com/Ruk1ng001_754856512
-      - github.com/Ruk1ng001_2394693661
-      - github.com/Ruk1ng001_3026543523
-      - github.com/Ruk1ng001_290234292
-      - github.com/Ruk1ng001_1964030541
-      - github.com/Ruk1ng001_3676143946
-      - github.com/Ruk1ng001_2129178164
-      - github.com/Ruk1ng001_2245971848
-      - github.com/Ruk1ng001_2889246928
-      - github.com/Ruk1ng001_3543698725
-      - github.com/Ruk1ng001_47739984
-      - github.com/Ruk1ng001_2462725052
-      - github.com/Ruk1ng001_3383320086
-      - github.com/Ruk1ng001_2690750277
-      - github.com/Ruk1ng001_2985772439
-      - github.com/Ruk1ng001_1674449148
-      - github.com/Ruk1ng001_729393078
-      - github.com/Ruk1ng001_3921799055
-      - github.com/Ruk1ng001_2908148325
-      - github.com/Ruk1ng001_777226850
-      - github.com/Ruk1ng001_2650303127
-      - github.com/Ruk1ng001_1356209761
-      - github.com/Ruk1ng001_1839802396
-      - github.com/Ruk1ng001_476083743
-      - github.com/Ruk1ng001_3394984814
-      - github.com/Ruk1ng001_2643312922
-      - github.com/Ruk1ng001_1472351678
-      - github.com/Ruk1ng001_3265229179
-      - github.com/Ruk1ng001_1997544007
-      - github.com/Ruk1ng001_3768335150
-      - github.com/Ruk1ng001_3115135129
-      - github.com/Ruk1ng001_218855626
-      - github.com/Ruk1ng001_2178163495
-      - github.com/Ruk1ng001_3704435507
-      - github.com/Ruk1ng001_3539510486
-      - github.com/Ruk1ng001_559286446
-      - github.com/Ruk1ng001_1191838121
-      - github.com/Ruk1ng001_3939175935
-      - github.com/Ruk1ng001_3838278857
-      - github.com/Ruk1ng001_924727498
-      - github.com/Ruk1ng001_2457371901
-      - github.com/Ruk1ng001_368458161
-      - github.com/Ruk1ng001_2247880156
-      - github.com/Ruk1ng001_1767355922
-      - github.com/Ruk1ng001_702135082
-      - github.com/Ruk1ng001_2350758002
-      - github.com/Ruk1ng001_2635259572
-      - github.com/Ruk1ng001_856261957
-      - github.com/Ruk1ng001_451951698
-      - github.com/Ruk1ng001_820586957
-      - github.com/Ruk1ng001_1435278059
-      - github.com/Ruk1ng001_4016324661
-      - github.com/Ruk1ng001_308458359
-      - github.com/Ruk1ng001_230891734
-      - github.com/Ruk1ng001_2054894954
-      - github.com/Ruk1ng001_691210972
-      - github.com/Ruk1ng001_2966139673
-      - github.com/Ruk1ng001_1419532988
-      - github.com/Ruk1ng001_3470745775
-      - github.com/Ruk1ng001_3022878362
-      - github.com/Ruk1ng001_2209507385
-      - github.com/Ruk1ng001_1616468470
-      - github.com/Ruk1ng001_3223187559
-      - github.com/Ruk1ng001_2900979723
-      - github.com/Ruk1ng001_1034331182
-      - github.com/Ruk1ng001_3718325696
-      - github.com/Ruk1ng001_306812778
-      - github.com/Ruk1ng001_3710430810
-      - github.com/Ruk1ng001_1338243871
-      - github.com/Ruk1ng001_2503489883
-      - github.com/Ruk1ng001_347036239
-      - github.com/Ruk1ng001_307022608
-      - github.com/Ruk1ng001_1716491296
-      - github.com/Ruk1ng001_2420060564
-      - github.com/Ruk1ng001_1976028172
-      - github.com/Ruk1ng001_4247945564
-      - github.com/Ruk1ng001_1388672434
-      - github.com/Ruk1ng001_376258459
-      - github.com/Ruk1ng001_3811467450
-      - github.com/Ruk1ng001_2381704039
-      - github.com/Ruk1ng001_508957716
-      - github.com/Ruk1ng001_832263432
-      - github.com/Ruk1ng001_2013146544
-      - github.com/Ruk1ng001_3364884070
-      - github.com/Ruk1ng001_2981248319
-      - github.com/Ruk1ng001_185289708
-      - github.com/Ruk1ng001_2241610555
-      - github.com/Ruk1ng001_897735436
-      - github.com/Ruk1ng001_2693051642
-      - github.com/Ruk1ng001_3722424023
-      - github.com/Ruk1ng001_1022491906
-      - github.com/Ruk1ng001_1869152945
-      - github.com/Ruk1ng001_511116049
-      - github.com/Ruk1ng001_2429767849
-      - github.com/Ruk1ng001_1453958981
-      - github.com/Ruk1ng001_645238661
-      - github.com/Ruk1ng001_3323405748
-      - github.com/Ruk1ng001_3848753611
-      - github.com/Ruk1ng001_3817276371
-      - github.com/Ruk1ng001_2972017875
-      - github.com/Ruk1ng001_3286246519
-      - github.com/Ruk1ng001_1336738841
-      - github.com/Ruk1ng001_3137877877
-      - github.com/Ruk1ng001_2786507262
-      - github.com/Ruk1ng001_913949734
-      - github.com/Ruk1ng001_1734840782
-      - github.com/Ruk1ng001_2762966185
-      - github.com/Ruk1ng001_2078650675
-      - github.com/Ruk1ng001_1303543440
-      - github.com/Ruk1ng001_512866803
-      - github.com/Ruk1ng001_986862858
-      - github.com/Ruk1ng001_3557028703
-      - github.com/Ruk1ng001_3283496859
-      - github.com/Ruk1ng001_2594769059
-      - github.com/Ruk1ng001_1490566360
-      - github.com/Ruk1ng001_2678921149
-      - github.com/Ruk1ng001_670247492
-      - github.com/Ruk1ng001_3523461818
-      - github.com/Ruk1ng001_2074855811
-      - github.com/Ruk1ng001_4197064378
-      - github.com/Ruk1ng001_2223018783
-      - github.com/Ruk1ng001_1177855480
-      - github.com/Ruk1ng001_2071703730
-      - github.com/Ruk1ng001_402196054
-      - github.com/Ruk1ng001_4180342801
-      - github.com/Ruk1ng001_2686558329
-      - github.com/Ruk1ng001_3083510873
-      - github.com/Ruk1ng001_796916901
-      - github.com/Ruk1ng001_3675711602
-      - github.com/Ruk1ng001_2303866192
-      - github.com/Ruk1ng001_4123379038
-      - github.com/Ruk1ng001_431870641
-      - github.com/Ruk1ng001_1164237975
       - github.com/Ruk1ng001_1295306959
-      - github.com/Ruk1ng001_3255661347
-      - github.com/Ruk1ng001_3756619769
-      - github.com/Ruk1ng001_2369171920
-      - github.com/Ruk1ng001_3296524446
-      - github.com/Ruk1ng001_3388020787
-      - github.com/Ruk1ng001_2335093990
-      - github.com/Ruk1ng001_1430471093
-      - github.com/Ruk1ng001_1200556249
-      - github.com/Ruk1ng001_2538090666
-      - github.com/Ruk1ng001_291768839
-      - github.com/Ruk1ng001_3777618365
-      - github.com/Ruk1ng001_2406887369
-      - github.com/Ruk1ng001_1261727584
-      - github.com/Ruk1ng001_3510229133
-      - github.com/Ruk1ng001_1245590397
-      - github.com/Ruk1ng001_1032828922
-      - github.com/Ruk1ng001_636687194
-      - github.com/Ruk1ng001_4238347257
-      - github.com/Ruk1ng001_1577293506
-      - github.com/Ruk1ng001_2189026822
-      - github.com/Ruk1ng001_939289251
-      - github.com/Ruk1ng001_125156137
-      - github.com/Ruk1ng001_4217507469
-      - github.com/Ruk1ng001_3866585498
-      - github.com/Ruk1ng001_625743164
-      - github.com/Ruk1ng001_3942436740
+      - github.com/Ruk1ng001_3718325696
+      - github.com/Ruk1ng001_1616468470
+      - github.com/Ruk1ng001_1591658842
+      - github.com/Ruk1ng001_3807711853
+      - github.com/Ruk1ng001_630106339
       - github.com/Ruk1ng001_24015290
-      - github.com/Ruk1ng001_1832424006
-      - github.com/Ruk1ng001_113170466
-      - github.com/Ruk1ng001_60235898
-      - github.com/Ruk1ng001_2410055517
-      - github.com/Ruk1ng001_3564040109
+      - github.com/Ruk1ng001_3194308421
+      - github.com/Ruk1ng001_2528650115
+      - github.com/Ruk1ng001_3539510486
+      - github.com/Ruk1ng001_2457371901
+      - github.com/Ruk1ng001_1650935518
+      - github.com/Ruk1ng001_2889246928
+      - github.com/Ruk1ng001_458165570
       - github.com/Ruk1ng001_1561149140
-      - github.com/Ruk1ng001_1631711533
-      - github.com/Ruk1ng001_2885853846
-      - github.com/Ruk1ng001_2148845678
-      - github.com/Ruk1ng001_743354087
-      - github.com/Ruk1ng001_2533587589
-      - github.com/Ruk1ng001_2070134522
-      - github.com/Ruk1ng001_3015962468
-      - github.com/Ruk1ng001_2421155418
-      - github.com/Ruk1ng001_278173029
-      - github.com/Ruk1ng001_2733597327
+      - github.com/Ruk1ng001_3115135129
+      - github.com/Ruk1ng001_1613804777
+      - github.com/Ruk1ng001_368458161
+      - github.com/Ruk1ng001_691210972
       - github.com/Ruk1ng001_1008795021
-      - github.com/Ruk1ng001_2356634354
-      - github.com/Ruk1ng001_4063309201
+      - github.com/Ruk1ng001_1360201207
+      - github.com/Ruk1ng001_1303578646
+      - github.com/Ruk1ng001_796916901
+      - github.com/Ruk1ng001_2154087120
+      - github.com/Ruk1ng001_312307036
+      - github.com/Ruk1ng001_290234292
+      - github.com/Ruk1ng001_1672226511
+      - github.com/Ruk1ng001_1899337013
+      - github.com/Ruk1ng001_1629869478
+      - github.com/Ruk1ng001_453848929
+      - github.com/Ruk1ng001_1212913479
+      - github.com/Ruk1ng001_3269662008
+      - github.com/Ruk1ng001_3722424023
+      - github.com/Ruk1ng001_314498641
+      - github.com/Ruk1ng001_1656816604
+      - github.com/Ruk1ng001_2308501734
+      - github.com/Ruk1ng001_2840232843
+      - github.com/Ruk1ng001_2997387401
+      - github.com/Ruk1ng001_3139979132
+      - github.com/Ruk1ng001_1043516510
+      - github.com/Ruk1ng001_419031952
+      - github.com/Ruk1ng001_278173029
+      - github.com/Ruk1ng001_1265275815
+      - github.com/Ruk1ng001_4016324661
+      - github.com/Ruk1ng001_2070134522
+      - github.com/Ruk1ng001_574168731
+      - github.com/Ruk1ng001_482184185
+      - github.com/Ruk1ng001_2693051642
+      - github.com/Ruk1ng001_138898346
+      - github.com/Ruk1ng001_409156250
+      - github.com/Ruk1ng001_458337430
+      - github.com/Ruk1ng001_3756159250
+      - github.com/Ruk1ng001_2548594393
+      - github.com/Ruk1ng001_3384465325
+      - github.com/Ruk1ng001_2407376549
+      - github.com/Ruk1ng001_2264581289
       - github.com/Ruk1ng001_4272975566
+      - github.com/Ruk1ng001_1388105328
+      - github.com/Ruk1ng001_2394693661
+      - github.com/Ruk1ng001_4226562581
+      - github.com/Ruk1ng001_102376345
+      - github.com/Ruk1ng001_3022878362
+      - github.com/Ruk1ng001_1490566360
+      - github.com/Ruk1ng001_3911308321
+      - github.com/Ruk1ng001_2029743534
+      - github.com/Ruk1ng001_476083743
+      - github.com/Ruk1ng001_2074681023
+      - github.com/Ruk1ng001_2156494072
+      - github.com/Ruk1ng001_3838278857
+      - github.com/Ruk1ng001_2472677522
+      - github.com/Ruk1ng001_1177855480
+      - github.com/Ruk1ng001_1207854352
+      - github.com/Ruk1ng001_2079142366
+      - github.com/Ruk1ng001_1261727584
+      - github.com/Ruk1ng001_1238702783
+      - github.com/Ruk1ng001_1034331182
+      - github.com/Ruk1ng001_897735436
+      - github.com/Ruk1ng001_16216811
+      - github.com/Ruk1ng001_1107675649
+      - github.com/Ruk1ng001_677993307
+      - github.com/Ruk1ng001_3350958842
+      - github.com/Ruk1ng001_3837465009
+      - github.com/Ruk1ng001_2650303127
+      - github.com/Ruk1ng001_2235880954
+      - github.com/Ruk1ng001_1200556249
+      - github.com/Ruk1ng001_1036870570
+      - github.com/Ruk1ng001_3741033956
+      - github.com/Ruk1ng001_3710430810
+      - github.com/Ruk1ng001_3921799055
+      - github.com/Ruk1ng001_459534470
+      - github.com/Ruk1ng001_312756856
+      - github.com/Ruk1ng001_3261594282
+      - github.com/Ruk1ng001_71355846
+      - github.com/Ruk1ng001_2402968797
+      - github.com/Ruk1ng001_2999369665
+      - github.com/Ruk1ng001_524000952
+      - github.com/Ruk1ng001_3152560726
+      - github.com/Ruk1ng001_3470745775
+      - github.com/Ruk1ng001_113170466
+      - github.com/Ruk1ng001_2985772439
+      - github.com/Ruk1ng001_2112254635
+      - github.com/Ruk1ng001_1182001113
+      - github.com/Ruk1ng001_402196054
+      - github.com/Ruk1ng001_2256819001
+      - github.com/Ruk1ng001_2178163495
+      - github.com/Ruk1ng001_2071703730
+      - github.com/Ruk1ng001_1105575492
+      - github.com/Ruk1ng001_2210519284
+      - github.com/Ruk1ng001_1356209761
+      - github.com/Ruk1ng001_2013146544
+      - github.com/Ruk1ng001_1472351678
+      - github.com/Ruk1ng001_743354087
+      - github.com/Ruk1ng001_2289611070
+      - github.com/Ruk1ng001_1419532988
+      - github.com/Ruk1ng001_3876684763
+      - github.com/Ruk1ng001_1511573237
+      - github.com/Ruk1ng001_1859233575
+      - github.com/Ruk1ng001_3083510873
+      - github.com/Ruk1ng001_1064217086
+      - github.com/Ruk1ng001_3881894318
+      - github.com/Ruk1ng001_2847336924
+      - github.com/Ruk1ng001_2205718307
+      - github.com/Ruk1ng001_2572013499
+      - github.com/Ruk1ng001_2926601325
+      - github.com/Ruk1ng001_2998960801
+      - github.com/Ruk1ng001_2131077619
+      - github.com/Ruk1ng001_34491053
+      - github.com/Ruk1ng001_2289978129
+      - github.com/Ruk1ng001_1038189334
+      - github.com/Ruk1ng001_620704647
+      - github.com/Ruk1ng001_1844541097
+      - github.com/Ruk1ng001_4212271000
+      - github.com/Ruk1ng001_763092007
+      - github.com/Ruk1ng001_2851247785
+      - github.com/Ruk1ng001_1022491906
+      - github.com/Ruk1ng001_3137877877
+      - github.com/Ruk1ng001_2963130294
+      - github.com/Ruk1ng001_3704435507
+      - github.com/Ruk1ng001_514394592
+      - github.com/Ruk1ng001_155466454
+      - github.com/Ruk1ng001_2786507262
+      - github.com/Ruk1ng001_3566373851
+      - github.com/Ruk1ng001_1788757087
+      - github.com/Ruk1ng001_1730562311
+      - github.com/Ruk1ng001_2643312922
+      - github.com/Ruk1ng001_2585037498
+      - github.com/Ruk1ng001_3289716767
+      - github.com/Ruk1ng001_902856159
+      - github.com/Ruk1ng001_1792664036
+      - github.com/Ruk1ng001_3364884070
+      - github.com/Ruk1ng001_856261957
+      - github.com/Ruk1ng001_863153199
+      - github.com/Ruk1ng001_1435278059
+      - github.com/Ruk1ng001_838451797
+      - github.com/Ruk1ng001_2245971848
+      - github.com/Ruk1ng001_1631711533
+      - github.com/Ruk1ng001_782415132
+      - github.com/Ruk1ng001_1001189169
+      - github.com/Ruk1ng001_1866673786
+      - github.com/Ruk1ng001_832263432
+      - github.com/Ruk1ng001_3811467450
+      - github.com/Ruk1ng001_3293006801
+      - github.com/Ruk1ng001_347036239
+      - github.com/Ruk1ng001_4160295800
+      - github.com/Ruk1ng001_1674449148
+      - github.com/Ruk1ng001_1338243871
+      - github.com/Ruk1ng001_3789031490
+      - github.com/Ruk1ng001_47739984
+      - github.com/Ruk1ng001_4180342801
+      - github.com/Ruk1ng001_180441397
+      - github.com/Ruk1ng001_2386156489
+      - github.com/Ruk1ng001_184998897
+      - github.com/Ruk1ng001_2686546267
+      - github.com/Ruk1ng001_4039792076
+      - github.com/Ruk1ng001_3526421595
+      - github.com/Ruk1ng001_2762966185
+      - github.com/Ruk1ng001_2635259572
+      - github.com/Ruk1ng001_2528855050
+      - github.com/Ruk1ng001_4123379038
+      - github.com/Ruk1ng001_3296524446
+      - github.com/Ruk1ng001_1716491296
+      - github.com/Ruk1ng001_1867123431
+      - github.com/Ruk1ng001_1453958981
+      - github.com/Ruk1ng001_3223187559
+      - github.com/Ruk1ng001_820586957
       - github.com/Ruk1ng001_743245154
-      - github.com/Ruk1ng001_3041443292
-      - github.com/Ruk1ng001_3087356775
+      - github.com/Ruk1ng001_4247945564
+      - github.com/Ruk1ng001_2538090666
+      - github.com/Ruk1ng001_1997544007
+      - github.com/Ruk1ng001_913580737
+      - github.com/Ruk1ng001_2406887369
+      - github.com/Ruk1ng001_690558285
+      - github.com/Ruk1ng001_729393078
+      - github.com/Ruk1ng001_2193625575
+      - github.com/Ruk1ng001_1734840782
+      - github.com/Ruk1ng001_3394984814
+      - github.com/Ruk1ng001_2678921149
+      - github.com/Ruk1ng001_876316394
+      - github.com/Ruk1ng001_1132634313
+      - github.com/Ruk1ng001_631225714
+      - github.com/Ruk1ng001_1055573967
+      - github.com/Ruk1ng001_2303866192
+      - github.com/Ruk1ng001_213571457
+      - github.com/Ruk1ng001_2836989322
+      - github.com/Ruk1ng001_1733174884
+      - github.com/Ruk1ng001_549349443
+      - github.com/Ruk1ng001_3003491166
+      - github.com/Ruk1ng001_2003673791
+      - github.com/Ruk1ng001_125156137
+      - github.com/Ruk1ng001_2462725052
+      - github.com/Ruk1ng001_2194615537
+      - github.com/Ruk1ng001_1108862479
+      - github.com/Ruk1ng001_1222340813
+      - github.com/Ruk1ng001_2421155418
+      - github.com/Ruk1ng001_2690750277
+      - github.com/Ruk1ng001_2594769059
+      - github.com/Ruk1ng001_2738419366
+      - github.com/Ruk1ng001_1336643521
+      - github.com/Ruk1ng001_924727498
+      - github.com/Ruk1ng001_626559234
+      - github.com/Ruk1ng001_986862858
+      - github.com/Ruk1ng001_3523461818
+      - github.com/Ruk1ng001_2972017875
+      - github.com/Ruk1ng001_1948204665
+      - github.com/Ruk1ng001_1630644596
+      - github.com/Ruk1ng001_1073258103
+      - github.com/Ruk1ng001_1336738841
+      - github.com/Ruk1ng001_1832424006
+      - github.com/Ruk1ng001_60235898
+      - github.com/Ruk1ng001_511116049
+      - github.com/Ruk1ng001_2369171920
+      - github.com/Ruk1ng001_1855943804
+      - github.com/Ruk1ng001_508957716
+      - github.com/Ruk1ng001_3844933833
+      - github.com/Ruk1ng001_4192775978
+      - github.com/Ruk1ng001_3270069971
+      - github.com/Ruk1ng001_4267661144
+      - github.com/Ruk1ng001_3697537718
+      - github.com/Ruk1ng001_185289708
+      - github.com/Ruk1ng001_1010364568
+      - github.com/Ruk1ng001_3750721354
       
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.google.com/generate_204
     interval: 300
     proxies:
-      - github.com/Ruk1ng001_3566373851
+      - github.com/Ruk1ng001_1708283347
+      - github.com/Ruk1ng001_1780867753
       - github.com/Ruk1ng001_1708733874
-      - github.com/Ruk1ng001_1866673786
-      - github.com/Ruk1ng001_1125465398
-      - github.com/Ruk1ng001_3343261929
-      - github.com/Ruk1ng001_2679557322
-      - github.com/Ruk1ng001_3669704105
-      - github.com/Ruk1ng001_2851247785
-      - github.com/Ruk1ng001_1630644596
-      - github.com/Ruk1ng001_385037384
-      - github.com/Ruk1ng001_2210519284
-      - github.com/Ruk1ng001_2839365091
-      - github.com/Ruk1ng001_536822818
-      - github.com/Ruk1ng001_2836989322
-      - github.com/Ruk1ng001_34491053
-      - github.com/Ruk1ng001_458337430
-      - github.com/Ruk1ng001_16216811
-      - github.com/Ruk1ng001_3261594282
-      - github.com/Ruk1ng001_3807711853
-      - github.com/Ruk1ng001_2264581289
-      - github.com/Ruk1ng001_418744153
-      - github.com/Ruk1ng001_2065932882
-      - github.com/Ruk1ng001_3577859919
-      - github.com/Ruk1ng001_1730562311
-      - github.com/Ruk1ng001_588313937
-      - github.com/Ruk1ng001_4212271000
-      - github.com/Ruk1ng001_3023632956
-      - github.com/Ruk1ng001_2522275543
-      - github.com/Ruk1ng001_3545561562
-      - github.com/Ruk1ng001_312756856
-      - github.com/Ruk1ng001_1090519050
-      - github.com/Ruk1ng001_1108544810
-      - github.com/Ruk1ng001_1360201207
-      - github.com/Ruk1ng001_3789031490
-      - github.com/Ruk1ng001_458165570
-      - github.com/Ruk1ng001_2140937009
-      - github.com/Ruk1ng001_3423829753
-      - github.com/Ruk1ng001_2289978129
-      - github.com/Ruk1ng001_1384167582
-      - github.com/Ruk1ng001_3171504776
-      - github.com/Ruk1ng001_453848929
-      - github.com/Ruk1ng001_2029743534
-      - github.com/Ruk1ng001_3139979132
-      - github.com/Ruk1ng001_2209222970
-      - github.com/Ruk1ng001_3076931349
-      - github.com/Ruk1ng001_1855943804
-      - github.com/Ruk1ng001_2289611070
-      - github.com/Ruk1ng001_3608246380
-      - github.com/Ruk1ng001_1388105328
-      - github.com/Ruk1ng001_2012305681
-      - github.com/Ruk1ng001_3549260583
-      - github.com/Ruk1ng001_1278859682
-      - github.com/Ruk1ng001_3911308321
-      - github.com/Ruk1ng001_1336643521
-      - github.com/Ruk1ng001_2302681605
-      - github.com/Ruk1ng001_102931221
-      - github.com/Ruk1ng001_3750721354
-      - github.com/Ruk1ng001_681125409
-      - github.com/Ruk1ng001_631225714
-      - github.com/Ruk1ng001_1252535775
-      - github.com/Ruk1ng001_1132634313
-      - github.com/Ruk1ng001_2154087120
-      - github.com/Ruk1ng001_4035044382
-      - github.com/Ruk1ng001_100610302
-      - github.com/Ruk1ng001_3308827420
-      - github.com/Ruk1ng001_3862002053
-      - github.com/Ruk1ng001_2027234600
-      - github.com/Ruk1ng001_2003673791
-      - github.com/Ruk1ng001_620704647
-      - github.com/Ruk1ng001_3503438115
-      - github.com/Ruk1ng001_287266376
-      - github.com/Ruk1ng001_3916650059
-      - github.com/Ruk1ng001_1788757087
-      - github.com/Ruk1ng001_409156250
-      - github.com/Ruk1ng001_961392496
-      - github.com/Ruk1ng001_1430802564
-      - github.com/Ruk1ng001_816734664
-      - github.com/Ruk1ng001_1656816604
-      - github.com/Ruk1ng001_1477765778
-      - github.com/Ruk1ng001_2738419366
-      - github.com/Ruk1ng001_1853798928
-      - github.com/Ruk1ng001_4039792076
-      - github.com/Ruk1ng001_2686546267
-      - github.com/Ruk1ng001_1265275815
-      - github.com/Ruk1ng001_1207854352
-      - github.com/Ruk1ng001_1629869478
-      - github.com/Ruk1ng001_626559234
-      - github.com/Ruk1ng001_839126155
-      - github.com/Ruk1ng001_690558285
-      - github.com/Ruk1ng001_1182001113
-      - github.com/Ruk1ng001_1844541097
-      - github.com/Ruk1ng001_3308912696
-      - github.com/Ruk1ng001_2376029201
-      - github.com/Ruk1ng001_1010364568
-      - github.com/Ruk1ng001_1527883593
-      - github.com/Ruk1ng001_3789867205
-      - github.com/Ruk1ng001_180441397
-      - github.com/Ruk1ng001_1651257384
-      - github.com/Ruk1ng001_111822554
-      - github.com/Ruk1ng001_3892546547
-      - github.com/Ruk1ng001_2408252289
-      - github.com/Ruk1ng001_1475188205
-      - github.com/Ruk1ng001_777700868
-      - github.com/Ruk1ng001_138874037
-      - github.com/Ruk1ng001_1895037706
-      - github.com/Ruk1ng001_3427363528
-      - github.com/Ruk1ng001_574168731
-      - github.com/Ruk1ng001_71355846
-      - github.com/Ruk1ng001_3350958842
-      - github.com/Ruk1ng001_3823499304
-      - github.com/Ruk1ng001_703600976
-      - github.com/Ruk1ng001_1055573967
-      - github.com/Ruk1ng001_1081423745
-      - github.com/Ruk1ng001_102376345
-      - github.com/Ruk1ng001_2429320888
-      - github.com/Ruk1ng001_1899337013
-      - github.com/Ruk1ng001_263773284
-      - github.com/Ruk1ng001_2585037498
-      - github.com/Ruk1ng001_1650935518
-      - github.com/Ruk1ng001_1938509145
+      - github.com/Ruk1ng001_404815326
       - github.com/Ruk1ng001_2152169481
-      - github.com/Ruk1ng001_541554949
-      - github.com/Ruk1ng001_1344038030
-      - github.com/Ruk1ng001_3760230858
-      - github.com/Ruk1ng001_2074681023
-      - github.com/Ruk1ng001_754856512
-      - github.com/Ruk1ng001_2394693661
-      - github.com/Ruk1ng001_3026543523
-      - github.com/Ruk1ng001_290234292
-      - github.com/Ruk1ng001_1964030541
-      - github.com/Ruk1ng001_3676143946
-      - github.com/Ruk1ng001_2129178164
-      - github.com/Ruk1ng001_2245971848
-      - github.com/Ruk1ng001_2889246928
-      - github.com/Ruk1ng001_3543698725
-      - github.com/Ruk1ng001_47739984
-      - github.com/Ruk1ng001_2462725052
-      - github.com/Ruk1ng001_3383320086
-      - github.com/Ruk1ng001_2690750277
-      - github.com/Ruk1ng001_2985772439
-      - github.com/Ruk1ng001_1674449148
-      - github.com/Ruk1ng001_729393078
-      - github.com/Ruk1ng001_3921799055
-      - github.com/Ruk1ng001_2908148325
-      - github.com/Ruk1ng001_777226850
-      - github.com/Ruk1ng001_2650303127
-      - github.com/Ruk1ng001_1356209761
-      - github.com/Ruk1ng001_1839802396
-      - github.com/Ruk1ng001_476083743
-      - github.com/Ruk1ng001_3394984814
-      - github.com/Ruk1ng001_2643312922
-      - github.com/Ruk1ng001_1472351678
-      - github.com/Ruk1ng001_3265229179
-      - github.com/Ruk1ng001_1997544007
-      - github.com/Ruk1ng001_3768335150
-      - github.com/Ruk1ng001_3115135129
-      - github.com/Ruk1ng001_218855626
-      - github.com/Ruk1ng001_2178163495
-      - github.com/Ruk1ng001_3704435507
-      - github.com/Ruk1ng001_3539510486
-      - github.com/Ruk1ng001_559286446
-      - github.com/Ruk1ng001_1191838121
-      - github.com/Ruk1ng001_3939175935
-      - github.com/Ruk1ng001_3838278857
-      - github.com/Ruk1ng001_924727498
-      - github.com/Ruk1ng001_2457371901
-      - github.com/Ruk1ng001_368458161
-      - github.com/Ruk1ng001_2247880156
-      - github.com/Ruk1ng001_1767355922
-      - github.com/Ruk1ng001_702135082
-      - github.com/Ruk1ng001_2350758002
-      - github.com/Ruk1ng001_2635259572
-      - github.com/Ruk1ng001_856261957
-      - github.com/Ruk1ng001_451951698
-      - github.com/Ruk1ng001_820586957
-      - github.com/Ruk1ng001_1435278059
-      - github.com/Ruk1ng001_4016324661
-      - github.com/Ruk1ng001_308458359
-      - github.com/Ruk1ng001_230891734
-      - github.com/Ruk1ng001_2054894954
-      - github.com/Ruk1ng001_691210972
-      - github.com/Ruk1ng001_2966139673
-      - github.com/Ruk1ng001_1419532988
-      - github.com/Ruk1ng001_3470745775
-      - github.com/Ruk1ng001_3022878362
-      - github.com/Ruk1ng001_2209507385
-      - github.com/Ruk1ng001_1616468470
-      - github.com/Ruk1ng001_3223187559
-      - github.com/Ruk1ng001_2900979723
-      - github.com/Ruk1ng001_1034331182
-      - github.com/Ruk1ng001_3718325696
-      - github.com/Ruk1ng001_306812778
-      - github.com/Ruk1ng001_3710430810
-      - github.com/Ruk1ng001_1338243871
-      - github.com/Ruk1ng001_2503489883
-      - github.com/Ruk1ng001_347036239
-      - github.com/Ruk1ng001_307022608
-      - github.com/Ruk1ng001_1716491296
-      - github.com/Ruk1ng001_2420060564
-      - github.com/Ruk1ng001_1976028172
-      - github.com/Ruk1ng001_4247945564
-      - github.com/Ruk1ng001_1388672434
-      - github.com/Ruk1ng001_376258459
-      - github.com/Ruk1ng001_3811467450
-      - github.com/Ruk1ng001_2381704039
-      - github.com/Ruk1ng001_508957716
-      - github.com/Ruk1ng001_832263432
-      - github.com/Ruk1ng001_2013146544
-      - github.com/Ruk1ng001_3364884070
-      - github.com/Ruk1ng001_2981248319
-      - github.com/Ruk1ng001_185289708
-      - github.com/Ruk1ng001_2241610555
-      - github.com/Ruk1ng001_897735436
-      - github.com/Ruk1ng001_2693051642
-      - github.com/Ruk1ng001_3722424023
-      - github.com/Ruk1ng001_1022491906
-      - github.com/Ruk1ng001_1869152945
-      - github.com/Ruk1ng001_511116049
-      - github.com/Ruk1ng001_2429767849
-      - github.com/Ruk1ng001_1453958981
-      - github.com/Ruk1ng001_645238661
-      - github.com/Ruk1ng001_3323405748
-      - github.com/Ruk1ng001_3848753611
-      - github.com/Ruk1ng001_3817276371
-      - github.com/Ruk1ng001_2972017875
-      - github.com/Ruk1ng001_3286246519
-      - github.com/Ruk1ng001_1336738841
-      - github.com/Ruk1ng001_3137877877
-      - github.com/Ruk1ng001_2786507262
-      - github.com/Ruk1ng001_913949734
-      - github.com/Ruk1ng001_1734840782
-      - github.com/Ruk1ng001_2762966185
-      - github.com/Ruk1ng001_2078650675
-      - github.com/Ruk1ng001_1303543440
-      - github.com/Ruk1ng001_512866803
-      - github.com/Ruk1ng001_986862858
-      - github.com/Ruk1ng001_3557028703
-      - github.com/Ruk1ng001_3283496859
-      - github.com/Ruk1ng001_2594769059
-      - github.com/Ruk1ng001_1490566360
-      - github.com/Ruk1ng001_2678921149
-      - github.com/Ruk1ng001_670247492
-      - github.com/Ruk1ng001_3523461818
-      - github.com/Ruk1ng001_2074855811
-      - github.com/Ruk1ng001_4197064378
-      - github.com/Ruk1ng001_2223018783
-      - github.com/Ruk1ng001_1177855480
-      - github.com/Ruk1ng001_2071703730
-      - github.com/Ruk1ng001_402196054
-      - github.com/Ruk1ng001_4180342801
-      - github.com/Ruk1ng001_2686558329
-      - github.com/Ruk1ng001_3083510873
-      - github.com/Ruk1ng001_796916901
-      - github.com/Ruk1ng001_3675711602
-      - github.com/Ruk1ng001_2303866192
-      - github.com/Ruk1ng001_4123379038
-      - github.com/Ruk1ng001_431870641
-      - github.com/Ruk1ng001_1164237975
       - github.com/Ruk1ng001_1295306959
-      - github.com/Ruk1ng001_3255661347
-      - github.com/Ruk1ng001_3756619769
-      - github.com/Ruk1ng001_2369171920
-      - github.com/Ruk1ng001_3296524446
-      - github.com/Ruk1ng001_3388020787
-      - github.com/Ruk1ng001_2335093990
-      - github.com/Ruk1ng001_1430471093
-      - github.com/Ruk1ng001_1200556249
-      - github.com/Ruk1ng001_2538090666
-      - github.com/Ruk1ng001_291768839
-      - github.com/Ruk1ng001_3777618365
-      - github.com/Ruk1ng001_2406887369
-      - github.com/Ruk1ng001_1261727584
-      - github.com/Ruk1ng001_3510229133
-      - github.com/Ruk1ng001_1245590397
-      - github.com/Ruk1ng001_1032828922
-      - github.com/Ruk1ng001_636687194
-      - github.com/Ruk1ng001_4238347257
-      - github.com/Ruk1ng001_1577293506
-      - github.com/Ruk1ng001_2189026822
-      - github.com/Ruk1ng001_939289251
-      - github.com/Ruk1ng001_125156137
-      - github.com/Ruk1ng001_4217507469
-      - github.com/Ruk1ng001_3866585498
-      - github.com/Ruk1ng001_625743164
-      - github.com/Ruk1ng001_3942436740
+      - github.com/Ruk1ng001_3718325696
+      - github.com/Ruk1ng001_1616468470
+      - github.com/Ruk1ng001_1591658842
+      - github.com/Ruk1ng001_3807711853
+      - github.com/Ruk1ng001_630106339
       - github.com/Ruk1ng001_24015290
-      - github.com/Ruk1ng001_1832424006
-      - github.com/Ruk1ng001_113170466
-      - github.com/Ruk1ng001_60235898
-      - github.com/Ruk1ng001_2410055517
-      - github.com/Ruk1ng001_3564040109
+      - github.com/Ruk1ng001_3194308421
+      - github.com/Ruk1ng001_2528650115
+      - github.com/Ruk1ng001_3539510486
+      - github.com/Ruk1ng001_2457371901
+      - github.com/Ruk1ng001_1650935518
+      - github.com/Ruk1ng001_2889246928
+      - github.com/Ruk1ng001_458165570
       - github.com/Ruk1ng001_1561149140
-      - github.com/Ruk1ng001_1631711533
-      - github.com/Ruk1ng001_2885853846
-      - github.com/Ruk1ng001_2148845678
-      - github.com/Ruk1ng001_743354087
-      - github.com/Ruk1ng001_2533587589
-      - github.com/Ruk1ng001_2070134522
-      - github.com/Ruk1ng001_3015962468
-      - github.com/Ruk1ng001_2421155418
-      - github.com/Ruk1ng001_278173029
-      - github.com/Ruk1ng001_2733597327
+      - github.com/Ruk1ng001_3115135129
+      - github.com/Ruk1ng001_1613804777
+      - github.com/Ruk1ng001_368458161
+      - github.com/Ruk1ng001_691210972
       - github.com/Ruk1ng001_1008795021
-      - github.com/Ruk1ng001_2356634354
-      - github.com/Ruk1ng001_4063309201
+      - github.com/Ruk1ng001_1360201207
+      - github.com/Ruk1ng001_1303578646
+      - github.com/Ruk1ng001_796916901
+      - github.com/Ruk1ng001_2154087120
+      - github.com/Ruk1ng001_312307036
+      - github.com/Ruk1ng001_290234292
+      - github.com/Ruk1ng001_1672226511
+      - github.com/Ruk1ng001_1899337013
+      - github.com/Ruk1ng001_1629869478
+      - github.com/Ruk1ng001_453848929
+      - github.com/Ruk1ng001_1212913479
+      - github.com/Ruk1ng001_3269662008
+      - github.com/Ruk1ng001_3722424023
+      - github.com/Ruk1ng001_314498641
+      - github.com/Ruk1ng001_1656816604
+      - github.com/Ruk1ng001_2308501734
+      - github.com/Ruk1ng001_2840232843
+      - github.com/Ruk1ng001_2997387401
+      - github.com/Ruk1ng001_3139979132
+      - github.com/Ruk1ng001_1043516510
+      - github.com/Ruk1ng001_419031952
+      - github.com/Ruk1ng001_278173029
+      - github.com/Ruk1ng001_1265275815
+      - github.com/Ruk1ng001_4016324661
+      - github.com/Ruk1ng001_2070134522
+      - github.com/Ruk1ng001_574168731
+      - github.com/Ruk1ng001_482184185
+      - github.com/Ruk1ng001_2693051642
+      - github.com/Ruk1ng001_138898346
+      - github.com/Ruk1ng001_409156250
+      - github.com/Ruk1ng001_458337430
+      - github.com/Ruk1ng001_3756159250
+      - github.com/Ruk1ng001_2548594393
+      - github.com/Ruk1ng001_3384465325
+      - github.com/Ruk1ng001_2407376549
+      - github.com/Ruk1ng001_2264581289
       - github.com/Ruk1ng001_4272975566
+      - github.com/Ruk1ng001_1388105328
+      - github.com/Ruk1ng001_2394693661
+      - github.com/Ruk1ng001_4226562581
+      - github.com/Ruk1ng001_102376345
+      - github.com/Ruk1ng001_3022878362
+      - github.com/Ruk1ng001_1490566360
+      - github.com/Ruk1ng001_3911308321
+      - github.com/Ruk1ng001_2029743534
+      - github.com/Ruk1ng001_476083743
+      - github.com/Ruk1ng001_2074681023
+      - github.com/Ruk1ng001_2156494072
+      - github.com/Ruk1ng001_3838278857
+      - github.com/Ruk1ng001_2472677522
+      - github.com/Ruk1ng001_1177855480
+      - github.com/Ruk1ng001_1207854352
+      - github.com/Ruk1ng001_2079142366
+      - github.com/Ruk1ng001_1261727584
+      - github.com/Ruk1ng001_1238702783
+      - github.com/Ruk1ng001_1034331182
+      - github.com/Ruk1ng001_897735436
+      - github.com/Ruk1ng001_16216811
+      - github.com/Ruk1ng001_1107675649
+      - github.com/Ruk1ng001_677993307
+      - github.com/Ruk1ng001_3350958842
+      - github.com/Ruk1ng001_3837465009
+      - github.com/Ruk1ng001_2650303127
+      - github.com/Ruk1ng001_2235880954
+      - github.com/Ruk1ng001_1200556249
+      - github.com/Ruk1ng001_1036870570
+      - github.com/Ruk1ng001_3741033956
+      - github.com/Ruk1ng001_3710430810
+      - github.com/Ruk1ng001_3921799055
+      - github.com/Ruk1ng001_459534470
+      - github.com/Ruk1ng001_312756856
+      - github.com/Ruk1ng001_3261594282
+      - github.com/Ruk1ng001_71355846
+      - github.com/Ruk1ng001_2402968797
+      - github.com/Ruk1ng001_2999369665
+      - github.com/Ruk1ng001_524000952
+      - github.com/Ruk1ng001_3152560726
+      - github.com/Ruk1ng001_3470745775
+      - github.com/Ruk1ng001_113170466
+      - github.com/Ruk1ng001_2985772439
+      - github.com/Ruk1ng001_2112254635
+      - github.com/Ruk1ng001_1182001113
+      - github.com/Ruk1ng001_402196054
+      - github.com/Ruk1ng001_2256819001
+      - github.com/Ruk1ng001_2178163495
+      - github.com/Ruk1ng001_2071703730
+      - github.com/Ruk1ng001_1105575492
+      - github.com/Ruk1ng001_2210519284
+      - github.com/Ruk1ng001_1356209761
+      - github.com/Ruk1ng001_2013146544
+      - github.com/Ruk1ng001_1472351678
+      - github.com/Ruk1ng001_743354087
+      - github.com/Ruk1ng001_2289611070
+      - github.com/Ruk1ng001_1419532988
+      - github.com/Ruk1ng001_3876684763
+      - github.com/Ruk1ng001_1511573237
+      - github.com/Ruk1ng001_1859233575
+      - github.com/Ruk1ng001_3083510873
+      - github.com/Ruk1ng001_1064217086
+      - github.com/Ruk1ng001_3881894318
+      - github.com/Ruk1ng001_2847336924
+      - github.com/Ruk1ng001_2205718307
+      - github.com/Ruk1ng001_2572013499
+      - github.com/Ruk1ng001_2926601325
+      - github.com/Ruk1ng001_2998960801
+      - github.com/Ruk1ng001_2131077619
+      - github.com/Ruk1ng001_34491053
+      - github.com/Ruk1ng001_2289978129
+      - github.com/Ruk1ng001_1038189334
+      - github.com/Ruk1ng001_620704647
+      - github.com/Ruk1ng001_1844541097
+      - github.com/Ruk1ng001_4212271000
+      - github.com/Ruk1ng001_763092007
+      - github.com/Ruk1ng001_2851247785
+      - github.com/Ruk1ng001_1022491906
+      - github.com/Ruk1ng001_3137877877
+      - github.com/Ruk1ng001_2963130294
+      - github.com/Ruk1ng001_3704435507
+      - github.com/Ruk1ng001_514394592
+      - github.com/Ruk1ng001_155466454
+      - github.com/Ruk1ng001_2786507262
+      - github.com/Ruk1ng001_3566373851
+      - github.com/Ruk1ng001_1788757087
+      - github.com/Ruk1ng001_1730562311
+      - github.com/Ruk1ng001_2643312922
+      - github.com/Ruk1ng001_2585037498
+      - github.com/Ruk1ng001_3289716767
+      - github.com/Ruk1ng001_902856159
+      - github.com/Ruk1ng001_1792664036
+      - github.com/Ruk1ng001_3364884070
+      - github.com/Ruk1ng001_856261957
+      - github.com/Ruk1ng001_863153199
+      - github.com/Ruk1ng001_1435278059
+      - github.com/Ruk1ng001_838451797
+      - github.com/Ruk1ng001_2245971848
+      - github.com/Ruk1ng001_1631711533
+      - github.com/Ruk1ng001_782415132
+      - github.com/Ruk1ng001_1001189169
+      - github.com/Ruk1ng001_1866673786
+      - github.com/Ruk1ng001_832263432
+      - github.com/Ruk1ng001_3811467450
+      - github.com/Ruk1ng001_3293006801
+      - github.com/Ruk1ng001_347036239
+      - github.com/Ruk1ng001_4160295800
+      - github.com/Ruk1ng001_1674449148
+      - github.com/Ruk1ng001_1338243871
+      - github.com/Ruk1ng001_3789031490
+      - github.com/Ruk1ng001_47739984
+      - github.com/Ruk1ng001_4180342801
+      - github.com/Ruk1ng001_180441397
+      - github.com/Ruk1ng001_2386156489
+      - github.com/Ruk1ng001_184998897
+      - github.com/Ruk1ng001_2686546267
+      - github.com/Ruk1ng001_4039792076
+      - github.com/Ruk1ng001_3526421595
+      - github.com/Ruk1ng001_2762966185
+      - github.com/Ruk1ng001_2635259572
+      - github.com/Ruk1ng001_2528855050
+      - github.com/Ruk1ng001_4123379038
+      - github.com/Ruk1ng001_3296524446
+      - github.com/Ruk1ng001_1716491296
+      - github.com/Ruk1ng001_1867123431
+      - github.com/Ruk1ng001_1453958981
+      - github.com/Ruk1ng001_3223187559
+      - github.com/Ruk1ng001_820586957
       - github.com/Ruk1ng001_743245154
-      - github.com/Ruk1ng001_3041443292
-      - github.com/Ruk1ng001_3087356775
+      - github.com/Ruk1ng001_4247945564
+      - github.com/Ruk1ng001_2538090666
+      - github.com/Ruk1ng001_1997544007
+      - github.com/Ruk1ng001_913580737
+      - github.com/Ruk1ng001_2406887369
+      - github.com/Ruk1ng001_690558285
+      - github.com/Ruk1ng001_729393078
+      - github.com/Ruk1ng001_2193625575
+      - github.com/Ruk1ng001_1734840782
+      - github.com/Ruk1ng001_3394984814
+      - github.com/Ruk1ng001_2678921149
+      - github.com/Ruk1ng001_876316394
+      - github.com/Ruk1ng001_1132634313
+      - github.com/Ruk1ng001_631225714
+      - github.com/Ruk1ng001_1055573967
+      - github.com/Ruk1ng001_2303866192
+      - github.com/Ruk1ng001_213571457
+      - github.com/Ruk1ng001_2836989322
+      - github.com/Ruk1ng001_1733174884
+      - github.com/Ruk1ng001_549349443
+      - github.com/Ruk1ng001_3003491166
+      - github.com/Ruk1ng001_2003673791
+      - github.com/Ruk1ng001_125156137
+      - github.com/Ruk1ng001_2462725052
+      - github.com/Ruk1ng001_2194615537
+      - github.com/Ruk1ng001_1108862479
+      - github.com/Ruk1ng001_1222340813
+      - github.com/Ruk1ng001_2421155418
+      - github.com/Ruk1ng001_2690750277
+      - github.com/Ruk1ng001_2594769059
+      - github.com/Ruk1ng001_2738419366
+      - github.com/Ruk1ng001_1336643521
+      - github.com/Ruk1ng001_924727498
+      - github.com/Ruk1ng001_626559234
+      - github.com/Ruk1ng001_986862858
+      - github.com/Ruk1ng001_3523461818
+      - github.com/Ruk1ng001_2972017875
+      - github.com/Ruk1ng001_1948204665
+      - github.com/Ruk1ng001_1630644596
+      - github.com/Ruk1ng001_1073258103
+      - github.com/Ruk1ng001_1336738841
+      - github.com/Ruk1ng001_1832424006
+      - github.com/Ruk1ng001_60235898
+      - github.com/Ruk1ng001_511116049
+      - github.com/Ruk1ng001_2369171920
+      - github.com/Ruk1ng001_1855943804
+      - github.com/Ruk1ng001_508957716
+      - github.com/Ruk1ng001_3844933833
+      - github.com/Ruk1ng001_4192775978
+      - github.com/Ruk1ng001_3270069971
+      - github.com/Ruk1ng001_4267661144
+      - github.com/Ruk1ng001_3697537718
+      - github.com/Ruk1ng001_185289708
+      - github.com/Ruk1ng001_1010364568
+      - github.com/Ruk1ng001_3750721354
       
 rule-providers:
   reject:
