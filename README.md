@@ -47,7 +47,7 @@ https://raw.githubusercontent.com/Ruk1ng001/freeSub/main/v2ray_top30
 
 ## 节点列表
 
-最近一次于`2024-05-22 09:12:52`更新，共计获取`12`个可用节点。（以下测速仅供参考）
+最近一次于`2024-05-22 17:12:52`更新，共计获取`12`个可用节点。（以下测速仅供参考）
 
 <details> <summary>查看测速结果</summary>
 
