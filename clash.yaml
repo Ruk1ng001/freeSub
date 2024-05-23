@@ -1,60 +1,12 @@
 port: 7890
 socks-port: 7891
 allow-lan: true
-
 mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {"alterId":0,"cipher":"auto","customName":"🇨🇳CN-103.184.44.18-10552","name":"github.com/Ruk1ng001_1768216094","network":"ws","port":80,"server":"103.184.44.18","skip-cert-verify":false,"tls":false,"type":"vmess","uuid":"dd41b5cb-b72e-4a8c-c75a-3ecc928d6eb3","ws-opts":{"path":"/blue"}}
-  - {"alterId":-1,"cipher":"aes-256-gcm","customName":"🇺🇸US-38.121.43.97-3222","name":"github.com/Ruk1ng001_1556016576","password":"KixLvKzwjekG00rm","port":8080,"server":"38.121.43.97","type":"ss"}
-  - {"alterId":-1,"customName":"🇨🇦CA-35.182.28.167-9769","name":"github.com/Ruk1ng001_3736376151","password":"telegram-id-directvpn","port":22222,"server":"35.182.28.167","skip-cert-verify":false,"sni":"trj.rollingnext.co.uk","type":"trojan"}
-  - {"alterId":-1,"cipher":"aes-256-cfb","customName":"IR 4 → tg@nicevpn123","name":"github.com/Ruk1ng001_547828229","password":"qYEN5HX4JKeVCdEC","port":9039,"server":"195.238.126.84","type":"ss","udp":true}
-  - {"alterId":0,"cipher":"auto","customName":"🏁RELAY-172.67.199.34-5239","name":"github.com/Ruk1ng001_653652459","network":"ws","port":2053,"server":"172.67.199.34","skip-cert-verify":false,"tls":true,"type":"vmess","uuid":"8947fbe5-c1c7-4716-8564-2092ce776f92","ws-opts":{"path":"/DQsafRJn/"}}
-  - {"alterId":-1,"cipher":"chacha20-ietf-poly1305","customName":"4FreeIran-554","name":"github.com/Ruk1ng001_21418239","password":"s8X1UijWsESfAbNOSWa94o","port":443,"server":"89.187.28.20","type":"ss"}
-  - {"alterId":64,"cipher":"none","customName":"YD|@Zyw_Channel","name":"github.com/Ruk1ng001_2484383365","network":"ws","port":443,"server":"148.135.14.99","tls":true,"type":"vmess","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","ws-opts":{"path":"/path/1704188270531"}}
-  - {"alterId":-1,"cipher":"aes-256-cfb","customName":"4FreeIran-853","name":"github.com/Ruk1ng001_3045192522","password":"UkXRsXvR6buDMG2Y","port":9001,"server":"103.172.116.90","type":"ss"}
-  - {"alterId":-1,"cipher":"aes-256-gcm","customName":"🇺🇸US-23.154.136.218-3183","name":"github.com/Ruk1ng001_399033752","password":"lGqs95QkFHo2NV","port":5498,"server":"23.154.136.218","type":"ss"}
-  - {"alterId":-1,"cipher":"chacha20-ietf-poly1305","customName":"🇯🇵JP_140737 @WangCai_8","name":"github.com/Ruk1ng001_1795478052","password":"t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv@54.95.215.125:2377?plugin=obfs-local;obfs=tls;obfs-host=(TG","port":140737,"server":"WangCai_8)7112bba","type":"ss"}
-  - {"alterId":0,"cipher":"none","customName":"【BGP】澳大利亚 04 | 1x AU","name":"github.com/Ruk1ng001_2119822485","port":31821,"server":"free.2apzhfa.xyz","tls":true,"type":"vmess","uuid":"b752837d-714f-4180-a068-e1866849ec88","ws-opts":{}}
-  - {"alterId":-1,"customName":"🇭🇰HK-23.99.114.98-5960","name":"github.com/Ruk1ng001_2564094374","password":"18304160-03d4-4c55-95c1-586c0a5f3a0a","port":443,"server":"ap.liangyuandian.top","skip-cert-verify":false,"type":"trojan"}
   
 proxy-groups:
-  - name: 🔰 节点选择
-    type: select
-    proxies:
-      - ♻️ 自动选择
-      - github.com/Ruk1ng001_1768216094
-      - github.com/Ruk1ng001_1556016576
-      - github.com/Ruk1ng001_3736376151
-      - github.com/Ruk1ng001_547828229
-      - github.com/Ruk1ng001_653652459
-      - github.com/Ruk1ng001_21418239
-      - github.com/Ruk1ng001_2484383365
-      - github.com/Ruk1ng001_3045192522
-      - github.com/Ruk1ng001_399033752
-      - github.com/Ruk1ng001_1795478052
-      - github.com/Ruk1ng001_2119822485
-      - github.com/Ruk1ng001_2564094374
-      
-  - name: ♻️ 自动选择
-    type: url-test
-    url: http://www.google.com/generate_204
-    interval: 300
-    proxies:
-      - github.com/Ruk1ng001_1768216094
-      - github.com/Ruk1ng001_1556016576
-      - github.com/Ruk1ng001_3736376151
-      - github.com/Ruk1ng001_547828229
-      - github.com/Ruk1ng001_653652459
-      - github.com/Ruk1ng001_21418239
-      - github.com/Ruk1ng001_2484383365
-      - github.com/Ruk1ng001_3045192522
-      - github.com/Ruk1ng001_399033752
-      - github.com/Ruk1ng001_1795478052
-      - github.com/Ruk1ng001_2119822485
-      - github.com/Ruk1ng001_2564094374
-      
 rule-providers:
   reject:
     type: http
@@ -62,84 +14,66 @@ rule-providers:
     url: "https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/reject.txt"
     path: ./ruleset/reject.yaml
     interval: 86400
-
   icloud:
     type: http
     behavior: domain
     url: "https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/icloud.txt"
     path: ./ruleset/icloud.yaml
     interval: 86400
-
   apple:
     type: http
     behavior: domain
     url: "https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/apple.txt"
     path: ./ruleset/apple.yaml
     interval: 86400
-
-  google:
-    type: http
-    behavior: domain
-    url: "https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/google.txt"
-    path: ./ruleset/google.yaml
-    interval: 86400
-
   proxy:
     type: http
     behavior: domain
     url: "https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/proxy.txt"
     path: ./ruleset/proxy.yaml
     interval: 86400
-
   direct:
     type: http
     behavior: domain
     url: "https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/direct.txt"
     path: ./ruleset/direct.yaml
     interval: 86400
-
   private:
     type: http
     behavior: domain
     url: "https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/private.txt"
     path: ./ruleset/private.yaml
     interval: 86400
-
   gfw:
     type: http
     behavior: domain
     url: "https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/gfw.txt"
     path: ./ruleset/gfw.yaml
     interval: 86400
-
   tld-not-cn:
     type: http
     behavior: domain
     url: "https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/tld-not-cn.txt"
     path: ./ruleset/tld-not-cn.yaml
     interval: 86400
-
   telegramcidr:
     type: http
     behavior: ipcidr
     url: "https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/telegramcidr.txt"
     path: ./ruleset/telegramcidr.yaml
     interval: 86400
-
   cncidr:
     type: http
     behavior: ipcidr
     url: "https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/cncidr.txt"
     path: ./ruleset/cncidr.yaml
     interval: 86400
-
   lancidr:
     type: http
     behavior: ipcidr
     url: "https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/lancidr.txt"
     path: ./ruleset/lancidr.yaml
     interval: 86400
-
   applications:
     type: http
     behavior: classical
@@ -148,18 +82,16 @@ rule-providers:
     interval: 86400
 rules:
   - RULE-SET,applications,DIRECT
-  - DOMAIN,clash.razord.top,DIRECT
-  - DOMAIN,yacd.haishan.me,DIRECT
   - RULE-SET,private,DIRECT
   - RULE-SET,reject,REJECT
   - RULE-SET,icloud,DIRECT
   - RULE-SET,apple,DIRECT
-  - RULE-SET,google,🔰 节点选择
-  - RULE-SET,proxy,🔰 节点选择
+  - RULE-SET,proxy,♻️自动选择
   - RULE-SET,direct,DIRECT
   - RULE-SET,lancidr,DIRECT
   - RULE-SET,cncidr,DIRECT
-  - RULE-SET,telegramcidr,🔰 节点选择
+  - RULE-SET,tld-not-cn,♻️自动选择
+  - RULE-SET,telegramcidr,♻️自动选择
   - GEOIP,LAN,DIRECT
   - GEOIP,CN,DIRECT
-  - MATCH,🔰 节点选择
+  - MATCH,♻️自动选择
