@@ -24,9 +24,9 @@
 ```
 https://raw.githubusercontent.com/Ruk1ng001/freeSub/main/clash.yaml
 ```
-[V2ray](https://raw.githubusercontent.com/Ruk1ng001/freeSub/main/v2ray.json)
+[V2ray](https://raw.githubusercontent.com/Ruk1ng001/freeSub/main/v2ray)
 ```
-https://raw.githubusercontent.com/Ruk1ng001/freeSub/main/v2ray.json
+https://raw.githubusercontent.com/Ruk1ng001/freeSub/main/v2ray
 ```
 [shadowsocks](https://raw.githubusercontent.com/Ruk1ng001/freeSub/main/shadowsocks)
 ```
@@ -38,9 +38,9 @@ https://raw.githubusercontent.com/Ruk1ng001/freeSub/main/shadowsocks
 ```
 https://raw.githubusercontent.com/Ruk1ng001/freeSub/main/clash_top30.yaml
 ```
-[V2ray](https://raw.githubusercontent.com/Ruk1ng001/freeSub/main/v2ray_top30.json)
+[V2ray](https://raw.githubusercontent.com/Ruk1ng001/freeSub/main/v2ray_top30)
 ```
-https://raw.githubusercontent.com/Ruk1ng001/freeSub/main/v2ray_top30.json
+https://raw.githubusercontent.com/Ruk1ng001/freeSub/main/v2ray_top30
 ```
 [shadowsocks](https://raw.githubusercontent.com/Ruk1ng001/freeSub/main/shadowsocks_top30)
 ```
@@ -55,5 +55,5 @@ https://raw.githubusercontent.com/Ruk1ng001/freeSub/main/shadowsocks_top30
 
 ## 节点列表
 
-最近一次于`2024-06-22 11:14:42`更新，共计获取`271`个可用节点。
+最近一次于`2024-06-22 16:46:32`更新，共计获取`17`个可用节点。
 
