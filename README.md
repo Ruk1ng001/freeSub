@@ -55,7 +55,7 @@ https://raw.githubusercontent.com/Ruk1ng001/freeSub/main/shadowsocks_top30
 
 ## 节点列表
 
-最近一次于`2024-09-14 09:03:25`更新，共计获取`492`个可用节点。
+最近一次于`2024-09-14 17:05:23`更新，共计获取`423`个可用节点。
 
 ## 打赏
 
