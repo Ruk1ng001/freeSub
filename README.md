@@ -1,7 +1,7 @@
 # freeSub
 [![Stars](https://img.shields.io/github/stars/Ruk1ng001/freeSub)](https://github.com/Ruk1ng001/freeSub/stargazers)
 [![TG](https://img.shields.io/badge/Telegram-gray?logo=Telegram)](https://t.me/Ruk1ng001)
-### free clash、v2ray sub. Update at anytime.
+### free clash、v2ray、shadowrocket sub. Update at anytime.
 
 ---
 
@@ -12,6 +12,13 @@
 如有侵权，请Issue，删。
 
 如有好的免费节点网站或者建议，欢迎Issue，做大做强。
+
+## 打赏
+
+|支付宝|微信|
+|:-:|:-:|
+|![支付宝打赏](FUNDING/支付宝.png)|![微信打赏](FUNDING/微信.png)|
+|如果你觉得有用|请多多支持|
 
 ---
 
@@ -24,7 +31,11 @@
 ```
 https://raw.githubusercontent.com/Ruk1ng001/freeSub/main/clash.yaml
 ```
-[shadowsocks](https://raw.githubusercontent.com/Ruk1ng001/freeSub/main/shadowsocks)
+[v2ray](https://raw.githubusercontent.com/Ruk1ng001/freeSub/main/v2ray)
+```
+https://raw.githubusercontent.com/Ruk1ng001/freeSub/main/v2ray
+```
+[shadowrocket](https://raw.githubusercontent.com/Ruk1ng001/freeSub/main/shadowrocket)
 ```
 https://raw.githubusercontent.com/Ruk1ng001/freeSub/main/shadowsocks
 ```
@@ -32,10 +43,9 @@ https://raw.githubusercontent.com/Ruk1ng001/freeSub/main/shadowsocks
 ## 统计
 
 ---
-
 [![Stargazers over time](https://starchart.cc/Ruk1ng001/freeSub.svg)](https://starchart.cc/Ruk1ng001/freeSub)
 
-## 节点列表
+## 节点统计
 
-最近一次于`2024-09-26 09:58:17`更新，共计获取`380`个可用节点。
+最近一次于`2024-09-26 15:50:12`更新，共计获取`281`个可用节点。
 
