@@ -37,7 +37,7 @@ https://raw.githubusercontent.com/Ruk1ng001/freeSub/main/v2ray
 ```
 [shadowrocket](https://raw.githubusercontent.com/Ruk1ng001/freeSub/main/shadowrocket)
 ```
-https://raw.githubusercontent.com/Ruk1ng001/freeSub/main/shadowsocks
+https://raw.githubusercontent.com/Ruk1ng001/freeSub/main/shadowrocket
 ```
 
 ## 统计
@@ -47,5 +47,5 @@ https://raw.githubusercontent.com/Ruk1ng001/freeSub/main/shadowsocks
 
 ## 节点统计
 
-最近一次于`2024-09-26 15:50:12`更新，共计获取`281`个可用节点。
+最近一次于`2024-09-26 17:59:41`更新，共计获取`325`个可用节点。
 
