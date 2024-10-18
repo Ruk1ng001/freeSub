@@ -47,5 +47,5 @@ https://raw.githubusercontent.com/Ruk1ng001/freeSub/main/shadowrocket
 
 ## 节点统计
 
-最近一次于`2024-10-18 10:05:18`更新，共计获取`174`个可用节点。
+最近一次于`2024-10-18 18:02:15`更新，共计获取`203`个可用节点。
 
