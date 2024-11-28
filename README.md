@@ -1,7 +1,7 @@
 # freeSub
 [![Stars](https://img.shields.io/github/stars/Ruk1ng001/freeSub)](https://github.com/Ruk1ng001/freeSub/stargazers)
 [![TG](https://img.shields.io/badge/Telegram-gray?logo=Telegram)](https://t.me/Ruk1ng001)
-### free clash、v2ray、shadowrocket sub. Update at anytime.
+### free clash、v2ray、singBox sub. Update at anytime.
 
 ---
 
@@ -35,9 +35,9 @@ https://raw.githubusercontent.com/Ruk1ng001/freeSub/main/clash.yaml
 ```
 https://raw.githubusercontent.com/Ruk1ng001/freeSub/main/v2ray
 ```
-[shadowrocket](https://raw.githubusercontent.com/Ruk1ng001/freeSub/main/shadowrocket)
+[singBox](https://raw.githubusercontent.com/Ruk1ng001/freeSub/main/singBox.json)
 ```
-https://raw.githubusercontent.com/Ruk1ng001/freeSub/main/shadowrocket
+https://raw.githubusercontent.com/Ruk1ng001/freeSub/main/singBox.json
 ```
 
 ## 统计
@@ -47,5 +47,4 @@ https://raw.githubusercontent.com/Ruk1ng001/freeSub/main/shadowrocket
 
 ## 节点统计
 
-最近一次于`2024-11-27 23:29:34`更新，共计获取`131`个可用节点。
-
+最近一次于`2024-11-28 17:15:58`更新，共计获取`1209`个可用节点。
