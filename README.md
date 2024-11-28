@@ -47,4 +47,4 @@ https://raw.githubusercontent.com/Ruk1ng001/freeSub/main/singBox.json
 
 ## 节点统计
 
-最近一次于`2024-11-28 21:02:25`更新，共计获取`1209`个可用节点。
+最近一次于`2024-11-28 22:37:14`更新，共计获取`21`个可用节点。
