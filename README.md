@@ -27,17 +27,17 @@
 ---
 
 ## 订阅地址
-[Clash](https://raw.githubusercontent.com/Ruk1ng001/freeSub/main/clash.yaml)
+[Clash](https://gh-proxy.com/raw.githubusercontent.com/Ruk1ng001/freeSub/main/clash.yaml)
 ```
-https://raw.githubusercontent.com/Ruk1ng001/freeSub/main/clash.yaml
+https://gh-proxy.com/raw.githubusercontent.com/Ruk1ng001/freeSub/main/clash.yaml
 ```
-[v2ray](https://raw.githubusercontent.com/Ruk1ng001/freeSub/main/v2ray)
+[v2ray](https://gh-proxy.com/raw.githubusercontent.com/Ruk1ng001/freeSub/main/v2ray)
 ```
-https://raw.githubusercontent.com/Ruk1ng001/freeSub/main/v2ray
+https://gh-proxy.com/raw.githubusercontent.com/Ruk1ng001/freeSub/main/v2ray
 ```
-[singBox](https://raw.githubusercontent.com/Ruk1ng001/freeSub/main/singBox.json)
+[singBox](https://gh-proxy.com/raw.githubusercontent.com/Ruk1ng001/freeSub/main/singBox.json)
 ```
-https://raw.githubusercontent.com/Ruk1ng001/freeSub/main/singBox.json
+https://gh-proxy.com/raw.githubusercontent.com/Ruk1ng001/freeSub/main/singBox.json
 ```
 
 ## 统计
@@ -47,4 +47,4 @@ https://raw.githubusercontent.com/Ruk1ng001/freeSub/main/singBox.json
 
 ## 节点统计
 
-最近一次于`2024-11-30 09:30:25`更新，共计获取`20`个可用节点。
+最近一次于`2024-11-30 14:04:19`更新，共计获取`50`个可用节点。
