@@ -1,7 +1,7 @@
 # freeSub
 [![Stars](https://img.shields.io/github/stars/Ruk1ng001/freeSub)](https://github.com/Ruk1ng001/freeSub/stargazers)
 [![TG](https://img.shields.io/badge/Telegram-gray?logo=Telegram)](https://t.me/Ruk1ng001)
-### free clash、v2ray、singBox sub. Update at anytime.
+### free clash、v2ray、singBox、shadowrocket sub. Update at anytime.
 
 ---
 
@@ -31,7 +31,7 @@
 ```
 https://gh-proxy.com/raw.githubusercontent.com/Ruk1ng001/freeSub/main/clash.yaml
 ```
-[v2ray](https://gh-proxy.com/raw.githubusercontent.com/Ruk1ng001/freeSub/main/v2ray)
+[v2ray / shadowrocket](https://gh-proxy.com/raw.githubusercontent.com/Ruk1ng001/freeSub/main/v2ray)
 ```
 https://gh-proxy.com/raw.githubusercontent.com/Ruk1ng001/freeSub/main/v2ray
 ```
@@ -47,4 +47,4 @@ https://gh-proxy.com/raw.githubusercontent.com/Ruk1ng001/freeSub/main/singBox.js
 
 ## 节点统计
 
-最近一次于`2024-11-30 14:04:19`更新，共计获取`50`个可用节点。
+最近一次于`2024-12-01 10:50:09`更新，共计获取`48`个可用节点。
