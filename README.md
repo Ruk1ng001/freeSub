@@ -3,7 +3,8 @@
 [![TG](https://img.shields.io/badge/Telegram-gray?logo=Telegram)](https://t.me/Ruk1ng001)
 ### free clash、v2ray、singBox、shadowrocket sub. Update at anytime.
 
-[<img src="https://api.gitsponsors.com/api/badge/img?id=718875190" height="20">](https://api.gitsponsors.com/api/badge/link?p=MV63dnVOLUBmKUp0qtB3k+mFleU4iY6/RXG3sc+pK6ATaymuh24DF+Kj856I1mnKxnJBXrwSrPp+8ejR4f01jRrBBxRWQ4ai7K9zYGgAC0gXh7QOGCc9qpwUFtTPcc7xhOaIWhTh59g3CxK0HamBJw==)
+[<img src="https://api.gitsponsors.com/api/badge/img?id=718875190" height="90">](https://api.gitsponsors.com/api/badge/link?p=MV63dnVOLUBmKUp0qtB3k+mFleU4iY6/RXG3sc+pK6ATaymuh24DF+Kj856I1mnKxnJBXrwSrPp+8ejR4f01jRrBBxRWQ4ai7K9zYGgAC0gXh7QOGCc9qpwUFtTPcc7xhOaIWhTh59g3CxK0HamBJw==)
+
 ---
 
 订阅节点仅作学习交流用，用于查找资料，学习知识，不要做任何违法行为。
@@ -48,4 +49,4 @@ https://gh-proxy.com/raw.githubusercontent.com/Ruk1ng001/freeSub/main/singBox.js
 
 ## 节点统计
 
-最近一次于`2025-01-21 10:52:30`更新，共计获取`126`个可用节点。
+最近一次于`2025-01-21 16:00:01`更新，共计获取`115`个可用节点。
