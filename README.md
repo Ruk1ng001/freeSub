@@ -49,4 +49,4 @@ https://gh-proxy.com/raw.githubusercontent.com/Ruk1ng001/freeSub/main/singBox.js
 
 ## 节点统计
 
-最近一次于`2025-05-21 08:00:18`更新，共计获取`789`个可用节点。
+最近一次于`2025-05-21 16:00:12`更新，共计获取`812`个可用节点。
