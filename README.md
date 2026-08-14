@@ -111,4 +111,4 @@ https://raw.githubusercontent.com/Ruk1ng001/freeSub/main/singBox.json
 
 ## 📈 Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=Ruk1ng001/freeSub&type=Date)](https://star-history.com/#Ruk1ng001/freeSub&Date)
+[![Star History Chart](https://star-history.dera.page/svg?repos=Ruk1ng001/freeSub&type=Date)](https://star-history.dera.page/#Ruk1ng001/freeSub&Date)
