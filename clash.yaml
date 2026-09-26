@@ -1,0 +1,3246 @@
+allow-lan: true
+bind-address: '*'
+dns:
+    cache-algorithm: arc
+    default-nameserver:
+        - 223.5.5.5
+        - 119.29.29.29
+    enable: true
+    enhanced-mode: fake-ip
+    fake-ip-filter:
+        - '*.lan'
+        - '*.localdomain'
+        - '*.example'
+        - '*.invalid'
+        - '*.localhost'
+        - '*.test'
+        - '*.local'
+        - +.msftconnecttest.com
+        - +.msftncsi.com
+    fake-ip-range: 198.18.0.1/16
+    ipv6: true
+    listen: 0.0.0.0:1053
+    nameserver:
+        - https://1.1.1.1/dns-query
+        - https://dns.google/dns-query
+    nameserver-policy:
+        rule-set:domestic_non_ip,direct_non_ip:
+            - https://doh.pub/dns-query
+            - https://dns.alidns.com/dns-query
+    proxy-server-nameserver:
+        - https://doh.pub/dns-query
+        - https://dns.alidns.com/dns-query
+    respect-rules: true
+external-controller: 0.0.0.0:9090
+external-ui: ui
+external-ui-name: metacubexd
+external-ui-url: https://github.com/MetaCubeX/metacubexd/archive/refs/heads/gh-pages.zip
+geodata-loader: standard
+geodata-mode: true
+ipv6: true
+keep-alive-interval: 30
+log-level: warning
+mixed-port: 7893
+mode: rule
+port: 7890
+profile:
+    store-fake-ip: true
+    store-selected: true
+proxies:
+    - cipher: aes-256-cfb
+      name: "C\U0001F7E0\U0001F1EF\U0001F1F5hos[\U0001F3AD\U0001F3AA\U0001F4E6\U0001F50D]_dokng.com_23e756fc"
+      password: amazonskr05
+      port: 443
+      server: 13.113.166.191
+      type: ss
+      udp: true
+    - cipher: aes-256-cfb
+      name: "C\U0001F7E0\U0001F1EF\U0001F1F5hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_6b0053fb"
+      password: amazonskr05
+      port: 443
+      server: 18.181.145.202
+      type: ss
+      udp: true
+    - client-fingerprint: chrome
+      name: "U⚪\U0001F3F3️ukn_dokng.com_79f3708c"
+      network: ws
+      password: HutaoCloud
+      port: 11543
+      server: 185.220.238.77
+      skip-cert-verify: true
+      sni: 185.220.238.77
+      type: trojan
+      udp: true
+      ws-opts:
+        headers:
+            User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36
+        path: /api
+    - name: "C\U0001F7E0\U0001F1ED\U0001F1F0hos_dokng.com_099454ad"
+      password: "111"
+      port: 11211
+      server: 47.243.173.50
+      skip-cert-verify: true
+      type: socks5
+      username: "111"
+    - name: "U⚪\U0001F3F3️ukn[\U0001F3AC\U0001F4FA\U0001F3AD\U0001F3AA]_dokng.com_16f5ab4e"
+      password: "123456"
+      port: 1080
+      server: 8.209.236.192
+      type: socks5
+      username: "123456"
+    - name: "D\U0001F534\U0001F1ED\U0001F1F0hos[\U0001F3AC\U0001F4FA\U0001F4E6✈️]_dokng.com_da7c41d8"
+      password: admin
+      port: 1080
+      server: 47.239.116.165
+      type: socks5
+      username: admin
+    - cipher: aes-256-cfb
+      name: "D\U0001F534\U0001F1EF\U0001F1F5hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AA]_dokng.com_a5337530"
+      password: amazonskr05
+      port: 443
+      server: 3.112.209.209
+      type: ss
+      udp: true
+    - name: "D\U0001F534\U0001F1F0\U0001F1F7hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_5b8e1a9b"
+      port: 1090
+      server: 121.169.46.116
+      tls: false
+      type: socks5
+      username: Og%3D%3D
+    - name: "A\U0001F7E2\U0001F1FF\U0001F1E6res_dokng.com_87555364"
+      password: aa
+      port: 89
+      server: 160.124.240.188
+      type: http
+      username: aa
+    - client-fingerprint: chrome
+      encryption: none
+      flow: xtls-rprx-vision
+      name: "D\U0001F534\U0001F1EF\U0001F1F5hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_bd1f56a2"
+      network: tcp
+      port: 20270
+      reality-opts:
+        public-key: gaFVpIOW9RJGuFFisfXVvITfYY5ikKn-4gB89ZQCFHI
+        short-id: 89fecfdaf45cd76d
+      server: jp-1.gsafevpnapi.com
+      servername: www.yahoo.com
+      tls: true
+      type: vless
+      uuid: 537f8b38-8015-4431-84bb-63ada2d0bf89
+    - name: "U⚪\U0001F3F3️ukn_dokng.com_5da2fc4b"
+      port: 17981
+      server: 119.188.131.55
+      type: http
+    - fingerprint: ""
+      name: "A\U0001F7E2\U0001F1F9\U0001F1FCres[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_bd58311a"
+      password: 9sK2mP8xQ7vL3nZ6
+      port: 443
+      server: 6ivh.pnuqcnp.cn
+      skip-cert-verify: true
+      sni: images.ctfassets.net
+      type: anytls
+      udp: true
+      username: 9sK2mP8xQ7vL3nZ6
+    - name: "U⚪\U0001F3F3️ukn[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_b563f2c7"
+      network: ws
+      port: 8080
+      server: 91.107.181.197
+      type: vless
+      uuid: 11af1c47-865a-47c6-92ff-118013655d78
+      ws-opts:
+        path: /?ed=2048
+    - name: "A\U0001F7E2\U0001F1F7\U0001F1FAres[\U0001F3AA✨\U0001F4E6\U0001F50D]_dokng.com_a2d8e877"
+      port: 8095
+      server: 193.19.190.59
+      type: http
+    - client-fingerprint: chrome
+      encryption: none
+      name: "D\U0001F534\U0001F1EF\U0001F1F5hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_b4184adb"
+      network: ws
+      port: 443
+      server: 45.32.248.168
+      servername: mia9.pages.dev
+      tls: true
+      type: vless
+      uuid: 3db635e4-f9ec-42d6-8aba-e23df8b0e6da
+      ws-opts:
+        headers:
+            Host: mia9.pages.dev
+        path: /TG:@MiaChatChannel
+    - name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_a88e970f"
+      password: gs4BXwT6SW
+      port: 10988
+      server: 154.26.192.123
+      tls: false
+      type: http
+      username: fQ67Dpe5dU
+    - name: "D\U0001F534\U0001F1ED\U0001F1F0hos[\U0001F3AC\U0001F4FA\U0001F3AD\U0001F3AA]_dokng.com_d85a93d5"
+      password: null
+      port: 443
+      server: fan.240104.xyz
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: null
+    - client-fingerprint: chrome
+      flow: xtls-rprx-vision
+      name: "C\U0001F7E0\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_6cfd9575"
+      network: tcp
+      port: 8443
+      reality-opts:
+        public-key: ribQDOlZ69PzvZ1EDF0EcmMvbq_T5RQrVRBSGUU2riU
+        short-id: 35cd899f8de04801
+      server: 23.95.222.127
+      servername: www.apple.com
+      tls: true
+      type: vless
+      uuid: 352ff568-f971-4613-bf48-92997a5d44ed
+    - name: "A\U0001F7E2\U0001F1F7\U0001F1FAres[\U0001F3AA✨\U0001F4E6\U0001F50D]_dokng.com_1ceafa90"
+      port: 8095
+      server: 193.187.107.120
+      type: http
+    - client-fingerprint: qq
+      flow: xtls-rprx-vision
+      name: "A\U0001F7E2\U0001F1FA\U0001F1F8res[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_6f766acf"
+      port: 443
+      reality-opts:
+        public-key: NB_j6YyAs0xI5881v6cfx2jGUKb065ErIrHdOf8ZhVU
+        short-id: 1ac9bcc4e8fd
+      server: 154.9.241.28
+      servername: www.amazon.com
+      tls: true
+      type: vless
+      uuid: 596be9d9-0bb9-41bc-bff5-1adb483cbc32
+    - client-fingerprint: chrome
+      encryption: none
+      flow: xtls-rprx-vision
+      http-opts:
+        headers: {}
+        path:
+            - /
+      name: "D\U0001F534\U0001F1E9\U0001F1EAhos[\U0001F3AD\U0001F3AA✨\U0001F4E6]_dokng.com_35d251fa"
+      network: tcp
+      port: 9543
+      reality-opts:
+        public-key: M6Ck7wUfOLhQl4582CBnaXwscPEP6SCpdEkUDzoj4Fc
+        short-id: 123abcdf
+      server: 146.103.42.119
+      servername: storage.yandexcloud.net
+      tls: true
+      type: vless
+      udp: true
+      uuid: ff6d2dda-7b90-404e-9951-34b3124bfdfa
+      xudp: true
+    - name: "D\U0001F534\U0001F1EC\U0001F1E7hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_fb736f0e"
+      password: None
+      port: 443
+      server: 185.235.0.66
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: null
+    - name: "C\U0001F7E0\U0001F1ED\U0001F1F0hos[\U0001F4FA]_dokng.com_db363b3a"
+      password: admin
+      port: 8899
+      server: 47.242.19.215
+      skip-cert-verify: true
+      type: socks5
+      username: admin
+    - name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_59f060e6"
+      password: None
+      port: 443
+      server: berniesbodybla.fun
+      skip-cert-verify: false
+      tls: true
+      type: http
+      username: null
+    - client-fingerprint: chrome
+      encryption: none
+      flow: xtls-rprx-vision
+      name: "U⚪\U0001F3F3️ukn_dokng.com_c4c93a7d"
+      network: tcp
+      port: 443
+      reality-opts:
+        public-key: mza5Hn1aolSz65qu-UwvBP3oesxMe25r11o4nxvikF0
+        short-id: 64c1fe36c7846400
+      server: tgfree.rush-server.com
+      servername: anyfile2file.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: ebd1c0d6-7ff4-4b9f-8692-237517a27a64
+      xudp: true
+    - name: "A\U0001F7E2\U0001F1F8\U0001F1EAres[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_16751e5f"
+      password: 13f0acfa-38c1-4e82-a758-583aa31740df
+      port: 60005
+      server: svip.skycon808.com
+      skip-cert-verify: true
+      sni: xjp18.2uuzhe.com
+      type: anytls
+      udp: true
+    - name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_46f19d14"
+      password: github.com/Alvin9999-newpac/fanqiang
+      port: 19000
+      server: anytls2.864106.xyz
+      skip-cert-verify: true
+      sni: anytls2.864106.xyz
+      type: anytls
+    - name: "A\U0001F7E2\U0001F1E7\U0001F1E9res[\U0001F3AC\U0001F4FA\U0001F3AA\U0001F4E6]_dokng.com_51e4b832"
+      password: ""
+      port: 443
+      server: 35.247.136.78
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: ""
+    - client-fingerprint: chrome
+      encryption: none
+      http-opts:
+        headers: {}
+        path:
+            - /
+      name: "C\U0001F7E0\U0001F1E8\U0001F1EDhos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_fb6312aa"
+      network: tcp
+      port: 443
+      reality-opts:
+        public-key: f8aV8naD8NKt_mLKaOou0qUrIM1Ge25kJNxywpF3OB0
+        short-id: d016c76007f78038
+      server: 34.65.151.186
+      servername: www.cloudflare.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: a18f08dc-76ae-453a-98f5-d41eab7e649b
+      xudp: true
+    - client-fingerprint: qq
+      encryption: none
+      flow: xtls-rprx-vision
+      http-opts:
+        headers: {}
+        path:
+            - /
+      name: "U⚪\U0001F3F3️ukn_dokng.com_7169e124"
+      network: tcp
+      port: 443
+      reality-opts:
+        public-key: 1sSmdw90uTiGuitDvp_q8zcXTcHXKQS3IVjA7T1UNiY
+        short-id: ""
+      server: 2.59.134.226
+      servername: rich-falcon.cdn.cachefleet.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 88281d02-b387-4fe3-918e-26ed331e6d08
+      xudp: true
+    - name: "D\U0001F534\U0001F1EE\U0001F1F9hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_595d4b27"
+      port: 443
+      server: 185.183.105.130
+      skip-cert-verify: true
+      tls: true
+      type: http
+    - name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_3f82d6be"
+      port: 443
+      server: kimberlymilano.icu
+      sni: kimberlymilano.icu
+      tls: true
+      type: http
+    - name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_da509960"
+      password: null
+      port: 443
+      server: voteshirleysew.club
+      skip-cert-verify: false
+      tls: true
+      type: http
+      username: null
+    - name: "D\U0001F534\U0001F1E9\U0001F1EAhos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_80a235c3"
+      port: 9443
+      server: 87.249.132.97
+      skip-cert-verify: true
+      tls: true
+      type: http
+    - name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_63e28654"
+      password: null
+      port: 443
+      server: purecambogiasl.live
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: null
+    - name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_fcc63609"
+      password: null
+      port: 443
+      server: berniesbodybla.fun
+      skip-cert-verify: false
+      tls: true
+      type: http
+      username: null
+    - name: "U⚪\U0001F3F3️ukn[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_1f4c2c73"
+      password: freeuser1
+      port: 9251
+      server: fr003.freeconnect.link
+      sni: fr003.freeconnect.link
+      tls: true
+      type: http
+      username: freeuser1
+    - name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_4b55ac5f"
+      password: None
+      port: 443
+      server: carolinafreigh.fun
+      skip-cert-verify: false
+      tls: true
+      type: http
+      username: null
+    - name: "C\U0001F7E0\U0001F1F3\U0001F1F1hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_fc18927e"
+      password: null
+      port: 443
+      server: 149.36.51.129
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: null
+    - name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_256dedbc"
+      port: 9002
+      server: 138.199.35.215
+      skip-cert-verify: true
+      tls: true
+      type: http
+      udp: true
+    - name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_150d799b"
+      password: "null"
+      port: 443
+      server: fan.365747.xyz
+      skip-cert-verify: true
+      sni: fan.365747.xyz
+      tls: true
+      type: http
+      username: "null"
+    - name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_21756f2c"
+      password: null
+      port: 443
+      server: webdrone.club
+      skip-cert-verify: false
+      tls: true
+      type: http
+      username: null
+    - name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_1c3c73a3"
+      port: 443
+      server: purecambogiasl.live
+      skip-cert-verify: true
+      sni: purecambogiasl.live
+      tls: true
+      type: http
+    - name: "C\U0001F7E0\U0001F1E9\U0001F1EAhos[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_dokng.com_0db00e0d"
+      port: 443
+      server: 149.36.50.1
+      skip-cert-verify: true
+      tls: true
+      type: http
+    - name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_681dd14a"
+      port: 9002
+      server: 138.199.35.219
+      skip-cert-verify: true
+      tls: true
+      type: http
+      udp: true
+    - name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_eaa5acd8"
+      password: ""
+      port: 9002
+      server: 138.199.35.197
+      skip-cert-verify: true
+      tls: true
+      type: http
+      udp: true
+      username: ""
+    - name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_78f4a4fd"
+      password: None
+      port: 443
+      server: zebpay.site
+      skip-cert-verify: false
+      tls: true
+      type: http
+      username: null
+    - cipher: aes-256-cfb
+      name: "C\U0001F7E0\U0001F1F8\U0001F1EAhos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_91645e75"
+      password: amazonskr05
+      port: 443
+      server: 51.20.72.15
+      type: ss
+      udp: true
+    - name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_02944bfd"
+      password: "null"
+      port: 443
+      server: jewelscollecti.icu
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: "null"
+    - name: "D\U0001F534\U0001F1EC\U0001F1E7hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_d981cb15"
+      password: null
+      port: 9443
+      server: 37.120.233.34
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: null
+    - name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_3a25675e"
+      password: "null"
+      port: 9002
+      server: 138.199.35.220
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: "null"
+    - client-fingerprint: chrome
+      encryption: none
+      flow: xtls-rprx-vision
+      name: "U⚪\U0001F3F3️ukn[✈️]_dokng.com_1a1c37f4"
+      network: tcp
+      port: 443
+      reality-opts:
+        public-key: _0N3gACBkKvGKTh0q5-dmt-XqSHB3xfEHSANRXu-U0I
+        short-id: f00f58383241c807
+      server: finporkzov.com
+      servername: finporkzov.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 7b93e3f1-c5bf-43cd-8fcd-e0e745c92d10
+      xudp: true
+    - name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_0eed9624"
+      password: None
+      port: 9002
+      server: 138.199.35.207
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: null
+    - name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_3e969f49"
+      port: 9002
+      server: 138.199.35.205
+      skip-cert-verify: true
+      tls: true
+      type: http
+      udp: true
+    - name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_4fdb3840"
+      port: 9002
+      server: 138.199.35.198
+      skip-cert-verify: true
+      tls: true
+      type: http
+      udp: true
+    - name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_35750c6c"
+      port: 9002
+      server: 138.199.35.217
+      skip-cert-verify: true
+      tls: true
+      type: http
+      udp: true
+    - name: "D\U0001F534\U0001F1F7\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_4db16672"
+      port: 443
+      server: 146.70.221.18
+      skip-cert-verify: true
+      tls: true
+      type: http
+    - name: "A\U0001F7E2\U0001F1F9\U0001F1FCres[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_3e949dac"
+      password: 9sK2mP8xQ7vL3nZ6
+      port: 443
+      server: ac7548f3ebe045b39a90288ff1e97526.pnuqcnp.cn
+      skip-cert-verify: true
+      sni: ac7548f3ebe045b39a90288ff1e97526.lwdnxf.cn
+      type: anytls
+    - client-fingerprint: chrome
+      encryption: none
+      flow: xtls-rprx-vision
+      name: "U⚪\U0001F3F3️ukn_dokng.com_81ed1f80"
+      network: tcp
+      port: 443
+      reality-opts:
+        public-key: mza5Hn1aolSz65qu-UwvBP3oesxMe25r11o4nxvikF0
+        short-id: 64c1fe36c7846400
+      server: 195.133.73.65
+      servername: anyfile2file.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: ebd1c0d6-7ff4-4b9f-8692-237517a27a64
+      xudp: true
+    - name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_776d6bea"
+      password: null
+      port: 9002
+      server: 138.199.35.201
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: null
+    - name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_39eed596"
+      password: "null"
+      port: 9002
+      server: 138.199.35.213
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: "null"
+    - name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_b3f4e70a"
+      port: 9002
+      server: 138.199.35.200
+      skip-cert-verify: true
+      tls: true
+      type: http
+      udp: true
+    - name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_e49c5e31"
+      password: ""
+      port: 9002
+      server: 138.199.35.204
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: ""
+    - name: "C\U0001F7E0\U0001F1E9\U0001F1EAhos[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_dokng.com_bffcd77d"
+      password: None
+      port: 443
+      server: 87.249.132.97
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: null
+    - name: "D\U0001F534\U0001F1ED\U0001F1FAhos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_58d0afef"
+      password: None
+      port: 443
+      server: 146.70.203.18
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: null
+    - name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_6895f732"
+      password: "null"
+      port: 9002
+      server: 138.199.35.209
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: "null"
+    - name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_c886aaa1"
+      password: "null"
+      port: 443
+      server: crosscards.site
+      sni: crosscards.site
+      tls: true
+      type: http
+      username: "null"
+    - name: "D\U0001F534\U0001F1EE\U0001F1F9hos[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_dokng.com_b28387d2"
+      port: 443
+      server: 185.183.105.146
+      skip-cert-verify: true
+      tls: true
+      type: http
+    - name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_12476d7d"
+      password: ""
+      port: 9002
+      server: 138.199.35.211
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: ""
+    - name: "D\U0001F534\U0001F1F7\U0001F1F4hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_6eef2333"
+      password: "null"
+      port: 9002
+      server: 193.176.84.23
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: "null"
+    - name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_2fb17d17"
+      password: None
+      port: 9002
+      server: 138.199.35.214
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: null
+    - name: "D\U0001F534\U0001F1F7\U0001F1F4hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_4f696c83"
+      password: null
+      port: 9002
+      server: 193.176.84.19
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: null
+    - name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_f41808b3"
+      password: ""
+      port: 9002
+      server: 138.199.35.203
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: ""
+    - name: "D\U0001F534\U0001F1EE\U0001F1EAhos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_f2b76d2c"
+      port: 443
+      server: 149.88.96.12
+      skip-cert-verify: true
+      tls: true
+      type: http
+    - name: "D\U0001F534\U0001F1F7\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_24d941b9"
+      password: null
+      port: 443
+      server: 146.70.221.34
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: null
+    - name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_e9f49831"
+      password: None
+      port: 9002
+      server: 138.199.35.212
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: null
+    - name: "C\U0001F7E0\U0001F1E9\U0001F1EAhos[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_dokng.com_622cadae"
+      password: null
+      port: 443
+      server: 149.36.50.129
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: null
+    - name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_ab7907fb"
+      password: "null"
+      port: 443
+      server: berniesbodybla.fun
+      tls: true
+      type: http
+      username: "null"
+    - name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_6948765a"
+      port: 443
+      server: berniesbodybla.fun
+      sni: berniesbodybla.fun
+      tls: true
+      type: http
+    - name: "A\U0001F7E2\U0001F1F5\U0001F1F1res[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_f0d2e0c5"
+      port: 7
+      server: 91.228.89.45
+      type: http
+    - name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_cc8acd7d"
+      port: 8181
+      server: 173.205.202.241
+      type: http
+    - name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_ff5d6731"
+      password: null
+      port: 9002
+      server: 138.199.35.195
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: null
+    - name: "D\U0001F534\U0001F1F3\U0001F1F1hos[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_dokng.com_6934fc2a"
+      password: null
+      port: 9002
+      server: 84.17.47.147
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: null
+    - client-fingerprint: chrome
+      encryption: none
+      name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_0758c68d"
+      network: ws
+      port: 30021
+      server: 128.241.25.11
+      servername: wjwkhoaftdgrt8qus.mp8pmwdgwf3sdapasouszjobjr57nrxxgtx9n.workers.dev
+      tls: true
+      type: vless
+      udp: true
+      uuid: 7549b427-3f64-424a-9d12-2c1bbf29a77c
+      ws-opts:
+        headers:
+            Host: wjwkhoaftdgrt8qus.mp8pmwdgwf3sdapasouszjobjr57nrxxgtx9n.workers.dev
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36
+        path: /@Marisa_kristi
+      xudp: true
+    - name: "C\U0001F7E0\U0001F1E9\U0001F1EAhos[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_dokng.com_46d7d8b2"
+      password: null
+      port: 443
+      server: 87.249.132.97
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: null
+    - name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_51f1276e"
+      password: ""
+      port: 9002
+      server: 138.199.35.199
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: ""
+    - name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_5c51c586"
+      password: ""
+      port: 9002
+      server: 138.199.35.208
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: ""
+    - name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_1a62785b"
+      password: ""
+      port: 443
+      server: fullmanfirm.icu
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: ""
+    - name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_19f240f6"
+      password: None
+      port: 443
+      server: fullmanfirm.icu
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: null
+    - name: "D\U0001F534\U0001F1F3\U0001F1F1hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_541bbb3c"
+      password: "null"
+      port: 443
+      server: 103.97.88.154
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: "null"
+    - name: "D\U0001F534\U0001F1F3\U0001F1F1hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_b8f46ac7"
+      port: 443
+      server: 185.140.209.235
+      skip-cert-verify: true
+      sni: 482c8436a1f7c908b48a1757abb5dd79-ce85c45206570905.apache-iv.com
+      tls: true
+      type: http
+    - name: "D\U0001F534\U0001F1F7\U0001F1F4hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_46cde1f2"
+      port: 9002
+      server: 193.176.84.16
+      skip-cert-verify: true
+      sni: www.bing.com
+      tls: true
+      type: http
+    - name: "D\U0001F534\U0001F1EA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_735ca059"
+      password: None
+      port: 443
+      server: 130.195.250.18
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: null
+    - name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_209eaff6"
+      password: null
+      port: 9002
+      server: 138.199.35.210
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: null
+    - name: "D\U0001F534\U0001F1F7\U0001F1F4hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_d3a94af0"
+      password: null
+      port: 9002
+      server: 193.176.84.34
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: null
+    - name: "D\U0001F534\U0001F1F7\U0001F1F4hos[\U0001F3AC\U0001F4FA\U0001F3AD\U0001F3AA]_dokng.com_0357be42"
+      password: null
+      port: 9002
+      server: 193.176.84.33
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: null
+    - name: "U⚪\U0001F3F3️ukn[\U0001F3AC\U0001F4FA\U0001F3AD\U0001F3AA]_dokng.com_0464a06d"
+      password: freeuser1
+      port: 9251
+      server: fr017.freeconnect.link
+      skip-cert-verify: true
+      sni: fr017.freeconnect.link
+      tls: true
+      type: http
+      username: freeuser1
+    - name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_5e148d55"
+      port: 9443
+      server: 38.95.111.226
+      skip-cert-verify: true
+      tls: true
+      type: http
+    - name: "A\U0001F7E2\U0001F1F2\U0001F1FDres_dokng.com_c281394e"
+      port: 999
+      server: 187.249.120.139
+      type: http
+    - client-fingerprint: chrome
+      encryption: none
+      grpc-opts:
+        grpc-service-name: grpc-tunnel
+      name: "A\U0001F7E2\U0001F1FA\U0001F1F8res[\U0001F3AC\U0001F916\U0001F50D]_dokng.com_03c285f6"
+      network: grpc
+      port: 9881
+      reality-opts:
+        public-key: Dfgu8Ey0M8Hz4gXGZAwQ3H9jLt2HByVsjAOTWiuKDB0
+        short-id: ""
+      server: 176.109.106.182
+      servername: dl.google.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
+      xudp: true
+    - name: "D\U0001F534\U0001F1EB\U0001F1F7hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_29f6fb8a"
+      port: 6103
+      server: 87.98.174.157
+      skip-cert-verify: true
+      tls: true
+      type: http
+    - name: "D\U0001F534\U0001F1F3\U0001F1F1hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_0d5bc13d"
+      password: None
+      port: 443
+      server: 51.158.243.91
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: null
+    - name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_596fc241"
+      password: None
+      port: 9002
+      server: 138.199.35.202
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: null
+    - name: "D\U0001F534\U0001F1F7\U0001F1F4hos[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_dokng.com_34a41e08"
+      password: null
+      port: 9002
+      server: 193.176.84.38
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: null
+    - name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_673ad936"
+      password: "null"
+      port: 9002
+      server: 138.199.35.196
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: "null"
+    - name: "D\U0001F534\U0001F1F7\U0001F1F4hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_5b215efe"
+      password: null
+      port: 9002
+      server: 193.176.84.29
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: null
+    - name: "U⚪\U0001F3F3️ukn[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_da8c1157"
+      password: freeuser1
+      port: 9251
+      server: fr012.freeconnect.link
+      sni: fr012.freeconnect.link
+      tls: true
+      type: http
+      username: freeuser1
+    - name: "D\U0001F534\U0001F1F7\U0001F1F4hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_0cb603c3"
+      password: None
+      port: 9002
+      server: 193.176.84.37
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: null
+    - name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_3ec254da"
+      port: 9002
+      server: 138.199.35.218
+      skip-cert-verify: true
+      tls: true
+      type: http
+      udp: true
+    - name: "D\U0001F534\U0001F1F7\U0001F1F4hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_49e2e376"
+      password: null
+      port: 9002
+      server: 193.176.84.35
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: null
+    - alpn:
+        - h2
+        - http/1.1
+      client-fingerprint: chrome
+      name: "C\U0001F7E0\U0001F1EF\U0001F1F5hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_54f0e293"
+      password: 9e98496a-0036-4cc6-8302-3929c29ba772
+      port: 35791
+      server: iijjp.mggl.wang
+      skip-cert-verify: true
+      sni: www.apple.com
+      type: anytls
+      udp: true
+    - name: "D\U0001F534\U0001F1F7\U0001F1F4hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_74ac6208"
+      password: "null"
+      port: 9002
+      server: 193.176.84.40
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: "null"
+    - name: "A\U0001F7E2\U0001F1FA\U0001F1F8res_dokng.com_3e12afd2"
+      port: 2224
+      server: 89.116.173.233
+      type: http
+    - name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_92f43b70"
+      password: None
+      port: 9002
+      server: 138.199.35.216
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: null
+    - name: "D\U0001F534\U0001F1F3\U0001F1F1hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_c65e2206"
+      port: 9002
+      server: 84.17.47.125
+      skip-cert-verify: true
+      tls: true
+      type: http
+      udp: true
+    - fingerprint: ""
+      name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_be8a4023"
+      password: 9sK2mP8xQ7vL3nZ6
+      port: 443
+      server: awefd2313fefarg23fr24.pnuqcnp.cn
+      skip-cert-verify: true
+      sni: images.ctfassets.net
+      type: anytls
+      udp: true
+      username: 9sK2mP8xQ7vL3nZ6
+    - name: "D\U0001F534\U0001F1EF\U0001F1F5hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_9efa9595"
+      password: null
+      port: 443
+      server: fan.571589.xyz
+      skip-cert-verify: false
+      tls: true
+      type: http
+      username: null
+    - name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_1e63795f"
+      password: "null"
+      port: 9002
+      server: 138.199.35.206
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: "null"
+    - name: "U⚪\U0001F3F3️ukn[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_6de70491"
+      password: freeuser1
+      port: 9251
+      server: nl201.freeconnect.link
+      sni: nl201.freeconnect.link
+      tls: true
+      type: http
+      username: freeuser1
+    - name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_8e3e1d23"
+      password: ""
+      port: 9443
+      server: 38.95.111.226
+      skip-cert-verify: true
+      tls: true
+      type: http
+      udp: true
+      username: ""
+    - client-fingerprint: chrome
+      encryption: none
+      grpc-opts:
+        grpc-service-name: telegram-bridge
+      name: "U⚪\U0001F3F3️ukn[✈️]_dokng.com_31699671"
+      network: grpc
+      port: 24446
+      reality-opts:
+        public-key: esOi15BFVX7pHyci7GQp8_FVlY2EmjSF2-0pPu4lIlk
+        short-id: defeaa98406c7bdf
+      server: 201.7.25.126
+      servername: spry-jolt.cdn.cachefleet.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: b229d38c-35ec-4a0b-9c86-8fceba243d6c
+      xudp: true
+    - name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F4FA\U0001F3AD\U0001F3AA]_dokng.com_3a4fb783"
+      port: 7615
+      server: 47.90.206.169
+      skip-cert-verify: true
+      tls: true
+      type: http
+    - client-fingerprint: chrome
+      encryption: none
+      grpc-opts:
+        grpc-mode: gun
+        grpc-service-name: cdn.v1.AssetService
+      name: "U⚪\U0001F3F3️ukn_dokng.com_344e6b30"
+      network: grpc
+      port: 443
+      server: assets-de2.pleiades.codes
+      servername: assets-de2.pleiades.codes
+      tls: true
+      type: vless
+      uuid: 0dca2cfe-98eb-4f9d-9a47-cf87510c558b
+    - name: "D\U0001F534\U0001F1E9\U0001F1F0hos[\U0001F4FA\U0001F3AD\U0001F3AA✨]_dokng.com_58da35c6"
+      password: null
+      port: 9443
+      server: 185.245.84.50
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: null
+    - name: "U⚪\U0001F3F3️ukn[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_549727c0"
+      password: freeuser1
+      port: 9251
+      server: nl206.freeconnect.link
+      skip-cert-verify: true
+      sni: nl206.freeconnect.link
+      tls: true
+      type: http
+      username: freeuser1
+    - name: "D\U0001F534\U0001F1F7\U0001F1F4hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_5512db5d"
+      password: ""
+      port: 9002
+      server: 193.176.84.31
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: ""
+    - name: "C\U0001F7E0\U0001F1F1\U0001F1FBhos[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_dokng.com_79d62288"
+      password: null
+      port: 443
+      server: 109.248.149.34
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: null
+    - name: "U⚪\U0001F3F3️ukn[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_ea3b1d36"
+      port: 39811
+      server: 176.111.37.216
+      type: http
+    - name: "U⚪\U0001F3F3️ukn_dokng.com_fa20483d"
+      port: 999
+      server: 82.152.138.127
+      type: http
+    - name: "D\U0001F534\U0001F1F3\U0001F1F1hos[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_dokng.com_b4222838"
+      password: None
+      port: 9002
+      server: 84.17.47.148
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: null
+    - name: "U⚪\U0001F3F3️ukn[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_63c86561"
+      password: freeuser1
+      port: 9251
+      server: nl205.freeconnect.link
+      sni: nl205.freeconnect.link
+      tls: true
+      type: http
+      username: freeuser1
+    - name: "A\U0001F7E2\U0001F1EC\U0001F1F9res[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_dokng.com_31b8e5a4"
+      port: 999
+      server: 200.35.176.154
+      type: http
+    - name: "C\U0001F7E0\U0001F1EC\U0001F1E7hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_e813834a"
+      password: ""
+      port: 443
+      server: 37.120.233.34
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: ""
+    - name: "D\U0001F534\U0001F1F3\U0001F1F1hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_e39f28c7"
+      port: 9002
+      server: 84.17.47.149
+      skip-cert-verify: true
+      tls: true
+      type: http
+    - name: "D\U0001F534\U0001F1E8\U0001F1FFhos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_9fc21f6b"
+      password: null
+      port: 443
+      server: 185.216.35.66
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: null
+    - name: "D\U0001F534\U0001F1F5\U0001F1F1hos[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_dokng.com_1b548315"
+      password: ""
+      port: 443
+      server: 151.115.54.133
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: ""
+    - name: "D\U0001F534\U0001F1EA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_ef40d2f4"
+      password: None
+      port: 443
+      server: 82.102.17.178
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: null
+    - name: "A\U0001F7E2\U0001F1E9\U0001F1F4res[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_640bb15d"
+      port: 999
+      server: 38.41.184.73
+      type: http
+    - name: "D\U0001F534\U0001F1F7\U0001F1F4hos[\U0001F4FA\U0001F3AD\U0001F3AA✨]_dokng.com_9742de7b"
+      password: None
+      port: 9002
+      server: 193.176.84.22
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: null
+    - name: "U⚪\U0001F3F3️ukn[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_3285df17"
+      port: 8282
+      server: 208.95.22.65
+      type: http
+    - name: "D\U0001F534\U0001F1F3\U0001F1F1hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_7bc7ddb9"
+      password: "null"
+      port: 9002
+      server: 84.17.47.150
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: "null"
+    - name: "A\U0001F7E2\U0001F1E8\U0001F1F4res[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_7adaf97c"
+      port: 999
+      server: 8.243.167.51
+      type: http
+    - name: "D\U0001F534\U0001F1E9\U0001F1EAhos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_f467085f"
+      port: 443
+      server: 185.44.107.166
+      skip-cert-verify: true
+      tls: true
+      type: http
+    - name: "D\U0001F534\U0001F1F7\U0001F1F4hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_c91883ca"
+      port: 9002
+      server: 193.176.84.26
+      skip-cert-verify: true
+      sni: www.bing.com
+      tls: true
+      type: http
+    - name: "D\U0001F534\U0001F1F8\U0001F1EAhos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_1d946f80"
+      password: None
+      port: 443
+      server: 146.70.242.130
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: null
+    - fingerprint: ""
+      name: "A\U0001F7E2\U0001F1ED\U0001F1F0res[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_218ee7d6"
+      password: 9sK2mP8xQ7vL3nZ6
+      port: 443
+      server: ac7548f3ebe045b39a90288ff1e97528.pnuqcnp.cn
+      skip-cert-verify: true
+      sni: ac7548f3ebe045b39a90288ff1e97528.lwdnxf.cn
+      type: anytls
+      udp: true
+      username: 9sK2mP8xQ7vL3nZ6
+    - name: "A\U0001F7E2\U0001F1F7\U0001F1FAres[\U0001F3AA\U0001F4E6\U0001F50D]_dokng.com_9af66ad2"
+      port: 5050
+      server: 45.159.0.194
+      type: http
+    - name: "D\U0001F534\U0001F1F7\U0001F1F4hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_1374045a"
+      port: 9002
+      server: 193.176.84.30
+      skip-cert-verify: true
+      tls: true
+      type: http
+      udp: true
+    - name: "D\U0001F534\U0001F1EB\U0001F1F7hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_26e7e011"
+      password: null
+      port: 8888
+      server: 37.59.125.131
+      type: http
+      username: null
+    - client-fingerprint: firefox
+      flow: xtls-rprx-vision
+      name: "D\U0001F534\U0001F1F5\U0001F1F1hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_ca30cc71"
+      network: tcp
+      port: 2063
+      reality-opts:
+        public-key: MMpt_jWc4J3oySBdf5sPDVRkiWlZmOObth6A1scM9BM
+      server: 31.77.13.19
+      servername: rusbid.de
+      skip-cert-verify: true
+      tfo: false
+      tls: true
+      type: vless
+      uuid: b18d5990-96eb-4587-a386-7f8ef7591e6a
+    - name: "A\U0001F7E2\U0001F1EB\U0001F1F7res[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_0393fda4"
+      password: "null"
+      port: 443
+      server: fan.132031.xyz
+      tls: true
+      type: http
+      username: "null"
+    - name: "D\U0001F534\U0001F1F7\U0001F1F4hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_1af479e3"
+      port: 9002
+      server: 193.176.84.24
+      skip-cert-verify: true
+      tls: true
+      type: http
+    - name: "D\U0001F534\U0001F1F7\U0001F1F4hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_1f406845"
+      password: null
+      port: 9002
+      server: 193.176.84.20
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: null
+    - name: "U⚪\U0001F3F3️ukn_dokng.com_6aa50cc7"
+      password: null
+      port: 999
+      server: 38.172.170.104
+      type: http
+      username: null
+    - name: "D\U0001F534\U0001F1F7\U0001F1F4hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_5a6b0131"
+      password: null
+      port: 9002
+      server: 193.176.84.17
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: null
+    - name: "A\U0001F7E2\U0001F1FB\U0001F1EAres[\U0001F916\U0001F3AA]_dokng.com_cbfb50f0"
+      password: null
+      port: 465
+      server: 38.225.40.143
+      type: http
+      username: null
+    - name: "D\U0001F534\U0001F1F7\U0001F1F4hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_ce8cb60f"
+      password: None
+      port: 9002
+      server: 193.176.84.27
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: null
+    - name: "C\U0001F7E0\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_715452b7"
+      network: ws
+      password: e20fd145-65f1-4aa3-96be-da0524bbb16e
+      port: 20230
+      server: us003.421421.xyz
+      skip-cert-verify: true
+      sni: www.alibaba.com
+      type: trojan
+      ws-opts:
+        path: /
+    - name: "D\U0001F534\U0001F1EB\U0001F1F7hos[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_dokng.com_67435526"
+      port: 443
+      server: 141.94.16.4
+      skip-cert-verify: true
+      tls: true
+      type: http
+    - name: "A\U0001F7E2\U0001F1E8\U0001F1F4res[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_5a0a18b1"
+      port: 2525
+      server: 190.71.72.85
+      type: http
+    - name: "D\U0001F534\U0001F1F7\U0001F1F4hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_6dda1640"
+      password: null
+      port: 9002
+      server: 193.176.84.36
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: null
+    - name: "A\U0001F7E2\U0001F1F5\U0001F1F1res[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_dokng.com_805ac382"
+      port: 7778
+      server: 91.238.54.189
+      type: http
+    - name: "D\U0001F534\U0001F1EE\U0001F1EAhos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_d9f9993e"
+      password: null
+      port: 443
+      server: 149.88.96.1
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: null
+    - name: "A\U0001F7E2\U0001F1F9\U0001F1F7res[\U0001F3AC\U0001F4FA]_dokng.com_24195ec8"
+      port: 8085
+      server: 212.175.50.78
+      type: http
+    - client-fingerprint: random
+      name: "D\U0001F534\U0001F1F8\U0001F1EChos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_ec406919"
+      network: ws
+      port: 443
+      server: 139.162.41.109
+      servername: fm3.pages.dev
+      skip-cert-verify: true
+      tfo: false
+      tls: true
+      type: vless
+      uuid: fcc28548-1b94-4770-93c9-1e1c11a280cf
+      ws-opts:
+        headers:
+            Host: fm3.pages.dev
+        path: /?ed=2560
+    - name: "A\U0001F7E2\U0001F1F2\U0001F1FDres[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_b4b7d066"
+      port: 443
+      server: 45.134.9.41
+      skip-cert-verify: true
+      sni: 991cc80f13caf81d3426ddebb2da7f49-240d6105b6ef86f0.apache-iv.com
+      tls: true
+      type: http
+    - name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_60cdf76d"
+      port: 443
+      server: 38.28.193.1
+      skip-cert-verify: true
+      sni: 38.28.193.1
+      tls: true
+      type: http
+    - alterId: 0
+      cipher: auto
+      client-fingerprint: safari
+      name: "U⚪\U0001F3F3️ukn_dokng.com_9fff1298"
+      network: ws
+      port: 443
+      server: www.shopify.com
+      servername: guanwang.awsno.com
+      skip-cert-verify: true
+      tls: true
+      type: vmess
+      uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
+      ws-opts:
+        headers:
+            Host: guanwang.awsno.com
+        path: /hls/cctv5phd.m3u8
+    - name: "D\U0001F534\U0001F1F7\U0001F1F4hos[\U0001F3AC\U0001F4FA\U0001F3AD\U0001F3AA]_dokng.com_b3015b3e"
+      password: None
+      port: 9002
+      server: 193.176.84.25
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: null
+    - name: "D\U0001F534\U0001F1F8\U0001F1EChos_dokng.com_d2853196"
+      port: 9090
+      server: 167.99.74.174
+      type: http
+    - name: "A\U0001F7E2\U0001F1F5\U0001F1F8res[\U0001F916\U0001F4FA\U0001F3AA]_dokng.com_b2b06a7e"
+      port: 9090
+      server: 188.161.150.217
+      type: http
+    - name: "A\U0001F7E2\U0001F1F5\U0001F1EAres[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_8cd9548a"
+      port: 999
+      server: 200.62.236.154
+      type: http
+    - name: "A\U0001F7E2\U0001F1FA\U0001F1E6res_dokng.com_90526c5f"
+      port: 8585
+      server: 109.224.242.133
+      type: http
+    - name: "A\U0001F7E2\U0001F1F5\U0001F1EAres[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_24011515"
+      port: 999
+      server: 179.63.6.239
+      type: http
+    - name: "A\U0001F7E2\U0001F1E7\U0001F1F7res[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_dokng.com_41ab76fa"
+      port: 9191
+      server: 45.165.216.25
+      type: http
+    - name: "A\U0001F7E2\U0001F1E7\U0001F1F7res[\U0001F916✨\U0001F50D]_dokng.com_39e53745"
+      port: 2138
+      server: 170.80.131.249
+      type: http
+    - name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_b1448db8"
+      port: 443
+      server: 216.107.139.82
+      skip-cert-verify: true
+      sni: 991cc80f13caf81d3426ddebb2da7f49-92ff472ddc24e5b7.apache-iv.com
+      tls: true
+      type: http
+    - name: "D\U0001F534\U0001F1EC\U0001F1E7hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_a3f53993"
+      password: null
+      port: 443
+      server: 212.102.63.1
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: null
+    - name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_87eec561"
+      password: e4b72b531a2d10900519
+      port: 443
+      server: 147.182.216.4
+      sni: 93b6d804.acsnet.co
+      tls: true
+      type: http
+      username: testuser1
+    - name: "D\U0001F534\U0001F1EB\U0001F1F7hos[\U0001F4FA\U0001F3AD\U0001F3AA]_dokng.com_c5db3762"
+      password: null
+      port: 1088
+      server: 144.91.121.61
+      type: socks5
+      udp: true
+      username: null
+    - name: "D\U0001F534\U0001F1ED\U0001F1F7hos[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_dokng.com_7c1a483f"
+      port: 443
+      server: 154.47.29.161
+      skip-cert-verify: true
+      tls: true
+      type: http
+    - name: "A\U0001F7E2\U0001F1E9\U0001F1EAres[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_cd8f0f6d"
+      port: 443
+      server: fan.973511.xyz
+      sni: fan.973511.xyz
+      tls: true
+      type: http
+    - name: "D\U0001F534\U0001F1F8\U0001F1EChos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_ec84b940"
+      password: null
+      port: 9090
+      server: 104.248.151.93
+      type: http
+      username: null
+    - name: "D\U0001F534\U0001F1E6\U0001F1FAhos[\U0001F916\U0001F4FA\U0001F3AA✨]_dokng.com_598e2b3d"
+      password: None
+      port: 443
+      server: 103.62.50.130
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: null
+    - name: "A\U0001F7E2\U0001F1E7\U0001F1F7res[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_5363a834"
+      port: 9191
+      server: 177.222.248.54
+      type: http
+    - name: "A\U0001F7E2\U0001F1F5\U0001F1EAres_dokng.com_152876ba"
+      port: 1011
+      server: 209.45.65.53
+      type: http
+    - name: "C\U0001F7E0\U0001F1E8\U0001F1EDhos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_a74c39f7"
+      password: null
+      port: 443
+      server: 31.7.62.50
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: null
+    - name: "U⚪\U0001F3F3️ukn[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_b9611de3"
+      port: 8282
+      server: 208.95.20.33
+      type: http
+    - name: "A\U0001F7E2\U0001F1F5\U0001F1EAres[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_a2b44e54"
+      port: 999
+      server: 38.10.107.117
+      type: http
+    - name: "A\U0001F7E2\U0001F1F7\U0001F1FAres[\U0001F3AA✨\U0001F4E6\U0001F50D]_dokng.com_bfb33a78"
+      port: 8095
+      server: 194.61.232.13
+      type: http
+    - name: "A+\U0001F7E2\U0001F1FB\U0001F1EAmob[\U0001F3AC\U0001F4FA\U0001F3AD\U0001F3AA]_dokng.com_f9e51be1"
+      port: 8282
+      server: 186.167.53.178
+      type: http
+    - name: "A\U0001F7E2\U0001F1E7\U0001F1F7res[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_75602843"
+      port: 44443
+      server: 179.184.163.133
+      type: http
+    - name: "D\U0001F534\U0001F1EF\U0001F1F5hos[\U0001F916\U0001F4FA\U0001F3AA\U0001F39E️]_dokng.com_5802486e"
+      port: 10808
+      server: 101.36.104.239
+      type: socks5
+    - client-fingerprint: chrome
+      flow: xtls-rprx-vision
+      name: "C\U0001F7E0\U0001F1F0\U0001F1F7hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_5e4ca939"
+      port: 443
+      reality-opts:
+        public-key: VfrYrzfyQqgaVeMozagueBL7lvbbU1JB6RHfGJk4enU
+        short-id: 281c396bb44c48da
+      server: 43.108.18.193
+      servername: learn.microsoft.com
+      tls: true
+      type: vless
+      uuid: 809f043c-86cd-466d-9340-3769bc949e66
+    - name: "D\U0001F534\U0001F1E9\U0001F1EAhos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_62113475"
+      password: e4b72b531a2d10900519
+      port: 443
+      server: 167.172.172.190
+      skip-cert-verify: true
+      sni: a7acacbe.acsnet.co
+      tls: true
+      type: http
+      username: testuser1
+    - name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_256292ba"
+      port: 443
+      server: 149.34.248.65
+      skip-cert-verify: true
+      sni: 149.34.248.65
+      tls: true
+      type: http
+    - name: "D\U0001F534\U0001F1F8\U0001F1EAhos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_7dcb6aa1"
+      port: 443
+      server: 79.142.77.63
+      skip-cert-verify: true
+      tls: true
+      type: http
+    - client-fingerprint: chrome
+      encryption: none
+      flow: xtls-rprx-vision
+      http-opts:
+        headers: {}
+        path:
+            - /
+      name: "A\U0001F7E2\U0001F1FA\U0001F1F8res[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_2d33c0d5"
+      network: tcp
+      port: 443
+      reality-opts:
+        public-key: ltHl15Wq549qC2JdAtesy-POs6Hwm_BbrlzuwDkWoUk
+        short-id: a1b2c3d4e5f6a1b2
+      server: nl2.gursub.com
+      servername: nl2.gursub.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 02bd8b5a-170b-4a79-8e68-9cec710272c7
+      xudp: true
+    - name: "D\U0001F534\U0001F1F8\U0001F1EChos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_26d0e430"
+      password: e4b72b531a2d10900519
+      port: 443
+      server: 146.70.29.45
+      sni: 92461d2d.acsnet.co
+      tls: true
+      type: http
+      username: testuser1
+    - name: "D\U0001F534\U0001F1F3\U0001F1F1hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_52f5277d"
+      password: null
+      port: 443
+      server: 5.255.118.82
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: null
+    - name: "U⚪\U0001F3F3️ukn[\U0001F4FA\U0001F3AD\U0001F4E6✈️]_dokng.com_e35f8693"
+      port: 999
+      server: 38.51.239.218
+      type: http
+    - name: "A\U0001F7E2\U0001F1E8\U0001F1F4res_dokng.com_1445087c"
+      port: 999
+      server: 38.43.126.73
+      type: http
+    - name: "A\U0001F7E2\U0001F1EA\U0001F1E8res[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_956079b4"
+      port: 9100
+      server: 181.39.35.94
+      type: http
+    - name: "A\U0001F7E2\U0001F1E6\U0001F1F7res[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_dokng.com_217a0173"
+      port: 12323
+      server: 200.41.149.66
+      type: http
+    - name: "D\U0001F534\U0001F1EC\U0001F1E7hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_e7cfa50d"
+      password: None
+      port: 443
+      server: 37.120.233.18
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: null
+    - name: "A\U0001F7E2\U0001F1E7\U0001F1F7res[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_2e49200d"
+      port: 3900
+      server: 45.163.116.86
+      type: http
+    - name: "A\U0001F7E2\U0001F1E7\U0001F1F7res[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_ca3b1afa"
+      port: 9091
+      server: 164.163.237.196
+      type: http
+    - name: "A\U0001F7E2\U0001F1E8\U0001F1FFres[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_dokng.com_d0576f5e"
+      port: 443
+      server: 193.35.104.196
+      skip-cert-verify: true
+      tls: true
+      type: http
+    - name: "D\U0001F534\U0001F1F3\U0001F1F1hos[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_dokng.com_62caac5f"
+      password: e4b72b531a2d10900519
+      port: 443
+      server: 82.196.9.7
+      sni: 52c40907.acsnet.co
+      tls: true
+      type: http
+      username: testuser1
+    - name: "D\U0001F534\U0001F1EC\U0001F1E7hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_e9fcd0ea"
+      port: 443
+      server: 185.235.0.2
+      skip-cert-verify: true
+      tls: true
+      type: http
+    - name: "D\U0001F534\U0001F1FB\U0001F1F3hos[\U0001F916\U0001F4FA]_dokng.com_701d262f"
+      port: 9999
+      server: 163.181.207.213
+      type: http
+    - name: "U⚪\U0001F3F3️ukn[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_54a270d5"
+      password: freeuser1
+      port: 9251
+      server: cr2-id.freeconnect.link
+      tls: true
+      type: http
+      username: freeuser1
+    - client-fingerprint: chrome
+      encryption: none
+      flow: xtls-rprx-vision
+      name: "C\U0001F7E0\U0001F1EF\U0001F1F5hos[\U0001F4FA\U0001F3AA]_dokng.com_2cfd6d6e"
+      network: tcp
+      port: 443
+      reality-opts:
+        public-key: EM6moxrvL3HUt-oyT_EBHE89RaAoNtGmdzqJaQNb5l0
+        short-id: 2660386111083ae9
+      server: 47.74.42.183
+      servername: learn.microsoft.com
+      tls: true
+      type: vless
+      uuid: 5096da06-c8d2-4e79-957e-36563fd6134b
+    - name: "D\U0001F534\U0001F1EC\U0001F1E7hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_b6a9dee3"
+      password: None
+      port: 443
+      server: 37.120.233.50
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: null
+    - name: "D\U0001F534\U0001F1EE\U0001F1F9hos[\U0001F4FA\U0001F3AD]_dokng.com_187d4a86"
+      port: 443
+      server: 93.42.177.250
+      skip-cert-verify: true
+      tls: true
+      type: http
+    - name: "D\U0001F534\U0001F1F8\U0001F1EAhos[\U0001F4FA\U0001F3AD\U0001F3AA]_dokng.com_5533c299"
+      port: 1080
+      server: 171.25.158.95
+      type: socks5
+    - name: "A\U0001F7E2\U0001F1E7\U0001F1F7res[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_dokng.com_84cf438e"
+      port: 8989
+      server: 138.204.95.193
+      type: http
+    - name: "U⚪\U0001F3F3️ukn[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_89e7191b"
+      password: freeuser1
+      port: 9251
+      server: sr2-id.freeconnect.link
+      tls: true
+      type: http
+      username: freeuser1
+    - name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_c09c3f93"
+      password: e4b72b531a2d10900519
+      port: 443
+      server: 162.243.146.243
+      sni: a2f392f3.acsnet.co
+      tls: true
+      type: http
+      username: testuser1
+    - name: "D\U0001F534\U0001F1F7\U0001F1F4hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_8ab2f38c"
+      password: ""
+      port: 9002
+      server: 193.176.84.21
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: ""
+    - name: "A\U0001F7E2\U0001F1E7\U0001F1F7res[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_b484b18f"
+      port: 9292
+      server: 45.232.77.153
+      type: http
+    - name: "A\U0001F7E2\U0001F1E7\U0001F1F7res[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_919b7764"
+      port: 9292
+      server: 131.0.120.162
+      type: http
+    - name: "U⚪\U0001F3F3️ukn[✈️]_dokng.com_6c420d49"
+      port: 999
+      server: 66.253.75.0
+      type: http
+    - name: "A\U0001F7E2\U0001F1FA\U0001F1F8res[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_dokng.com_aafa3b9f"
+      port: 5999
+      server: 24.52.147.103
+      type: http
+    - name: "U⚪\U0001F3F3️ukn[\U0001F4FA\U0001F3AD\U0001F3AA✨]_dokng.com_87bf668a"
+      password: freeuser1
+      port: 9251
+      server: cr1-id.freeconnect.link
+      tls: true
+      type: http
+      username: freeuser1
+    - name: "U⚪\U0001F3F3️ukn[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_686b169b"
+      password: freeuser1
+      port: 9251
+      server: nl207.freeconnect.link
+      sni: nl207.freeconnect.link
+      tls: true
+      type: http
+      username: freeuser1
+    - client-fingerprint: chrome
+      encryption: none
+      flow: xtls-rprx-vision
+      name: "C\U0001F7E0\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_6aefb357"
+      network: tcp
+      port: 20270
+      reality-opts:
+        public-key: eadapatOPUV75uDTLPqrRHD1vAAmu_Y-SyQCbp9wgwM
+        short-id: f7a0cd272f3f20a7
+      server: us-1.gsafevpnapi.com
+      servername: www.yahoo.com
+      tls: true
+      type: vless
+      uuid: 537f8b38-8015-4431-84bb-63ada2d0bf89
+    - name: "D\U0001F534\U0001F1EE\U0001F1F9hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_9b8722f4"
+      port: 443
+      server: 109.116.41.154
+      skip-cert-verify: true
+      tls: true
+      type: http
+    - name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F4FA\U0001F3AD\U0001F3AA]_dokng.com_5476324f"
+      password: test123
+      port: 1080
+      server: 185.145.99.41
+      type: socks5
+      udp: true
+      username: test123
+    - name: "C\U0001F7E0\U0001F1E6\U0001F1F1hos[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_dokng.com_002d4e13"
+      password: None
+      port: 443
+      server: 87.120.103.226
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: null
+    - alterId: 64
+      cipher: auto
+      name: "U⚪\U0001F3F3️ukn[\U0001F39E️\U0001F4E6]_dokng.com_0da15920"
+      network: tcp
+      port: 50002
+      server: 112.132.215.108
+      skip-cert-verify: false
+      tls: false
+      type: vmess
+      udp: true
+      uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+      xudp: true
+    - name: "U⚪\U0001F3F3️ukn_dokng.com_1fa5c76f"
+      port: 1011
+      server: 209.45.65.54
+      type: http
+    - name: "A\U0001F7E2\U0001F1E7\U0001F1F7res[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_4edb6279"
+      port: 2020
+      server: 179.156.68.230
+      type: http
+    - name: "A\U0001F7E2\U0001F1E8\U0001F1F4res[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_05ddb025"
+      port: 12345
+      server: 177.93.57.85
+      type: http
+    - name: "A\U0001F7E2\U0001F1E7\U0001F1ECres[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_f1d5fbe8"
+      port: 3030
+      server: 88.87.6.135
+      type: http
+    - name: "U⚪\U0001F3F3️ukn_dokng.com_352b514e"
+      port: 11920
+      server: 212.24.108.20
+      type: http
+    - name: "D\U0001F534\U0001F1EE\U0001F1E9hos_dokng.com_6de001b2"
+      port: 8080
+      server: 103.123.85.89
+      type: http
+    - alpn:
+        - h2
+      client-fingerprint: chrome
+      encryption: none
+      name: "U⚪\U0001F3F3️ukn[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_85242092"
+      network: ws
+      port: 443
+      server: a2.arshia-nova.ir
+      servername: ssl.fastly.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 64c2bc5c-7534-4359-9b1e-e1dce5a380cd
+      ws-opts:
+        headers:
+            Host: c12.com
+            User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; FIG-LX3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.80 Mobile Safari/537.36
+        path: /
+      xudp: true
+    - name: "D\U0001F534\U0001F1E6\U0001F1FAhos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_6a11339c"
+      password: null
+      port: 443
+      server: 159.13.44.228
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: null
+    - name: "D\U0001F534\U0001F1E8\U0001F1F4hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_b1be642c"
+      password: null
+      port: 999
+      server: 190.14.231.137
+      type: http
+      username: null
+    - name: "U⚪\U0001F3F3️ukn_dokng.com_2f6cef71"
+      password: null
+      port: 999
+      server: 181.232.190.121
+      type: http
+      username: null
+    - client-fingerprint: chrome
+      name: "C\U0001F7E0\U0001F1EB\U0001F1F7hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_c3974e0b"
+      network: ws
+      password: humanity
+      port: 2053
+      server: 91.245.225.79
+      skip-cert-verify: false
+      sni: www.calmlunch.com
+      type: trojan
+      udp: true
+      ws-opts:
+        headers:
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.143 Safari/537.36
+        path: /assignment
+    - name: "A\U0001F7E2\U0001F1F3\U0001F1F1res[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_dokng.com_1fac1dff"
+      port: 65432
+      server: 87.215.14.228
+      type: http
+    - name: "U⚪\U0001F3F3️ukn_dokng.com_c4d8c40f"
+      port: 17981
+      server: 120.232.115.170
+      type: http
+    - name: "D\U0001F534\U0001F1EA\U0001F1E8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_c1c5ad72"
+      password: ""
+      port: 9443
+      server: 38.165.231.71
+      skip-cert-verify: true
+      tls: true
+      type: http
+      udp: true
+      username: ""
+    - client-fingerprint: chrome
+      flow: xtls-rprx-vision
+      name: "C\U0001F7E0\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_9e76f8e0"
+      network: tcp
+      port: 443
+      reality-opts:
+        public-key: QtYyp41YbDij6nygTaPPpqXqEGzDD3wYFI3YlfTjfBo
+        short-id: 6b85179e
+      server: 47.90.153.88
+      servername: www.apple.com
+      skip-cert-verify: true
+      tls: true
+      type: vless
+      uuid: 1e255ca5-93b1-4952-a838-0783dfc034d8
+    - client-fingerprint: chrome
+      flow: xtls-rprx-vision
+      name: "A\U0001F7E2\U0001F1F8\U0001F1ECres[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_bca7fc5c"
+      port: 3389
+      reality-opts:
+        public-key: s5t86eacAGCBMt6TWPF3Zhq8KFkBnmNZY3ZkKBrxHkY
+        short-id: a4115cac
+      server: 185.115.207.173
+      servername: www.ntu.edu.sg
+      tls: true
+      type: vless
+      uuid: 596be9d9-0bb9-41bc-bff5-1adb483cbc32
+    - name: "A\U0001F7E2\U0001F1EA\U0001F1E8res[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_169c6ac9"
+      port: 1550
+      server: 45.173.228.217
+      type: http
+    - name: "D\U0001F534\U0001F1E8\U0001F1EDhos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_5edb8d34"
+      password: None
+      port: 9443
+      server: 37.120.213.210
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: null
+    - name: "D\U0001F534\U0001F1F3\U0001F1F1hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_b74edc3f"
+      port: 443
+      server: 185.246.153.42
+      skip-cert-verify: true
+      sni: 482c8436a1f7c908b48a1757abb5dd79-3791fb4df2db250b.apache-iv.com
+      tls: true
+      type: http
+    - name: "A\U0001F7E2\U0001F1E7\U0001F1F7res[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_dokng.com_b1a61230"
+      port: 9292
+      server: 200.95.192.61
+      type: http
+    - name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_bc638486"
+      port: 11080
+      server: 47.254.36.25
+      type: http
+    - alpn:
+        - http/1.1
+      client-fingerprint: chrome
+      encryption: none
+      name: "C\U0001F7E0\U0001F1EB\U0001F1F7hos[✨]_dokng.com_f3fda826"
+      network: ws
+      port: 443
+      server: 199.232.78.170
+      servername: ssl.fastly.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: XpnTeam-33
+      ws-opts:
+        headers:
+            Host: Appxdn.global.ssl.fastly.net
+            User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.101 Safari/537.36
+        path: /
+      xudp: true
+    - name: "A\U0001F7E2\U0001F1F7\U0001F1FAres_dokng.com_965e2a11"
+      port: 4080
+      server: 185.21.156.73
+      type: http
+    - name: "U⚪\U0001F3F3️ukn_dokng.com_4e223d66"
+      port: 999
+      server: 38.172.170.213
+      type: http
+    - name: "A\U0001F7E2\U0001F1E7\U0001F1F7res_dokng.com_33b29658"
+      port: 5151
+      server: 187.72.72.209
+      type: http
+    - name: "A\U0001F7E2\U0001F1E7\U0001F1F7res[\U0001F3AA]_dokng.com_21f34b11"
+      port: 45005
+      server: 191.241.187.16
+      type: http
+    - name: "A\U0001F7E2\U0001F1E7\U0001F1F7res[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_8927dde1"
+      port: 3900
+      server: 177.37.167.172
+      type: http
+    - name: "U⚪\U0001F3F3️ukn_dokng.com_56a1c9b2"
+      port: 8097
+      server: 148.244.144.194
+      type: http
+    - name: "A\U0001F7E2\U0001F1F2\U0001F1FDres[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_39b9ca70"
+      port: 2604
+      server: 200.94.38.46
+      type: http
+    - name: "D\U0001F534\U0001F1EF\U0001F1F5hos[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_dokng.com_1b81f86d"
+      port: 10808
+      server: 101.36.104.46
+      type: socks5
+    - name: "A\U0001F7E2\U0001F1E7\U0001F1F7res[\U0001F3AC\U0001F916\U0001F3AD\U0001F3AA]_dokng.com_2773cf42"
+      port: 3126
+      server: 189.84.157.245
+      type: http
+    - auth: my_super_password_123
+      name: "C\U0001F7E0\U0001F1EF\U0001F1F5hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_1a3e1301"
+      password: my_super_password_123
+      port: 443
+      server: open.2ml.bid
+      skip-cert-verify: true
+      sni: open.2ml.bid
+      type: hysteria2
+      udp: true
+    - name: "D\U0001F534\U0001F1EB\U0001F1F7hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_84374931"
+      password: ""
+      port: 1080
+      server: 109.123.251.109
+      skip-cert-verify: true
+      type: socks5
+      udp: true
+      username: ""
+    - name: "A\U0001F7E2\U0001F1E9\U0001F1F4res[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_cdc1c1b9"
+      port: 999
+      server: 154.88.164.160
+      type: http
+    - name: "A\U0001F7E2\U0001F1EA\U0001F1E8res[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_714b1721"
+      port: 999
+      server: 181.188.203.40
+      type: http
+    - name: "D\U0001F534\U0001F1EB\U0001F1F7hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_13bb1fbc"
+      port: 443
+      server: 103.82.101.43
+      skip-cert-verify: true
+      sni: 76d1d3ecadca44efa2339867d7dfc9a1-8e928736d0f8dbdc.apache-iv.com
+      tls: true
+      type: http
+    - client-fingerprint: edge
+      flow: xtls-rprx-vision
+      name: "A\U0001F7E2\U0001F1FA\U0001F1F8res[\U0001F4FA\U0001F3AD\U0001F3AA]_dokng.com_a7e2c004"
+      port: 443
+      reality-opts:
+        public-key: 9TWlSPzYZqDnie1T0TcEQ2WE8AseTD5zsyyPNeiLOE8
+        short-id: 18be91b703
+      server: 208.68.180.126
+      servername: qualitypac.com
+      tls: true
+      type: vless
+      uuid: 596be9d9-0bb9-41bc-bff5-1adb483cbc32
+    - name: "D\U0001F534\U0001F1E9\U0001F1EAhos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_7204598f"
+      password: None
+      port: 11111
+      server: 103.237.102.191
+      type: http
+      username: null
+    - name: "A\U0001F7E2\U0001F1F8\U0001F1ECres[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_e2867af1"
+      password: ""
+      port: 9443
+      server: 149.88.99.209
+      skip-cert-verify: true
+      tls: true
+      type: http
+      udp: true
+      username: ""
+    - name: "U⚪\U0001F3F3️ukn_dokng.com_daf98b43"
+      password: null
+      port: 16062
+      server: 104.251.93.22
+      type: http
+      username: null
+    - name: "U⚪\U0001F3F3️ukn_dokng.com_50364f77"
+      port: 8403
+      server: 200.53.2.161
+      type: http
+    - name: "A\U0001F7E2\U0001F1E8\U0001F1F1res[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_08f39eaa"
+      port: 18080
+      server: 190.93.229.49
+      type: http
+    - name: "U⚪\U0001F3F3️ukn_dokng.com_88b49ffa"
+      port: 58080
+      server: 185.238.238.21
+      type: http
+    - name: "A\U0001F7E2\U0001F1E8\U0001F1F4res[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_2ebe5187"
+      port: 999
+      server: 190.90.21.35
+      type: http
+    - client-fingerprint: chrome
+      encryption: none
+      flow: xtls-rprx-vision
+      http-opts:
+        headers: {}
+        path:
+            - /
+      name: "A\U0001F7E2\U0001F1F1\U0001F1F9res[\U0001F916✨\U0001F39E️\U0001F4E6]_dokng.com_7952eda4"
+      network: tcp
+      port: 443
+      reality-opts:
+        public-key: UpI0XKNUsMJ24XawPQ8g7br1faEsO7BOvmIIGg9Wrm8
+        short-id: dbb2ef1c7c
+      server: 94.176.234.161
+      servername: www.intel.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: d448490d-4ee6-442f-80e1-5e1c186c4ce1
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      grpc-opts:
+        grpc-service-name: grpc-tunnel
+      name: "D\U0001F534\U0001F1E9\U0001F1EAhos[\U0001F3AA]_dokng.com_9df03875"
+      network: grpc
+      port: 9892
+      reality-opts:
+        public-key: Dfgu8Ey0M8Hz4gXGZAwQ3H9jLt2HByVsjAOTWiuKDB0
+        short-id: aa
+      server: 5.42.114.41
+      servername: dl.google.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
+      xudp: true
+    - name: "U⚪\U0001F3F3️ukn_dokng.com_49e636a9"
+      port: 58080
+      server: 109.225.40.145
+      type: http
+    - client-fingerprint: chrome
+      encryption: none
+      http-opts:
+        headers: {}
+        path:
+            - /
+      name: "C\U0001F7E0\U0001F1F2\U0001F1FDhos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_cdb7162b"
+      network: tcp
+      port: 443
+      reality-opts:
+        public-key: 8vHditYTXXNZ37iNTraU4w129svOplF0QUhZwX2n3FA
+        short-id: dcabbf24adf88abc
+      server: 34.51.83.115
+      servername: www.cloudflare.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 9ad81959-02c6-4679-a419-2af6a16ca07a
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      flow: xtls-rprx-vision
+      http-opts:
+        headers: {}
+        path:
+            - /
+      name: "C\U0001F7E0\U0001F1E8\U0001F1FFhos[\U0001F4FA\U0001F3AD\U0001F3AA\U0001F4E6]_dokng.com_0f2204f1"
+      network: tcp
+      port: 443
+      reality-opts:
+        public-key: QfdR5yEjdbaqSet3-XrkDdVjPO9VTRGlUI-MV-b4p38
+        short-id: ""
+      server: 13.143.181.220
+      servername: msk1.maxtelemost.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 7a8d2c3f-d6dd-0004-81d8-cff23d8364ee
+      xudp: true
+    - name: "D\U0001F534\U0001F1FA\U0001F1F8hos_dokng.com_aef884fd"
+      password: null
+      port: 16062
+      server: 104.218.199.8
+      type: http
+      username: null
+    - name: "U⚪\U0001F3F3️ukn_dokng.com_dc5bb5d2"
+      port: 999
+      server: 151.241.86.129
+      type: http
+    - client-fingerprint: firefox
+      encryption: none
+      flow: xtls-rprx-vision
+      name: "C\U0001F7E0\U0001F1F3\U0001F1F1hos_dokng.com_a3f0c3e5"
+      network: raw
+      port: 443
+      reality-opts:
+        public-key: IBzFSziv_xISB-Q6X90PocTBde6jb4X6swEvdZQhqzk
+        short-id: d0aae44f
+      server: 45.11.27.86
+      servername: 5post-gate.x5.ru
+      tls: true
+      type: vless
+      udp: true
+      uuid: a2738d8d-ed26-4b13-a4a2-b89c7238cd10
+      xudp: true
+    - name: "U⚪\U0001F3F3️ukn[\U0001F3AC\U0001F4FA\U0001F3AD\U0001F3AA]_dokng.com_c45ae8d8"
+      port: 443
+      server: 183.179.162.50
+      tls: true
+      type: http
+    - name: "D\U0001F534\U0001F1EC\U0001F1E7hos[\U0001F3AC\U0001F4FA\U0001F3AD\U0001F3AA]_dokng.com_e832c82d"
+      port: 32766
+      server: 178.62.83.124
+      type: http
+    - cipher: aes-256-cfb
+      name: "C\U0001F7E0\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_1b762252"
+      password: amazonskr05
+      port: 443
+      server: 54.234.217.115
+      type: ss
+      udp: true
+proxy-groups:
+    - interval: 300
+      lazy: true
+      name: ♻️
+      proxies:
+        - "A\U0001F7E2\U0001F1F8\U0001F1EAres[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_16751e5f"
+        - "A\U0001F7E2\U0001F1F9\U0001F1FCres[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_3e949dac"
+        - "A\U0001F7E2\U0001F1ED\U0001F1F0res[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_218ee7d6"
+        - "C\U0001F7E0\U0001F1EF\U0001F1F5hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_6b0053fb"
+        - "U⚪\U0001F3F3️ukn_dokng.com_79f3708c"
+        - "U⚪\U0001F3F3️ukn_dokng.com_c4d8c40f"
+        - "A\U0001F7E2\U0001F1F9\U0001F1FCres[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_bd58311a"
+        - "D\U0001F534\U0001F1F8\U0001F1EChos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_26d0e430"
+        - "A\U0001F7E2\U0001F1F2\U0001F1FDres[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_b4b7d066"
+        - "D\U0001F534\U0001F1EF\U0001F1F5hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_bd1f56a2"
+        - "C\U0001F7E0\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_6aefb357"
+        - "A\U0001F7E2\U0001F1FA\U0001F1F8res[\U0001F3AC\U0001F916\U0001F50D]_dokng.com_03c285f6"
+        - "D\U0001F534\U0001F1F8\U0001F1EChos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_ec406919"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_5e148d55"
+        - "D\U0001F534\U0001F1EF\U0001F1F5hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_b4184adb"
+        - "A\U0001F7E2\U0001F1F8\U0001F1ECres[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_bca7fc5c"
+        - "A\U0001F7E2\U0001F1E7\U0001F1F7res[\U0001F916✨\U0001F50D]_dokng.com_39e53745"
+        - "A\U0001F7E2\U0001F1FA\U0001F1F8res[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_2d33c0d5"
+        - "D\U0001F534\U0001F1F8\U0001F1EChos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_ec84b940"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_8e3e1d23"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_681dd14a"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_673ad936"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_eaa5acd8"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_39eed596"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_1e63795f"
+        - "A\U0001F7E2\U0001F1E9\U0001F1F4res[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_640bb15d"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_e9f49831"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_2fb17d17"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_02944bfd"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_3e969f49"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_3ec254da"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_3a25675e"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_3f82d6be"
+        - "A\U0001F7E2\U0001F1E8\U0001F1F4res[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_7adaf97c"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_596fc241"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_5c51c586"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_6895f732"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_51f1276e"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_b3f4e70a"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_4fdb3840"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_256dedbc"
+        - "A\U0001F7E2\U0001F1E7\U0001F1E9res[\U0001F3AC\U0001F4FA\U0001F3AA\U0001F4E6]_dokng.com_51e4b832"
+        - "A\U0001F7E2\U0001F1E6\U0001F1F7res[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_dokng.com_217a0173"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_e49c5e31"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_63e28654"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_209eaff6"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_12476d7d"
+        - "A\U0001F7E2\U0001F1E8\U0001F1F4res[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_05ddb025"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_21756f2c"
+        - "D\U0001F534\U0001F1F0\U0001F1F7hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_5b8e1a9b"
+        - "A\U0001F7E2\U0001F1F5\U0001F1F1res[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_dokng.com_805ac382"
+        - "A\U0001F7E2\U0001F1F7\U0001F1FAres[\U0001F3AA✨\U0001F4E6\U0001F50D]_dokng.com_1ceafa90"
+        - "C\U0001F7E0\U0001F1EF\U0001F1F5hos[\U0001F3AD\U0001F3AA\U0001F4E6\U0001F50D]_dokng.com_23e756fc"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_1c3c73a3"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_4b55ac5f"
+        - "U⚪\U0001F3F3️ukn[✈️]_dokng.com_1a1c37f4"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_1a62785b"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_19f240f6"
+        - "U⚪\U0001F3F3️ukn_dokng.com_5da2fc4b"
+        - "A\U0001F7E2\U0001F1EA\U0001F1E8res[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_169c6ac9"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_da509960"
+        - "D\U0001F534\U0001F1ED\U0001F1F0hos[\U0001F3AC\U0001F4FA\U0001F3AD\U0001F3AA]_dokng.com_d85a93d5"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_35750c6c"
+        - "A\U0001F7E2\U0001F1E9\U0001F1EAres[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_cd8f0f6d"
+        - "C\U0001F7E0\U0001F1F0\U0001F1F7hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_5e4ca939"
+        - "A\U0001F7E2\U0001F1E8\U0001F1F4res[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_5a0a18b1"
+        - "A\U0001F7E2\U0001F1F7\U0001F1FAres[\U0001F3AA✨\U0001F4E6\U0001F50D]_dokng.com_bfb33a78"
+        - "U⚪\U0001F3F3️ukn[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_1f4c2c73"
+        - "U⚪\U0001F3F3️ukn[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_89e7191b"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_ab7907fb"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_ff5d6731"
+        - "A\U0001F7E2\U0001F1EB\U0001F1F7res[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_0393fda4"
+        - "U⚪\U0001F3F3️ukn[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_6de70491"
+        - "U⚪\U0001F3F3️ukn[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_686b169b"
+        - "A\U0001F7E2\U0001F1F7\U0001F1FAres[\U0001F3AA✨\U0001F4E6\U0001F50D]_dokng.com_a2d8e877"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_92f43b70"
+        - "U⚪\U0001F3F3️ukn_dokng.com_81ed1f80"
+        - "A\U0001F7E2\U0001F1F5\U0001F1EAres[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_24011515"
+        - "A\U0001F7E2\U0001F1E7\U0001F1F7res[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_75602843"
+        - "A\U0001F7E2\U0001F1FA\U0001F1F8res[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_6f766acf"
+        - "U⚪\U0001F3F3️ukn[\U0001F3AC\U0001F4FA\U0001F3AD\U0001F3AA]_dokng.com_0464a06d"
+        - "C\U0001F7E0\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_6cfd9575"
+        - "C\U0001F7E0\U0001F1E8\U0001F1EDhos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_fb6312aa"
+        - "U⚪\U0001F3F3️ukn[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_549727c0"
+        - "U⚪\U0001F3F3️ukn[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_b563f2c7"
+        - "D\U0001F534\U0001F1F8\U0001F1EChos_dokng.com_d2853196"
+        - "A\U0001F7E2\U0001F1E7\U0001F1F7res[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_5363a834"
+        - "U⚪\U0001F3F3️ukn[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_b9611de3"
+        - "A\U0001F7E2\U0001F1F5\U0001F1F8res[\U0001F916\U0001F4FA\U0001F3AA]_dokng.com_b2b06a7e"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_0eed9624"
+        - "A\U0001F7E2\U0001F1F5\U0001F1F1res[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_f0d2e0c5"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_776d6bea"
+        - "D\U0001F534\U0001F1EF\U0001F1F5hos[\U0001F916\U0001F4FA\U0001F3AA\U0001F39E️]_dokng.com_5802486e"
+        - "D\U0001F534\U0001F1EF\U0001F1F5hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AA]_dokng.com_a5337530"
+        - "A\U0001F7E2\U0001F1E7\U0001F1F7res[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_2e49200d"
+        - "U⚪\U0001F3F3️ukn[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_3285df17"
+        - "D\U0001F534\U0001F1EF\U0001F1F5hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_9efa9595"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_60cdf76d"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_150d799b"
+        - "C\U0001F7E0\U0001F1F8\U0001F1EAhos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_91645e75"
+        - "A+\U0001F7E2\U0001F1FB\U0001F1EAmob[\U0001F3AC\U0001F4FA\U0001F3AD\U0001F3AA]_dokng.com_f9e51be1"
+        - "U⚪\U0001F3F3️ukn[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_63c86561"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_6948765a"
+        - "C\U0001F7E0\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_9e76f8e0"
+        - "D\U0001F534\U0001F1E6\U0001F1FAhos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_6a11339c"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_78f4a4fd"
+        - "C\U0001F7E0\U0001F1EF\U0001F1F5hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_54f0e293"
+        - "U⚪\U0001F3F3️ukn_dokng.com_7169e124"
+        - "A\U0001F7E2\U0001F1F5\U0001F1EAres[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_8cd9548a"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_a88e970f"
+        - "A\U0001F7E2\U0001F1E7\U0001F1F7res[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_ca3b1afa"
+        - "A\U0001F7E2\U0001F1F9\U0001F1F7res[\U0001F3AC\U0001F4FA]_dokng.com_24195ec8"
+        - "A\U0001F7E2\U0001F1E7\U0001F1F7res[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_dokng.com_41ab76fa"
+        - "A\U0001F7E2\U0001F1E7\U0001F1F7res[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_dokng.com_84cf438e"
+        - "A\U0001F7E2\U0001F1E7\U0001F1F7res[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_b484b18f"
+        - "A\U0001F7E2\U0001F1FF\U0001F1E6res_dokng.com_87555364"
+        - "D\U0001F534\U0001F1F3\U0001F1F1hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_52f5277d"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_c886aaa1"
+        - "D\U0001F534\U0001F1ED\U0001F1F0hos[\U0001F3AC\U0001F4FA\U0001F4E6✈️]_dokng.com_da7c41d8"
+        - "A\U0001F7E2\U0001F1E8\U0001F1FFres[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_dokng.com_d0576f5e"
+        - "U⚪\U0001F3F3️ukn_dokng.com_344e6b30"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_256292ba"
+        - "U⚪\U0001F3F3️ukn[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_54a270d5"
+        - "U⚪\U0001F3F3️ukn_dokng.com_c4c93a7d"
+        - "U⚪\U0001F3F3️ukn[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_ea3b1d36"
+        - "A\U0001F7E2\U0001F1E7\U0001F1F7res[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_4edb6279"
+        - "D\U0001F534\U0001F1F3\U0001F1F1hos[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_dokng.com_b4222838"
+        - "A\U0001F7E2\U0001F1F5\U0001F1EAres[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_a2b44e54"
+        - "D\U0001F534\U0001F1F3\U0001F1F1hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_c65e2206"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_c09c3f93"
+        - "D\U0001F534\U0001F1F7\U0001F1F4hos[\U0001F3AC\U0001F4FA\U0001F3AD\U0001F3AA]_dokng.com_b3015b3e"
+        - "D\U0001F534\U0001F1F3\U0001F1F1hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_541bbb3c"
+        - "D\U0001F534\U0001F1F7\U0001F1F4hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_5512db5d"
+        - "D\U0001F534\U0001F1F7\U0001F1F4hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_6eef2333"
+        - "D\U0001F534\U0001F1F7\U0001F1F4hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_4f696c83"
+        - "D\U0001F534\U0001F1F7\U0001F1F4hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_ce8cb60f"
+        - "A\U0001F7E2\U0001F1E7\U0001F1F7res[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_919b7764"
+        - "D\U0001F534\U0001F1F3\U0001F1F1hos[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_dokng.com_6934fc2a"
+        - "D\U0001F534\U0001F1F7\U0001F1F4hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_5a6b0131"
+        - "D\U0001F534\U0001F1F5\U0001F1F1hos[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_dokng.com_1b548315"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_46f19d14"
+        - "D\U0001F534\U0001F1F7\U0001F1F4hos[\U0001F4FA\U0001F3AD\U0001F3AA✨]_dokng.com_9742de7b"
+        - "D\U0001F534\U0001F1F7\U0001F1F4hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_46cde1f2"
+        - "D\U0001F534\U0001F1F7\U0001F1F4hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_c91883ca"
+        - "D\U0001F534\U0001F1F7\U0001F1F4hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_0cb603c3"
+        - "C\U0001F7E0\U0001F1EB\U0001F1F7hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_c3974e0b"
+        - "D\U0001F534\U0001F1F7\U0001F1F4hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_49e2e376"
+        - "D\U0001F534\U0001F1F7\U0001F1F4hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_6dda1640"
+        - "D\U0001F534\U0001F1F7\U0001F1F4hos[\U0001F3AC\U0001F4FA\U0001F3AD\U0001F3AA]_dokng.com_0357be42"
+        - "D\U0001F534\U0001F1EB\U0001F1F7hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_26e7e011"
+        - "D\U0001F534\U0001F1EB\U0001F1F7hos[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_dokng.com_67435526"
+        - "D\U0001F534\U0001F1F7\U0001F1F4hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_5b215efe"
+        - "D\U0001F534\U0001F1F7\U0001F1F4hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_1374045a"
+        - "D\U0001F534\U0001F1F3\U0001F1F1hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_b8f46ac7"
+        - "D\U0001F534\U0001F1F7\U0001F1F4hos[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_dokng.com_34a41e08"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_0758c68d"
+        - "D\U0001F534\U0001F1F3\U0001F1F1hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_0d5bc13d"
+        - "D\U0001F534\U0001F1F3\U0001F1F1hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_7bc7ddb9"
+        - "D\U0001F534\U0001F1F7\U0001F1F4hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_74ac6208"
+        - "D\U0001F534\U0001F1F7\U0001F1F4hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_1f406845"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_59f060e6"
+        - "D\U0001F534\U0001F1F7\U0001F1F4hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_1af479e3"
+        - "U⚪\U0001F3F3️ukn[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_85242092"
+        - "D\U0001F534\U0001F1E9\U0001F1EAhos[\U0001F3AD\U0001F3AA✨\U0001F4E6]_dokng.com_35d251fa"
+        - "D\U0001F534\U0001F1F7\U0001F1F4hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_d3a94af0"
+        - "D\U0001F534\U0001F1EB\U0001F1F7hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_29f6fb8a"
+        - "D\U0001F534\U0001F1ED\U0001F1F7hos[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_dokng.com_7c1a483f"
+        - "A\U0001F7E2\U0001F1EC\U0001F1F9res[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_dokng.com_31b8e5a4"
+        - "D\U0001F534\U0001F1E9\U0001F1EAhos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_62113475"
+        - "D\U0001F534\U0001F1EE\U0001F1EAhos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_f2b76d2c"
+        - "D\U0001F534\U0001F1F3\U0001F1F1hos[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_dokng.com_62caac5f"
+        - "A\U0001F7E2\U0001F1F7\U0001F1FAres[\U0001F3AA\U0001F4E6\U0001F50D]_dokng.com_9af66ad2"
+        - "A\U0001F7E2\U0001F1E7\U0001F1ECres[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_f1d5fbe8"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_cc8acd7d"
+        - "A\U0001F7E2\U0001F1FA\U0001F1F8res[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_dokng.com_aafa3b9f"
+        - "C\U0001F7E0\U0001F1E6\U0001F1F1hos[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_dokng.com_002d4e13"
+        - "A\U0001F7E2\U0001F1F3\U0001F1F1res[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_dokng.com_1fac1dff"
+        - "A\U0001F7E2\U0001F1F2\U0001F1FDres_dokng.com_c281394e"
+        - "A\U0001F7E2\U0001F1E8\U0001F1F4res_dokng.com_1445087c"
+        - "C\U0001F7E0\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_715452b7"
+        - "C\U0001F7E0\U0001F1E9\U0001F1EAhos[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_dokng.com_0db00e0d"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_be8a4023"
+        - "U⚪\U0001F3F3️ukn[\U0001F4FA\U0001F3AD\U0001F3AA✨]_dokng.com_87bf668a"
+        - "D\U0001F534\U0001F1E9\U0001F1F0hos[\U0001F4FA\U0001F3AD\U0001F3AA✨]_dokng.com_58da35c6"
+        - "D\U0001F534\U0001F1FB\U0001F1F3hos[\U0001F916\U0001F4FA]_dokng.com_701d262f"
+        - "C\U0001F7E0\U0001F1E8\U0001F1EDhos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_a74c39f7"
+        - "D\U0001F534\U0001F1F7\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_4db16672"
+        - "U⚪\U0001F3F3️ukn_dokng.com_9fff1298"
+        - "A\U0001F7E2\U0001F1FA\U0001F1E6res_dokng.com_90526c5f"
+        - "C\U0001F7E0\U0001F1ED\U0001F1F0hos_dokng.com_099454ad"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_87eec561"
+        - "D\U0001F534\U0001F1F3\U0001F1F1hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_e39f28c7"
+        - "D\U0001F534\U0001F1F8\U0001F1EAhos[\U0001F4FA\U0001F3AD\U0001F3AA]_dokng.com_5533c299"
+        - "D\U0001F534\U0001F1EB\U0001F1F7hos[\U0001F4FA\U0001F3AD\U0001F3AA]_dokng.com_c5db3762"
+        - "D\U0001F534\U0001F1F7\U0001F1F4hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_8ab2f38c"
+        - "C\U0001F7E0\U0001F1EC\U0001F1E7hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_e813834a"
+        - "D\U0001F534\U0001F1EE\U0001F1F9hos[\U0001F4FA\U0001F3AD]_dokng.com_187d4a86"
+        - "D\U0001F534\U0001F1E8\U0001F1EDhos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_5edb8d34"
+        - "D\U0001F534\U0001F1EC\U0001F1E7hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_d981cb15"
+        - "U⚪\U0001F3F3️ukn[✈️]_dokng.com_31699671"
+        - "C\U0001F7E0\U0001F1ED\U0001F1F0hos[\U0001F4FA]_dokng.com_db363b3a"
+        - "D\U0001F534\U0001F1E9\U0001F1EAhos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_f467085f"
+        - "A\U0001F7E2\U0001F1EA\U0001F1E8res[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_956079b4"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_fcc63609"
+        - "A\U0001F7E2\U0001F1FB\U0001F1EAres[\U0001F916\U0001F3AA]_dokng.com_cbfb50f0"
+        - "D\U0001F534\U0001F1E6\U0001F1FAhos[\U0001F916\U0001F4FA\U0001F3AA✨]_dokng.com_598e2b3d"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F4FA\U0001F3AD\U0001F3AA]_dokng.com_5476324f"
+        - "D\U0001F534\U0001F1EE\U0001F1F9hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_9b8722f4"
+        - "C\U0001F7E0\U0001F1EF\U0001F1F5hos[\U0001F4FA\U0001F3AA]_dokng.com_2cfd6d6e"
+        - "D\U0001F534\U0001F1EE\U0001F1EAhos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_d9f9993e"
+        - "C\U0001F7E0\U0001F1E9\U0001F1EAhos[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_dokng.com_46d7d8b2"
+        - "A\U0001F7E2\U0001F1F5\U0001F1EAres_dokng.com_152876ba"
+        - "A\U0001F7E2\U0001F1FA\U0001F1F8res_dokng.com_3e12afd2"
+        - "C\U0001F7E0\U0001F1E9\U0001F1EAhos[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_dokng.com_bffcd77d"
+        - "C\U0001F7E0\U0001F1E9\U0001F1EAhos[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_dokng.com_622cadae"
+        - "U⚪\U0001F3F3️ukn[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_da8c1157"
+        - "D\U0001F534\U0001F1EA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_ef40d2f4"
+        - "D\U0001F534\U0001F1EC\U0001F1E7hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_a3f53993"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_f41808b3"
+        - "D\U0001F534\U0001F1F5\U0001F1F1hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_ca30cc71"
+        - "D\U0001F534\U0001F1F8\U0001F1EAhos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_1d946f80"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F4FA\U0001F3AD\U0001F3AA]_dokng.com_3a4fb783"
+        - "D\U0001F534\U0001F1EC\U0001F1E7hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_e9fcd0ea"
+        - "D\U0001F534\U0001F1EC\U0001F1E7hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_e7cfa50d"
+        - "D\U0001F534\U0001F1E8\U0001F1FFhos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_9fc21f6b"
+        - "C\U0001F7E0\U0001F1F3\U0001F1F1hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_fc18927e"
+        - "D\U0001F534\U0001F1F7\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_24d941b9"
+        - "D\U0001F534\U0001F1ED\U0001F1FAhos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_58d0afef"
+        - "D\U0001F534\U0001F1EE\U0001F1F9hos[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_dokng.com_b28387d2"
+        - "D\U0001F534\U0001F1E9\U0001F1EAhos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_80a235c3"
+        - "D\U0001F534\U0001F1EE\U0001F1F9hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_595d4b27"
+        - "D\U0001F534\U0001F1F3\U0001F1F1hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_b74edc3f"
+        - "D\U0001F534\U0001F1EA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_735ca059"
+        - "C\U0001F7E0\U0001F1F1\U0001F1FBhos[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_dokng.com_79d62288"
+        - "D\U0001F534\U0001F1EC\U0001F1E7hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_fb736f0e"
+        - "D\U0001F534\U0001F1EE\U0001F1E9hos_dokng.com_6de001b2"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_b1448db8"
+        - "U⚪\U0001F3F3️ukn[✈️]_dokng.com_6c420d49"
+        - "D\U0001F534\U0001F1F8\U0001F1EAhos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_7dcb6aa1"
+        - "U⚪\U0001F3F3️ukn[\U0001F4FA\U0001F3AD\U0001F4E6✈️]_dokng.com_e35f8693"
+        - "U⚪\U0001F3F3️ukn[\U0001F3AC\U0001F4FA\U0001F3AD\U0001F3AA]_dokng.com_16f5ab4e"
+        - "U⚪\U0001F3F3️ukn[\U0001F39E️\U0001F4E6]_dokng.com_0da15920"
+        - "D\U0001F534\U0001F1EC\U0001F1E7hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_b6a9dee3"
+        - "U⚪\U0001F3F3️ukn_dokng.com_2f6cef71"
+        - "D\U0001F534\U0001F1E8\U0001F1F4hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_b1be642c"
+        - "U⚪\U0001F3F3️ukn_dokng.com_fa20483d"
+        - "D\U0001F534\U0001F1EA\U0001F1E8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_c1c5ad72"
+        - "U⚪\U0001F3F3️ukn_dokng.com_352b514e"
+        - "U⚪\U0001F3F3️ukn_dokng.com_1fa5c76f"
+        - "U⚪\U0001F3F3️ukn_dokng.com_6aa50cc7"
+      tolerance: 50
+      type: url-test
+      url: https://www.gstatic.com/generate_204
+    - name: "\U0001F3AF"
+      proxies:
+        - DIRECT
+      type: select
+    - name: "\U0001F6E1️"
+      proxies:
+        - REJECT
+        - DIRECT
+      type: select
+    - interval: 300
+      lazy: true
+      name: "\U0001F1F9\U0001F1FC"
+      proxies:
+        - "A\U0001F7E2\U0001F1F9\U0001F1FCres[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_3e949dac"
+        - "A\U0001F7E2\U0001F1F9\U0001F1FCres[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_bd58311a"
+        - ♻️
+      tolerance: 80
+      type: fallback
+      url: https://www.gstatic.com/generate_204
+    - interval: 300
+      lazy: true
+      name: "\U0001F1EF\U0001F1F5"
+      proxies:
+        - "C\U0001F7E0\U0001F1EF\U0001F1F5hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_6b0053fb"
+        - "D\U0001F534\U0001F1EF\U0001F1F5hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_bd1f56a2"
+        - "D\U0001F534\U0001F1EF\U0001F1F5hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_b4184adb"
+        - "D\U0001F534\U0001F1EF\U0001F1F5hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AA]_dokng.com_a5337530"
+        - ♻️
+      tolerance: 80
+      type: fallback
+      url: https://www.gstatic.com/generate_204
+    - interval: 300
+      lazy: true
+      name: "\U0001F1FA\U0001F1F8"
+      proxies:
+        - "A\U0001F7E2\U0001F1F9\U0001F1FCres[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_3e949dac"
+        - "A\U0001F7E2\U0001F1F9\U0001F1FCres[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_bd58311a"
+        - "A\U0001F7E2\U0001F1FA\U0001F1F8res[\U0001F3AC\U0001F916\U0001F50D]_dokng.com_03c285f6"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_5e148d55"
+        - "A\U0001F7E2\U0001F1FA\U0001F1F8res[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_2d33c0d5"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_8e3e1d23"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_681dd14a"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_673ad936"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_eaa5acd8"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_39eed596"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_1e63795f"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_e9f49831"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_2fb17d17"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_02944bfd"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_3e969f49"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_3ec254da"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_3a25675e"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_3f82d6be"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_596fc241"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_5c51c586"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_6895f732"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_51f1276e"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_b3f4e70a"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_4fdb3840"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_256dedbc"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_e49c5e31"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_63e28654"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_209eaff6"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_12476d7d"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_21756f2c"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_1c3c73a3"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_4b55ac5f"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_1a62785b"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_19f240f6"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_da509960"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_35750c6c"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_ab7907fb"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_ff5d6731"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_92f43b70"
+        - "A\U0001F7E2\U0001F1FA\U0001F1F8res[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_6f766acf"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_0eed9624"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_776d6bea"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_6948765a"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_78f4a4fd"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_256292ba"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_46f19d14"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_0758c68d"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_59f060e6"
+        - "C\U0001F7E0\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_715452b7"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_be8a4023"
+        - ♻️
+      tolerance: 150
+      type: fallback
+      url: https://www.gstatic.com/generate_204
+    - interval: 300
+      lazy: true
+      name: "\U0001F1F0\U0001F1F7"
+      proxies:
+        - "D\U0001F534\U0001F1F0\U0001F1F7hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_5b8e1a9b"
+        - ♻️
+      tolerance: 100
+      type: fallback
+      url: https://www.gstatic.com/generate_204
+    - interval: 300
+      lazy: true
+      name: "\U0001F4FA"
+      proxies:
+        - "A\U0001F7E2\U0001F1F8\U0001F1EAres[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_16751e5f"
+        - "A\U0001F7E2\U0001F1F9\U0001F1FCres[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_3e949dac"
+        - "C\U0001F7E0\U0001F1EF\U0001F1F5hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_6b0053fb"
+        - "A\U0001F7E2\U0001F1F9\U0001F1FCres[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_bd58311a"
+        - "D\U0001F534\U0001F1EF\U0001F1F5hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_bd1f56a2"
+        - "D\U0001F534\U0001F1F8\U0001F1EChos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_ec406919"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_5e148d55"
+        - "D\U0001F534\U0001F1EF\U0001F1F5hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_b4184adb"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_8e3e1d23"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_681dd14a"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_673ad936"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_eaa5acd8"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_39eed596"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_1e63795f"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_e9f49831"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_2fb17d17"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_02944bfd"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_3e969f49"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_3ec254da"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_3a25675e"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_3f82d6be"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_596fc241"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_5c51c586"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_6895f732"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_51f1276e"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_b3f4e70a"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_4fdb3840"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_256dedbc"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_e49c5e31"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_63e28654"
+        - ♻️
+      tolerance: 100
+      type: fallback
+      url: https://www.youtube.com/generate_204
+    - interval: 400
+      lazy: true
+      name: "\U0001F3B5"
+      proxies:
+        - "A\U0001F7E2\U0001F1F8\U0001F1EAres[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_16751e5f"
+        - "A\U0001F7E2\U0001F1F9\U0001F1FCres[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_3e949dac"
+        - "A\U0001F7E2\U0001F1ED\U0001F1F0res[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_218ee7d6"
+        - "C\U0001F7E0\U0001F1EF\U0001F1F5hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_6b0053fb"
+        - "U⚪\U0001F3F3️ukn_dokng.com_79f3708c"
+        - "A\U0001F7E2\U0001F1F9\U0001F1FCres[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_bd58311a"
+        - "D\U0001F534\U0001F1F8\U0001F1EChos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_26d0e430"
+        - "A\U0001F7E2\U0001F1F2\U0001F1FDres[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_b4b7d066"
+        - "D\U0001F534\U0001F1EF\U0001F1F5hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_bd1f56a2"
+        - "A\U0001F7E2\U0001F1FA\U0001F1F8res[\U0001F3AC\U0001F916\U0001F50D]_dokng.com_03c285f6"
+        - "D\U0001F534\U0001F1F8\U0001F1EChos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_ec406919"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_5e148d55"
+        - "D\U0001F534\U0001F1EF\U0001F1F5hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_b4184adb"
+        - "A\U0001F7E2\U0001F1E7\U0001F1F7res[\U0001F916✨\U0001F50D]_dokng.com_39e53745"
+        - "A\U0001F7E2\U0001F1FA\U0001F1F8res[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_2d33c0d5"
+        - "D\U0001F534\U0001F1F8\U0001F1EChos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_ec84b940"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_8e3e1d23"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_681dd14a"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_673ad936"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_eaa5acd8"
+        - ♻️
+      tolerance: 80
+      type: fallback
+      url: https://www.gstatic.com/generate_204
+    - interval: 300
+      lazy: true
+      name: "\U0001F427"
+      proxies:
+        - "A\U0001F7E2\U0001F1F8\U0001F1EAres[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_16751e5f"
+        - "A\U0001F7E2\U0001F1F9\U0001F1FCres[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_3e949dac"
+        - "A\U0001F7E2\U0001F1ED\U0001F1F0res[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_218ee7d6"
+        - "C\U0001F7E0\U0001F1EF\U0001F1F5hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_6b0053fb"
+        - "U⚪\U0001F3F3️ukn_dokng.com_79f3708c"
+        - "A\U0001F7E2\U0001F1F9\U0001F1FCres[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_bd58311a"
+        - "D\U0001F534\U0001F1F8\U0001F1EChos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_26d0e430"
+        - "A\U0001F7E2\U0001F1F2\U0001F1FDres[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_b4b7d066"
+        - "D\U0001F534\U0001F1EF\U0001F1F5hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_bd1f56a2"
+        - "A\U0001F7E2\U0001F1FA\U0001F1F8res[\U0001F3AC\U0001F916\U0001F50D]_dokng.com_03c285f6"
+        - "D\U0001F534\U0001F1F8\U0001F1EChos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_ec406919"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_5e148d55"
+        - "D\U0001F534\U0001F1EF\U0001F1F5hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_b4184adb"
+        - "A\U0001F7E2\U0001F1FA\U0001F1F8res[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_2d33c0d5"
+        - "D\U0001F534\U0001F1F8\U0001F1EChos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_ec84b940"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_8e3e1d23"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_681dd14a"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_673ad936"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_eaa5acd8"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_39eed596"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_1e63795f"
+        - "A\U0001F7E2\U0001F1E9\U0001F1F4res[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_640bb15d"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_e9f49831"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_2fb17d17"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_02944bfd"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_3e969f49"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_3ec254da"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_3a25675e"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_3f82d6be"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_596fc241"
+        - ♻️
+      tolerance: 100
+      type: fallback
+      url: https://linux.do
+    - interval: 300
+      lazy: true
+      name: "\U0001F4AC"
+      proxies:
+        - "A\U0001F7E2\U0001F1F8\U0001F1EAres[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_16751e5f"
+        - "A\U0001F7E2\U0001F1F9\U0001F1FCres[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_3e949dac"
+        - "A\U0001F7E2\U0001F1ED\U0001F1F0res[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_218ee7d6"
+        - "C\U0001F7E0\U0001F1EF\U0001F1F5hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_6b0053fb"
+        - "U⚪\U0001F3F3️ukn_dokng.com_79f3708c"
+        - "A\U0001F7E2\U0001F1F9\U0001F1FCres[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_bd58311a"
+        - "D\U0001F534\U0001F1F8\U0001F1EChos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_26d0e430"
+        - "D\U0001F534\U0001F1EF\U0001F1F5hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_bd1f56a2"
+        - "D\U0001F534\U0001F1F8\U0001F1EChos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_ec406919"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_5e148d55"
+        - "D\U0001F534\U0001F1EF\U0001F1F5hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_b4184adb"
+        - "D\U0001F534\U0001F1F8\U0001F1EChos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_ec84b940"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_8e3e1d23"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_681dd14a"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_673ad936"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_eaa5acd8"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_39eed596"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_1e63795f"
+        - "A\U0001F7E2\U0001F1E9\U0001F1F4res[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_640bb15d"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_e9f49831"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_2fb17d17"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_02944bfd"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_3e969f49"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_3ec254da"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_3a25675e"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_3f82d6be"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_596fc241"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_5c51c586"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_6895f732"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_51f1276e"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_b3f4e70a"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_4fdb3840"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_256dedbc"
+        - "A\U0001F7E2\U0001F1E7\U0001F1E9res[\U0001F3AC\U0001F4FA\U0001F3AA\U0001F4E6]_dokng.com_51e4b832"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_e49c5e31"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_63e28654"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_209eaff6"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_12476d7d"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_21756f2c"
+        - "D\U0001F534\U0001F1F0\U0001F1F7hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_5b8e1a9b"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_1c3c73a3"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_4b55ac5f"
+        - "U⚪\U0001F3F3️ukn[✈️]_dokng.com_1a1c37f4"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_1a62785b"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_19f240f6"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_da509960"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_35750c6c"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_ab7907fb"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_ff5d6731"
+        - "U⚪\U0001F3F3️ukn[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_6de70491"
+        - ♻️
+      tolerance: 50
+      type: fallback
+      url: https://www.gstatic.com/generate_204
+    - interval: 600
+      lazy: true
+      name: "\U0001F4E5"
+      proxies:
+        - "A\U0001F7E2\U0001F1F8\U0001F1EAres[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_16751e5f"
+        - "C\U0001F7E0\U0001F1EF\U0001F1F5hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_6b0053fb"
+        - "U⚪\U0001F3F3️ukn_dokng.com_79f3708c"
+        - "U⚪\U0001F3F3️ukn_dokng.com_c4d8c40f"
+        - "D\U0001F534\U0001F1F8\U0001F1EChos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_26d0e430"
+        - "D\U0001F534\U0001F1EF\U0001F1F5hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_bd1f56a2"
+        - "D\U0001F534\U0001F1F8\U0001F1EChos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_ec406919"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_5e148d55"
+        - "D\U0001F534\U0001F1EF\U0001F1F5hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_b4184adb"
+        - "U⚪\U0001F3F3️ukn[✈️]_dokng.com_1a1c37f4"
+        - "U⚪\U0001F3F3️ukn_dokng.com_81ed1f80"
+        - "C\U0001F7E0\U0001F1E8\U0001F1EDhos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_fb6312aa"
+        - "D\U0001F534\U0001F1EF\U0001F1F5hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AA]_dokng.com_a5337530"
+        - "U⚪\U0001F3F3️ukn_dokng.com_7169e124"
+        - "U⚪\U0001F3F3️ukn_dokng.com_c4c93a7d"
+        - "D\U0001F534\U0001F1E9\U0001F1EAhos[\U0001F3AD\U0001F3AA✨\U0001F4E6]_dokng.com_35d251fa"
+        - "U⚪\U0001F3F3️ukn[✈️]_dokng.com_31699671"
+        - "A\U0001F7E2\U0001F1F5\U0001F1EAres_dokng.com_152876ba"
+        - "U⚪\U0001F3F3️ukn_dokng.com_352b514e"
+        - "U⚪\U0001F3F3️ukn_dokng.com_daf98b43"
+        - "U⚪\U0001F3F3️ukn_dokng.com_50364f77"
+        - ♻️
+      strategy: consistent-hashing
+      type: load-balance
+      url: https://www.gstatic.com/generate_204
+    - interval: 300
+      lazy: true
+      name: "\U0001F9D1‍\U0001F4BB"
+      proxies:
+        - "A\U0001F7E2\U0001F1F8\U0001F1EAres[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_16751e5f"
+        - "A\U0001F7E2\U0001F1F9\U0001F1FCres[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_3e949dac"
+        - "A\U0001F7E2\U0001F1ED\U0001F1F0res[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_218ee7d6"
+        - "C\U0001F7E0\U0001F1EF\U0001F1F5hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_6b0053fb"
+        - "U⚪\U0001F3F3️ukn_dokng.com_79f3708c"
+        - "A\U0001F7E2\U0001F1F9\U0001F1FCres[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_bd58311a"
+        - "D\U0001F534\U0001F1F8\U0001F1EChos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_26d0e430"
+        - "A\U0001F7E2\U0001F1F2\U0001F1FDres[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_b4b7d066"
+        - "D\U0001F534\U0001F1EF\U0001F1F5hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_bd1f56a2"
+        - "C\U0001F7E0\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_6aefb357"
+        - "A\U0001F7E2\U0001F1FA\U0001F1F8res[\U0001F3AC\U0001F916\U0001F50D]_dokng.com_03c285f6"
+        - "D\U0001F534\U0001F1F8\U0001F1EChos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_ec406919"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_5e148d55"
+        - "D\U0001F534\U0001F1EF\U0001F1F5hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_b4184adb"
+        - "A\U0001F7E2\U0001F1E7\U0001F1F7res[\U0001F916✨\U0001F50D]_dokng.com_39e53745"
+        - "A\U0001F7E2\U0001F1FA\U0001F1F8res[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_2d33c0d5"
+        - "D\U0001F534\U0001F1F8\U0001F1EChos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_ec84b940"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_8e3e1d23"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_681dd14a"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_673ad936"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_eaa5acd8"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_39eed596"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_1e63795f"
+        - "A\U0001F7E2\U0001F1E9\U0001F1F4res[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_640bb15d"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_e9f49831"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_2fb17d17"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_02944bfd"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_3e969f49"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_3ec254da"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_3a25675e"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_3f82d6be"
+        - "A\U0001F7E2\U0001F1E8\U0001F1F4res[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_7adaf97c"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_596fc241"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_5c51c586"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_6895f732"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_51f1276e"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_b3f4e70a"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_4fdb3840"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_256dedbc"
+        - "A\U0001F7E2\U0001F1E7\U0001F1E9res[\U0001F3AC\U0001F4FA\U0001F3AA\U0001F4E6]_dokng.com_51e4b832"
+        - "A\U0001F7E2\U0001F1E6\U0001F1F7res[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_dokng.com_217a0173"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_e49c5e31"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_63e28654"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_209eaff6"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_12476d7d"
+        - "A\U0001F7E2\U0001F1E8\U0001F1F4res[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_05ddb025"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_21756f2c"
+        - "D\U0001F534\U0001F1F0\U0001F1F7hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_5b8e1a9b"
+        - "A\U0001F7E2\U0001F1F5\U0001F1F1res[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_dokng.com_805ac382"
+        - "A\U0001F7E2\U0001F1F7\U0001F1FAres[\U0001F3AA✨\U0001F4E6\U0001F50D]_dokng.com_1ceafa90"
+        - ♻️
+      tolerance: 100
+      type: fallback
+      url: https://github.com
+    - interval: 600
+      lazy: true
+      name: "\U0001F3AC"
+      proxies:
+        - "A\U0001F7E2\U0001F1F8\U0001F1EAres[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_16751e5f"
+        - "A\U0001F7E2\U0001F1F9\U0001F1FCres[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_3e949dac"
+        - "C\U0001F7E0\U0001F1EF\U0001F1F5hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_6b0053fb"
+        - "A\U0001F7E2\U0001F1F9\U0001F1FCres[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_bd58311a"
+        - "D\U0001F534\U0001F1F8\U0001F1EChos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_26d0e430"
+        - "D\U0001F534\U0001F1EF\U0001F1F5hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_bd1f56a2"
+        - "D\U0001F534\U0001F1F8\U0001F1EChos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_ec406919"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_5e148d55"
+        - "D\U0001F534\U0001F1EF\U0001F1F5hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_b4184adb"
+        - "D\U0001F534\U0001F1F8\U0001F1EChos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_ec84b940"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_8e3e1d23"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_681dd14a"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_673ad936"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_eaa5acd8"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_39eed596"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_1e63795f"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_e9f49831"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_2fb17d17"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_02944bfd"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_3e969f49"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_3ec254da"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_3a25675e"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_3f82d6be"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_596fc241"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_5c51c586"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_6895f732"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_51f1276e"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_b3f4e70a"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_4fdb3840"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_256dedbc"
+        - "\U0001F1EF\U0001F1F5"
+        - ♻️
+      tolerance: 150
+      type: fallback
+      url: https://www.netflix.com/title/81215567
+    - interval: 600
+      lazy: true
+      name: "\U0001F3AD"
+      proxies:
+        - "A\U0001F7E2\U0001F1F8\U0001F1EAres[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_16751e5f"
+        - "A\U0001F7E2\U0001F1F9\U0001F1FCres[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_3e949dac"
+        - "A\U0001F7E2\U0001F1ED\U0001F1F0res[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_218ee7d6"
+        - "C\U0001F7E0\U0001F1EF\U0001F1F5hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_6b0053fb"
+        - "A\U0001F7E2\U0001F1F9\U0001F1FCres[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_bd58311a"
+        - "D\U0001F534\U0001F1F8\U0001F1EChos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_26d0e430"
+        - "A\U0001F7E2\U0001F1F2\U0001F1FDres[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_b4b7d066"
+        - "D\U0001F534\U0001F1EF\U0001F1F5hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_bd1f56a2"
+        - "C\U0001F7E0\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_6aefb357"
+        - "D\U0001F534\U0001F1F8\U0001F1EChos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_ec406919"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_5e148d55"
+        - "D\U0001F534\U0001F1EF\U0001F1F5hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_b4184adb"
+        - "A\U0001F7E2\U0001F1FA\U0001F1F8res[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_2d33c0d5"
+        - "D\U0001F534\U0001F1F8\U0001F1EChos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_ec84b940"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_8e3e1d23"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_681dd14a"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_673ad936"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_eaa5acd8"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_39eed596"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_1e63795f"
+        - ♻️
+      tolerance: 150
+      type: fallback
+      url: https://www.disneyplus.com
+    - interval: 400
+      lazy: true
+      name: "\U0001F3AA"
+      proxies:
+        - "A\U0001F7E2\U0001F1F8\U0001F1EAres[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_16751e5f"
+        - "A\U0001F7E2\U0001F1F9\U0001F1FCres[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_3e949dac"
+        - "A\U0001F7E2\U0001F1ED\U0001F1F0res[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_218ee7d6"
+        - "C\U0001F7E0\U0001F1EF\U0001F1F5hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_6b0053fb"
+        - "A\U0001F7E2\U0001F1F9\U0001F1FCres[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_bd58311a"
+        - "D\U0001F534\U0001F1F8\U0001F1EChos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_26d0e430"
+        - "A\U0001F7E2\U0001F1F2\U0001F1FDres[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_b4b7d066"
+        - "D\U0001F534\U0001F1EF\U0001F1F5hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_bd1f56a2"
+        - "D\U0001F534\U0001F1F8\U0001F1EChos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_ec406919"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_5e148d55"
+        - "D\U0001F534\U0001F1EF\U0001F1F5hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_b4184adb"
+        - "A\U0001F7E2\U0001F1FA\U0001F1F8res[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_2d33c0d5"
+        - "D\U0001F534\U0001F1F8\U0001F1EChos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_ec84b940"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_8e3e1d23"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_681dd14a"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_673ad936"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_eaa5acd8"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_39eed596"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_1e63795f"
+        - "A\U0001F7E2\U0001F1E9\U0001F1F4res[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_640bb15d"
+        - "\U0001F1FA\U0001F1F8"
+        - "\U0001F1EF\U0001F1F5"
+        - ♻️
+      tolerance: 100
+      type: fallback
+      url: https://www.gstatic.com/generate_204
+    - interval: 300
+      lazy: true
+      name: "\U0001F916"
+      proxies:
+        - "A\U0001F7E2\U0001F1F8\U0001F1EAres[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_16751e5f"
+        - "A\U0001F7E2\U0001F1F9\U0001F1FCres[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_3e949dac"
+        - "A\U0001F7E2\U0001F1ED\U0001F1F0res[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_218ee7d6"
+        - "C\U0001F7E0\U0001F1EF\U0001F1F5hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_6b0053fb"
+        - "A\U0001F7E2\U0001F1F9\U0001F1FCres[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_bd58311a"
+        - "D\U0001F534\U0001F1F8\U0001F1EChos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_26d0e430"
+        - "D\U0001F534\U0001F1EF\U0001F1F5hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_bd1f56a2"
+        - "D\U0001F534\U0001F1F8\U0001F1EChos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_ec406919"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_5e148d55"
+        - "D\U0001F534\U0001F1EF\U0001F1F5hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_b4184adb"
+        - "D\U0001F534\U0001F1F8\U0001F1EChos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_ec84b940"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_8e3e1d23"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_681dd14a"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_673ad936"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_eaa5acd8"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_39eed596"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_1e63795f"
+        - "A\U0001F7E2\U0001F1E9\U0001F1F4res[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_640bb15d"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_e9f49831"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_2fb17d17"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_02944bfd"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_3e969f49"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_3ec254da"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_3a25675e"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_3f82d6be"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_596fc241"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_5c51c586"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_6895f732"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_51f1276e"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_b3f4e70a"
+        - "\U0001F1FA\U0001F1F8"
+        - "\U0001F1EF\U0001F1F5"
+        - ♻️
+      tolerance: 100
+      type: fallback
+      url: https://ios.chat.openai.com/public-api/mobile/server_status/v1
+    - interval: 600
+      lazy: true
+      name: ✨
+      proxies:
+        - "A\U0001F7E2\U0001F1F8\U0001F1EAres[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_16751e5f"
+        - "A\U0001F7E2\U0001F1F9\U0001F1FCres[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_3e949dac"
+        - "A\U0001F7E2\U0001F1ED\U0001F1F0res[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_218ee7d6"
+        - "C\U0001F7E0\U0001F1EF\U0001F1F5hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_6b0053fb"
+        - "U⚪\U0001F3F3️ukn_dokng.com_79f3708c"
+        - "A\U0001F7E2\U0001F1F9\U0001F1FCres[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_bd58311a"
+        - "D\U0001F534\U0001F1F8\U0001F1EChos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_26d0e430"
+        - "A\U0001F7E2\U0001F1F2\U0001F1FDres[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_b4b7d066"
+        - "D\U0001F534\U0001F1EF\U0001F1F5hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_bd1f56a2"
+        - "A\U0001F7E2\U0001F1FA\U0001F1F8res[\U0001F3AC\U0001F916\U0001F50D]_dokng.com_03c285f6"
+        - "D\U0001F534\U0001F1F8\U0001F1EChos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_ec406919"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_5e148d55"
+        - "D\U0001F534\U0001F1EF\U0001F1F5hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_b4184adb"
+        - "A\U0001F7E2\U0001F1FA\U0001F1F8res[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_2d33c0d5"
+        - "D\U0001F534\U0001F1F8\U0001F1EChos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_ec84b940"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_8e3e1d23"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_681dd14a"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_673ad936"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_eaa5acd8"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_39eed596"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_1e63795f"
+        - "A\U0001F7E2\U0001F1E9\U0001F1F4res[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_640bb15d"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_e9f49831"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_2fb17d17"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_02944bfd"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_3e969f49"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_3ec254da"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_3a25675e"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_3f82d6be"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_596fc241"
+        - "\U0001F1FA\U0001F1F8"
+        - "\U0001F1EF\U0001F1F5"
+        - ♻️
+      tolerance: 150
+      type: fallback
+      url: https://www.genspark.ai/
+    - interval: 600
+      lazy: true
+      name: "\U0001F500"
+      proxies:
+        - "A\U0001F7E2\U0001F1F8\U0001F1EAres[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_16751e5f"
+        - "A\U0001F7E2\U0001F1F9\U0001F1FCres[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_3e949dac"
+        - "A\U0001F7E2\U0001F1ED\U0001F1F0res[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_218ee7d6"
+        - "C\U0001F7E0\U0001F1EF\U0001F1F5hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_6b0053fb"
+        - "U⚪\U0001F3F3️ukn_dokng.com_79f3708c"
+        - "A\U0001F7E2\U0001F1F9\U0001F1FCres[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_bd58311a"
+        - "D\U0001F534\U0001F1F8\U0001F1EChos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_26d0e430"
+        - "A\U0001F7E2\U0001F1F2\U0001F1FDres[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_b4b7d066"
+        - "D\U0001F534\U0001F1EF\U0001F1F5hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_bd1f56a2"
+        - "A\U0001F7E2\U0001F1FA\U0001F1F8res[\U0001F3AC\U0001F916\U0001F50D]_dokng.com_03c285f6"
+        - "D\U0001F534\U0001F1F8\U0001F1EChos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_ec406919"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_5e148d55"
+        - "D\U0001F534\U0001F1EF\U0001F1F5hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_b4184adb"
+        - "A\U0001F7E2\U0001F1FA\U0001F1F8res[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_2d33c0d5"
+        - "D\U0001F534\U0001F1F8\U0001F1EChos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_ec84b940"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_8e3e1d23"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_681dd14a"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_673ad936"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_eaa5acd8"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_39eed596"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_1e63795f"
+        - "A\U0001F7E2\U0001F1E9\U0001F1F4res[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_640bb15d"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_e9f49831"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_2fb17d17"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_02944bfd"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_3e969f49"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_3ec254da"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_3a25675e"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_3f82d6be"
+        - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_596fc241"
+        - "\U0001F1FA\U0001F1F8"
+        - "\U0001F1EF\U0001F1F5"
+        - ♻️
+      tolerance: 150
+      type: fallback
+      url: https://anyrouter.top/
+    - name: "\U0001F30D"
+      proxies:
+        - ♻️
+        - "\U0001F1EF\U0001F1F5"
+        - "\U0001F1FA\U0001F1F8"
+        - DIRECT
+      type: select
+    - name: "\U0001F4F9"
+      proxies:
+        - "\U0001F3AC"
+        - "\U0001F4FA"
+        - "\U0001F3AD"
+        - "\U0001F3B5"
+        - "\U0001F3AA"
+        - ♻️
+      type: select
+    - name: "\U0001F680"
+      proxies:
+        - ♻️
+        - "\U0001F4F9"
+        - "\U0001F916"
+        - ✨
+        - "\U0001F500"
+        - "\U0001F427"
+        - "\U0001F9D1‍\U0001F4BB"
+        - "\U0001F1F9\U0001F1FC"
+        - "\U0001F1EF\U0001F1F5"
+        - "\U0001F1FA\U0001F1F8"
+        - "\U0001F1F0\U0001F1F7"
+        - DIRECT
+      type: select
+    - name: "\U0001F41F"
+      proxies:
+        - DIRECT
+        - "\U0001F680"
+        - ♻️
+      type: select
+rule-providers:
+    ai_non_ip:
+        behavior: classical
+        format: text
+        interval: 86400
+        path: ./sukkaw_ruleset/ai_non_ip.txt
+        type: http
+        url: https://ruleset.skk.moe/Clash/non_ip/ai.txt
+    cdn_domainset:
+        behavior: domain
+        format: text
+        interval: 86400
+        path: ./sukkaw_ruleset/cdn_domainset.txt
+        type: http
+        url: https://ruleset.skk.moe/Clash/domainset/cdn.txt
+    direct_non_ip:
+        behavior: classical
+        format: text
+        interval: 86400
+        path: ./sukkaw_ruleset/direct_non_ip.txt
+        type: http
+        url: https://ruleset.skk.moe/Clash/non_ip/direct.txt
+    domestic_ip:
+        behavior: classical
+        format: text
+        interval: 86400
+        path: ./sukkaw_ruleset/domestic_ip.txt
+        type: http
+        url: https://ruleset.skk.moe/Clash/ip/domestic.txt
+    domestic_non_ip:
+        behavior: classical
+        format: text
+        interval: 86400
+        path: ./sukkaw_ruleset/domestic_non_ip.txt
+        type: http
+        url: https://ruleset.skk.moe/Clash/non_ip/domestic.txt
+    download_domainset:
+        behavior: domain
+        format: text
+        interval: 86400
+        path: ./sukkaw_ruleset/download_domainset.txt
+        type: http
+        url: https://ruleset.skk.moe/Clash/domainset/download.txt
+    download_non_ip:
+        behavior: classical
+        format: text
+        interval: 86400
+        path: ./sukkaw_ruleset/download_non_ip.txt
+        type: http
+        url: https://ruleset.skk.moe/Clash/non_ip/download.txt
+    global_non_ip:
+        behavior: classical
+        format: text
+        interval: 86400
+        path: ./sukkaw_ruleset/global_non_ip.txt
+        type: http
+        url: https://ruleset.skk.moe/Clash/non_ip/global.txt
+    reject_non_ip:
+        behavior: classical
+        format: text
+        interval: 86400
+        path: ./sukkaw_ruleset/reject_non_ip.txt
+        type: http
+        url: https://ruleset.skk.moe/Clash/non_ip/reject.txt
+    stream_ip:
+        behavior: classical
+        format: text
+        interval: 86400
+        path: ./sukkaw_ruleset/stream_ip.txt
+        type: http
+        url: https://ruleset.skk.moe/Clash/ip/stream.txt
+    stream_non_ip:
+        behavior: classical
+        format: text
+        interval: 86400
+        path: ./sukkaw_ruleset/stream_non_ip.txt
+        type: http
+        url: https://ruleset.skk.moe/Clash/non_ip/stream.txt
+    telegram_ip:
+        behavior: classical
+        format: text
+        interval: 86400
+        path: ./sukkaw_ruleset/telegram_ip.txt
+        type: http
+        url: https://ruleset.skk.moe/Clash/ip/telegram.txt
+rules:
+    - "DOMAIN-SUFFIX,local,\U0001F3AF"
+    - "DOMAIN-SUFFIX,localhost,\U0001F3AF"
+    - "DOMAIN-SUFFIX,lan,\U0001F3AF"
+    - "IP-CIDR,127.0.0.0/8,\U0001F3AF"
+    - "IP-CIDR,10.0.0.0/8,\U0001F3AF"
+    - "IP-CIDR,172.16.0.0/12,\U0001F3AF"
+    - "IP-CIDR,192.168.0.0/16,\U0001F3AF"
+    - "IP-CIDR,100.64.0.0/10,\U0001F3AF"
+    - "DOMAIN-KEYWORD,997268,\U0001F3AF"
+    - "RULE-SET,direct_non_ip,\U0001F3AF"
+    - "RULE-SET,domestic_non_ip,\U0001F3AF"
+    - "RULE-SET,cdn_domainset,\U0001F3AF"
+    - "RULE-SET,domestic_ip,\U0001F3AF"
+    - "RULE-SET,reject_non_ip,\U0001F6E1️"
+    - "DOMAIN-SUFFIX,youtube.com,\U0001F4FA"
+    - "DOMAIN-SUFFIX,googlevideo.com,\U0001F4FA"
+    - "DOMAIN-SUFFIX,ytimg.com,\U0001F4FA"
+    - "DOMAIN-SUFFIX,ggpht.com,\U0001F4FA"
+    - "DOMAIN-SUFFIX,spotify.com,\U0001F3B5"
+    - "DOMAIN-SUFFIX,scdn.co,\U0001F3B5"
+    - "DOMAIN-SUFFIX,linux.do,\U0001F427"
+    - "RULE-SET,telegram_ip,\U0001F4AC"
+    - "RULE-SET,download_domainset,\U0001F4E5"
+    - "RULE-SET,download_non_ip,\U0001F4E5"
+    - "DOMAIN-SUFFIX,github.com,\U0001F9D1‍\U0001F4BB"
+    - "DOMAIN-SUFFIX,githubusercontent.com,\U0001F9D1‍\U0001F4BB"
+    - "DOMAIN-SUFFIX,githubassets.com,\U0001F9D1‍\U0001F4BB"
+    - "DOMAIN-SUFFIX,github.io,\U0001F9D1‍\U0001F4BB"
+    - "DOMAIN-SUFFIX,github.dev,\U0001F9D1‍\U0001F4BB"
+    - "DOMAIN-SUFFIX,gitlab.com,\U0001F9D1‍\U0001F4BB"
+    - "DOMAIN-SUFFIX,docker.io,\U0001F9D1‍\U0001F4BB"
+    - "DOMAIN-SUFFIX,registry-1.docker.io,\U0001F9D1‍\U0001F4BB"
+    - "DOMAIN-SUFFIX,ghcr.io,\U0001F9D1‍\U0001F4BB"
+    - "DOMAIN-SUFFIX,cloudflare.com,\U0001F9D1‍\U0001F4BB"
+    - "DOMAIN-SUFFIX,cloudflare-dns.com,\U0001F9D1‍\U0001F4BB"
+    - "DOMAIN-SUFFIX,workers.dev,\U0001F9D1‍\U0001F4BB"
+    - "DOMAIN-SUFFIX,pages.dev,\U0001F9D1‍\U0001F4BB"
+    - "DOMAIN-SUFFIX,vercel.app,\U0001F9D1‍\U0001F4BB"
+    - "DOMAIN-SUFFIX,vercel.com,\U0001F9D1‍\U0001F4BB"
+    - "DOMAIN-SUFFIX,npmjs.com,\U0001F9D1‍\U0001F4BB"
+    - "DOMAIN-SUFFIX,npmjs.org,\U0001F9D1‍\U0001F4BB"
+    - "DOMAIN-SUFFIX,netflix.com,\U0001F3AC"
+    - "DOMAIN-SUFFIX,nflxvideo.net,\U0001F3AC"
+    - "DOMAIN-SUFFIX,disneyplus.com,\U0001F3AD"
+    - "DOMAIN-SUFFIX,disney-plus.net,\U0001F3AD"
+    - "DOMAIN-SUFFIX,tiktok.com,\U0001F3AA"
+    - "DOMAIN-SUFFIX,tiktokcdn.com,\U0001F3AA"
+    - "RULE-SET,ai_non_ip,\U0001F916"
+    - "DOMAIN-SUFFIX,openai.com,\U0001F916"
+    - "DOMAIN-SUFFIX,chatgpt.com,\U0001F916"
+    - "DOMAIN-SUFFIX,oaistatic.com,\U0001F916"
+    - "DOMAIN-SUFFIX,anthropic.com,\U0001F916"
+    - "DOMAIN-SUFFIX,claude.ai,\U0001F916"
+    - "DOMAIN-SUFFIX,perplexity.ai,\U0001F916"
+    - "DOMAIN-SUFFIX,oaiusercontent.com,\U0001F916"
+    - "DOMAIN-SUFFIX,auth0.openai.com,\U0001F916"
+    - "DOMAIN-SUFFIX,gemini.google.com,\U0001F916"
+    - "DOMAIN-SUFFIX,generativelanguage.googleapis.com,\U0001F916"
+    - "DOMAIN-SUFFIX,ai.google.dev,\U0001F916"
+    - "DOMAIN-SUFFIX,makersuite.google.com,\U0001F916"
+    - "DOMAIN-SUFFIX,poe.com,\U0001F916"
+    - "DOMAIN-SUFFIX,poecdn.net,\U0001F916"
+    - "DOMAIN-SUFFIX,grok.com,\U0001F916"
+    - "DOMAIN-SUFFIX,x.ai,\U0001F916"
+    - "DOMAIN-SUFFIX,copilot.microsoft.com,\U0001F916"
+    - DOMAIN-SUFFIX,genspark.ai,✨
+    - "DOMAIN-SUFFIX,anyrouter.top,\U0001F500"
+    - "RULE-SET,global_non_ip,\U0001F30D"
+    - "RULE-SET,stream_non_ip,\U0001F4F9"
+    - "RULE-SET,stream_ip,\U0001F4F9"
+    - "GEOIP,CN,\U0001F3AF"
+    - "MATCH,\U0001F41F"
+secret: ""
+socks-port: 7891
+tcp-concurrent: true
+tun:
+    auto-detect-interface: true
+    auto-route: true
+    dns-hijack:
+        - any:53
+        - tcp://any:53
+    enable: false
+    stack: Mixed
